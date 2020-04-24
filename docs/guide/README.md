@@ -17,6 +17,10 @@ docker stop blog; docker container ls; docker run --name blog --rm -d -p 8080:80
 
 <pie-chart :data="[['Blueberry', 44], ['Strawberry', 23]]"></pie-chart>
 
+![One](/one.png)
+![Two](/two.png)
+![Three](/three.png)
+
 # Catalog Graph
 
 <CatalogGraph />

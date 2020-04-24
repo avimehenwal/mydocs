@@ -17,6 +17,9 @@
 * https://developers.google.com/chart/image/docs/gallery/graphviz?csw=1
 *
 
+```
+neato -Tsvg graph1.dot > ../.vuepress/public/graph1-1.svg
+```
 
 NEATO is a program that makes layouts of undirected graphs following the
 filter model of DOT. Its layout heuristic creates virtual physical models and
