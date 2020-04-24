@@ -9,8 +9,10 @@ module.exports = {
   },
   serviceWorker: true,
   locales: {},
+  // theme: 'cool',
   themeConfig: {
     lastUpdated: 'Last Updated',
+    displayAllHeaders: true, // Default: false
     smoothScroll: true,
     sidebar: 'auto',
     nav: [
@@ -20,6 +22,14 @@ module.exports = {
       // { text: 'Home', link: '/'},
     ]
   },
+  // markdown: {
+  //   extendMarkdown: md => {
+  //     md.set({ html: true })
+  //     md.use(require('markdown-it-katex'))
+  //     md.use(require('markdown-it-plantuml'))
+  //     md.use(require('markdown-it-admonition'))
+  //   }
+  // },
   plugins: {
     "vuepress-plugin-auto-sidebar": {}
   },
