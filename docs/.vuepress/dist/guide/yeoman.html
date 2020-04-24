@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Yeoman</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.f164480b.css" as="style"><link rel="preload" href="/assets/js/app.85bc745b.js" as="script"><link rel="preload" href="/assets/js/2.645af9d6.js" as="script"><link rel="preload" href="/assets/js/13.2b1d9ff2.js" as="script"><link rel="prefetch" href="/assets/js/10.54d33bdd.js"><link rel="prefetch" href="/assets/js/11.051b1262.js"><link rel="prefetch" href="/assets/js/12.46f39289.js"><link rel="prefetch" href="/assets/js/14.13d729ed.js"><link rel="prefetch" href="/assets/js/3.5ca37265.js"><link rel="prefetch" href="/assets/js/4.fca74266.js"><link rel="prefetch" href="/assets/js/5.fe5611f4.js"><link rel="prefetch" href="/assets/js/6.5effb0ff.js"><link rel="prefetch" href="/assets/js/7.30d7e9a4.js"><link rel="prefetch" href="/assets/js/8.04eacb7b.js"><link rel="prefetch" href="/assets/js/9.cd5b9529.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f164480b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="yeoman"><a href="#yeoman" class="header-anchor">#</a> Yeoman</h1> <blockquote><p>THE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS</p></blockquote> <ul><li>Automating build of frontend projects usign Generators</li></ul> <h2 id="how-to-create-a-new-generator"><a href="#how-to-create-a-new-generator" class="header-anchor">#</a> How to create a new generator</h2> <div class="language- extra-class"><pre class="language-text"><code>npm install -g generator-generator
+
+yo generator
+npm link
+yo
+
+</code></pre></div><p>link newly installed generator as npm module
+check it new scaffold is available in new list</p> <p>generator
+app
+index.js files is extended in our new generator</p> <p>prompting()
+use inputs, greetings
+Ask questions to generate variables
+variables are available throughput the the rest of template</p> <p>yoman templating syntax
+&lt;%= variableName %&gt;</p> <p>test it before publishing</p> <p>place scaffolding files to be copied in template directory
+copy in CWD</p> <p>run tests
+npm test</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.85bc745b.js" defer></script><script src="/assets/js/2.645af9d6.js" defer></script><script src="/assets/js/13.2b1d9ff2.js" defer></script>
+  </body>
+</html>
