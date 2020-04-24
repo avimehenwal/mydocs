@@ -14,3 +14,9 @@ docker stop blog; && docker container ls
 
 docker stop blog; docker container ls; docker run --name blog --rm -d -p 8080:8080 -v (pwd):/blog avi/vuepress
 ```
+
+<pie-chart :data="[['Blueberry', 44], ['Strawberry', 23]]"></pie-chart>
+
+# Catalog Graph
+
+<CatalogGraph />

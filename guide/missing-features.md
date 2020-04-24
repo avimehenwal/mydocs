@@ -35,3 +35,9 @@
 ## Examples
 
 * https://vuepressbook.com/
+
+![Hero](/hero.png)
+
+# Catalog Graph
+
+<CatalogGraph />

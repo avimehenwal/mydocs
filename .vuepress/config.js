@@ -30,9 +30,51 @@ module.exports = {
       md.use(require('markdown-it-admonition'))
     }
   },
-  plugins: {
-    "vuepress-plugin-auto-sidebar": {}
-  },
+  plugins: [
+    'vuepress-plugin-auto-sidebar',
+    '@vuepress/register-components',
+    '@vuepress/active-header-links',
+    '@vuepress/back-to-top',
+    '@vuepress/nprogress',
+    '@vuepress/pwa',
+    'social-share',
+    'check-md',
+    'flowchart',
+    [
+      'vuepress-plugin-medium-zoom',
+      {
+        delay: 1000,
+        options: {
+          // margin: 24,
+          // background: '#BADA55',
+          // scrollOffset: 0,
+        },
+      },
+    ],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': '' // UA-00000000-0
+      }
+    ],
+    [
+      'vuepress-plugin-git-log',
+      {
+        additionalArgs: '--no-merge',
+        onlyFirstAndLastCommit: true,
+      },
+    ],
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
+    // 'disqus': { /* options */ }
+  ],
   // plugins: [
   //   ['@vuepress/back-to-top', true],
   //   ['@vuepress/pwa', {

@@ -98,6 +98,9 @@ some `code` text
   * bidofnsdiof
 * ikknsfonosdnfsnd
 
+# Catalog Graph
+
+<CatalogGraph />
 ---
 
 [anything]: https://github.com/avimehenwal/mydocs
