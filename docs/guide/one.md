@@ -1,3 +1,9 @@
+---
+tags:
+- static
+- one
+---
+
 # One
 
 ## DOTFILES magic

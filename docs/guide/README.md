@@ -1,3 +1,9 @@
+---
+tags:
+- static
+- vscode
+---
+
 # Sitegenerator home
 
 * where to place assets files, dot files
