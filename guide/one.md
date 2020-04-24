@@ -24,6 +24,4 @@ runs an iterative solver to find low energy configurations. The intended applica
 database schema. It took 0.01 seconds of user time to generate on a garden
 variety PC running Linux.
 
-# Catalog Graph
-
-<CatalogGraph />
+* [Add vuetify to vuepress theme](https://stackoverflow.com/questions/52684077/how-to-add-vuetify-to-default-vuepress-theme)
