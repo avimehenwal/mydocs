@@ -1,4 +1,5 @@
-import Vuetify from 'vuetify'
+import Vuetify from 'vuetify';
+import VueCharts from 'vue-chartjs'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -6,5 +7,6 @@ export default ({
   router, // the router instance for the app
   siteData // site metadata
 }) => {
-    Vue.use(Vuetify)
+  Vue.use(Vuetify);
+  Vue.use(VueCharts)
 }

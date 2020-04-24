@@ -20,6 +20,7 @@
     "chart.js": "^2.9.3",
     "markdown-it-plantuml": "^1.4.1",
     "mermaid": "^8.5.0",
+    "vue-chartjs": "^3.5.0",
     "vue-chartkick": "^0.6.0",
     "vuepress": "^1.4.1",
     "vuepress-plugin-auto-sidebar": "^1.4.1",
