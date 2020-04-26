@@ -38,16 +38,3 @@ When $\log x>=10^4$ and $y>= e^{2{(\log x)}^{-0.1}}$, thus:
 
 $$1 - x^{- 0.1} <= \Phi (y) <= 1$$
 
-
-<pie-chart :data="[['Blueberry', 44], ['Strawberry', 23]]" :download="true" download="test"></pie-chart>
-
-
-<mermaid>
-graph TD
-  A[Cool] -->|Get money| B(Go shopping)
-  B --> C{Let me}
-  C -->|Two| D[Laptop]
-  C -->|Two| E[iPhone]
-  C -->|Three| F[Car]
-  C -->|Four| F[Mac]
-</mermaid>

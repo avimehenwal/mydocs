@@ -39,6 +39,7 @@ module.exports = {
     '@vuepress/pwa',
     'social-share',
     'flowchart',
+    // @goy/vuepress-plugin-svg-icons didnt work
     [
       'seo',
       {
@@ -82,5 +83,28 @@ module.exports = {
         },
       },
     ],
-  ]
+    [
+      'disqus',
+      {
+        shortname: 'mydocs-1'
+      }
+    ],
+    // [
+    //   "vuepress-plugin-code-copy",
+    //   {
+    //     selector: String,
+    //     align: String,
+    //     color: String,
+    //     backgroundTransition: Boolean,
+    //     backgroundColor: String,
+    //     successText: String
+    //   }
+    // ],
+  ],
+  markdown: {
+    plugins: [
+      'markdown-it-deflist',
+      'markdown-it-abbr',
+    ]
+  }
 }
