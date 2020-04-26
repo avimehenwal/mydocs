@@ -1,6 +1,5 @@
-graph test123 {
-    graph [fontsize=24];
-    edge [fontsize=24];
+digraph test123 {
+    // common attributes
     node [fontsize=24, colorscheme=set312, style=filled];
 
     x [color=1];
@@ -9,11 +8,11 @@ graph test123 {
     d [color=4,style="rounded,filled", shape=diamond]
     b [color=5];
     c [color=6];
-    a -- b -- c;
-    a -- {x y};
-    x -- c [w=10.0];
-    x -- y [w=5.0,len=3];
+    a -> b -> c;
+    a -> {x y};
+    x -> c [w=10.0];
+    x -> y [w=5.0,len=3];
     edge [style="setlinewidth(3)", color=red];
     edge [len=3];
-    a -- { b c d };
+    a -> { b c d };
 }

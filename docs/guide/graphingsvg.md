@@ -6,7 +6,11 @@ tags:
 - chart
 ---
 
-# [Graphviz]
+<TagLinks />
+
+# Graphviz
+
+
 
 > Programm the graph plotting
 
@@ -89,4 +93,19 @@ publish to npm using vsce tool
 [snippets]: https://code.visualstudio.com/docs/editor/userdefinedsnippets
 
 [^1]: https://css-tricks.com/how-to-make-charts-with-svg/
+
+
+::: warning SVG Purpose
+building **interactive** graphs with SVG, CSS and Javascript
+think animations, shadows and tooltips
+:::
+
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="avimehenwal" data-slug-hash="KKdmgQp" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="svg-interactable-chart">
+  <span>See the Pen <a href="https://codepen.io/avimehenwal/pen/KKdmgQp">
+  svg-interactable-chart</a> by avimehenwal (<a href="https://codepen.io/avimehenwal">@avimehenwal</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 
