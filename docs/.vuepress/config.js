@@ -1,9 +1,9 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around',
+  title: 'Mobile Development',
+  description: 'Blog about Mobile development using native script',
   themeConfig: {
-    logo: '/assets/img/logo.png',
-    displayAllHeaders: true,               // Default: false
+    logo: '/logo.png',
+    // displayAllHeaders: true,               // Default: false
     activeHeaderLinks: true,
     sidebar: 'auto',
     searchPlaceholder: 'Search...',
