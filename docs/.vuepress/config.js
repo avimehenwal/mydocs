@@ -2,6 +2,11 @@ module.exports = {
   title: 'Mobile Development',
   description: 'Blog about Mobile development using native script',
   themeConfig: {
+    author: '@avimehenwal',
+    repo: 'avimehenwal/mydocs',
+    repoLabel: 'GitHub',
+    editLinks: true,
+    editLinkText: 'Help us improve this page!',
     logo: '/logo.png',
     // displayAllHeaders: true,               // Default: false
     activeHeaderLinks: true,
@@ -34,6 +39,28 @@ module.exports = {
     '@vuepress/pwa',
     'social-share',
     'flowchart',
+    [
+      'seo',
+      {
+        siteTitle: (_, $site) => $site.title,
+        title: $page => $page.title,
+        description: $page => $page.frontmatter.description,
+        author: (_, $site) => $site.themeConfig.author,
+        tags: $page => $page.frontmatter.tags,
+        twitterCard: _ => 'summary_large_image',
+        type: $page => ['blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
+        url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
+        image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
+        publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
+        modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+      }
+    ],
+    [
+      'sitemap',
+      {
+        hostname: 'https://avi-docs.netlify.app/'
+      },
+    ],
     [
       'vuepress-plugin-mailchimp',
       {

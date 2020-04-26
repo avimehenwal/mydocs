@@ -13,6 +13,7 @@
     "vuepress-plugin-flowchart": "^1.4.3",
     "vuepress-plugin-mailchimp": "^1.4.2",
     "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-seo": "^0.1.2",
     "vuepress-plugin-social-share": "^0.2.1"
   },
   "name": "mydocs",
@@ -27,6 +28,7 @@
     "vue-chartjs": "^3.5.0",
     "vue-chartkick": "^0.6.0",
     "vuepress-plugin-reading-progress": "^1.0.9",
+    "vuepress-plugin-sitemap": "^2.3.1",
     "vuetify": "^2.2.25"
   }
 }
