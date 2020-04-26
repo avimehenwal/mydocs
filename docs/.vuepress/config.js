@@ -4,6 +4,7 @@ module.exports = {
   themeConfig: {
     logo: '/assets/img/logo.png',
     displayAllHeaders: true,               // Default: false
+    activeHeaderLinks: true,
     sidebar: 'auto',
     searchPlaceholder: 'Search...',
     lastUpdated: 'Last Updated',
@@ -31,6 +32,7 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/pwa',
     'social-share',
+    'flowchart',
     [
       '@vuepress/google-analytics',
       {
