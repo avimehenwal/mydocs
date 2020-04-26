@@ -30,9 +30,16 @@ module.exports = {
     '@vuepress/last-updated',
     '@vuepress/medium-zoom',
     '@vuepress/back-to-top',
+    'reading-progress',
     '@vuepress/pwa',
     'social-share',
     'flowchart',
+    [
+      'vuepress-plugin-mailchimp',
+      {
+        endpoint: "https://visuallydefine.us17.list-manage.com/subscribe/post?u=531256bc9c767844eafc462b3&amp;id=2780c21cd2"
+      }
+    ],
     [
       '@vuepress/google-analytics',
       {

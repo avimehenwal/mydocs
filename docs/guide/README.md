@@ -4,6 +4,18 @@ tags:
 - vscode
 ---
 
+---
+title: README
+tags:
+- static
+---
+
+# README
+
+<TagLinks />
+
+
+
 # Sitegenerator home
 
 * where to place assets files, dot files
@@ -121,8 +133,9 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt update && sudo apt install yarn
 
 yarn global add vuepress
-
 ```
+
+https://www.npmjs.com/package/vuepress-plugin-mailchimp
 
 ---
 

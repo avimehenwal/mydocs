@@ -6,12 +6,11 @@ tags:
 - chart
 ---
 
+<TagLinks />
 
 # Graphviz
 
-<span v-for="tag in $page.frontmatter.tags" style="margin-right:3px;">
-  <Badge type="warning" :text="tag"/>
-</span>
+
 
 > Programm the graph plotting
 
