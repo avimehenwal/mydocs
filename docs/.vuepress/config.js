@@ -27,7 +27,7 @@ module.exports = {
           { text: 'Japanese', link: '/language/japanese/' }
         ]
       },
-      { text: 'External', link: 'https://google.com' },
+      { text: 'avimehenwal', link: 'https://avimehenwal.in/' },
     ],
   },
   plugins: [

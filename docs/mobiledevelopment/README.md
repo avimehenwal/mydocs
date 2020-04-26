@@ -34,10 +34,3 @@ This is HTML abbreviation example.
 *[HTML]: Hyper Text Markup Language
 
 ![talk](/talk.svg)
-
-<vp-icon
-  name="talk"
-  color="red"
-  size="4em"
-/>
-
