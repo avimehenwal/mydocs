@@ -1,8 +1,6 @@
 # Myblog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4ea6ec54-cf27-4f40-8f98-86784d974260/deploy-status)](https://app.netlify.com/sites/awesome-shaw-3b1b06/deploys)
-
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4ea6ec54-cf27-4f40-8f98-86784d974260/deploy-status)](https://app.netlify.com/sites/avi-docs/deploys)
 
 
 #### Get in touch with me
