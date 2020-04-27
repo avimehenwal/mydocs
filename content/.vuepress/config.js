@@ -147,6 +147,7 @@ module.exports = {
         shortname: 'mydocs-1'
       }
     ],
+    ['@dovyp/vuepress-plugin-clipboard-copy', true],
     // [
     //   "vuepress-plugin-code-copy",
     //   {

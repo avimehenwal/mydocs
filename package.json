@@ -27,6 +27,7 @@
     "vuepress-plugin-social-share": "^0.2.1"
   },
   "dependencies": {
+    "@dovyp/vuepress-plugin-clipboard-copy": "^1.0.0-alpha.7",
     "dotenv": "^8.2.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-deflist": "^2.0.3",
