@@ -23,7 +23,7 @@ module.exports = {
         rel: "stylesheet",
         href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       }
-    ]
+    ],
   ],
   themeConfig: {
     author: '@avimehenwal',
@@ -57,6 +57,7 @@ module.exports = {
     ],
   },
   plugins: [
+    // require('/home/avi/REPO/mydocs/node_modules/vue-google-charts/index.js'),
     "vuepress-plugin-auto-sidebar",
     '@vuepress/last-updated',
     '@vuepress/medium-zoom',
@@ -65,6 +66,12 @@ module.exports = {
     '@vuepress/pwa',
     'flowchart',
     // @goy/vuepress-plugin-svg-icons didnt work
+    // [
+    //   'register-components',
+    //   {
+    //     componentsDir: somepath
+    //   }
+    // ],
     [
       'social-share',
       {
