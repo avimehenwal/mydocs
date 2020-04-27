@@ -20,6 +20,7 @@ https://vuepress.vuejs.org/theme/default-theme-config.html#custom-layout-for-spe
 Vuepress original theme
 : https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/theme-default
 
+[Extend Vuepress themes](https://stackoverflow.com/questions/60161705/how-can-i-use-custom-layout-for-specific-pages-of-the-vuepress)
 
 <SimpleNewsletter/>
 <Disqus />

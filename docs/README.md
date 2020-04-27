@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /logo2.svg
 heroText: Mobile Development
 tagline: Notes by Me
 actionText: Start Reading →
@@ -15,6 +15,5 @@ features:
 footer: MIT Licensed | Copyright © 2020 - @avimehenwal
 ---
 
-
+<posts />
 <SimpleNewsletter/>
-<Disqus />

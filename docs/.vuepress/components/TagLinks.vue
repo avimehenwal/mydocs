@@ -9,8 +9,9 @@
     >
       <Badge type="tip" :text="tag"/>
     </router-link>
-    <div style="margin-top:3px;">
-      <Badge type="warning" :text="$page.lastUpdated"/>
-    </div>
+    <!-- Already have last update on the bottom of page -->
+    <!-- <span>
+      <Badge type="warning" :text="$page.lastUpdated" />
+    </span> -->
   </div>
 </template>
