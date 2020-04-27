@@ -1,5 +1,11 @@
 # Cool theme components
 
+<Quote text="What else can I say" />
+<Quote text="What else can I
+say
+in multi line
+" by="avi"/>
+
 @startuml
 strict digraph meme {
   exists [color=blue]
