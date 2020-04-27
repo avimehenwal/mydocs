@@ -9,7 +9,7 @@
       {{ currentPath }}
     </h3>
     <p>
-      <Badge vertical="middle" type="tip" :text="pageCount"/> Articles
+      <Badge vertical="middle" type="tip" text="pageCount"/> Articles
     </p>
   </div>
 
@@ -28,7 +28,7 @@
               <router-link
                 :to="{ path: `/tags.html#${tag}`}"
               >
-                <Badge type="warning" :text="tag"/>
+                <Badge type="warning" text="tag"/>
               </router-link>
             </span>
           </div>
