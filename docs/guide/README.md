@@ -4,11 +4,8 @@ tags:
 - vscode
 ---
 
----
-title: README
-tags:
-- static
----
+<posts />
+<SimpleNewsletter/>
 
 # README
 

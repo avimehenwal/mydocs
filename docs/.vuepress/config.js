@@ -1,6 +1,22 @@
 module.exports = {
-  title: 'Mobile Development',
-  description: 'Blog about Mobile development using native script',
+  title: 'My Notes',
+  description: 'Blog about my development journey',
+  head: [
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://www.w3schools.com/w3css/4/w3.css"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      }
+    ]
+  ],
   themeConfig: {
     author: '@avimehenwal',
     repo: 'avimehenwal/mydocs',
@@ -16,8 +32,10 @@ module.exports = {
     smoothScroll: true,
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Tags', link: '/tags.html' },
+      { text: 'Mobile', link: '/mobiledevelopment/' },
+      { text: 'Web', link: '/webdevelopment/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'Mobile Development', link: '/mobiledevelopment/' },
       // Language
       {
         text: 'Languages',

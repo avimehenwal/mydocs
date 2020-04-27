@@ -4,6 +4,8 @@ tags:
 - development
 ---
 
+<posts />
+<SimpleNewsletter/>
 
 
 # Mobile Development
