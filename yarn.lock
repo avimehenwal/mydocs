@@ -2829,6 +2829,11 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+dotenv@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.7.1.tgz#2a4df5317f6ccfd91f86d6fd25d8d8a103b88309"
@@ -7353,6 +7358,11 @@ vuepress-plugin-flowchart@^1.4.3:
   integrity sha512-Vyhh2xiCvMoubwBBDdre5u2tekp3B0N9vGDxAbgHUJH5L6V1venq1pWsbhKi9Wmr2Pa/yOTq3se1ji2w/kDr+A==
   dependencies:
     flowchart.js "^1.11.3"
+
+vuepress-plugin-google-tag-manager@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-google-tag-manager/-/vuepress-plugin-google-tag-manager-0.0.4.tgz#e7f9947f5eba15e96ebea92f251dbc71318d1aef"
+  integrity sha512-mADSK1hn1UF2OHi6xjTAkcPiunT+iMbbkGM3/BpErHQTx9wpVEh2xDxBiqa2Sy0jvjQUn5vXg/nIjm1VRv4FPA==
 
 vuepress-plugin-mailchimp@^1.4.2:
   version "1.4.2"
