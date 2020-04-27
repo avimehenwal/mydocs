@@ -7,9 +7,9 @@
   "author": "avimehenwal <avi.mehanwal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "svgo": "vuepress svgo docs"
+    "docs:dev": "vuepress dev content",
+    "docs:build": "vuepress build content",
+    "svgo": "vuepress svgo content"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.4.1",
