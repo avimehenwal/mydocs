@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="500" width="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <title id="rectangle">rectangle</title>
+  <desc>fad-in and fade-out rectangle</desc>
+
+  <rect x="10" y="10" width="20" height="20">
+    <animate id="animation1"
+      attributeName="opacity"
+      from="0" to="1" dur="5s"
+      begin="0s;animation2.end" />
+    <animate id="animation2"
+      attributeName="opacity"
+      from="1" to="0" dur="5s"
+      begin="animation1.end" />
+  </rect>
+
+  Sorry, your browser sucks :( Try switching to chrome, its the gold standard bitch!
+</svg>

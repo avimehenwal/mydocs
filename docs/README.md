@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /logo2.svg
 heroText: Mobile Development
 tagline: Notes by Me
 actionText: Start Reading →

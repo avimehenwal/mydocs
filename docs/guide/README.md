@@ -4,6 +4,8 @@ tags:
 - vscode
 ---
 
+![Logo](/logo2.svg)
+
 <posts />
 <SimpleNewsletter/>
 

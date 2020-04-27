@@ -23,7 +23,7 @@ module.exports = {
     repoLabel: 'GitHub',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
-    logo: '/logo.png',
+    logo: '/logo.svg',
     // displayAllHeaders: true,               // Default: false
     activeHeaderLinks: true,
     sidebar: 'auto',

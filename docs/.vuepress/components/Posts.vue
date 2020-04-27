@@ -9,8 +9,7 @@
       {{ currentPath }}
     </h3>
     <p>
-      <Badge vertical="middle" type="tip" :text="pageCount"/>
-      : Number of Articles in this section
+      <Badge vertical="middle" type="tip" :text="pageCount"/> Articles
     </p>
   </div>
 
@@ -25,13 +24,13 @@
             <span class="w3-large w3-xlarge">
               {{ page.title }}
             </span><br>
-            <router-link
-              :to="{ path: `/tags.html#${tag}`}"
-            >
-              <span v-for="tag in page.frontmatter.tags" style="margin-right:5px;">
+            <span v-for="tag in page.frontmatter.tags" style="margin-right:5px;">
+              <router-link
+                :to="{ path: `/tags.html#${tag}`}"
+              >
                 <Badge type="warning" :text="tag"/>
-              </span>
-            </router-link>
+              </router-link>
+            </span>
           </div>
         </router-link>
       </li>

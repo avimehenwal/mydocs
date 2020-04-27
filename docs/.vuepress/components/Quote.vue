@@ -16,11 +16,9 @@ export default {
   name: 'Quote',
   props: {
     text: {
-      type: String,
-      required: true
+      default: 'First Solve the problem, then write the code'
     },
     by: {
-      type: String,
       default: 'Anonymous'
     }
   }
