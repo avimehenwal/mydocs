@@ -1,19 +1,19 @@
 ---
 home: true
 heroImage: /logo2.svg
-heroText: Mobile Development
-tagline: Notes by Me
-actionText: Start Reading →
-actionLink: /guide/
+heroText: Avi Mehenwal's Blog v2
+# tagline: Notes by Me
+actionText: Explore Mystery →
+actionLink: /posts/
 features:
 - title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  details: Minimal setup with markdown-centered project structure helps focus on writing.
+- title: Responsive and PWA
+  details: Reusable Vue components directly in markdown. Progressive Web Application with responsive design.
+- title: Always in Progress
+  details: This is the ongoing work of a life long learner and an artist in making. Lets make some Art together.
 footer: MIT Licensed | Copyright © 2020 - @avimehenwal
 ---
 
-<posts />
+<!-- <posts /> -->
 <SimpleNewsletter/>

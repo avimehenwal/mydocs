@@ -6,10 +6,10 @@
     class="w3-button w3-large w3-display-topright">&times;</span>
     <h3>
       <i class="fa fa-search"></i>
-      {{ currentPath }}
+      {{ this.$page.title }}
     </h3>
     <p>
-      <Badge vertical="middle" type="tip" text="pageCount"/> Articles
+      <Badge vertical="middle" type="tip" :text="pageCount"/> Articles
     </p>
   </div>
 
@@ -56,7 +56,7 @@ export default {
   },
   computed: {
     pageCount () {
-      return this.pages.length
+      return this.pages.length.toString()
     },
     currentPath () {
       return this.$page.path

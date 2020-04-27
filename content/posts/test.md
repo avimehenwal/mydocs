@@ -1,19 +1,3 @@
----
-tags:
-- static
-- vscode
----
-
-![Logo](/logo2.svg)
-
-<posts />
-<SimpleNewsletter/>
-
-# README
-
-<TagLinks />
-
-
 
 # Sitegenerator home
 

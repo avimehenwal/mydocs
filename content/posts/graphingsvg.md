@@ -6,10 +6,9 @@ tags:
 - chart
 ---
 
-<TagLinks />
-
 # Graphviz
 
+<TagLinks />
 
 
 > Programm the graph plotting

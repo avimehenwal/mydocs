@@ -1,13 +1,10 @@
-# Cool theme components
+# Dummy Page
 
-<Logo />
 
 <Quote text="What else can I say" />
-<Quote text="What else can I
-say
-in multi line
+<Quote text="Look it for yourself,
+can even have multi-line span quotes
 " by="avi"/>
-
 <Quote />
 
 @startuml
