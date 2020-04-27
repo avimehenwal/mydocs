@@ -1,13 +1,37 @@
+const extendsNetworks = {
+  email: {
+    sharer: 'mailto:?subject=@title&body=@url%0D%0A%0D%0A@description',
+    type: 'direct',
+    icon: '/email.png',
+  },
+}
+
 module.exports = {
-  title: 'Mobile Development',
-  description: 'Blog about Mobile development using native script',
+  title: 'My Notes',
+  description: 'Blog about my development journey',
+  head: [
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://www.w3schools.com/w3css/4/w3.css"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      }
+    ],
+  ],
   themeConfig: {
     author: '@avimehenwal',
     repo: 'avimehenwal/mydocs',
     repoLabel: 'GitHub',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
-    logo: '/logo.png',
+    logo: '/logo4.svg',
     // displayAllHeaders: true,               // Default: false
     activeHeaderLinks: true,
     sidebar: 'auto',
@@ -16,8 +40,10 @@ module.exports = {
     smoothScroll: true,
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Tags', link: '/tags.html' },
+      { text: 'Mobile', link: '/mobiledevelopment/' },
+      { text: 'Web', link: '/webdevelopment/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'Mobile Development', link: '/mobiledevelopment/' },
       // Language
       {
         text: 'Languages',
@@ -31,15 +57,32 @@ module.exports = {
     ],
   },
   plugins: [
+    // require('/home/avi/REPO/mydocs/node_modules/vue-google-charts/index.js'),
     "vuepress-plugin-auto-sidebar",
     '@vuepress/last-updated',
     '@vuepress/medium-zoom',
     '@vuepress/back-to-top',
     'reading-progress',
     '@vuepress/pwa',
-    'social-share',
     'flowchart',
     // @goy/vuepress-plugin-svg-icons didnt work
+    // [
+    //   'register-components',
+    //   {
+    //     componentsDir: somepath
+    //   }
+    // ],
+    [
+      'social-share',
+      {
+        networks: ['twitter', 'facebook', 'reddit', 'telegram', 'whatsapp'],
+        twitterUser: 'avimehenwal',
+        fallbackImage: '/hero.png',
+        autoQuote: true,
+        isPlain: false,
+        extendsNetworks,
+      }
+    ],
     [
       'seo',
       {

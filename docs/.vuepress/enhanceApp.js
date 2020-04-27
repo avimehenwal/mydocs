@@ -1,21 +1,14 @@
-// original theme
-// https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/theme-default
-
-// import Chartkick from 'vue-chartkick';
-// import Chart from 'chart.js';
+import VueGoogleCharts from 'vue-google-charts'
 
 
-// import Vuetify from "vuetify";
-// import 'vuetify/dist/vuetify.css'
-// // import 'material-design-icons-iconfont/dist/material-design-icons.css'
-
-// export default ({
-//   Vue, // VuePress 正在使用的 Vue 构造函数
-//   options, // 附加到根实例的一些选项
-//   router, // 当前应用的路由实例
-//   siteData, // 站点元数据
-// })=>{
-//     // Vue.use(Chartkick.use(Chart));
-//     Vue.use(Vuetify);
-//     options.vuetify=new Vuetify({})
-// }
+// async function is also supported, too
+export default ({
+  Vue, // the version of Vue being used in the VuePress app
+  options, // the options for the root Vue instance
+  router, // the router instance for the app
+  siteData, // site metadata
+  isServer // is this enhancement applied in server-rendering or client
+}) => {
+  // ...apply enhancements to the app
+  Vue.use(VueGoogleCharts)
+}

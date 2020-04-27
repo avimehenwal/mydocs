@@ -6,13 +6,18 @@
         <router-link
           :to="{ path: `/tags.html/#${tag}`}"
           class="header-anchor"
-          aria-hidden="true">#</router-link>
-        {{tag}}
+          aria-hidden="true"
+        >
+        #
+        </router-link>
+        <Badge vertical="middle" type="tip" :text="tag"/>
       </h2>
-      <ul>
+
+      <ul class="w3-ul w3-hoverable">
         <li v-for="page in tags[tag]">
-          <router-link
-            :to="{ path: page.path}">{{page.title}}</router-link>
+          <router-link :to="{ path: page.path}">
+            {{page.title}}
+          </router-link>
         </li>
       </ul>
     </span>

@@ -18,4 +18,5 @@ store fee 99$ per annum
 > Playing with web
 
 1. Generate apk
-2.
+
+<Test />

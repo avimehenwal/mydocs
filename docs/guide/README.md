@@ -4,11 +4,10 @@ tags:
 - vscode
 ---
 
----
-title: README
-tags:
-- static
----
+![Logo](/logo2.svg)
+
+<posts />
+<SimpleNewsletter/>
 
 # README
 
