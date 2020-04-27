@@ -19,7 +19,7 @@
       <li class="w3-bar">
         <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
         <router-link  :to="page.path">
-          <img src="/logo.png" class="w3-bar-item w3-circle w3-hide-small" style="width:100px">
+          <img src="/logo4.svg" class="w3-bar-item w3-hide-small" style="width:100px">
           <div class="w3-bar-item">
             <span class="w3-large w3-xlarge">
               {{ page.title }}

@@ -1,3 +1,11 @@
+const extendsNetworks = {
+  email: {
+    sharer: 'mailto:?subject=@title&body=@url%0D%0A%0D%0A@description',
+    type: 'direct',
+    icon: '/email.png',
+  },
+}
+
 module.exports = {
   title: 'My Notes',
   description: 'Blog about my development journey',
@@ -23,7 +31,7 @@ module.exports = {
     repoLabel: 'GitHub',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
-    logo: '/logo.svg',
+    logo: '/logo4.svg',
     // displayAllHeaders: true,               // Default: false
     activeHeaderLinks: true,
     sidebar: 'auto',
@@ -55,9 +63,19 @@ module.exports = {
     '@vuepress/back-to-top',
     'reading-progress',
     '@vuepress/pwa',
-    'social-share',
     'flowchart',
     // @goy/vuepress-plugin-svg-icons didnt work
+    [
+      'social-share',
+      {
+        networks: ['twitter', 'facebook', 'reddit', 'telegram', 'whatsapp'],
+        twitterUser: 'avimehenwal',
+        fallbackImage: '/hero.png',
+        autoQuote: true,
+        isPlain: false,
+        extendsNetworks,
+      }
+    ],
     [
       'seo',
       {
