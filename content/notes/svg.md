@@ -19,6 +19,100 @@ tags:
     * Light
     * Love
 
+> Do you understand all of the SVG attributes?
+
+viewbox
+: art board of the element
+
+g - grouping tag, group
+: Folder that contains other paths
+
+svg optimization
+: svgo tool
+* svgo --pretty file.svg
+
+> very similary to CSS
+
+#### SVG Forkflow
+
+Sensible starting settings
+* Define it once in DOM and the use it in the entire project
+* Social icons / logos - define them once and then `use`
+  * Put them in footer
+  * social-twitter
+  * social-facebook
+  * etc
+  * these pathways are defined only once in page in DOM,
+  * then target them to any page on in the entire project
+* `<use>` tag
+  * can set width and height in use
+  * call indiviual pathway or group in a SVG calling it by ID
+* Capable of so many crazy things, and building performant sites
+* Conver JPEGs to SVGs - 38kb to 16kb
+  * Image Trace
+* How to make SVG accessable - add aria attributes role=presentation
+  * Do not want screen reader to read out the entire DOM
+  * id attribute is important for accessabile screenreaders
+  * Add lang attribute to specify language
+*
+
+
+
+https://jakearchibald.github.io/svgomg/
+
+<Quote text="SVG is a total party" by="Sarah Drasner" />
+
+### WHy SVG matter
+
+* Can be Tiny, extremely Tiny
+  * 2kB gzipped
+  * Comparedd to HEro images which are 100 of KBs
+* Almost 2/3rds of our performance budgets are spent on busted on images
+* Bitmaps vs vector graphics
+  * Bitmaps are like Battleship game from childhood, A2, b7
+* Beautyful and performant animations
+* Accessable settings
+* Scales with container
+* Adjust Logos on the fly
+* Can use it for Layout too
+  * preserve aspect ration none
+    * scale to whatever container it is in
+*
+
+The HTTP Archive Tracks How the Web is Built.
+https://httparchive.org/
+
+<Quote text="You cant be a web performance expert without being an image expert" />
+
+::: tip text
+One SVG to rule them all.
+:::
+
+With SVG its already its own unit in DOM, just put a `g` over that whole sucker and move it around. Animate everything
+
+Font vs SVGs
+
+
+https://www.google.com/search?q=average+bytes+per+page+by+content+type&newwindow=1&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjFuYPRvIvpAhXpx6YKHcVLAFcQ_AUoAXoECDQQAw&biw=1294&bih=641
+
+
+
+```
+svg, img, iframe, video {
+  max-width: 100%;
+}
+```
+
+### Fun stuff
+
+> Gaming style SVG, with lightning effects
+
+1. Filters
+3. Gradients
+4. Gaussian Blur
+5. Lightning effects, Glowing effect
+6. Distortion Filters - performance negative obviously
+
 ## What purpose does xmlns=“http://www.w3.org/2000/svg & version=“1.1” serve?
 
 A thorough explanation would be too much for a post or even a topic. As can be seen here
@@ -135,6 +229,11 @@ echo $TERM
 echo $LANG
 
 https://www.cl.cam.ac.uk/~mgk25/ucs/examples/UTF-8-demo.txt
+https://pixelia.me/
+
+> You might want to use basic HTML for accessability
+
+Do not create radio buttons without radio buttons HTML markup
 
 
 ## Webpack
@@ -144,12 +243,52 @@ https://www.cl.cam.ac.uk/~mgk25/ucs/examples/UTF-8-demo.txt
 * to eactly pin point which file and line number error is at in chrome devtools
 * From gemeric `bundle.js` errors to specific file and line no in error messages
 
+https://codepen.io/shshaw/pen/LVKEdv
+https://jakearchibald.github.io/svgomg/
 
-<Bar text="Skill3" color="red" len=20 />
-<Bar text="Skill1" color="yellow" />
-<Bar text="Skill2" len=100 />
+Jobs at guthub
+https://boards.greenhouse.io/github
 
 
+### Quora Business model
+
+* Run ads on specific questions, topic
+* Greatly Increase the amount of knowledge in workd
+* Try making new Internet Products
+
+## Build a web product with SVG
+
+https://github.com/SVG-Edit/svgedit
+
+> change SVG images properties on click events from UI
+
+* What makes SVG different from png, JPEGs
+* Manupulate it on the fly in browser
+
+So you are looking for raster to vector graphics converter/tracer. potrace & autotrace both are in Ubuntu repository. Myself I tried potrace before which gave nice results with default options. As I remember, both tools do not support compressed formats as input, only bitmap images.
+
+See Potrace examples
+convert [input-options] input-file [output-options] output-file
+his embeds a raster image in the SVG instead of converting to a vector image
+
+  potrace 1.16. Transforms bitmaps into vector graphics.
+
+BMP is both uncompressed and lossless. PNG is compressed but lossless. Thus, with a lossless format the only visible difference is the file size. I'd recommend using PNG over BMP unless you can't for compatibility reasons.
+
+There's no quality difference between BMP & PNG format (except PNG is compressed using deflate algorithm).
+
+BMP8 can be compressed using RLE (run-length-encoding) algorithm, but BMP16/24/32/64 doesn't support compression yet.
+
+BMP32 support alpha channel just like PNG32 support transparency.
+
+convert 2017.png 2017.pnm
+potrace 2017.pnm -s -o 2017.svg
+
+https://en.wikipedia.org/wiki/Comparison_of_raster-to-vector_conversion_software
+
+https://github.com/jankovicsandras/imagetracerjs
+
+https://stackoverflow.com/questions/8190684/differences-and-similarities-between-svg-and-css3-animations
 
 <SimpleNewsletter/>
 <Disqus />

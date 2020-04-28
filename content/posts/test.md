@@ -76,6 +76,12 @@ This is a details block, which does not work in IE / Edge
 6. adsfm
 7. ]
 
+<Bar text="Skill - 1" color="red" len=20 />
+<Bar text="Skill - 2" color="yellow" len=40 />
+<Bar text="Skill - 3" color="green" len=60 />
+<Bar text="Skill - 4" len=100 />
+
+
 # Heading 1
 
 ## Heading 2
@@ -153,3 +159,6 @@ This is HTML abbreviation example.
 It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 
 *[HTML]: Hyper Text Markup Language
+
+How to add ads on vuepress website
+: https://www.npmjs.com/package/vuepress-plugin-google-adsense

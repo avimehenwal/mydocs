@@ -1,30 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-  height="500" width="500"
-  viewBox="0 0 500 500"
->
-  <title id="logo2">logo2</title>
-  <desc>fad-in and fade-out triangle</desc>
-
-  <polygon class="triangle" style="fill:blue" points="250,60 100,400 400,400">
-  <animate
-    id="animation1"
-    attributeType="CSS"
-    attributeName="opacity"
-    from="1"
-    to="0"
-    dur="5s"
-    begin="0s;animation2.end"
-  />
-  <animate
-    id="animation2"
-    attributeType="CSS"
-    attributeName="opacity"
-    from="0"
-    to="1"
-    dur="5s"
-    begin="animation1.end"
-  />
-  </polygon>
-  Sorry, your browser does not support inline SVG.
+<svg xmlns="http://www.w3.org/2000/svg" height="500" width="500">
+    <path class="triangle" fill="#00f" d="M250 60L100 400h300z">
+        <animate id="b" attributeType="CSS" attributeName="opacity" from="1" to="0" dur="5s" begin="0s;a.end"/>
+        <animate id="a" attributeType="CSS" attributeName="opacity" from="0" to="1" dur="5s" begin="b.end"/>
+    </path>
+    Sorry, your browser does not support inline SVG.
 </svg>
