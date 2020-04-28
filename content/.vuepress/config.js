@@ -145,6 +145,7 @@ module.exports = {
   ],
   markdown: {
     plugins: [
+      'markdown-it-footnote',
       'markdown-it-deflist',
       'markdown-it-abbr',
     ]

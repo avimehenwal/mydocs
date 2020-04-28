@@ -1,3 +1,8 @@
+---
+tags:
+- test
+- markdown
+---
 
 # Sitegenerator home
 
@@ -35,6 +40,8 @@ something
 ::: v-pre
 `{{ This will be displayed as-is }}`
 :::
+
+<mark> Hihlighted text </mark>
 
 ## Badge
 
@@ -123,3 +130,26 @@ https://www.npmjs.com/package/vuepress-plugin-mailchimp
 [anything]: https://github.com/avimehenwal/mydocs
 [nsdopf]: https://github.com/avimehenwal/mydocs
 
+## Footnotes
+
+Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
+
+## Abbreviations
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+*[HTML]: Hyper Text Markup Language
