@@ -32,6 +32,7 @@
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-footnote": "^3.0.2",
+    "viz.js": "^2.1.2",
     "vue-google-charts": "^0.3.2",
     "vuepress-plugin-google-tag-manager": "^0.0.4",
     "vuepress-plugin-reading-progress": "^1.0.9",

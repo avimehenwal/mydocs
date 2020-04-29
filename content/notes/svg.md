@@ -10,6 +10,9 @@ tags:
 
 <TagLinks />
 
+dot language parser
+<Dot />
+
 * Emojis area rendered as standard Unicode in browser
 * [twemoji](https://twemoji.twitter.com/)
   * multiple image formats - `svg`, `png` and latest Unicode version
@@ -234,6 +237,42 @@ https://pixelia.me/
 > You might want to use basic HTML for accessability
 
 Do not create radio buttons without radio buttons HTML markup
+
+## SVG animations
+
+::: tip [SVG Animation - WIkipedia](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics#Scripting_and_animation)
+SVG drawings can be dynamic and interactive. Time-based modifications to the elements can be described in SMIL, or can be programmed in a scripting language (e.g. ECMAScript or JavaScript). The W3C explicitly recommends SMIL as the standard for animation in SVG.[8]
+
+A rich set of event handlers such as "onmouseover" and "onclick" can be assigned to any SVG graphical object to apply actions and events.
+
+SVG images, being XML, contain many repeated fragments of text, so they are well suited for lossless data compression algorithms. When an SVG image has been compressed with the gzip algorithm, it is referred to as an "SVGZ" image and uses the corresponding .svgz filename extension. Conforming SVG 1.1 viewers will display compressed images.[9] An SVGZ file is typically 20 to 50 percent of the original size.[10] W3C provides SVGZ files to test for conformance.[11]
+
+SVG Tiny (SVGT) 1.1 and 1.2 are mobile profiles for SVG. SVGT 1.2 i
+:::
+
+Content Type: application/smil+xml
+
+## [SMIL](https://en.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language)
+
+Synchronized Multimedia Integration Language (SMIL (/ˈsmaɪl/)) is a World Wide Web Consortium recommended Extensible Markup Language (XML) markup language to describe multimedia presentations. It defines markup for timing, layout, animations, visual transitions, and media embedding, among other things. SMIL allows presenting media items such as text, images, video, audio, links to other SMIL presentations, and files from multiple web servers. SMIL markup is written in XML, and has similarities to HTML.
+
+SMIL 3.0 became a W3C Recommendation in December 2008. It was first submitted as a W3C Working draft on December 21, 2006.[2] The last draft revision was released on October 6, 2008.[3][4]
+
+The internet video site Hulu uses SMIL as part of its media playing technology.[citation needed]
+
+[Chrome SMIL deprecation notice](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/5o0yiO440LM%5B126-150%5D)
+
+[SMIL Browser support](https://caniuse.com/#feat=svg-smil)
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL
+
+[SVG Animation](https://en.wikipedia.org/wiki/SVG_animation)
+
+[Browser ACID3 test](http://acid3.acidtests.org/)
+
+### Image tracig softwares
+
+https://en.wikipedia.org/wiki/Image_tracing
 
 
 ## Webpack

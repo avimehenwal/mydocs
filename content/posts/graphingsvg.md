@@ -35,6 +35,9 @@ sfdp  |  multiscale version on fdp
 twopi |  radial layouts
 circo |  circular layouts
 
+Awesome Graphviz
+: https://codefreezr.github.io/awesome-graphviz/
+
 ### What can graphwiz do?
 
 1. Plott Graphs

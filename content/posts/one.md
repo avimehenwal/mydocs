@@ -27,6 +27,10 @@ tags:
 neato -Tsvg graph1.dot > ../.vuepress/public/graph1-1.svg
 ```
 
+How to run a graphviz service on web for anyone to use
+: http://bijanebrahimi.github.io/blog/graphviz-in-markdown.html
+
+
 NEATO is a program that makes layouts of undirected graphs following the
 filter model of DOT. Its layout heuristic creates virtual physical models and
 runs an iterative solver to find low energy configurations. The intended applications are in telecommunication networks, computer programming and software engineering. Here is an example layout depicting an entity-relationship
