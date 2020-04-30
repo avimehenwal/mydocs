@@ -21,5 +21,18 @@ features:
 footer: MIT Licensed | Copyright © 2020 - @avimehenwal
 ---
 
+* FullSTack Developer
+  * Front end Development
+    * Fonts, colors, typography
+    * Layout designs
+    * Presentation
+    * Markup, CSS, JS
+  * Backend Development
+    * Business Logic in backend languages
+    * API development
+    * Server Management
+    * Databases
+
+
 <posts />
 <SimpleNewsletter/>
