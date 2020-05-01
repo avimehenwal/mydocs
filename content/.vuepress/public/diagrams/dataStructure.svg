@@ -1,0 +1,43 @@
+<svg width="875pt" height="136" viewBox="0 0 874.6 102" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g class="graph">
+        <path fill="#fff" stroke="transparent" d="M0 102V0h874.6v102H0z"/>
+        <text text-anchor="middle" x="433.3" y="-7.8" font-family="Times,serif" font-size="14" transform="translate(4 98)">
+            data structures abstraction level
+        </text>
+        <a xlink:href="https://en.wikipedia.org/wiki/Central_processing_unit" xlink:title="CPU" transform="translate(4 98)">
+            <path fill="#fbb4ae" stroke="#000" d="M71-94H0v71h71v-71z"/>
+            <text text-anchor="middle" x="35.5" y="-52.3" font-family="Times,serif" font-size="24">
+                CPU
+            </text>
+        </a>
+        <a xlink:href="https://en.wikipedia.org/wiki/Memory" xlink:title="Memory" transform="translate(4 98)">
+            <ellipse fill="#b3cde3" stroke="#000" cx="189.73" cy="-58.5" rx="82.96" ry="24.08"/>
+            <text text-anchor="middle" x="189.73" y="-52.3" font-family="Times,serif" font-size="24">
+                Memory
+            </text>
+        </a>
+        <path stroke="transparent" stroke-width="15" d="M75.04 32l1.63.34 1.66.35 1.67.35 1.7.35 1.72.36 1.73.37 1.75.36 1.77.38 1.79.37 1.8.38 1.81.38 1.83.38 1.84.38 1.85.39 1.86.39 1.86.39 1.88.4 1.88.39 1.88.39 1.89.4h0l-1.89.4-1.88.39-1.88.39-1.88.4-1.86.39-1.86.39-1.85.39-1.84.38-1.83.38-1.81.38-1.8.38-1.79.37-1.77.38-1.75.36-1.73.37-1.72.36-1.7.35-1.67.35-1.66.35-1.63.34V32z"/>
+        <a xlink:href="https://en.wikipedia.org/wiki/Data" xlink:title="Data" transform="translate(4 98)">
+            <path fill="#ccebc5" stroke="#000" d="M382.46-76.5h-62v-4h-12v40h74v-36z"/>
+            <path fill="none" stroke="#000" d="M308.46-76.5h12"/>
+            <text text-anchor="middle" x="345.46" y="-52.3" font-family="Times,serif" font-size="24">
+                Data
+            </text>
+        </a>
+        <path stroke="transparent" stroke-width="15" d="M276.55 32l1.87.39 1.86.4 1.87.39 1.85.39 1.85.39 1.84.39 1.84.39 1.82.38 1.82.38 1.8.38 1.79.38 1.77.37 1.76.37 1.75.37 1.73.37 1.71.36 1.69.35 1.68.36 1.65.35 1.63.34h0l-1.63.34-1.65.35-1.68.36-1.69.35-1.71.36-1.73.37-1.75.37-1.76.37-1.77.37-1.79.38-1.8.38-1.82.38-1.82.38-1.84.39-1.84.39-1.85.39-1.85.39-1.87.39-1.86.4-1.87.39V32z"/>
+        <a xlink:href="https://en.wikipedia.org/wiki/Data_structure" xlink:title="Data Structure" transform="translate(4 98)">
+            <path fill="#decbe4" stroke="#000" d="M618.46-76.5h-200v36h200v-36z"/>
+            <text text-anchor="middle" x="518.46" y="-52.3" font-family="Times,serif" font-size="24">
+                Data Structure
+            </text>
+        </a>
+        <path stroke="transparent" stroke-width="15" d="M386.73 32l1.61.34 1.64.35 1.66.34 1.68.36 1.7.36 1.71.36 1.74.37 1.75.37 1.78.37 1.78.37 1.8.38 1.82.39 1.82.38 1.84.39 1.85.39 1.87.39 1.87.4 1.88.39 1.88.4 1.9.4h0l-1.9.4-1.88.4-1.88.39-1.87.4-1.87.39-1.85.39-1.84.39-1.82.38-1.82.39-1.8.38-1.78.37-1.78.37-1.75.37-1.74.37-1.71.36-1.7.36-1.68.36-1.66.34-1.64.35-1.61.34V32z"/>
+        <g class="node" transform="translate(4 98)">
+            <ellipse fill="#fed9a6" stroke="#000" cx="760.53" cy="-58.5" rx="106.13" ry="24.08"/>
+            <text text-anchor="middle" x="760.53" y="-52.3" font-family="Times,serif" font-size="24">
+                Operations
+            </text>
+        </g>
+        <path stroke="transparent" stroke-width="15" d="M622.49 32l1.77.37 1.77.37 1.77.38 1.77.37 1.78.38 1.78.37 1.79.38 1.78.37 1.79.38 1.78.37 1.79.38 1.79.38 1.78.37 1.79.38 1.79.37 1.78.38 1.79.38 1.78.37 1.78.38 1.78.37h0l-1.78.37-1.78.38-1.78.37-1.79.38-1.78.38-1.79.37-1.79.38-1.78.37-1.79.38-1.79.38-1.78.37-1.79.38-1.78.37-1.79.38-1.78.37-1.78.38-1.77.37-1.77.38-1.77.37-1.77.37V32z"/>
+    </g>
+</svg>

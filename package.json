@@ -10,7 +10,7 @@
     "docs:dev": "vuepress dev content",
     "docs:build": "vuepress build content",
     "debug": "vuepress --debug dev content",
-    "svgo": "vuepress svgo content"
+    "svgo": "svgo --pretty --recursive --folder=./content/.vuepress/public/diagrams/"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.4.1",

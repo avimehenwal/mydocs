@@ -26,6 +26,81 @@ tags:
 
 <Test />
 
+@flowstart ant
+st=>start: Start
+ip=>inputoutput: Inputoutput
+sub=>subroutine: Subroutine
+cond=>condition: Process?
+process=>operation: Process
+e=>end: End
+
+st->ip
+ip->cond
+cond(yes)->process->e
+cond(no)->sub
+sub->e
+@flowend
+
+@flowstart
+st=>start: Start
+ip=>inputoutput: Inputoutput
+sub=>subroutine: Subroutine
+cond=>condition: Process?
+process=>operation: Process
+e=>end: End
+
+st->ip
+ip->cond
+cond(yes)->process->e
+cond(no)->sub
+sub->e
+@flowend
+
+<Quote text="What else can I say" />
+<Quote text="Look it for yourself,
+can even have multi-line span quotes
+" by="avi"/>
+<Quote />
+
+@startuml
+strict digraph meme {
+  exists [color=blue]
+  authenticate [color=blue]
+  require
+  create
+  UserCreated
+  destroy
+  UserDestroyed
+  get [color=blue]
+  authenticate -> require
+  create -> UserCreated
+  destroy -> require
+  destroy -> UserDestroyed
+  get -> require
+}
+@enduml
+
+
+$x^2=4$
+
+Euler's identity $e^{i\pi}+1=0$ is a beautiful formula in $\mathbb{R}^2$.
+
+
+$$\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
+= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}$$
+
+
+Supposing that $y >= 0$ and that $[\log x]$ represents the integer part of $\log x$, let:
+
+$$\Phi (y) = \frac {1} {2 \pi i} \int_{2 - i \infty}^{2 + i \infty} \frac {y^{\omega} \mathrm{d} \omega} {\omega \left(1 + \frac {\omega} {(\log x)^{1.1}}\right)^{[ \log x ] + 1}}, x > 1$$
+
+Obviously, when $0 <= y <= 1$, there is $\Phi(y) = 0$. For all $y >= 0$, $\Phi(y)$ is a non-decreasing function.
+
+When $\log x>=10^4$ and $y>= e^{2{(\log x)}^{-0.1}}$, thus:
+
+$$1 - x^{- 0.1} <= \Phi (y) <= 1$$
+
+
 
 # Markdown Style
 
