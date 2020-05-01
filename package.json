@@ -9,6 +9,7 @@
   "scripts": {
     "docs:dev": "vuepress dev content",
     "docs:build": "vuepress build content",
+    "debug": "vuepress --debug dev content",
     "svgo": "vuepress svgo content"
   },
   "devDependencies": {

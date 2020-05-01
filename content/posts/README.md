@@ -5,7 +5,7 @@ heroImage: /logo1.svg
 heroText: Blog Posts
 tagline: All Generic blog posts
 actionText: Start Reading →
-actionLink: /posts/one.md
+actionLink: /posts/test.md
 footer: MIT Licensed | Copyright © 2020 - @avimehenwal
 ---
 
