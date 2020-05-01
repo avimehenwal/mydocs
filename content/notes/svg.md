@@ -250,6 +250,36 @@ SVG images, being XML, contain many repeated fragments of text, so they are well
 SVG Tiny (SVGT) 1.1 and 1.2 are mobile profiles for SVG. SVGT 1.2 i
 :::
 
+https://wiki.inkscape.org/wiki/index.php/SVG_Animation
+
+Animation
+ time-based, as opposed to frame-based. Frame-based animation i
+
+How to attach animation to a SVG tag/node
+1. embed within the element
+2. Reference and link with href id
+
+Filters
+series of operations/effects
+How to apply filters?
+
+SMIL Chrome support
+https://stackoverflow.com/questions/30965580/deprecated-smil-svg-animation-replaced-with-css-or-web-animations-effects-hover
+
+https://en.wikipedia.org/wiki/SVG_filter_effects
+
+http://srufaculty.sru.edu/david.dailey/svg/bucketful.htm
+
+SMIL Animation Specification 2001
+https://www.w3.org/TR/2001/REC-smil-animation-20010904/
+
+
+Vector graphics editors typically allow translation, rotation, mirroring, stretching, skewing, affine transformations, changing of z-order (loosely, what's in front of what) and combination of primitives into more complex objects.
+
+More sophisticated transformations include set operations on closed shapes (union, difference, intersection, etc.).
+
+Vector graphics are ideal for simple or composite drawings that need to be device-independent, or do not need to achieve photo-realism. For example, the PostScript and PDF page description languages use a vector graphics model.
+
 Content Type: application/smil+xml
 
 ## [SMIL](https://en.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language)

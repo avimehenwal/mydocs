@@ -56,8 +56,10 @@ module.exports = {
         ariaLabel: 'Language Menu',
         items: [
           { text: 'Generic Blog Posts', link: '/posts/' },
+          { text: 'Programming', link: '/programming/' },
           { text: 'Mobile Development Articles', link: '/mobiledevelopment/' },
           { text: 'Web Development Articles', link: '/webdevelopment/' },
+          { text: 'Rough Notes', link: '/notes/' },
         ]
       },
       // {
