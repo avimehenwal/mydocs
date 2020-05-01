@@ -1,0 +1,89 @@
+<svg width="373pt" height="424" viewBox="0 0 372.64 317.59" xmlns="http://www.w3.org/2000/svg">
+    <g class="graph">
+        <path fill="#fff" stroke="transparent" d="M0 317.59V0h372.64v317.59H0z"/>
+        <g class="node">
+            <path fill="none" stroke="#00f" d="M188.59 4h-54v36h54V4z"/>
+            <text text-anchor="middle" x="157.59" y="-287.89" font-family="Times,serif" font-size="14" transform="translate(4 313.59)">
+                main
+            </text>
+        </g>
+        <g class="node">
+            <path fill="none" stroke="#000" d="M230.59 99.79l-72.58 34.5h145.17l-72.59-34.5z"/>
+            <text text-anchor="middle" x="226.59" y="-187.1" font-family="Times,serif" font-size="14" transform="translate(4 313.59)">
+                parse
+            </text>
+        </g>
+        <g class="edge" stroke="#000">
+            <path fill="none" d="M173.61 40.21c10.85 15.53 26.96 38.59 39.28 56.24"/>
+            <path d="M216.09 94.91l2.85 10.2-8.59-6.19 5.74-4.01z"/>
+        </g>
+        <g class="node" transform="translate(4 313.59)">
+            <circle fill="none" stroke="#000" cx="88.59" cy="-190.8" r="46.59"/>
+            <text text-anchor="middle" x="88.59" y="-187.1" font-family="Times,serif" font-size="14">
+                cleanup
+            </text>
+        </g>
+        <g class="edge" stroke="#000">
+            <path fill="none" d="M149.58 40.21c-6.91 9.88-15.94 22.82-24.77 35.46"/>
+            <path d="M127.65 77.71l-8.59 6.2 2.85-10.21 5.74 4.01z"/>
+        </g>
+        <g class="node" transform="translate(4 313.59)">
+            <ellipse fill="none" stroke="#000" cx="31.59" cy="-90" rx="27" ry="18"/>
+            <text text-anchor="middle" x="31.59" y="-86.3" font-family="Times,serif" font-size="14">
+                init
+            </text>
+        </g>
+        <g class="edge" stroke="#000">
+            <path fill="none" stroke-dasharray="1,5" d="M134.43 25.93C104.7 30.75 58.37 43.35 36.59 76c-23.85 35.76-16.66 88.15-9.01 119.65"/>
+            <path d="M31.01 194.92l-.86 10.56-5.92-8.79 6.78-1.77z"/>
+        </g>
+        <g class="node" transform="translate(4 313.59)">
+            <ellipse fill="none" stroke="#000" cx="327.59" cy="-18" rx="37.09" ry="18"/>
+            <text text-anchor="middle" x="327.59" y="-14.3" font-family="Times,serif" font-size="14">
+                printf
+            </text>
+        </g>
+        <g class="edge" stroke="#000">
+            <path fill="none" d="M188.72 24.05C223.51 26.99 282.87 37.7 312.59 76c43.68 56.28 33.68 146.98 25.12 191.78"/>
+            <path d="M341.13 268.53l-5.42 9.1-1.44-10.5 6.86 1.4z"/>
+        </g>
+        <g class="node">
+            <path fill="red" stroke="red" d="M279.47 227.6l-10.27-15.23-41.61-6.78-41.6 6.78-10.28 15.23 28.8 12.21h46.17l28.79-12.21z"/>
+            <text text-anchor="middle" x="223.59" y="-86.3" font-family="Times,serif" font-size="14" transform="translate(4 313.59)">
+                execute
+            </text>
+        </g>
+        <g class="edge" stroke="#000">
+            <path fill="none" d="M230.27 134.37c-.44 14.43-1.24 40.8-1.85 60.97"/>
+            <path d="M231.91 195.61l-3.8 9.89-3.19-10.1 6.99.21z"/>
+        </g>
+        <g class="edge" stroke="#000">
+            <path fill="none" d="M250.42 239.95c15.13 10.19 35.14 23.66 51.51 34.67"/>
+            <path d="M304.25 271.97l6.34 8.48-10.25-2.68 3.91-5.8z"/>
+        </g>
+        <g class="node" transform="translate(4 313.59)">
+            <ellipse fill="none" stroke="#000" cx="67.59" cy="-18" rx="67.69" ry="18"/>
+            <text text-anchor="middle" x="67.59" y="-14.3" font-family="Times,serif" font-size="14">
+                make_string
+            </text>
+        </g>
+        <g class="edge" stroke="#000">
+            <path fill="none" d="M198.62 237.59c-23.89 10.72-58.08 26.06-84.97 38.13"/>
+            <path d="M115.02 278.94l-10.55.9 7.69-7.29 2.86 6.39z"/>
+        </g>
+        <g class="node" transform="translate(4 313.59)">
+            <ellipse fill="none" stroke="#000" cx="221.59" cy="-18" rx="50.89" ry="18"/>
+            <text text-anchor="middle" x="221.59" y="-14.3" font-family="Times,serif" font-size="14">
+                compare
+            </text>
+        </g>
+        <g class="edge" stroke="red">
+            <path fill="none" d="M227.15 240.13c-.22 7.87-.5 17.67-.77 26.78"/>
+            <path fill="red" d="M229.88 267.23l-3.79 9.9-3.21-10.1 7 .2z"/>
+        </g>
+        <g class="edge" stroke="red">
+            <path fill="none" d="M43.94 240.83c4.2 8.15 9.38 18.23 14.12 27.45"/>
+            <path fill="red" d="M61.33 266.97l1.46 10.5-7.69-7.3 6.23-3.2z"/>
+        </g>
+    </g>
+</svg>

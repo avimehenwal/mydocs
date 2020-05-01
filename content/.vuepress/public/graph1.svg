@@ -1,0 +1,49 @@
+<svg width="348" height="244pt" viewBox="0 0 261.33 244.17" xmlns="http://www.w3.org/2000/svg">
+    <g class="graph">
+        <path fill="#fff" stroke="transparent" d="M0 244.17V0h261.33v244.17H0z"/>
+        <g class="node" transform="translate(4 240.17)">
+            <ellipse fill="#8dd3c7" stroke="#8dd3c7" cx="55" cy="-118.08" rx="27" ry="24.08"/>
+            <text text-anchor="middle" x="55" y="-111.88" font-family="Times,serif" font-size="24">
+                x
+            </text>
+        </g>
+        <g class="node" transform="translate(4 240.17)">
+            <ellipse fill="#ffffb3" stroke="#ffffb3" cx="27" cy="-24.04" rx="27" ry="24.08"/>
+            <text text-anchor="middle" x="27" y="-17.84" font-family="Times,serif" font-size="24">
+                y
+            </text>
+        </g>
+        <path fill="none" stroke="#000" d="M52.22 145.37c-4.37 14.36-10.03 32.98-14.41 47.36"/>
+        <g class="node" transform="translate(4 240.17)">
+            <ellipse fill="#fdb462" stroke="#fdb462" cx="209" cy="-24.04" rx="27" ry="24.08"/>
+            <text text-anchor="middle" x="209" y="-17.84" font-family="Times,serif" font-size="24">
+                c
+            </text>
+        </g>
+        <path fill="none" stroke="#000" d="M76.48 140.92c5.64 5.24 12.1 10.74 18.52 15.17 30.19 20.78 68.74 38.65 93.4 49.13"/>
+        <g class="node" transform="translate(4 240.17)">
+            <ellipse fill="#bebada" stroke="#bebada" cx="170" cy="-212.12" rx="27" ry="24.08"/>
+            <text text-anchor="middle" x="170" y="-205.92" font-family="Times,serif" font-size="24">
+                A
+            </text>
+        </g>
+        <path fill="none" stroke="#000" d="M153.11 43.79C136.92 55.41 114.12 72.25 95 88.09c-6.01 4.97-12.35 10.63-18 15.85"/>
+        <path fill="none" stroke="#000" d="M147.16 30.75C111.83 34.61 50.93 47.17 23 88.09c-21.43 31.39-10.45 77.95-.94 105.12"/>
+        <g class="node">
+            <path fill="#fb8072" stroke="#fb8072" d="M127.78 96.83l-15.56 16.52c-4.11 4.37-4.11 13.11 0 17.48l15.56 16.52c4.11 4.37 12.33 4.37 16.44 0l15.56-16.52c4.11-4.37 4.11-13.11 0-17.48l-15.56-16.52c-4.11-4.37-12.33-4.37-16.44 0"/>
+            <text text-anchor="middle" x="132" y="-111.88" font-family="Times,serif" font-size="24" transform="translate(4 240.17)">
+                d
+            </text>
+        </g>
+        <path fill="none" stroke="red" stroke-width="3" d="M164.99 50.86c-5.88 14.24-13.55 32.82-19.52 47.29"/>
+        <g class="node" transform="translate(4 240.17)">
+            <ellipse fill="#80b1d3" stroke="#80b1d3" cx="209" cy="-118.08" rx="27" ry="24.08"/>
+            <text text-anchor="middle" x="209" y="-111.88" font-family="Times,serif" font-size="24">
+                b
+            </text>
+        </g>
+        <path fill="none" stroke="#000" d="M177.89 52.27c5.25 15.13 13.62 34.64 21.06 49.03"/>
+        <path fill="none" stroke="red" stroke-width="3" d="M188.14 49.02c7.48 14.48 15.88 34.11 21.1 49.22M197.43 40.12c17.78 9.84 40.93 26.05 51.57 47.97 13.2 27.18 8.17 38.9 0 68-4.09 14.56-12.87 29.09-20.74 40.09"/>
+        <path fill="none" stroke="#000" d="M213 146.31v45.6"/>
+    </g>
+</svg>

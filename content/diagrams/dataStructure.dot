@@ -1,0 +1,30 @@
+digraph dataStructures {
+  label = "data structures abstraction level";
+
+  rankdir=LR
+  node [
+    fontsize=24,
+    colorscheme=pastel19,
+    style=filled
+  ]
+  edge [
+    style="tapered, setlinewidth(15)"
+    arrowhead=none,
+  ]
+
+  a [shape=square, label = "CPU", fillcolor=1,
+    URL="https://en.wikipedia.org/wiki/Central_processing_unit"
+  ]
+  b [label= "Memory", fillcolor=2,
+    URL="https://en.wikipedia.org/wiki/Memory"
+  ]
+  c [shape=tab, label = "Data", fillcolor=3
+    URL="https://en.wikipedia.org/wiki/Data"
+  ]
+  d [shape=box, label = "Data Structure", fillcolor=4,
+    URL="https://en.wikipedia.org/wiki/Data_structure"
+  ]
+  e [label="Operations", fillcolor=5,]
+
+  a -> b -> c -> d -> e
+}

@@ -1,4 +1,11 @@
+# Protect the secrets
+.env
+
+# build distribution
+content/.vuepress/dist/*
+
+# Node and Python venvs
+venv/*
 node_modules/
 yarn-error.log
-docs/.vuepress/dist/*
-venv/*
+

@@ -1,0 +1,7 @@
+<svg height="500" width="500" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="250" cy="250" r="200" fill="green">
+        <animate id="b" attributeType="CSS" attributeName="opacity" from=".8" to=".2" dur="5s" begin="0s;a.end"/>
+        <animate id="a" attributeType="CSS" attributeName="opacity" from=".2" to=".8" dur="5s" begin="b.end"/>
+    </circle>
+    Sorry, your browser sucks :( Try switching to chrome, its the gold standard bitch!
+</svg>

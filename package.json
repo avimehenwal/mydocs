@@ -7,9 +7,10 @@
   "author": "avimehenwal <avi.mehanwal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "svgo": "vuepress svgo docs"
+    "docs:dev": "vuepress dev content",
+    "docs:build": "vuepress build content",
+    "debug": "vuepress --debug dev content",
+    "svgo": "svgo --pretty --recursive --folder=./content/.vuepress/public/diagrams/"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.4.1",
@@ -27,9 +28,14 @@
     "vuepress-plugin-social-share": "^0.2.1"
   },
   "dependencies": {
+    "@dovyp/vuepress-plugin-clipboard-copy": "^1.0.0-alpha.7",
+    "dotenv": "^8.2.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-deflist": "^2.0.3",
+    "markdown-it-footnote": "^3.0.2",
+    "viz.js": "^2.1.2",
     "vue-google-charts": "^0.3.2",
+    "vuepress-plugin-google-tag-manager": "^0.0.4",
     "vuepress-plugin-reading-progress": "^1.0.9",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
