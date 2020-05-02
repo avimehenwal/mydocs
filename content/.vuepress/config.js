@@ -60,6 +60,8 @@ module.exports = {
           { text: 'Mobile Development Articles', link: '/mobiledevelopment/' },
           { text: 'Web Development Articles', link: '/webdevelopment/' },
           { text: 'Rough Notes', link: '/notes/' },
+          { text: 'Cryptocurrency', link: '/crypto/' },
+          { text: 'My Learnings', link: '/mylearnings/' },
         ]
       },
       // {
