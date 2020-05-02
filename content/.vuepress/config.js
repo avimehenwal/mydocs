@@ -61,6 +61,7 @@ module.exports = {
           { text: 'Web Development Articles', link: '/webdevelopment/' },
           { text: 'Rough Notes', link: '/notes/' },
           { text: 'Cryptocurrency', link: '/crypto/' },
+          { text: 'Cloud', link: '/cloud/' },
           { text: 'TIL: Today I Learnt', link: '/today-i-learnt/' },
         ]
       },
