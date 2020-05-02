@@ -1,4 +1,0 @@
-<!-- Quick Introduction  -->
-
-<posts />
-<SimpleNewsletter/>

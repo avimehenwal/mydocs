@@ -27,8 +27,12 @@ You want to know what happened to your project after 2 years?
 
 ## How to generate them automatically?
 
-The Conventional Commits specification is a lightweight convention on top of commit messages.
+The [conventional commits] specification is a lightweight convention on top of commit messages.
 It provides an easy set of rules for creating an explicit commit history, which makes it easier to write automated tools on top of.
+
+:+1: [Angular Project uses conventional commits](https://github.com/angular/angular/commits/master)
+
+Tool to write CHANGELOG file automatically
 
 https://github.com/conventional-changelog/standard-version
 
@@ -50,7 +54,7 @@ Reg Ex pattern
 /^(revert: )?(feat|fix|docs|style|refactor|perf|test|chore)(\(.+\))?: .{1,50}/
 ```
 
-### HOw to implement?
+### How to implement?
 
 Using git pre-commit hooks
 
@@ -74,4 +78,5 @@ https://github.com/KnisterPeter/vscode-commitizen
 <SimpleNewsletter/>
 <Disqus />
 
-[conventionalcommits]: https://www.conventionalcommits.org/en/v1.0.0-beta.4/
+[conventional commits]: https://www.conventionalcommits.org/en/v1.0.0-beta.4/
+[changelog]: https://en.wikipedia.org/wiki/Changelog

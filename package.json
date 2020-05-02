@@ -10,6 +10,8 @@
     "docs:dev": "vuepress dev content",
     "docs:build": "vuepress build content",
     "debug": "vuepress --debug dev content",
+    "changelog": "standard-version",
+    "deadlinks": "vuepress check-md ./content/",
     "svgo": "svgo --pretty --recursive --folder=./content/.vuepress/public/diagrams/"
   },
   "devDependencies": {
@@ -18,8 +20,10 @@
     "@vuepress/plugin-medium-zoom": "^1.4.1",
     "@vuepress/plugin-pwa": "^1.4.1",
     "@vuepress/plugin-register-components": "^1.4.1",
+    "standard-version": "^7.1.0",
     "vuepress": "^1.0.0-rc.1",
     "vuepress-plugin-auto-sidebar": "^1.4.1",
+    "vuepress-plugin-check-md": "^0.0.2",
     "vuepress-plugin-disqus": "^0.2.0",
     "vuepress-plugin-flowchart": "^1.4.3",
     "vuepress-plugin-mailchimp": "^1.4.2",

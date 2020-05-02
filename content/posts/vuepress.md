@@ -48,3 +48,10 @@ The `<pre>` tag defines preformatted text.
 <div v-for="i in 3">
  Hello {{ i }}
 </div>
+
+
+### Special README.md file
+
+A subdirectory is invisible to VuePress unless it has a README.md in it. Those README.md files can be blank
+
+The root README.md file must start with a header. It doesn't have to be an H1 (# as shown above) but it should be either H2 (##) or H3 (###) for proper generation of search indexes and sidebars.

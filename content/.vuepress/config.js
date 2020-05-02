@@ -61,7 +61,7 @@ module.exports = {
           { text: 'Web Development Articles', link: '/webdevelopment/' },
           { text: 'Rough Notes', link: '/notes/' },
           { text: 'Cryptocurrency', link: '/crypto/' },
-          { text: 'My Learnings', link: '/mylearnings/' },
+          { text: 'TIL: Today I Learnt', link: '/today-i-learnt/' },
         ]
       },
       // {
@@ -94,6 +94,7 @@ module.exports = {
     'reading-progress',
     '@vuepress/pwa',
     'flowchart',
+    'check-md',
     [ 'disqus', { shortname: 'mydocs-1' } ],
     ['@dovyp/vuepress-plugin-clipboard-copy', true],
     [ '@vuepress/google-analytics', { 'ga': process.env.GA } ],
