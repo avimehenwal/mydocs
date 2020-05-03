@@ -20,6 +20,7 @@ tags:
 * Auto-scaling default, no need to worry about holiday time
 * Functions are written in either javascript or Typescript
   * TypeScript supports latest JavaScript features like async/await, simplifying promise management
+* All typescript files are compiled to plain javascript and saved in `lib` directory
 
 Webpack serves an important job. It bundles all the scattered Typescript’s modules/files and bundle them into a single index.js Javascript file. This is important because the Cloud Functions will only use that single file for deployment.
 
@@ -32,7 +33,7 @@ await
 : wait for promise resolve or promise fail
 
 deployed URL
-https://us-central1-named-messenger-249020.cloudfunctions.net/helloWorld
+https://us-central1-named-messenger-MY_PROJECT.cloudfunctions.net/helloWorld
 
 ```
 firebase login
@@ -48,5 +49,7 @@ functions/
 `-- tslint.json
 
 ```
+
+[docs]: https://firebase.google.com/docs/web/setup
 
 <Footer />

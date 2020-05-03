@@ -1,0 +1,24 @@
+digraph structs {
+  graph [fontsize=20 overlap=false label="System Design"
+    bgcolor=transparent
+    rankdir = "LR"
+  ]
+
+  node [fontsize=18 colorscheme=set312, style=filled penwidth=2]
+  edge [
+    // style="tapered"
+    // style=bold
+    colorscheme=set19
+    penwidth=5
+    // arrowhead=none
+  ]
+
+  1 [fillcolor=1 label="List system\nRequirement(s)" shape=box]
+  2 [fillcolor=2 label="Anticipate \n PROBLEMS" shape=polygon sides=6]
+  3 [fillcolor=3 label="Solve them \n one-by-one"]
+
+  edge [color=1]
+  1 -> 2 -> 3
+
+
+}
