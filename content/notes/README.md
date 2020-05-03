@@ -1,3 +1,7 @@
+---
+title: Cloud - home
+---
 
 <posts />
-<SimpleNewsletter/>
+<Footer :comments="false" />
+

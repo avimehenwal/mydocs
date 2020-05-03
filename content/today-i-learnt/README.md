@@ -1,9 +1,11 @@
-<!-- Quick Introduction  -->
+---
+title: TIL - Home
+---
 
 # TIL - Today I learnt
 
 <posts />
-<SimpleNewsletter/>
+<Footer :comments="false" />
 
 Inspired from
 

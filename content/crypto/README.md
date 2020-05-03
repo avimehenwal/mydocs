@@ -1,3 +1,6 @@
+---
+title: Cryptocurrency - home
+---
 
 <posts />
-<SimpleNewsletter/>
+<Footer :comments="false" />

@@ -3,6 +3,7 @@
     "plugin",
     "cloud",
     "content",
-    "component"
+    "component",
+    "theme"
   ]
 }

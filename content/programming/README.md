@@ -1,6 +1,6 @@
 ---
-title: Programming Home
+title: Programming - Home
 ---
 
 <posts />
-<SimpleNewsletter/>
+<Footer :comments="false" />
