@@ -1,0 +1,23 @@
+digraph structs {
+  graph [fontsize=20 label="database relationships" overlap=false
+    bgcolor=transparent
+    rankdir = "LR"
+  ]
+
+  node [shape=record colorscheme=set312, style=filled ]
+  edge [
+    // style="tapered"
+    // style=bold
+    colorscheme=set19
+  ]
+
+  1 [fillcolor=1 label="<id> primary key|<f1> CUSTOMER |<f2> other info"]
+  2 [fillcolor=2 label="<id> id|<f1> PRODUCTS | <f2> foreign key"]
+  3 [fillcolor=3 label="<id> id|<f1> ORDERS | <f2> foreign key"]
+
+  2:f2 -> 1:<id>
+  3:f2 -> 1:<id>
+  edge [color=1 penwidth=2]
+  1:<f2> -> 3 [ dir=both arrowhead=crow arrowtail=dot]
+  2 -> 3 [ dir=both arrowhead=crow arrowtail=crow ]
+}

@@ -55,10 +55,13 @@ module.exports = {
         text: 'Categories',
         ariaLabel: 'Language Menu',
         items: [
-          { text: 'Generic Blog Posts', link: '/posts/' },
           { text: 'Programming', link: '/programming/' },
-          { text: 'Mobile Development Articles', link: '/mobiledevelopment/' },
-          { text: 'Web Development Articles', link: '/webdevelopment/' },
+          { text: 'TIL: Today I Learnt', link: '/today-i-learnt/' },
+          { text: 'Cloud Computing', link: '/cloud/' },
+          { text: 'Web Development', link: '/webdevelopment/' },
+          { text: 'Cryptocurrency', link: '/crypto/' },
+          { text: 'Mobile Development', link: '/mobiledevelopment/' },
+          { text: 'Generic Blog Posts', link: '/posts/' },
           { text: 'Rough Notes', link: '/notes/' },
         ]
       },
@@ -74,7 +77,7 @@ module.exports = {
         text: 'Sister Sites',
         ariaLabel: 'Language Menu',
         items: [
-          { text: 'static: avimehenwal Old Blog', link: 'https://avimehenwal.in/' },
+          { text: 'Static: avimehenwal Blog v1', link: 'https://avimehenwal.in/' },
           { text: 'SPA: Anime fan project', link: 'https://fangallery.netlify.app/' },
           { text: 'SPA: COVID Visualization Dashboard', link: 'https://covid-visualization.netlify.app/' },
           { text: 'SPA: Tic Tac Toe Game Implementation', link: 'https://peaceful-minsky-f655a4.netlify.app/' },
@@ -92,6 +95,7 @@ module.exports = {
     'reading-progress',
     '@vuepress/pwa',
     'flowchart',
+    'check-md',
     [ 'disqus', { shortname: 'mydocs-1' } ],
     ['@dovyp/vuepress-plugin-clipboard-copy', true],
     [ '@vuepress/google-analytics', { 'ga': process.env.GA } ],

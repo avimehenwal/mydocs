@@ -1,7 +1,6 @@
 ---
-title: Cloud - home
+title: Lifestyle - home
 ---
 
 <posts />
 <Footer :comments="false" />
-

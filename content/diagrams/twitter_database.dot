@@ -1,0 +1,26 @@
+digraph structs {
+  graph [fontsize=30 labelloc="t" label="" splines=true overlap=false
+    bgcolor=transparent
+    // rankdir = "LR"
+  ]
+
+  node [shape=record colorscheme=set312, style=filled ]
+  edge [
+    style="tapered"
+    // style=bold
+    colorscheme=set19
+    penwidth=3
+    arrowhead=none
+  ]
+
+  1 [fillcolor=1 label="<f0> left|<f1> mid&#92; dle|<f2> right"]
+  2 [fillcolor=2 label="<f0> one|<f1> two"]
+  3 [fillcolor=3 label="hello&#92;nworld |{ b |{c|<here> d|e}| f}| g | h"]
+  4 [fillcolor=4 label="<id> one | two" ]
+
+  edge [color=7]
+  1:f1 -> 2:f0 [fillcolor=red]
+  1:f2 -> 3:here [color=red]
+  2:f1 -> 4:id
+
+}

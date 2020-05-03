@@ -1,0 +1,9 @@
+{
+  "conventionalCommits.scopes": [
+    "plugin",
+    "cloud",
+    "content",
+    "component",
+    "theme"
+  ]
+}

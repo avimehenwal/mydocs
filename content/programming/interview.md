@@ -30,3 +30,17 @@ Nailing down the technique to solve algorithm questions
   * Longest palindrome substring
     * 2 pointers expanding outwards
 * Reverse a linked List
+
+
+### Topics
+
+* Binary trees, BST and Binary Search
+* Recursion and Iteration
+* Linked lists
+* Strings and manipulation
+* Dynamic programming
+* Heaps, Trees, and the "Trie" data structures
+* Graphs (breadth-first search and depth-first search)
+* Sorting algorithms
+* Hashmaps and sets
+* Stacks and queues
