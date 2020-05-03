@@ -1,10 +1,10 @@
 ---
 title: Database
 tags:
-- database
 - relational
-- nosql
+- database
 - sql
+- nosql
 ---
 
 # Database
@@ -12,21 +12,21 @@ tags:
 <TagLinks />
 
 [Database] in itself is data-structure problem at scale. How do we organize, collect, store data
-in a way such that we can use relationships / associations to query targetted data.
+in a way such that we can use relationships / associations to query targeted data.
 
 DBMS - [Database] management system
 : is the **software** that interacts with end users, applications, and the [Database] itself to capture and analyze the data.
 
 [Database] Model
-: How data is <mark>stored, organised and manupulated</mark> internally by the DBMS.
+: How data is <mark>stored, organized and manipulated</mark> internally by the DBMS.
 
 ![Database Relationships with UML](/diagrams/database_relationships.svg)
 
-1. Hierarical [Database]
-2. Object Model - javascript in browser v8 engine
-3. Document MOdel - page data on browser when a URL response is rendered
-4. Relations [Database] Models - SQL and mySQL
-5. Non-Relational [Database]s aka noSQL - mongodb, firebase
+1. Hierarchical [Database]
+2. Object Model - JavaScript in browser v8 engine
+3. Document Model - page data on browser when a URL response is rendered
+4. Relations [Database] Models - SQL and MySQL
+5. Non-Relational [Database]s aka noSQL - MongoDB, Firebase
 
 ### SQL based Terminologies
 
@@ -58,10 +58,10 @@ SP - Stored procedures
 * Replication
   * storage redundancy, to increase data availability and resilience in case of partial failure
 * Security
-* Transactions and consurrency
+* Transactions and concurrency
 * Easy Migrations
 * Easy Backup and Restores
-* [Database] logs, Querying tools like FQL facebook query language
+* [Database] logs, Querying tools like FQL Facebook query language
 * Scaling
   * Sharding
   * Multiple Master - Multiple Slave
@@ -72,7 +72,7 @@ SP - Stored procedures
 
 ## Database Relationships
 
-Applicable to Relational DBMS, but concept extends to all other (noSQL) DBMS as well.
+Applicable to Relational DBMS, but concept extends to all other (no-SQL) DBMS as well.
 
 A table relationship is established when a child table defines a **Foreign Key** column that references the **Primary Key** column of its parent table.
 
@@ -110,7 +110,7 @@ requires a link table containing two Foreign Key columns that reference the two 
 * Collect as much data as possible
   * you  may never know what you might need in future to scale, add new feature, analytics
 * Group data logically together
-  * based on redability
+  * based on readability
   * efficiency
   * usage
 
@@ -125,10 +125,11 @@ Most popular [Database] choices and why?
 
 * [Databases - Wikipedia](https://en.wikipedia.org/wiki/Database)
 * [Database Models](https://en.wikipedia.org/wiki/Database_model)
-* [Comparision of database](https://en.wikipedia.org/wiki/Comparison_of_database_tools)
+* [Comparison of database](https://en.wikipedia.org/wiki/Comparison_of_database_tools)
 * [The 3 Types of Relationships in Database Design](https://database.guide/the-3-types-of-relationships-in-database-design/)
-* [System design cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
-* [System DEsign for Interview](https://www.freecodecamp.org/news/systems-design-for-interviews/)
+* [System design cheat-sheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
+* [System Design for Interview](https://www.freecodecamp.org/news/systems-design-for-interviews/)
+* [Many to many datamodel](https://en.wikipedia.org/wiki/Many-to-many_(data_model))
 
 [Database]: https://en.wikipedia.org/wiki/Database
 [ACID]: https://en.wikipedia.org/wiki/ACID

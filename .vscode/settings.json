@@ -2,6 +2,7 @@
   "conventionalCommits.scopes": [
     "plugin",
     "cloud",
-    "content"
+    "content",
+    "component"
   ]
 }

@@ -16,4 +16,5 @@ footer: MIT Licensed | Copyright © 2020 - @avimehenwal
 ---
 
 <!-- <posts /> -->
-<Footer comments=false />
+
+<Footer :comments="false" />

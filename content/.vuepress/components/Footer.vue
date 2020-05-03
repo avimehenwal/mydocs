@@ -1,11 +1,11 @@
 <template>
   <footer class="w3-center">
     <!-- More links -->
-    <Disqus :v-if="comments == true" />
-    <SimpleNewsletter :v-if="email == true" />
+    <div v-if="comments"><Disqus /></div>
+    <SimpleNewsletter v-if="email" />
 
     <!-- Self Promotion -->
-    <div :v-if="sb == true">
+    <div v-if="sb">
     <ul style="list-style: none;">
       <li>
         <button class="w3-btn w3-border w3-border-orange w3-round-large" style="width: 215px;">
@@ -30,9 +30,18 @@
 export default {
   name: 'Footer',
   props: {
-    email: true,
-    comments: true,
-    sb:true
+    email: {
+      type: Boolean,
+      default: true,
+    },
+    comments: {
+      type: Boolean,
+      default: true,
+    },
+    sb: {
+      type: Boolean,
+      default: true,
+    },
   },
   data: () => {
     return {
