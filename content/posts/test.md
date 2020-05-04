@@ -22,6 +22,30 @@ tags:
 
 <mark> Hihlighted text </mark>
 
+## Pros and Cons
+
+<Procons>
+  <template v-slot:pro>
+    <h3>Mention some pro</h3>
+    <ul>
+      <li>one pro</li>
+      <li>two pro</li>
+      <li>three pro</li>
+    </ul>
+  </template>
+
+  <template v-slot:con>
+    <h3>Here are some cons</h3>
+    <ul>
+      <li>one con</li>
+      <li>two con</li>
+      <li>three con</li>
+    </ul>
+
+  </template>
+</Procons>
+
+
 ## Google Charts
 
 <Test />
