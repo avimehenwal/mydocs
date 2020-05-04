@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "named-messenger-249020"
+    "default": "named-messenger-249020",
+    "aviblog2": "named-messenger-249020"
   }
 }

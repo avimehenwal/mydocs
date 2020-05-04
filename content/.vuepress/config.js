@@ -33,6 +33,55 @@ module.exports = {
         href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       }
     ],
+    // Firebase settings
+    // [
+    //   "script",
+    //   {
+    //     src: "/__/firebase/7.14.2/firebase-app.js"
+    //   }
+    // ],
+    // [
+    //   "script",
+    //   {
+    //     src: "https://www.gstatic.com/firebasejs/5.5.6/firebase-auth.js"
+    //   }
+    // ],
+    // [
+    //   "script",
+    //   {
+    //     src: "/__/firebase/7.14.2/firebase-firestore.js"
+    //   }
+    // ],
+    // [
+    //   "script",
+    //   {
+    //     src: "https://www.gstatic.com/firebasejs/5.5.6/firebase-functions.js"
+    //   }
+    // ],
+    // [
+    //   "script",
+    //   {
+    //     src: "/__/firebase/init.js"
+    //   }
+    // ],
+    // [
+    //   "script",
+    //   {},
+    //   `var config = {
+    //     apiKey: "apikey",
+    //     authDomain: "app.firebaseapp.com",
+    //     databaseURL: "https://app.firebaseio.com",
+    //     projectId: "appname",
+    //     storageBucket: "appname.appspot.com",
+    //     messagingSenderId: "12345"
+    //   };
+    //   firebase.initializeApp(config);
+    //   const firestore = firebase.firestore();
+    //   const settings = { /* your settings... */
+    //       timestampsInSnapshots: true
+    //   };
+    //   firestore.settings(settings);`
+    // ],
   ],
   themeConfig: {
     author: '@avimehenwal',
