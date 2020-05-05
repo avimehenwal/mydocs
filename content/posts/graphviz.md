@@ -1,4 +1,5 @@
 ---
+title: Graphviz
 tags:
 - graphviz
 - svg
@@ -48,6 +49,10 @@ Awesome Graphviz
 4. Tabular, hoerarical Database Schemeas
 5. Finite Automata FAM
 6. Network Connections
+
+## DOT Languague
+
+* subgraphs and clusters fro logical grouping
 
 ### Graphviz alternatives
 

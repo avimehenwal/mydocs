@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@dovyp/vuepress-plugin-clipboard-copy": "^1.0.0-alpha.7",
+    "d3": "^5.16.0",
     "debounce": "^1.2.0",
     "dotenv": "^8.2.0",
     "firebase": "^7.14.2",

@@ -1,0 +1,17 @@
+digraph mindmap {
+  label = "Mindmap"
+  bgcolor="transparent"
+  rankdir=LR
+  node [fontsize=24, colorscheme=set312, style=filled]
+
+  root [fillcolor=4 shape=box style="rounded,filled"]
+  a [fillcolor=1 style=radial]
+  b [fillcolor=2 style=radial]
+  c [fillcolor=3]
+  d [fillcolor=5]
+  e [fillcolor=6]
+
+  edge [style=tapered penwidth=13 arrowhead=none fontsize=15]
+  root -> {a b c d}
+  root -> e [label="edge label"]
+}

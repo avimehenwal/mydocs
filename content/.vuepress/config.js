@@ -112,6 +112,7 @@ module.exports = {
           { text: 'Mobile Development', link: '/mobiledevelopment/' },
           { text: 'Generic Blog Posts', link: '/posts/' },
           { text: 'Rough Notes', link: '/notes/' },
+          { text: 'Lifestyle', link: '/lifestyle/' },
         ]
       },
       // {
