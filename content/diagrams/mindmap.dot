@@ -1,17 +1,17 @@
 digraph mindmap {
-  label = "Mindmap"
   bgcolor="transparent"
-  rankdir=LR
-  node [fontsize=24, colorscheme=set312, style=filled]
+  label = "Mindmap"
 
-  root [fillcolor=4 shape=box style="rounded,filled"]
-  a [fillcolor=1 style=radial]
-  b [fillcolor=2 style=radial]
+  node [fontsize=20 style=filled colorscheme=set312]
+  edge [fontsize=15 style=tapered penwidth=15 arrowhead=none ]
+
+  root [ fontsize=30 fillcolor="4:6" shape=box style="rounded,filled" ]
+  a [fillcolor=1]
+  b [fillcolor=2]
   c [fillcolor=3]
   d [fillcolor=5]
   e [fillcolor=6]
 
-  edge [style=tapered penwidth=13 arrowhead=none fontsize=15]
   root -> {a b c d}
   root -> e [label="edge label"]
 }

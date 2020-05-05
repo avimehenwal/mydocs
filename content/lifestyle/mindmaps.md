@@ -10,9 +10,6 @@ tags:
 
 <TagLinks />
 
-
-<Dot />
-
 > tool to visually organize information
 
 <Quote text="Ideas grows on Trees" />
@@ -30,6 +27,8 @@ tags:
 * :star: Ask really really good questions?
 * Schools are killing creativity
 * Children are more creative because they are not afraid to fail
+
+![Mindmap example](/diagrams/mindmap.svg)
 
 ## Tools
 

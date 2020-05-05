@@ -6,6 +6,10 @@ tags:
 
 # Components
 
+## D3.js
+
+blank
+
 ## Badge
 
 <Badge text="warning" type="warning"/>
@@ -45,9 +49,6 @@ tags:
   </template>
 </Procons>
 
-## D3.js
-
-<Dot />
 
 ## Google Charts
 
