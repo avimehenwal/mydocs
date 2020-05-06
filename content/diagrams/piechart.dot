@@ -1,28 +1,55 @@
 digraph G {
-  subgraph cluster_1 {
-    node [shape=circle style=wedged fillcolor="red;0.3:green;0.6:orange"]
-    A [fillcolor="pink;0.3:blue;0.6:orange"]
-    B [style=striped shape=rectangle ]
-    C
+  bgcolor=none
 
-    B -> A
-    B -> C
+  subgraph sg1 {
+    node [shape=circle style=wedged penwidth=0
+      fillcolor="red;0.3:green;0.6:orange"]
+    X [fillcolor="pink;0.3:blue;0.6:orange"]
+    Y [style=striped shape=rectangle ]
+    Z
+
+    Y -> X
+    Y -> Z
   }
 
   subgraph cluster_0 {
-    nodepie
-    [shape = "circle" style = "wedged" fillcolor = "green:red:yellow"
-    label=<
-    <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
-    <TR>
-    <TD PORT="f0" ROWSPAN="2">one</TD>
-    <TD ROWSPAN="2">&nbsp;</TD>
-    <TD>two</TD>
-    </TR>
-    <TR>
-    <TD PORT="f0">tree</TD>
-    </TR>
-    </TABLE>
-    >];
+    node [shape=circle width=1
+      // label=""
+      style=wedged penwidth=0
+    ]
+
+    c1 [colorscheme=dark28 color="1:2:3:4:5:6:7:8:9" ]
+    c2 [colorscheme=bugn9 color="1:2:3:4:5:6:7:8:9" ]
+    c3 [colorscheme=paired12 color="1:2:3:4:5:6:7:8:9" ]
+    c4 [colorscheme=pastel28 color="1:2:3:4:5:6:7:8:9" ]
+    c5 [colorscheme=set39 color="1:2:3:4:5:6:7:8:9" ]
+    c6 [colorscheme=set19 color="1:2:3:4:5:6:7:8:9" ]
+    c7 [colorscheme=ylorrd9 color="1:2:3:4:5:6:7:8:9" ]
+    c8 [colorscheme=spectral9 color="1:2:3:4:5:6:7:8:9" ]
+    c9 [colorscheme=rdbu11 color="1:2:3:4:5:6:7:8:9" ]
+    c10 [colorscheme=rdpu9 color="1:2:3:4:5:6:7:8:9" ]
+    c11 [colorscheme=pubu9 color="1:2:3:4:5:6:7:8:9" ]
+    c12 [colorscheme=accent8 color="1:2:3:4:5:6:7:8" ]
+
+    edge [penwidth=2]
+    c1 -> c2
+    c3 -> c4
+    c5 -> c6
+    c7 -> c8
+    c9 -> c10
+    c11 -> c12
+  }
+
+  subgraph piechart {
+    node [
+      shape=circle
+      style=wedged
+      colorscheme=rdbu11
+      width=1                 // graph size
+      penwidth=0              // remove black border
+      label=""                // remove label
+    ]
+
+    1 [ color="1:2:3:4:5:6:7:8:9" ]
   }
 }

@@ -25,6 +25,7 @@ tags:
   * Directed Graph
   * Undirected graph
 
+![graphviz piechart](/diagrams/piechart.svg)
 ## [graphviz] tools
 
 tool  | description
