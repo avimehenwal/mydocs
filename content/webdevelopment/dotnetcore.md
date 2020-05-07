@@ -9,6 +9,7 @@ tags:
 
 <TagLinks />
 
+Free. Cross-platform. Open source. A developer platform for building **all your** apps.
 
 ## DotNet core
 
@@ -20,6 +21,8 @@ tags:
 * Build web apps and services, Internet of Things (IoT) apps, and mobile backends.
 
 > Learn to use ASP.NET Core to create web apps and services that are fast, secure, cross-platform, and cloud-based. Browse tutorials, sample code, fundamentals, API reference and more.
+
+![dotnet framework mindmap](/diagrams/dotnet.svg)
 
 #### What does blue and read line mean in devtools?
 
@@ -54,7 +57,12 @@ Once the server has processed your request, it'll send data back to you.
 
 ###### What is the difference between cshtml and html?
 
+
+::: tip
+$cs = C \ Sharp$
+
 $cshtml = html + server Code$
+:::
 
 cshtml is the file extension that refers to the **razor view engine**. In addition to straight html, these files also contain C# code that is compiled on the server prior to the pages being server up to the browser..
 
@@ -64,6 +72,81 @@ cshtml is the file extension that refers to the **razor view engine**. In additi
 * strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines
 
 The original C# compiler wasn't written in C#, it was in C and C++. The new Roslyn compiler was written in C#, but was initially compiled with the old compiler. Once the new compiler was done, it was able to compile its own source code: this is called bootstrapping.
+
+* namespaces
+  * system defined, prebuilt
+  * user defined
+* comments
+* Variables
+  * keywords
+  * literals
+  * delimiters
+* data-types
+  * operations on datatypes
+  * enums
+* Type casting
+  * implicit type casting
+  * Explicit type casting
+* User Input and Output using stdio
+* operators
+  * logical operators
+  * arithmetic operators
+  * Assignmnet operators
+  * Comparision operators
+  * precidence
+  * operator overloading
+* How do you do math with a language?
+  * `Math.XXX`
+* String operations
+  * length
+  * concatination
+  * [INTERPOLATION](https://en.wikipedia.org/wiki/Interpolation)
+    * interpolation is a type of estimation, a method of constructing new data points within the range of a discrete set of known data points.[
+* Conditional, branching statements
+  * if, else, switch
+    * break, default
+* Loops
+  * for
+  * do..while
+  * while
+  * foreach
+* Parameters -> Methods | Functions
+  * return values
+  * Named Arguments
+  * Method Overloading
+* OOP
+  * Abstraction
+  * Composition, inheritance, and delegation
+  * Encapsulation
+    * data hiding
+  * Polymorphism
+    * Subtyping
+  * Dynamic dispatch/message passing
+    * select the procedural code to execute in response to a method call, typically by looking up the method at run time in a table associated with the object.
+  * recursion
+* How to create classes and instantiate objects from it?
+  * class constructor
+  * Access Modifiers
+  * A property is like a combination of a variable and a method, and it has two methods: a get and a set method
+* Working with Files
+* [Dealing with Lists](https://www.learncs.org/en/Lists)
+* Dealing with Dictionaries
+  * IDictionary<int, string> dict = new Dictionary<int, string>();
+* Difference b/w static and non-static methods?
+* C# supports two types of class methods, static methods, and non static methods. Any normal method is a non static method.
+
+
+```C#
+List<int> numbers = new List<int>();
+numbers.Add(1);
+```
+
+
+::: tip syntax
+$<Type> \ <Variable \ Name>$
+:::
+
+## 
 
 
 ###### What is the difference b/w JS and ECMA?
@@ -123,9 +206,11 @@ sudo snap install dotnet-sdk --channel 3.1/stable --classic
 
 
 [C#]: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
-[.NET]: https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1
+[OOP]: https://en.wikipedia.org/wiki/Object-oriented_programming
+[.NET]: https://dotnet.microsoft.com/
+
 
 *[SSE]: Server Sent Events
-
+*[OOP]: Object Oriented Programming
 
 <Footer />
