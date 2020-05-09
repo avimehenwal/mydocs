@@ -4,17 +4,24 @@ tags:
 - websocket
 - ajax
 - ws
+- polling
 ---
 
 # Websockets
 
 <TagLinks />
 
+Web IDL
+: Web IDL is an interface description language (IDL) format for describing application programming interfaces (APIs) that are intended to be implemented in web browsers.
+
+XHR - Xml HTTP Request
+: is an API, whose objects are provided by the browser's JavaScript environment.
+
 ## How to get realtime updates from server?
 
 1. Short Polling
-2. Long Polling
-3. Websockets
+2. Long Polling - poll and then wait for sometime, until server sends response
+3. Websockets - full duplex communication
 
 Send HTTP GET request via telnet
 
@@ -29,27 +36,22 @@ Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
 Sec-WebSocket-Protocol: chat
 ```
 
-Web IDL
-: Web IDL is an interface description language (IDL) format for describing application programming interfaces (APIs) that are intended to be implemented in web browsers.
-
-
-
 ## Websockets
 
-> HTTP is unidirectional
+> HTTP is unidirectional, **stateless**
 
 ```
 **ws**://www.google.com
 **wss**://www.google.com
 ```
 
-::: tip devtools
+::: tip devtools inspect ws
 Chrome -> devtools -> Netowrk tab -> WS
 :::
 
 
 * providing full-duplex communication channels over a single TCP connection
-* being standardize bu W3C in Web IDL
+* being standardize by W3C in Web IDL
 * works at Layer 7 in OSI model
 * 2 parts
   * Handshake to establish connection
@@ -57,10 +59,18 @@ Chrome -> devtools -> Netowrk tab -> WS
   * then actual data transfer
   * similar to network MAC Protocols, CSMA/CA
 * Nginx has supported WebSockets since 2013
+* Masks data from other connections
 
 ::: danger
 WebSocket servers must validate the "Origin" header against the expected origins during connection establishment, to avoid Cross-Site WebSocket Hijacking attacks
 :::
+
+Works in 3 stages
+
+1. Opening Handshake
+2. Data Exchange
+3. Close Connection
+
 
 ### Where and when websockets can be used?
 
@@ -144,6 +154,16 @@ c(no)->e
 *
 
 
+
+## Make realtime application that updates data from server?
+
+* Browserstack
+* pro.coinbase
+* financial exchanges
+* realtime news/social feeds
+* realtime chat
+* uber - watch cars moving
+
 ## How to implement and use WS?
 
 ### .NET Framework
@@ -151,11 +171,30 @@ c(no)->e
 * [Signal IR library](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets?view=aspnetcore-3.1)
 *  we recommend SignalR over raw WebSockets
    *  SignalR provides transport fallback for environments where WebSockets is not available
-   *
+* A variable which holds socket connection, initialized on document load
 
-## Make realtime application that updates data from server?
+* Sysnchronous vs Asynchronous principles
+* HTTP, XMLHTTPRequest and websockets concepts
+* Websocket API
+  * Methods
+    * send
+    * close
+  * Events
+    * open
+    * Message
+    * Error
+    * close
 
-* Browserstack
+## Socket Programming | Nettwork Programming
+
+> To build any networked application, we need socket Programming
+
+* Basics of TCP/IP Protocol connection
+* What and how do we program a connection?
+* Client Server Model
+* What are `requests` and `response`?
+* Which program generates them?
+* [^1]
 
 
 ::: warning Good Questions
@@ -171,11 +210,18 @@ c(no)->e
 [websockets]: https://en.wikipedia.org/wiki/WebSocket
 [RFC 6455 - websocket]: https://tools.ietf.org/html/rfc6455
 
+
 *[AJAX]: Asynchronous Javascript and XML
 *[WS]: Web Sockets
+*[ASP]: Active Server Pages
+*[XHR]: XML HTTP Request
 
 ### Resources
 
-* [websocket.org](https://www.websocket.org/index.html)
+1. [websocket.org](https://www.websocket.org/index.html)
+2. [XHR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
+3. [dotnet env websocket implementation](https://docs.microsoft.com/en-us/dotnet/api/system.net.websockets.websocket?view=netcore-3.1)
+
+[^1]: [Berkeley Sockets](https://en.wikipedia.org/wiki/Berkeley_sockets)
 
 <Footer />

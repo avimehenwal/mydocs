@@ -127,6 +127,11 @@ The original C# compiler wasn't written in C#, it was in C and C++. The new Rosl
 * How to create classes and instantiate objects from it?
   * class constructor
   * Access Modifiers
+    * Public
+    * Private
+    * Proteccted
+    * Internal
+    * Protected Internal
   * A property is like a combination of a variable and a method, and it has two methods: a get and a set method
 * Working with Files
 * [Dealing with Lists](https://www.learncs.org/en/Lists)
@@ -146,7 +151,7 @@ numbers.Add(1);
 $<Type> \ <Variable \ Name>$
 :::
 
-## 
+##
 
 
 ###### What is the difference b/w JS and ECMA?
@@ -189,6 +194,11 @@ Razor Pages makes use of the popular C# programming language for server-side pro
 ### Why need it? What can it do?
 
 
+* Anatomy of dotnet project
+* https://dotnetplaybook.com/
+* https://www.youtube.com/user/binarythistle/videos
+* Understand Request pipeline
+* Asynchronous programming with .NET
 
 
 ```
@@ -196,7 +206,34 @@ sudo snap install dotnet-sdk --channel 3.1/stable --classic
 
 ```
 
+## ASP
 
+* ASP uses server-side scripting to generate content that is sent to the client's web browser.
+* The ASP interpreter reads and executes all script code between <% and %> tags, the result of which is content generation. These scripts were written using VBScript, JScript, or PerlScript. The @Language directive, the <script language="manu" runat="server" /> syntax or server configuration can be used to select the language. In the example below, Response.Write Now() is in an HTML page; it would be dynamically replaced by the current time of the server.
+* ~ Templating engine
+* C# code blocks are enclosed in `@{ ... }`
+
+## MVC REST API application
+
+* DB Context
+* startup.cs is application entrypoint
+* How to set up a request pipeline?
+  * order how to add MIddleware is important
+* Interface - contract
+* Controller names are pluralised
+  * model - command, controller - CommandsController
+
+### Interfaces
+
+> class with Abstract methods
+
+* Representa a conract that an object may decide to support
+* Usually have names which are Adjectives, because modifying nouns
+* usually prefixed with capital **I**
+* How do you implement an interface?
+* What are they good for?
+
+Eg: IDrivable
 
 ### Resources
 
@@ -208,9 +245,11 @@ sudo snap install dotnet-sdk --channel 3.1/stable --classic
 [C#]: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
 [OOP]: https://en.wikipedia.org/wiki/Object-oriented_programming
 [.NET]: https://dotnet.microsoft.com/
+[ASP]: https://en.wikipedia.org/wiki/Active_Server_Pages
 
 
 *[SSE]: Server Sent Events
 *[OOP]: Object Oriented Programming
+*[ASP]: Active Server Pages
 
 <Footer />
