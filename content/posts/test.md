@@ -10,6 +10,9 @@ tags:
 
 blank
 
+<Dot />
+<!-- <Dot code="digraph {a -> b -> c}" /> -->
+
 ## Badge
 
 <Badge text="warning" type="warning"/>
