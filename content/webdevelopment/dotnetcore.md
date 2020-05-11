@@ -235,6 +235,23 @@ sudo snap install dotnet-sdk --channel 3.1/stable --classic
 
 Eg: IDrivable
 
+## Installation
+
+Install multiple runtimes
+
+```
+sudo ./dotnet-install.sh -v 2.2.107 --install-dir /usr/share/dotnet --dry-run
+dotnet tool install -g Microsoft.Web.LibraryManager.Cli
+```
+
+### CORS
+
+```
+Error during WebSocket handshake: Unexpected response code: 404
+```
+
+* request headers could be hacked and modified
+
 ### Resources
 
 * [stackoverflow - .net-core](https://stackoverflow.com/questions/tagged/.net-core)

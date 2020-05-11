@@ -5,6 +5,7 @@ tags:
 - ajax
 - ws
 - polling
+- socket
 ---
 
 # Websockets
@@ -184,6 +185,7 @@ c(no)->e
     * Message
     * Error
     * close
+* [How SignalR library works internally](https://stackoverflow.com/questions/7807066/how-signalr-works-internally)
 
 ## Socket Programming | Nettwork Programming
 
@@ -194,8 +196,12 @@ c(no)->e
 * Client Server Model
 * What are `requests` and `response`?
 * Which program generates them?
-* [^1]
 
+## Berkley's Socket API
+
+* What are [Socket]? to be specific Berkley Sockets
+* [Are GPC different from sockets?](https://stackoverflow.com/questions/46128598/what-is-the-difference-between-socket-and-rpc)
+  * Yes, RPC are meant for OS whereas sockets are for communication b/w computers over the network
 
 ::: warning Good Questions
 
@@ -209,6 +215,7 @@ c(no)->e
 
 [websockets]: https://en.wikipedia.org/wiki/WebSocket
 [RFC 6455 - websocket]: https://tools.ietf.org/html/rfc6455
+[Socket](https://en.wikipedia.org/wiki/Berkeley_sockets)
 
 
 *[AJAX]: Asynchronous Javascript and XML
@@ -221,7 +228,7 @@ c(no)->e
 1. [websocket.org](https://www.websocket.org/index.html)
 2. [XHR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 3. [dotnet env websocket implementation](https://docs.microsoft.com/en-us/dotnet/api/system.net.websockets.websocket?view=netcore-3.1)
+4. [Free book on operating system](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
-[^1]: [Berkeley Sockets](https://en.wikipedia.org/wiki/Berkeley_sockets)
 
 <Footer />
