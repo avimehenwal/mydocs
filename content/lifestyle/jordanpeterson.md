@@ -20,6 +20,9 @@ malevolent
 innocuous
 : not harmful or offensive.
 
+contempt
+: the feeling that a person or a thing is worthless or beneath consideration.
+
 ## Interviews
 
 * Meaning that sustains in life is mostly to be found through responsibility and voluntary adoption of responsibility, from where you are most likely to find your fundamental strength
@@ -75,6 +78,88 @@ MAD - Mutual Assured Destruction
 * Dianosaur vision - if you move, dinosaur can see you
   * efficcient use of limited resources
 * Reson we have coloured vision is because to detect RIPE fruit
+
+Everytime I have been pushed into a corner adn remained composed, the narrative reversed
+I have learnt how to monetize social justice warriors
+
+## Talk
+
+* Social hierarchies have been around for a 3rd of billion years old
+  * Lobsters analogy
+  * give [Serotonin] to a defeated lobster and it will fight again
+  * hierarchy determines ration of negative to positive emotions
+* The part of your brain that detects and regulates your response to hierarchy is older than the part of your brain that recognizes trees. Its really really fundamental
+* What predicts success in western hierarchy?
+* Reciprocity - how would you like to be treated?
+  * often people would treat others better than themselves
+  * Medication of your dog, verse your medication. you might even skip you medication but would feed dog regularly
+* Why people dont like themselves very much?
+  * We are fragile, damagable and imperfect in multiple dimensions
+  * prone to temptations, we carry all our memories from the past
+  * you are capabile of pretty vicious acts of malevolence
+  * Real existential question of Why the hell you should take care of something as sorry and wreched as you are?
+  * Act as if you genuinly care for yourself? You have something valuable to bring to the society
+* You have ethical responsibility to take care of yourself.
+* Compare yourself to who you were yesterday, not to someone else is today
+* People are so interesting because they are so peculiar if you listen to them, they are like peinguins and ostriches and rhinosaures and unlikey creatures
+* Most of the creative products are distributed in [Pareto distribution]
+  * 20% of employees do 80% of the work
+  * 20% of customers are responsible for 80% of sales
+  * In a given domain square root of people opearint in that domain do half the productive work
+    * for 10 employees 3 do half od the work
+    * for 100 -> 10 do half of the work
+    * for 1000 -> 30
+    * for 10,000 -> 100
+  * ironclad rule, applies to size of stars and size of cities
+  * [Pareto distribution] of wealth in society
+    * any creative product has this characterstics, music records
+* There will always be inequality, there will always be people around who will be better in something than you are
+* Do something to make yourself better today for tomorrows you
+  * define better yourself
+  * incremental improvement are unstoppable [Pareto distribution] kind like effect
+  * How can I conceive of my life so that if I had that life it would be clearly worth living, so I would not have to be bitter, resentful, deceitful, arrogant and vengeful. Bottom Life
+  * What would make this worthwile?
+  * He who as a WHY can bear almost any HOW
+* The roots of dark side of humanity reaches upto the depth of the hell
+  * Rape of Nanking
+  * Nazi Germany - Auschwitz
+  * there is a Dragon that lives inside you, Do you want to wake the dragon?
+* Open you bloddy eyes, and if they do something that you would like to do them again, then you tell them how much you appretiate that that happened and you help that it replicates
+  * whatch - when they do something they should do more of, say hey look, I saw you did this specific thing and it took some effort , heres what it meant and heres how I observed it. Please keep that up. you do it for them
+* successful parent IF => all sorts of other children want to play with him/her at 4
+  * Now your child can play with anyone, whole world or children is open to them
+  * Play/GAME is how people develop
+* Biography Carl Panzram - serial killer
+* [Columbine High School massacre](https://en.wikipedia.org/wiki/Columbine_High_School_massacre)
+  * There are over 300 shootings everyday in united states
+  * Resentment could be a great motivation
+  * Resentment could also be a great Teacher, first admit that it exists,
+    * then grow the hell up
+    * Meditate over it
+    * I hope there is something wrong me, because the way I look at it, either something is wrong witht the world or with me
+      * with me, upside is you can take some actions to change
+* Do what is meaningful and not what is expedient
+* The way to stop being nazis is for you to know that the nazis were you, and for you to decide not to do that again, rellizing that it might be enjoyable for some people
+* What you dont know is more important than what you know - humility
+  * continually transforming fool, humble enough to make friends with people you doesnt know
+  * Listening - people think by talking, ask GOOD questions
+  * Summarize their argument for them, useful for both
+    * Straw man - avoid
+* How many civilized countries are there in the world - maybe 3 dozen, rest of of them are run by brutal thugs
+  * eBay - honest transactions
+  * default honesty
+* serious illness inflicted on a child, people you love, what you do it in crisis situation?
+  * test of your faith, overwhelmend by crisis
+  * people are lot tougher than they think
+  * Pat a cat [siamese cat](https://www.google.com/search?q=siamese+cat)
+  * there is a big gap between tragedy and hell
+* Make the world a better place, because we do not have anything better to do
+* Stop talking to people who arent listening to you and start watching them, when you watch them they will tell you what they are upto
+* A good person is someone who is trying to get better
+  * We learn things painfully
+  * when we learn something, a part of you has to die and reborn
+
+
 
 ## Belief System
 
@@ -195,6 +280,43 @@ Learn and cahnge on daily baises
 * Could I do this? and then could I do it better?
   * incremental improvement
 * Watch yourself like a snake, as if you dont know who you are, completely ignorant
+
+## IQ Debate
+
+* General cognitive ability
+* trait Consciousness
+* Their isnt job for everyone, you cannot train anyone to do anything
+* 10% of the people have IQ of 83 and less
+  * there isnt anything for 10% of people to do
+  * simply dumping money at people isnt helpful
+* Average [Ashkenazi] Jews IQ is higher than 85% of the population
+* Albert Einstein IQ 160
+
+$IQ = \frac{Mental \; Age}{Physical \; Age} × 100$
+
+* OCEAN Personality Test
+*
+
+## Todos
+
+* :100: https://understandmyself.com/
+* :100: https://courses.jordanbpeterson.com/personality
+* :100: https://selfauthoring.com/self-authoring-suite-2-for-1-special
+
+### References
+
+* [Ashkenazi](https://en.wikipedia.org/wiki/Ashkenazi_Jews)
+* [Conscientiousness](https://en.wikipedia.org/wiki/Conscientiousness)
+* [UnderstandMyself](https://youtu.be/4IdzC6mJzLA)
+* [Serotonin](https://en.wikipedia.org/wiki/Serotonin)
+* [Pareto distribution](https://en.wikipedia.org/wiki/Pareto_distribution)
+*  [SolzheniAleksandrtsyn](https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn)
+
+
+
+[IQ]: https://en.wikipedia.org/wiki/Intelligence_quotient
+
+*[IQ]: Intelligence quotient
 
 
 <Footer />
