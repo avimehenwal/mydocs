@@ -13,6 +13,19 @@
                 ">",
                 "${workspaceFolder}/.vuepress/public/${fileBasenameNoExtension}.svg"
             ]
+        },
+        {
+            "label": "yarn docs:dev",
+            "type": "shell",
+            "command": "yarn",
+            "args": ["docs:dev"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "vuepress build content"
         }
+
     ]
 }

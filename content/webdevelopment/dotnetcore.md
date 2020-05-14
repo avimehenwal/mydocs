@@ -158,11 +158,9 @@ $<Type> \ <Variable \ Name>$
 
 https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5/
 
-## React
+### Related Pages
 
-* javascript libraty
-* maintained by facebook
-* react-md
+[React js framework](./react.md)
 
 ###### How to update UI when server data has changed
 
