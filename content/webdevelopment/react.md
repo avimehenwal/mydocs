@@ -3,7 +3,7 @@ title: React Javascript Framework
 tags:
 - react
 - javascript
-- Framework
+- framework
 ---
 
 # React Javascript Framework
@@ -19,9 +19,30 @@ tags:
   * React router
 * React Hooks
 * React native to build native mobile apps
+* [MV-VC Model](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
 * [CRA - Creatre react app](https://create-react-app.dev/docs/getting-started)
   * less to learn about react build toolchains
 * [How to solve npm, node and dotnetcore version problem? Use yarn with dotnet](https://stackoverflow.com/questions/60794367/asp-net-core-3-1-integration-with-npm)
+* Is it a js framework? or a js library?
+* Components have its own states
+
+## How to learn
+
+* javascript ES6 (Objects, Arrays, Conditionals, Classes, types, async await, Promises, arrow fn, destructuring)
+* Components have states
+* states can be updated on certain browser events
+* Anatomy of a Component
+  * component extends to `React.Component` Class
+  * `render()` lifecycle method returns `JSX`
+* [React developer tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en)
+* create-react-app is like a CLI
+* react-scripts - webpack magic
+  * eject - if you want to customize webpack files
+* How data and props are added to components?
+  * each componet have state Object
+  * this.props.todos.map((todo) => (<h3>{ todo.title }</h3>))
+
+[Is there a limit on # files git can track?](https://stackoverflow.com/questions/984707/what-are-the-file-limits-in-git-number-and-size)
 
 ###### How HTTP works?
 
