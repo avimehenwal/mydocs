@@ -43,7 +43,7 @@ In June 2011, ECMAScript 5.1 was released
 In June 2015. ECMAScript 2016 was released
 The current version is ECMAScript 2017 which was released in June 2017
 
-![Javascript vs Typescript google trends results for last 5 years](/public/google-trends.png)
+![Javascript vs Typescript google trends results for last 5 years](/webdevelopment/google-trends.png)
 
 * Programming Languague maintained by Microsoft
 * Adds [static type checking](https://en.wikipedia.org/wiki/Type_system#STATIC) to javascript
@@ -68,6 +68,25 @@ Would you rather have **silly** errors during development or insanity induced er
   * watch the files?
   * lib -include native dom classes in your applications
     * get free vscode autocomplete and intellisense
+* Programming Languagues
+  * Static Types
+    * Static typing means that types are known and checked for correctness before running your program.
+  * Dynamic Types
+    * Dynamic typing means that types are only known as your program is running.
+  * https://stackoverflow.com/questions/20563433/difference-between-static-and-dynamic-programming-languages
+*
+
+```
+public void foo() {
+    int x = 5;
+    boolean b = x;
+}
+
+def erroneous():
+    s = 'cat' - 1
+
+print('hi!')
+```
 
 tsc hello.ts -> hello.js        // vanilla
 
@@ -128,6 +147,28 @@ console.log([foo, bar, baz])
 // Equivalent of array push
 pokemon = [...pokemon, 'Balbasaur']
 ```
+
+## Advanced typescript
+
+* Advanced types
+* Intersection Types
+*
+
+```ts
+type Duck = Quackable & Swimmable;
+type Flyable = Eagle | Butterfly;
+```
+
+## Functional Programmming
+
+::: tip
+$Mathematics \simeq	Programming$
+:::
+
+* Look at the parameters, and generate output
+* Persisatant data structures
+* https://files.gotocon.com/uploads/slides/conference_12/546/original/functional-programming%20%20russ%20olsen.pdf
+*
 
 ### References
 
