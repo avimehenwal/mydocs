@@ -55,6 +55,11 @@ tags:
   * ideal self, ideal world, ideal life, ideal government!
     * everyone is well taken care of
 * What did you learn in this session and how do you see yourself applying it in your life?
+* In yoga, human intelligence is looked as 16 parts
+* if you are in a jungle, you have to walk all thorough by yourself
+  * and for that we need vigor, strength, vitality
+  * not belief in god or goodness
+  * belief has no place when truth is concerned
 
 ::: tip What are you?
 $you = body + mind + emotion +energy$
@@ -76,6 +81,12 @@ If your life energy become very pleasent | Ecstacy
 
 congruent
 : in agreement or harmony.
+
+::: tip Spiritual Process
+Spiritual prodcess is not a belief system, not an idealogy, not a philosophy.
+It is when your experience of life is little more than your physical nature
+:::
+
 
 ### The only bondage
 
