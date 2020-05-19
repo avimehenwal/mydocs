@@ -328,6 +328,18 @@ responsibility
 5. Take Actions
 6. Meditate - listen to yourself
 
+## Archetype
+
+[Archetype](https://en.wikipedia.org/wiki/Archetype)
+: Pattern of behaviour thats grounded in biology. So its the behaviour itself
+
+meme
+: that which is copied
+
+* Idea of Archetype of dominance is older than our ability to percieve trees
+* 
+
+
 ## CBT
 
 [CBT - Cognitive behaviour therapy](https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy)
