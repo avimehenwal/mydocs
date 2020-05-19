@@ -295,7 +295,82 @@ Learn and cahnge on daily baises
 $IQ = \frac{Mental \; Age}{Physical \; Age} × 100$
 
 * OCEAN Personality Test
-*
+
+## Responsibility
+
+* take responsibility for everything in Life
+  * you cannot control everything in life, STILL give it a try
+* do not complain and play blame game
+* Everythign is your fault, even when its not
+* Responsibility is never given, its taken
+* Old testament, when elohim punished jews (which happened pretty frequently)
+  * they took responsibility, maybe we have been doing something wrong
+* You are the CEO, CTO, CFO of your life. Be the architect
+* We are living in the most crowded network ever, I am not entitles to any attention, no leverage
+  * if we dig deep, we might get some attention
+* If you are waiting for the perfect horse on that carasoul, you have missed 3,4 ... 7 cycles, all the horses are just as good
+* It never gets easier, it never gets fun and gravity also sucks
+* Act like a NON-Commodity
+* Bell curve, normal distribution. Understand people differently
+* Responsibility, its a happy place to think about
+
+power
+: the capacity or ability to direct or influence the behaviour of others or the course of events.
+
+responsibility
+: the state or fact of having a duty to deal with something or of having control over someone.
+
+1. Set an intent
+   1. you maynot know how? But a image of what you want in the end can steer yourlife
+2. Pay Attension
+3. Attitude to Life
+4. Affection and Compassion, share Happyness
+5. Take Actions
+6. Meditate - listen to yourself
+
+## CBT
+
+[CBT - Cognitive behaviour therapy](https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy)
+
+1. examine thoughts, feelings and behaviours
+2. breaking down to your core beliefs, what would that mean? technique
+ 1. man I am not capabile?
+ 2. I am worthless?
+3. Determine the Template for core belief
+ 3. worthless people try to prove their worth, look my new job, look my new car etc
+4. Once issue is identified, Come to problem solving phase
+ 4. Core beliefs feels pervasive, we want to make them more conditional
+ 5. Design experiment to challenge an assumption
+
+![Cognitive Model](https://www.researchgate.net/publication/283165936/figure/fig1/AS:453767574364160@1485198028315/Becks-Cognitive-Model.png)
+
+* CBT is a "problem-focused" and "action-oriented" form of therapy, meaning it is used to treat specific problems related to a diagnosed mental disorder.
+* Same situation could be interpreted in muktiple ways by us.
+* We have very little control over environment around us, but we do have control how we intreprete the life
+* Empirical and scientific approach
+* Problem oriented - Guided discovery , Socratic Questioning
+* Catch it, Check it, Change it - **The 3 C's**
+* Cognitive techniques
+  * what thoughts you have about something
+* Behavioural techniques
+  * going out in world and experimenting
+* Design a intervention technique based on problem
+* Research says, loss of parent in childhood, makes you more vurnable to for the development of depression in adulthood
+* Self sabotage is aprocess that is tied into our Biology, and our evolutionary roots.
+  * That is why most us cannot escape it to some degree.
+  * self sabotage switch turn ON, if you start thinking more about avoiding threat than thinking about attaining rewards
+  * In modern day, threat is not polar bear, saber tooth tiger, what is I do not et the job? what if everyone laughs at me? what if person I ask for a date rejects me?
+  * Havent developed to the point of distinguishing physical threat from emotional threat. So [fight or flight response gets trigerred](https://en.wikipedia.org/wiki/Fight-or-flight_response)
+  * people stop thinking about rewards and avoid it more and more and falls into the loop
+* get unstuck, so that you do not suck at Life
+* [narcissistic abuse](https://en.wikipedia.org/wiki/Narcissistic_abuse)
+
+
+![Cognitive model example](/screenshots/cognitive-model-example.png)
+
+<Quote text="If you want to put out a fire, you need to tackle the elements keeping the fire going - heat, fuel, oxygen, rather than looking for the spark that started the fire" />
+
+![How to approach a CBT case](/screenshots/CBT-case.png)
 
 ## Todos
 
@@ -310,7 +385,8 @@ $IQ = \frac{Mental \; Age}{Physical \; Age} × 100$
 * [UnderstandMyself](https://youtu.be/4IdzC6mJzLA)
 * [Serotonin](https://en.wikipedia.org/wiki/Serotonin)
 * [Pareto distribution](https://en.wikipedia.org/wiki/Pareto_distribution)
-*  [SolzheniAleksandrtsyn](https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn)
+* [SolzheniAleksandrtsyn](https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn)
+* [CBT Introduction](https://youtu.be/4edinfIt5QM)
 
 
 

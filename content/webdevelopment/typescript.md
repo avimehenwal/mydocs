@@ -74,9 +74,13 @@ Would you rather have **silly** errors during development or insanity induced er
   * Dynamic Types
     * Dynamic typing means that types are only known as your program is running.
   * https://stackoverflow.com/questions/20563433/difference-between-static-and-dynamic-programming-languages
+<<<<<<< HEAD
 * [Meaning of `<T>`](https://www.typescriptlang.org/docs/handbook/generics.html)
   * Type variable
   * better than `arg: any`
+=======
+*
+>>>>>>> 2343fc00e75720d715ce6d1b851df8d42f3948d1
 
 ```
 public void foo() {
