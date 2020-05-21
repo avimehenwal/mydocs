@@ -254,7 +254,17 @@ raw meat          | 70-72 hrs
 $Suffering \propto distance \, from \, Truth$
 :::
 
+## Mind - The Miracle
 
+* If you accept something as yourself, it becomes a part of you
+  * feeble boy carrying eavy rifle in NCC camp
+* As ocean is a part of drop, drop is a part of ocean
+
+## How to face fear and self doubt
+
+* you and exitence, in every possibilities there are all kinds of forces
+* fear, anxiety are your own thoughts and Emotions
+* understand thouself, rise through consciousness
 
 ## Occult
 
@@ -269,6 +279,27 @@ Time Stamps:
 8. The Book of Lies - 12:38
 9. 777 - 13:12
 10. Liber ABA - 14:12
+
+## Old Testament
+
+> [Old testament timeline](http://storage.cloversites.com/millcitychurch2/documents/OThistoryfinal.pdf)
+
+* Genesis and creation
+  * Adam and Eve and forbidden fruit
+* Noah and his Arc
+  * Noah's descendents
+  * Jacob - Isreal
+  * Issac
+* Moses
+  * Mt Sinai - 10 commendments
+* David defeats Goliath
+  * Sons Solomon
+* Jews - Babylonian Exile
+* Alexander takes whole known world (at that time) in 7 years
+* Roman Empire
+* Jesus was born and there comes the New Testament
+
+
 
 ### Resources
 
