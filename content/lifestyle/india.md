@@ -12,6 +12,7 @@ tags:
 
 > Worlds largest democracy
 
+* Has always been a country for everybody
 * Only culture on planet which constantly told you, you life is your karma (doing)
 * 9th centuary, invention of gunpowder in china, The Great Wall
 * Ours is a oral culture, things have been passed down from generation to generation orally
@@ -51,6 +52,27 @@ tags:
   * world wears american workers clothes
   * if they wear torn clothes, entire world imitates
   * If they drink CO2, entire world does. Every child knows we need O2 and not CO2
+* Nations
+  * Hard power
+  * Soft Power
+    * beijing olympics
+* Biggest telecommunication market in the world
+  * 15 Million cell phones a month
+  * empowerment of underclass is the real result of interconnect
+  * Afganistan - india does not have a military mission there
+    * 8:30 kyoki saash bhi kabhi bahu thee broadcast
+* Ayurveda
+* Story of civilization, been a open society for millenia
+  * gave refuge to Jews after the destruction of solomon temple by babylonians
+    * first recorded religion to came to india
+    * [lived without any anti-semitism](https://en.wikipedia.org/wiki/History_of_the_Jews_in_India)
+* Extraordinary Phenomenon
+  * election won by a woman political leader of italian origin and roman catholic faith
+  * made way fro sikh manmohan singh
+  * to be sworn in as PM by muslim PM kalam
+  * in a country 81% hindu
+* India is an idea of ever ever land
+* We are super power and super power, we cannot be both
 
 ::: tip Indian culture
 
@@ -62,6 +84,8 @@ tags:
 * Birthplace of Hinduism
 * **7th** Largest country by area
 * **2nd** largest country by popullation
+  * Overtake china by 2034
+* Worlds 4th largest army
 * Birthplace of many religions
   * Hinduism
   * Jainism
@@ -82,6 +106,7 @@ tags:
   * Kuchipudi
   * Odissi
 * Lotus is important
+* 23 Languages
 :::
 
 
@@ -171,7 +196,24 @@ tags:
 * Without india and afric. Europe would be 3rd world nations.
 * British  looted in India approximate 45 trillion dollars in 200 year.
 
+## [SWOT] Analysis on India
 
+* nation is made up of citizens, so make better citizens
+* Limbs of Nations
+  * Executive
+  * Judiciary
+  * military
+  * Civil Services
+* Peoples aspiration should keep alive, not an empty dream
+  * nationals aspiration to be peoples aspiration and peoples aspiration as nations aspiration
+* We have been trading with the rest of the world for over 10,000 years
+* If you dont pride in what you are, you will want to run away
+* Just 250 years ago we were the largest economy, whole of europe was thursting to come to india
+  * wealtiest nation
+  * knowledgable country
+  * everyone wanted to be here
+* Vibration of sun matches when you utter the word AUM
+* We were the largest traders and exportes for 1000s of years
 
 
 
@@ -188,7 +230,12 @@ tags:
 [Bhishma]: https://en.wikipedia.org/wiki/Bhishma
 [Duryodhana]: https://en.wikipedia.org/wiki/Duryodhana
 [Hastinapur]: https://en.wikipedia.org/wiki/Hastinapur
+[SWOT]: https://en.wikipedia.org/wiki/SWOT_analysis
 
 [Ramayana]: https://en.wikipedia.org/wiki/Ramayana
+
+### References
+
+* [5000 years of India history](https://youtu.be/NFczNHrbXB0)
 
 <Footer />
