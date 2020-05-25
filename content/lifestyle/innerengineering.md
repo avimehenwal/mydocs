@@ -440,7 +440,6 @@ People who read 1 book become religious
    2. you can hold back your hands, but you cannot hold back your mind
    3. Your morality will not evolve you into a higher human being
 
-
 ## Yoga Practises
 
 ## Ascended master / Enlightned beings
