@@ -25,6 +25,18 @@
             },
             "problemMatcher": [],
             "detail": "vuepress build content"
+        },
+        {
+            "label": "yarn docs:build",
+            "type": "shell",
+            "command": "yarn",
+            "args": ["docs:build"],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "vuepress build content"
         }
 
     ]

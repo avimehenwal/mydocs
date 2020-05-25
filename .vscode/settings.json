@@ -4,6 +4,7 @@
     "cloud",
     "content",
     "component",
-    "theme"
+    "theme",
+    "build"
   ]
 }

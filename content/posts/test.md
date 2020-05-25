@@ -10,7 +10,7 @@ tags:
 
 blank
 
-<Dot />
+<!-- <Dot /> -->
 <!-- <Dot code="digraph {a -> b -> c}" /> -->
 
 ## Badge
