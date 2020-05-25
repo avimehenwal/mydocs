@@ -11,7 +11,6 @@ tags:
 <TagLinks />
 
 dot language parser
-<Dot />
 
 * Emojis area rendered as standard Unicode in browser
 * [twemoji](https://twemoji.twitter.com/)

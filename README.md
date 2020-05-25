@@ -1,11 +1,14 @@
 # Myblog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4ea6ec54-cf27-4f40-8f98-86784d974260/deploy-status)](https://app.netlify.com/sites/avi-docs/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4ea6ec54-cf27-4f40-8f98-86784d974260/deploy-status)](https://app.netlify.com/sites/avimehenwal2/deploys)
+
+
+Welcome to My Blog v2 source :100:
 
 
 #### Get in touch with me
 
-> I am always looking for Jobs ... :sunglasses:
+> I am looking for Jobs ... :sunglasses:
 
 * [Github](https://github.com/avimehenwal/)
 * [My Website](https://avimehenwal.in)
