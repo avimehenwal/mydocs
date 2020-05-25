@@ -152,6 +152,8 @@ module.exports = {
     '@vuepress/pwa',
     'flowchart',
     'check-md',
+    // default forest dark
+    [ 'vuepress-plugin-mermaidjs', { theme: 'forest'}],
     [ 'disqus', { shortname: 'mydocs-1' } ],
     ['@dovyp/vuepress-plugin-clipboard-copy', true],
     [ '@vuepress/google-analytics', { 'ga': process.env.GA } ],

@@ -28,6 +28,7 @@
     "vuepress-plugin-flowchart": "^1.4.3",
     "vuepress-plugin-mailchimp": "^1.4.2",
     "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-mermaidjs": "^1.5.1",
     "vuepress-plugin-seo": "^0.1.2",
     "vuepress-plugin-social-share": "^0.2.1"
   },
