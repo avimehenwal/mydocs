@@ -105,7 +105,6 @@ module.exports = {
     smoothScroll: true,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Tags', link: '/tags.html' },
       {
         text: 'Categories',
         ariaLabel: 'Language Menu',
@@ -119,8 +118,14 @@ module.exports = {
           { text: 'Generic Blog Posts', link: '/posts/' },
           { text: 'Rough Notes', link: '/notes/' },
           { text: 'Lifestyle', link: '/lifestyle/' },
+          { text: 'Business', link: '/business/' },
+          { text: 'Entrepreneurship', link: '/entrepreneurship/' },
+          { text: 'Language', link: '/language/' },
+          { text: 'Mathematics', link: '/maths/' },
+          { text: 'Tools', link: '/tools/' },
         ]
       },
+      { text: 'Tags', link: '/tags.html' },
       // {
       //   text: 'Languages',
       //   ariaLabel: 'Language Menu',
