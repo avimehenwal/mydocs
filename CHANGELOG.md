@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/avimehenwal/mydocs/compare/v2.0.1...v3.0.0) (2020-05-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **build:** :rotating_light: Broken component
+
+### Bug Fixes
+
+* **build:** :rotating_light: Broken component ([51b0c1a](https://github.com/avimehenwal/mydocs/commit/51b0c1a9c65467aa948f20603224354d2ee80de2))
+
 ### [2.0.1](https://github.com/avimehenwal/mydocs/compare/v2.0.0...v2.0.1) (2020-05-25)
 
 ## [2.0.0](https://github.com/avimehenwal/mydocs/compare/v1.1.2...v2.0.0) (2020-05-25)
