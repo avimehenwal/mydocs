@@ -1,0 +1,24 @@
+digraph mindmap {
+  bgcolor="transparent"
+  label = "Mindmap"
+
+  node [fontsize=20 style=filled colorscheme=set312]
+  edge [fontsize=15 style=tapered penwidth=20 arrowhead=none ]
+
+  Puppeteer [fillcolor="4:6" fontsize=30 ]
+  a [fillcolor=1 label="Browser"]
+  b [fillcolor=2 label="BrowserContext"]
+  c [fillcolor=3 label="Page"]
+  d [fillcolor=5 label="Worker"]
+  e [fillcolor=6 label="Accessibility"]
+  f [fillcolor=7 label="Keyboard"]
+  g [fillcolor=8 label="Mouse"]
+  h [fillcolor=9 label="Touchscreen"]
+  i [fillcolor=10 label="ExecutionContext"]
+  j [fillcolor=11 label="JSHandle"]
+  k [fillcolor=12 label="ElementHandle"]
+  l [fillcolor=1 label="CDPSession"]
+  m [fillcolor=2 label="Coverage"]
+
+  Puppeteer -> {a b c d e f g h i j k l m}
+}

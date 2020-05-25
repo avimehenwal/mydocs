@@ -14,14 +14,16 @@ tags:
 
 * Trees data structure can represent some form of <mark>hierarchy</mark>
 * A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more sub-trees.
-* Tree is a acyclic connected graph
+* Tree is a **acyclic** connected graph
   * If not connected, could be a **forest**
 
-$Tree = <Vertices, Edges>$
+::: tip Tree Definition
+$Tree = \, < \{ Vertices \}, \{ Edges \} >$
 
-In every tree $T$, Maximum number of edges $|E|$ = number of vertices $|V|$ minus 1
+For every tree $T$, Maximum number of edges $|E|$ = number of vertices $|V|$ minus 1
 
-$|Edges| = |Vertices| - 1$
+$Tree \iff	|Edges| = |Vertices| - 1$
+:::
 
 proof by Induction
 
@@ -39,7 +41,7 @@ Eg: `{(a,b), (b,c), (a,c)}`
 
 ![A Isomorphic Tree examples](/diagrams/isomorphicGraph.svg)
 
-::: tip Graphs
+::: danger Graphs
 All Trees are graphs, but all graphs are **not** tree.
 
 why? because trees are **Acyclic**, meaning cannot have cycles

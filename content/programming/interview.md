@@ -44,3 +44,8 @@ Nailing down the technique to solve algorithm questions
 * Sorting algorithms
 * Hashmaps and sets
 * Stacks and queues
+
+### How to justify gap in employment
+
+You might have lost touch with your skills during unemployment time
+

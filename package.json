@@ -1,6 +1,6 @@
 {
   "name": "mydocs",
-  "version": "1.1.2",
+  "version": "2.0.1",
   "description": "simple documentation website",
   "main": "index.js",
   "repository": "git@github.com:avimehenwal/mydocs.git",
@@ -28,17 +28,25 @@
     "vuepress-plugin-flowchart": "^1.4.3",
     "vuepress-plugin-mailchimp": "^1.4.2",
     "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-mermaidjs": "^1.5.1",
     "vuepress-plugin-seo": "^0.1.2",
     "vuepress-plugin-social-share": "^0.2.1"
   },
   "dependencies": {
     "@dovyp/vuepress-plugin-clipboard-copy": "^1.0.0-alpha.7",
+    "@hpcc-js/wasm": "0.3.13",
+    "d3": "^5.16.0",
+    "d3-graphviz": "^3.0.5",
+    "debounce": "^1.2.0",
     "dotenv": "^8.2.0",
+    "firebase": "^7.14.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-footnote": "^3.0.2",
     "viz.js": "^2.1.2",
     "vue-google-charts": "^0.3.2",
+    "vue-resource": "^1.5.1",
+    "vuefire": "^2.2.2",
     "vuepress-plugin-google-tag-manager": "^0.0.4",
     "vuepress-plugin-reading-progress": "^1.0.9",
     "vuepress-plugin-sitemap": "^2.3.1"

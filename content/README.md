@@ -4,7 +4,7 @@ heroImage: /logo2.svg
 heroText: Avi Mehenwal's Blog v2
 # tagline: Notes by Me
 actionText: Explore Mystery →
-actionLink: /posts/
+actionLink: /programming/
 # features:
 # - title: Simplicity First
 #   details: Minimal setup with markdown-centered project structure helps focus on writing.

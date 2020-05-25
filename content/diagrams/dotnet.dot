@@ -1,0 +1,22 @@
+digraph mindmap {
+  bgcolor="transparent"
+  overlap = scale
+  label = "dotnet Mindmap"
+
+  node [style=filled colorscheme=set312]
+  edge [style=tapered penwidth=20 arrowhead=none ]
+
+  root [fontsize=20 fillcolor="4:6" shape=box style="rounded,filled"
+  label="dotnet core f/w" width=2]
+  a [fillcolor=1 label="web apps \n SPA"]
+  b [fillcolor=2 label="micro-services"]
+  c [fillcolor=3 label="CLI tools"]
+  d [fillcolor=5 label="IoT"]
+  e [fillcolor=9 label="mobile backends"]
+  f [fillcolor=7 label="Desktop applications"]
+  g [fillcolor=8 label="Games"]
+  h [fillcolor=10 label="Virtual Reality"]
+
+  root -> {a b c d e f g h}
+
+}
