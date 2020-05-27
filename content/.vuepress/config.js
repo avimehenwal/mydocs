@@ -123,6 +123,7 @@ module.exports = {
           { text: 'Language', link: '/language/' },
           { text: 'Mathematics', link: '/maths/' },
           { text: 'Tools', link: '/tools/' },
+          { text: 'Operating Systems', link: '/operatingsystem/' },
         ]
       },
       { text: 'Tags', link: '/tags.html' },
