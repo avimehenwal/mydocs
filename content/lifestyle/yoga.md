@@ -123,8 +123,10 @@ where, $Time \, is \, constant$
 unsolicited
 : not asked for; given or done voluntarily.
 
+
 ### References
 
 * [Kriya Yoga](https://en.wikipedia.org/wiki/Kriya_Yoga)
+* [Yogic Diet](http://www.yogadiet.com.au/wp-content/uploads/YogaDiet.pdf)
 
 <Footer />
