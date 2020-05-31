@@ -11,6 +11,10 @@ tags:
 
 <TagLinks />
 
+* History of SaaS
+* 
+
+
 ## How to build a SaaS?
 
 > lucrative market for Software-as-a-Service (SaaS) that is expected to cross the $50 billion mark in the next 10 years,
@@ -61,5 +65,8 @@ freemium - free version with limited features with the ability to upgrade
 pricing per active user - when you charge per user for the entire product
 flat rate - when you offer the entire product or bundle of features under one price, paid on a monthly or yearly basis
 
+* Fundamentals are important for a reason
+* Understand your numbers
+* for the love of your god talk to your customers
 
 <Footer />

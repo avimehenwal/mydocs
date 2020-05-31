@@ -63,7 +63,8 @@ Equation in capatalist society $Money \propto Percieved \; Value$
   * UK Cambridge Analytica
 * You data is not yours anymore
 * GDPR - EU regulation passed in 2016 to protect personal data
-* 
+
+* How to pregress through life, when you dont have dreams for yourself
 
 
 ### Resources
