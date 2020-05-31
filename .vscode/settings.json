@@ -5,6 +5,7 @@
     "content",
     "component",
     "theme",
-    "build"
+    "build",
+    "hosting"
   ]
 }
