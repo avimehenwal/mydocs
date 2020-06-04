@@ -13,6 +13,20 @@ tags:
 
 ## Path Of Spirituality
 
+::: warning Miracle
+Like love $Boom= Thought + Emotion$
+
+$$Miracle =Idead + Emotion + Life /, Energies$$
+:::
+
+* Life in itself is a big miracle, are you in it or outside?
+* Intelligence doesnt believe anything, fear binds it
+* Devoution and Fear and polar opposites and cannot exist together
+* People respecting you is the quality of people around you
+* Put a pin in your head. So that you do not forget after having a good meal
+* Be alturistic rather than egotististic, goes against animal instinct.
+
+
 ## Inner Engineering
 
 ### Mechanics of life
