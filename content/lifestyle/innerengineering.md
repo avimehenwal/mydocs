@@ -11,6 +11,12 @@ tags:
 
 <TagLinks />
 
+Philosophy
+:  is the study of general and fundamental questions about existence, knowledge, values, reason, mind, and language. Such questions are often posed as problems to be studied or resolved. The term was probably coined by Pythagoras. Wikipedia
+
+Chant
+: A chant is the iterative speaking or singing of words or sounds, often primarily on one or two main pitches called reciting tones
+
 ## Path Of Spirituality
 
 ::: warning Miracle
@@ -25,6 +31,10 @@ $$Miracle =Idead + Emotion + Life /, Energies$$
 * People respecting you is the quality of people around you
 * Put a pin in your head. So that you do not forget after having a good meal
 * Be alturistic rather than egotististic, goes against animal instinct.
+* Competence is rewarded and incompetence is not unpunished, whats there to live for?
+* Gain a sense of their own competence, else you will become competitive
+* [Halo Effect](https://en.wikipedia.org/wiki/Halo_effect)
+
 
 
 ## Inner Engineering
@@ -307,6 +317,11 @@ $Suffering \propto distance \, from \, Truth$
 * Chitt Shakti Meditation
   * You are love and all are drawn to you. Spread the fragerencce of love, include everyone
 
+::: tip Karma
+Your life is your karma.
+:::
+
+
 ## Sounds of creation
 
 * If you capable of doing whatever is needed joyfully, thats freedom
@@ -433,6 +448,9 @@ Technology of using these 2 together | Tantra
 * you and exitence, in every possibilities there are all kinds of forces
 * fear, anxiety are your own thoughts and Emotions
 * understand thouself, rise through consciousness
+* Do it well, whatever the hell you are doing
+* Unwaivering attention - certain lack of attention, energy behind attention
+* the more you know about life, better you can exist, its not a prerequisite to life in itself
 
 Enlightment
 : Dimensions beyond physical, inner dimension. Clarity came. daybreak, nightbreak
@@ -446,6 +464,35 @@ People who read 1 book become religious
 * Use memory as a wisdom, so that you do not fall into same trap. Do not forget
   * either become wise to become wounded with it.
 * We thankyou for the gift of companionship
+* Nearly 70% diseases in last 50 years are Zootonic
+
+## How to choose a partner?
+
+> Joyful face is always a beautyful face
+
+* What is the one thing that always makes a person wonderful?
+* Needs
+  * physical Needs
+  * social needs
+  * financial needs
+* What world throws at you not your choice, what you make out of it using Intelligence is the point
+
+### Long term
+
+> Rope of your being with
+
+* Trust
+* Cheerleader
+* Deep sense of invlovement
+* Laws of attraction - Geometric body
+  * women sense of smell si very strong
+* Inspirations, better each other up
+* Dealing with resentment and jealousy
+* Adjust with each others bullshit
+* The man going to temple and the man going to bar are seeking the same thing
+* Everybody shall pass in life, question is how to make it profound.
+* Journey from constipated to $\implies$ consciousness
+  * Expand your intent
 
 ## Questions
 
@@ -453,8 +500,43 @@ People who read 1 book become religious
    1. Morality -trying to be good, but at the root you are still the same. Nothing has changes at the root
    2. you can hold back your hands, but you cannot hold back your mind
    3. Your morality will not evolve you into a higher human being
+2. How to make decision that you do not regret?
+   1. Ask yourself will they still mean something to  you on deathbed, after 5 years, 10 years, 20 years of time?
+      1. As most of them are traps
+   2. Avoid Despirate goals
+      1. think in isolation, meditation
+      2. when you are happy
+      3. Then work on your personality (mask), and persona will come
+         1. Different personalities at different places
+         2. develop = make it up
+         3. but remember to keep it down, when you want
+      4. Meditation - strip everything on you
+         1. if it is a lie, we need to keep up
+3. Which science has the greatest scope of effect?
+   1. systematic approach applicable to larger number of situations and people
+4. Start of the tern excited, end of term stressful, how to maintain state of blissfullness?
+   1. your body geometry controls some aspects of your chemistry
+   2. Accidental creation vs consciousness creation
+5. Forces of nature
+   1. somebody gliding the wave, somebody drowning beneath the way
+   2. somebody figured it out.
+   3. If you dont know all the pawns, there is no game
+6. What is behind the curtain of life? Why are we born, die? If in the end we have to die, whats the point of all this hustle and puzzle and jigsaw of life?
+7. How to awaken intelligence?
 
 ## Yoga Practises
+
+> Discipline of faculties
+
+* [Shambhavi Mudra](https://youtu.be/C_xsXnRd_uc)
+* [Vipassana](https://en.wikipedia.org/wiki/Vipassan%C4%81)
+  * Neuroplasticity - changing mind connections using brain exercises
+  * buddha did a research, every input, every data evokes a sensation in our body
+    * we react to sensationsa and not to the outside objects, evolutionary proccess
+    * Eg: just the sound of scratch!
+    * we suffer the sensations and not the act itself
+* [Upa Yoga](https://youtu.be/QjGF2MLdIz8)
+
 
 ## Ascended master / Enlightned beings
 

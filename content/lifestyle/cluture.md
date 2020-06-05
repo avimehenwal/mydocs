@@ -9,7 +9,7 @@ tags:
 
 <TagLinks />
 
-* Gyana marga
+* Path of Seeking - Gyana marga
 * The World Teacher Project
 
 ## Occult
@@ -45,6 +45,23 @@ Time Stamps:
 * Roman Empire
 * Jesus was born and there comes the New Testament
 
+## Leadership
+
+1. Religious Leadership
+   1. church
+   2. puppet king
+2. Military Leadership
+   1. Saddam hussain
+3. Democratic Leadership
+4. Economic Leadership
+   1. business owners are making political decisions
+
+* Democratic leadership is trinsitioning towards economic leadership (people driven by personal desires)
+* criminals are also businessmen (driven by personal desires) and not following the law
+* Rules of business - everyone should be benifitted
+* Socialist economy to economic economy, humanity is not ready for such great ideas.
+* Keep your deadlines sacred
+* World History CHarts
 
 ### Resources
 

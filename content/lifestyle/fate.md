@@ -34,6 +34,18 @@ tags:
 * Moon cell
 * Curiosity got the better of me
 * Trace on, tracing basic structure, tracing component materials, fundamental material altering, componet material strengthening,
+* [Magical Energy - Mana](https://typemoon.fandom.com/wiki/Magical_Energy)
+* I will let you carry the spoils of war
+* For the time being, I shall amuse myself with simple Reconnaissance (military observation of a region to locate an enemy or ascertain strategic features)
+* mongrel
+* We ride forth, prepare yourself
+* To win, but never to destroy. To subjugate but never to humiliate. Thats a honarable conquest
+* Honored allies, friends and brothers-in-arms, together we will share the glory of battle and the joy of world conquest
+* I think negotiations have faily, such a terrible waste, truly aweful waste
+* So, 2 lesser beings dared to name themselves as king, even in my royal presence
+* Glory lies beyond horizon, challenge the unattainable, speak of conquest and make it real
+* Problem solving process was skipped over, solution was simply handed over to me
+*
 
 Servant Class
 
@@ -44,6 +56,19 @@ Servant Class
 5. Caster
 6. Assassin
 7. Berserker
+
+Nacromancy
+: is a practice of magic involving communication with the dead – either by summoning their spirits as apparitions, visions or raising them bodily
+
+* Alchemy
+* Summining
+
+Divination
+: the practice of seeking knowledge of the future or the unknown by supernatural means.
+
+* Healing
+<Quote text="Heed my words, my will creates your body and your sword creates my destiny. If you heed the grails call and obey my will and reason then answer my summoning. I hearby swear, that I shall be all the good in the world, that I shall defeat all the evil in the world" by="Fate Summoners" />
+
 
 ## Phantasms
 
@@ -59,25 +84,29 @@ Servant Class
 10. Xiuhcoatl - Flame, burn even gods to ashes
 11. Pandemonium Cetus - forced seal , Pandemonic temple
 12. Enuma Elish - The star of creation that spilits heaven and earth - O humans, let us restrain the gods
+    1.  Now awaken Ea, a stage worthy of you has been set.
 13. Iron hammer of Kur
 14. Garden of Avalon
 15. I am the bone of my shadow - unlimited bladeworks
 16. Melammn Dingir - kings signal cannon
+17. Sikander - Ionian Hettie Roy
+18. Heavens Feel - 3rd magic
 
 ## War Arcs
 
 * 4th holy war Fate/Zero
 * 7th holy war Fate/Order Zero
 
-## Itesm
+## Items
 
 1. Mystice Code - strengthen spell
-2.
+2. Excalibur Scabbard - Avalon
 
 
 ### Character Names
 
 * Sefar
+* SIEGFRIED
 
 
 

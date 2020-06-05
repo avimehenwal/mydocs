@@ -9,6 +9,10 @@ tags:
 
 <TagLinks />
 
+> Shortest distance between two people is a story
+> Building bridges
+> Comedy acts like a wodden sword, hits the point without harming anyone
+
 ## [Hinduism]
 
 * Not even a religion, its a way of life
@@ -185,6 +189,21 @@ $Dharma \approx	\{ \, Duty \cup Righteousness \cup Moral \, Conduct \cup Natural
 [Dharma]: https://en.wikipedia.org/wiki/Dharma
 [Buddhism]: https://en.wikipedia.org/wiki/Buddhism
 [Asceticism]: https://en.wikipedia.org/wiki/Asceticism
+
+
+## Islam
+
+* [Mecca Kabba](https://youtu.be/PDxKxnVZtgo)
+  * built by Abhrahim
+  * white stone which turned black
+  * black stone said to date back as adam and eve
+  * was robbed by Abu Tahir al-Qarmati once
+    * now only fragments remains
+  * Stone is not a meteorite, possibly a Agate
+
+## Paganism
+
+* Wiccan
 
 ### References
 
