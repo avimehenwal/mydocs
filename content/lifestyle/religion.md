@@ -53,6 +53,7 @@ tags:
 * Upanishads and Puranas, philosophical texts
 * Mahabharata longest poem in the world, 5 times length of bible
   * Dharma must be followed for society to function
+  * There is no knowledge like **sankhya** and no power like **yoga**
 * 4 goals person should aim for to have a good life
   * Dharms
   * Artha
@@ -158,6 +159,11 @@ $Dharma \approx	\{ \, Duty \cup Righteousness \cup Moral \, Conduct \cup Natural
 * Let the dharma and the discipline be your teacher and died peacefully
 * Remember me as the one who woke up
 
+## Jainism
+
+* Jain tradition is older than Buddhism
+* Adinath - first yogi of hatha yoga
+
 #### Four Noble Truths
 
 1. There is suffering/ dis-satisfaction in this world
@@ -173,6 +179,7 @@ $Dharma \approx	\{ \, Duty \cup Righteousness \cup Moral \, Conduct \cup Natural
 
 ### Story of Buddha
 
+* Born around 6th centuary BC in foothills of himalayas
 * If you below mind you are buddhu, above buddha
 * What is taht man? old
 * Will it happen to me too?
@@ -182,6 +189,7 @@ $Dharma \approx	\{ \, Duty \cup Righteousness \cup Moral \, Conduct \cup Natural
 * Take away the barriers, which are not allowing me to experience it
 * He sat with a resolve to find out the nature of existence
 * [Buddhist pilgrimage sites](https://en.wikipedia.org/wiki/Buddhist_pilgrimage_sites)
+* Buddha attained **Bliss of liberation** state - Anand nugget samadhi
 
 
 

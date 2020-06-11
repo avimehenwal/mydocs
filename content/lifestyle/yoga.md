@@ -123,10 +123,107 @@ where, $Time \, is \, constant$
 unsolicited
 : not asked for; given or done voluntarily.
 
+## [yoga documentary](https://youtu.be/92J-JPChaeI)
+
+> Free of Religion
+
+* [samkhya] - oldest philosophy of india
+* How to uncover our real nature?
+* Before and after patanjali? what becomes of yoga
+* [Patanjali]
+  * author of Yoga Sutras
+    * could be written on one single page
+  * sanskrit grammer
+  * composition of ayurved
+* Experimentation and observation were performed inside the human body
+* Sit in comfortable asana, stabalize then breath control and look inwards
+* Point of concentraion could be internal, external imaginary effect
+* Indus Valley oldest and largest civilization in world
+* Meditate on elements of nature
+* [samkhya] philosophy
+  * Primal nature - prakarti
+    * Sattva
+    * Raja
+    * Tama
+  * Conscious Entity - Purusha - boundary restfulness
+* 3 elements of prakarti are transformed into 24 elements of nature
+* Hatha yoga
+  * 84 asanas
+    * Bhadrasana
+* We all emerge from one consciousness - code geass
+
+
+### Yogic Practises
+
+* [yoga sutras] of patanjali
+  * 196 sanskrit sutras
+
+1. Niyama - observances
+2. Āsana - physical postures
+3. Prāṇāyāma - control of the prana(breath)
+5. Pratyahara - withdrawal of the senses
+6. Dhāraṇa - concentration
+7. Dhyāna - meditation
+8. Samādhi - absorption
+
+10. Samadhi path
+   1. skilled practisioners
+11. Sadhan path
+    1.  Yama - restraints or ethics of behaviour
+        1.  Non violence
+        2.  truth
+        3.  non stealing
+        4.  vrat - supreme self descipline
+   2. niyam - discipline
+      1. cleanlyness
+   3. asana - posture
+   4. Pranayam - breath control
+   5. Pratyahar - withdrawl
+   6. Dharna - concentration
+   7. Dhyana - meditation
+   8. samadhi
+
+## samkhya philosophy
+
+* there are as many gods as the people - heights of democracy
+* Shiva
+  * Kundilini - base of hatha yoga, base of spinal chord
+
+
+[Patanjali]: https://en.wikipedia.org/wiki/Patanjali
+[samkhya]: https://en.wikipedia.org/wiki/Samkhya
+[yoga sutras]: https://en.wikipedia.org/wiki/Yoga_Sutras_of_Patanjali
+
+## Rajyoga
+
+* Swami Vivekananda
+* Knowledge is based on experience
+  * Experiment and reasoning
+* Faculty to observe inside
+* BHakti yoga
+* Karm yoga
+* Gyaan yoga
+* Raja yoga
+
+## Yoga sutras
+
+* https://youtu.be/5MhVXHwtaWw
+* https://www.youtube.com/watch?v=uUmg-2Y6KcM
+* https://www.google.com/search?q=ashtanga
+* sleep - certain level of consciousness is still Actrivate
+  * may, may not dream
+  * we may say we had a good/bad sleep
+* Meditation stages
+  * Exterior examination
+  * Internal examination
+  * Inspiration
+  * Realization
+*
 
 ### References
 
 * [Kriya Yoga](https://en.wikipedia.org/wiki/Kriya_Yoga)
 * [Yogic Diet](http://www.yogadiet.com.au/wp-content/uploads/YogaDiet.pdf)
+* [Yoga Journal](https://www.yogajournal.com/)
 
 <Footer />

@@ -23,6 +23,8 @@ Chant
 Like love $Boom= Thought + Emotion$
 
 $$Miracle =Idead + Emotion + Life /, Energies$$
+
+Extending beyond physicality or practising it makes you on the path of spirituality
 :::
 
 * Life in itself is a big miracle, are you in it or outside?
@@ -158,6 +160,11 @@ It is when your experience of life is little more than your physical nature
   * climbing a mountain - breath deep and fast
 * set an example to live life beyonf limitations
 * one person will be the doer and the other person will watch the experience of what the “doer” is doing.
+* Keep your body safe, its useful to me
+* Focus and attention, try to do everything with attention and consciousness
+* Karma (4 layers of karma), prabhda, mukhti, moksha
+  * Karma is not reward, punishment system. Its a memory based system. Yes it could be rewritten
+* do not encourage titillation
 
 ::: tip Life
 No desire, no Life
@@ -397,6 +404,10 @@ Technology of using these 2 together | Tantra
   * most powerful dimension of life
   * If we do not go back to nothingness, somethingness will fall apart
 * 7 times indivudually Aaa Ooo Mmm followed by AUM 21, 33, 42, 54, 64, 68, 72, 84, 95, 108 times
+* Sound is a substance of creation, meanings are made up in mind.
+  * sound can transform into light, consciosly
+* Pay attention and you can learn anything.
+
 
 ## Creating what you want
 
@@ -493,6 +504,13 @@ People who read 1 book become religious
 * Everybody shall pass in life, question is how to make it profound.
 * Journey from constipated to $\implies$ consciousness
   * Expand your intent
+* Forgive (remove bitterness inside you) but do not forget, and act out of what is eede by the situation and not by previous bitterness and <resentment></resentment>
+  * embracing them
+  * rehabilitating them
+  * Restrain him/her
+  * imprisioning/hanging them
+  * butchering them on street
+* DOnt have premeditative action. thats a crime
 
 ## Questions
 
@@ -523,6 +541,16 @@ People who read 1 book become religious
    3. If you dont know all the pawns, there is no game
 6. What is behind the curtain of life? Why are we born, die? If in the end we have to die, whats the point of all this hustle and puzzle and jigsaw of life?
 7. How to awaken intelligence?
+8. Gym vs Yoga?
+9. Diseases treatment? Ailments types, Infectious and chronic?
+   1.  External virus or internal damage
+10. Simple Pactises to be healthy? - [is the idea life happening well](https://youtu.be/c_qoYTYCSG8)
+    1.  using the body, mind and energies
+    2.  eathing good food
+    3.  1k cluching per day
+11. Indian freedom fight movement vs Americal civil right revolution difference?
+    1.  one fought with violence, laws were fixed but hatred still remained
+    2.  Sensitivity for life
 
 ## Yoga Practises
 
@@ -535,7 +563,15 @@ People who read 1 book become religious
     * we react to sensationsa and not to the outside objects, evolutionary proccess
     * Eg: just the sound of scratch!
     * we suffer the sensations and not the act itself
-* [Upa Yoga](https://youtu.be/QjGF2MLdIz8)
+* [Upa Yoga](https://youtu.be/QjGF2MLdIz8) 7 sets of Practises
+  1. For Health - directional movement for bodily joint liquids
+     1. out - exalation | in - inhalation
+  2. for Sucess
+  3. for Peace
+  4. for Wellbeing
+  5. for Joy
+  6. for Inner Dimensions
+  7. for Love
 
 
 ## Ascended master / Enlightned beings

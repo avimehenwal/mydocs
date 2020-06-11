@@ -110,6 +110,7 @@ $Bakelite = Petroleum + Alcohol + Fillers$
   * They wanted arab oils to be used in Arabia
   * They formed [<OPEC></OPEC>](https://en.wikipedia.org/wiki/OPEC)
 * USA dicovered [Hydraulic Freacking](https://en.wikipedia.org/wiki/Hydraulic_fracturing)
+* [The Insane Engineering of the A-10 Warthog with GAU 8/A gatling gun](https://youtu.be/wk6Qr6OO5Xo)
 
 ## Robots
 
@@ -181,6 +182,9 @@ $Bakelite = Petroleum + Alcohol + Fillers$
 * [Japan Fukushima Daiichi nuclear disaster](https://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster)
 * https://en.wikipedia.org/wiki/Nuclear_and_radiation_accidents_and_incidents
 * Nuclear Fusion - [Stellarator](https://en.wikipedia.org/wiki/Stellarator)
+* Natural gas are cheapest power plant to construct - 2 years
+
+![Nuclear power vs carbon emission percentages between france and germany](/screenshots/germany-vs-france-nuclear.png)
 
 ## AIDS
 
