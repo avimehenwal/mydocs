@@ -522,3 +522,7 @@ variety PC running Linux.
 ![Graph](/graph.svg)
 
 ![Graph](/graph1-1.svg)
+
+## References
+
+* [Latex IPA symbols](https://katex.org/docs/supported.html)

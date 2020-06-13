@@ -11,11 +11,19 @@ tags:
 
 <TagLinks />
 
+> Process of life
+
 Philosophy
 :  is the study of general and fundamental questions about existence, knowledge, values, reason, mind, and language. Such questions are often posed as problems to be studied or resolved. The term was probably coined by Pythagoras. Wikipedia
 
 Chant
 : A chant is the iterative speaking or singing of words or sounds, often primarily on one or two main pitches called reciting tones
+
+> Either do something good to yourself or to 10 people around you, else life is no good
+> Who you are will find expression in everything you do
+
+* What other have said, theories? Either believe it and get confident or dont believe them and get confused. Joyful confusion is not bad, but it makes most of us miserable
+* Come to terms with your ignorance, natural reaction is to pay more attention
 
 ## Path Of Spirituality
 
@@ -36,8 +44,9 @@ Extending beyond physicality or practising it makes you on the path of spiritual
 * Competence is rewarded and incompetence is not unpunished, whats there to live for?
 * Gain a sense of their own competence, else you will become competitive
 * [Halo Effect](https://en.wikipedia.org/wiki/Halo_effect)
+* Education = learning to use your mind, body, energies, emotions in the way you want.
 
-
+$Sadhana = Tools$
 
 ## Inner Engineering
 
@@ -407,6 +416,12 @@ Technology of using these 2 together | Tantra
 * Sound is a substance of creation, meanings are made up in mind.
   * sound can transform into light, consciosly
 * Pay attention and you can learn anything.
+* [Brain waves of deep state meditators](https://youtu.be/10J6crRacZg), [Gamma Waves](https://en.wikipedia.org/wiki/Gamma_wave)
+  * Olympic level meditaotrs - 62,000 lifetime hrs of meditation
+  * Gamma waves are strong all the time.
+  * Normal people emit them only at certain sensations, biting an apple
+  * [Book - Altered Traits](https://www.amazon.com/Altered-Traits-Science-Reveals-Meditation/dp/0399184384)
+  * Lab - university of Wisconson
 
 
 ## Creating what you want
@@ -476,6 +491,39 @@ People who read 1 book become religious
   * either become wise to become wounded with it.
 * We thankyou for the gift of companionship
 * Nearly 70% diseases in last 50 years are Zootonic
+
+## Pay attention
+
+* If you look at something, look with everything you have got
+* Realization that you do not know anything, paying attention is naturally
+  * else there are all stigmas, assumptions and stereotypes
+* Leader means you are able to see something others cannot.
+* Attention without intention
+* Attention deficiency syndrome
+* [Aspire for intelligence, not information](https://youtu.be/R2nZUdObktk)
+* Metaphorical Heart - emotional side of ourself
+* There is only thought and behaviour, behaviour will catch upto thought based on karma
+  * If thought is forefront, the way they think is the way they feel
+  * If emotion is forefront, the way they feel is the way they think
+* $Mind = Memory + Intelligence$
+  * Body has tremendous memory than brain
+* Too mmuch information without experience, the exuberance will be gone and a false sense of knowing will become strong
+* Danger of intellect
+* Technology can bring comfort and convenience to us, but will not bring life to us
+* Indescriminate attention to somethign that is not relevant to you
+  * then universe opens upto you
+* openess / closeness to life
+* Try sending good messages to all cells in your body, dont send the wrong signals
+
+```mermaid
+graph TD
+A[(Body)]:::orange ==> B[Physical body]
+A ==> C[Mental Body]
+
+classDef orange fill:#f96;
+classDef purple fill:#f9f,stroke:#333,stroke-width:4px;
+```
+
 
 ## How to choose a partner?
 
@@ -551,6 +599,11 @@ People who read 1 book become religious
 11. Indian freedom fight movement vs Americal civil right revolution difference?
     1.  one fought with violence, laws were fixed but hatred still remained
     2.  Sensitivity for life
+12. Simple practisdes to be healthy
+    1.  Use the body
+    2.  Eat right food
+    3.  clinch and expland fist 1k times a day, watch results after 30 days
+        1.  now replicate that to other parts of body, mind, heart and life energies inside you
 
 ## Yoga Practises
 
@@ -563,15 +616,41 @@ People who read 1 book become religious
     * we react to sensationsa and not to the outside objects, evolutionary proccess
     * Eg: just the sound of scratch!
     * we suffer the sensations and not the act itself
-* [Upa Yoga](https://youtu.be/QjGF2MLdIz8) 7 sets of Practises
+* [Upa Yoga](https://youtu.be/QjGF2MLdIz8) 7 sets of Practises, Pre/Sub yoga preperations
   1. For Health - directional movement for bodily joint liquids
      1. out - exalation | in - inhalation
-  2. for Sucess
-  3. for Peace
-  4. for Wellbeing
-  5. for Joy
-  6. for Inner Dimensions
-  7. for Love
+     2. out - rotate fist around thumb | in - other side
+     3. 4 directions
+  2. for Success - The neck practises
+     1. neural regeneration
+     2. 5 neck and shoulder practises
+     3. exhale - back | inhale - in
+     4. shoulders'
+        1. inhale - up | exhale - down
+  3. for Wellbeing - Yoganamaskar 7 steps
+     1. inhale -up | exhale - down
+     2. Bala asana
+  4. for Peace - Nadi shuddhi - 72000
+     1. pingala - 36000
+     2. ida - 36000
+  5. for Joy - Nada Yoga - 7 times
+     1. without employing toungue
+     2. Universal sounds - sounds system can produced naturally
+  6. for Inner Dimensions - Shambhavi Mudra, 3,6 minutes
+     1. Maintain Yoga mudra
+     2. Element of grace
+  7. for Love - Namaskar process
+     1. yin and yang
+     2. Duality to oneness
+     3. generate extreme of pleasent emotions - 3,4 minutes
+* Isha Kriya - bring human is super, 12 minutes, 2 time each day
+  * yogic posture with palms open
+  * I am not the body, I am not even the mind
+  * 7 times - Aaa, loud enought until you feel the vibrations
+  * reorganization of energies
+* [Yoga Journal](https://www.yogajournal.com/)
+$$ Super \, Human = \{ \, breath, thought, awareness \, \}$$
+
 
 
 ## Ascended master / Enlightned beings
