@@ -18,6 +18,10 @@ tags:
 * [Clarinet](https://youtu.be/nENXs6n_ITI) - wodden flute with metalwork to enhance trills effect
 * French Horn
 * Triangle - solo :100:
+* cello - 4 strings
+  * A D G C
+  * notes get higher when we move down
+  * fretless instrument - use scales
 
 
 ## 1.2. Music Notes
@@ -97,13 +101,16 @@ classDef purple fill:#f9f,stroke:#333,stroke-width:4px;
 * Also exists in pairs, pro and alter vesion
   * Electronic | Organic
   * Pop / Rock | Classical
-  *
 
-## 1.6. Questions
+## 1.6. Projects
+
+* https://youtu.be/R0_8Suqly8I
+
+## 1.7. Questions
 
 * How to figure out the instruments used in a song
 
-## 1.7. Resources
+## 1.8. Resources
 
 * [Decible](https://en.wikipedia.org/wiki/Decibel)
 
