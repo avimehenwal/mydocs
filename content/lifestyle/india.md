@@ -12,6 +12,8 @@ tags:
 
 > Worlds largest democracy
 
+* we are a godless country
+* we are a country without any morals
 * Has always been a country for everybody
 * Only culture on planet which constantly told you, you life is your karma (doing)
 * 9th centuary, invention of gunpowder in china, The Great Wall

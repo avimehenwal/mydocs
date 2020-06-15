@@ -49,6 +49,31 @@ tags:
 * [Turkey](https://en.wikipedia.org/wiki/Turkey_(bird)) has only one hole for poo and wee. Everything goes in and out of that hole
 * Stomach is wrinkled, to that it can expand to carry more
 
+## Muscular System
+
+* Sekletal Muscles - tendons to bones
+* Cardiac Muscles - Heart
+* Smooth muscles - intestines and utreus
+* Muscles Fibres
+* Complementary - push and pull
+* strengthen in place - standing
+* Fast muscles and slow-twitch muscles
+
+twitch
+: give or cause to give a short, sudden jerking or convulsive movement.
+
+* https://ed.ted.com/lessons/how-your-muscular-system-works-emma-bryce
+
+## Movement - Legs
+
+> Which muscles are used in running?
+
+* [Achilles Tendon](https://www.webmd.com/fitness-exercise/picture-of-the-achilles-tendon#1)
+  * Calf circles
+  * Marching calf raises
+  * rope jumping
+* Hip Muscles
+* https://www.yogajournal.com/poses/anatomy/legs
 
 ## New life creation
 

@@ -46,7 +46,7 @@ Extending beyond physicality or practising it makes you on the path of spiritual
 * [Halo Effect](https://en.wikipedia.org/wiki/Halo_effect)
 * Education = learning to use your mind, body, energies, emotions in the way you want.
 
-$Sadhana = Tools$
+$Sadhana = Tools$ disciplined and dedicated practice or learning, especially in religion or music.
 
 ## Inner Engineering
 

@@ -36,5 +36,10 @@ words | pronouncaitions | Example
   1. Mutter
   2. rot
 
+## IPA
+
+* 3 new consonent sounds
+*
+
 
 <Footer />

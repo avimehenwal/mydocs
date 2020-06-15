@@ -7,7 +7,7 @@ tags:
 - spirituality
 ---
 
-# Yoga
+# 1. Yoga
 
 <TagLinks />
 
@@ -68,7 +68,7 @@ where, $Time \, is \, constant$
 
 * Practise before sleep, what is NOT you, keep aside.
 
-## Intelligence
+## 1.1. Intelligence
 
 * https://isha.sadhguru.org/yoga/yoga-articles-mind-stress/harnessing-true-power-mind/
 
@@ -81,9 +81,9 @@ title Yogic categories of human Intelligence
 "Chitta" :  25
 ```
 
-## Yoga for Health Upa Yoga
+## 1.2. Yoga for Health Upa Yoga
 
-### Directional movenments
+### 1.2.1. Directional movenments
 
 * When you lie down for long hours, sleep, lubricating fluids tends to settle down and not in circulation
 * Directional movenments to lubricate your movements
@@ -94,12 +94,12 @@ title Yogic categories of human Intelligence
 * 3 cycles upward
 * 3 cycles downward
 
-### Knee Rotation
+### 1.2.2. Knee Rotation
 
 * inhale - go backward
 * exhale - come forward
 
-### Spine and clearity
+### 1.2.3. Spine and clearity
 
 > Actrivate the clearity
 
@@ -115,7 +115,7 @@ title Yogic categories of human Intelligence
 * 4th practise - rotate neck around solduers
 * 5th practise - rotate soldur forward and backward movement
 
-### Yoga Namaskar
+### 1.2.4. Yoga Namaskar
 
 > yoga for well being
 
@@ -130,7 +130,7 @@ title Yogic categories of human Intelligence
 * in [Balasana](https://en.wikipedia.org/wiki/Balasana) unless breath stabilizes
 * tension in arms when moving
 
-### Nadi Shuddhi
+### 1.2.5. Nadi Shuddhi
 
 > Yoga for peace
 
@@ -145,7 +145,7 @@ title Yogic categories of human Intelligence
 unsolicited
 : not asked for; given or done voluntarily.
 
-## [yoga documentary](https://youtu.be/92J-JPChaeI)
+## 1.3. [yoga documentary](https://youtu.be/92J-JPChaeI)
 
 > Free of Religion
 
@@ -175,7 +175,7 @@ unsolicited
 * We all emerge from one consciousness - code geass
 
 
-### Yogic Practises
+### 1.3.6. Yogic Practises
 
 * [yoga sutras] of patanjali
   * 196 sanskrit sutras
@@ -205,7 +205,7 @@ unsolicited
    7. Dhyana - meditation
    8. samadhi
 
-## samkhya philosophy
+## 1.4. samkhya philosophy
 
 * there are as many gods as the people - heights of democracy
 * Shiva
@@ -216,7 +216,7 @@ unsolicited
 [samkhya]: https://en.wikipedia.org/wiki/Samkhya
 [yoga sutras]: https://en.wikipedia.org/wiki/Yoga_Sutras_of_Patanjali
 
-## Rajyoga
+## 1.5. Rajyoga
 
 * Swami Vivekananda
 * Knowledge is based on experience
@@ -227,7 +227,7 @@ unsolicited
 * Gyaan yoga
 * Raja yoga
 
-## Yoga sutras
+## 1.6. Yoga sutras
 
 * https://youtu.be/5MhVXHwtaWw
 * https://www.youtube.com/watch?v=uUmg-2Y6KcM
@@ -240,9 +240,30 @@ unsolicited
   * Internal examination
   * Inspiration
   * Realization
-*
 
-### References
+## Yogic Diet
+
+> Food is building block of body, energy from creation to power your body
+> Taking food is itself a sadhana
+> Out body should float ahead of us, we should not drag this.
+
+* Experiment with food, what makes you agile and ebergetic?
+* [Ekadashi](https://en.wikipedia.org/wiki/Ekadashi) means 11 days lunar day
+  * 2 times a month, 24 in a calender year
+  * 1 mandala - 48 days
+    * for 3 days body doesnt need food
+  * 4 days before the full-moon / new-moon day
+    * only after sunset they eat 1 meal
+* Being alert with eyes closed and not sleeping, takes some level of body mastery
+* Everything we borrow from the planet causes certain level of inertia in system
+  * Neem and turmeric + mildly laced honey water
+* 8 hrs gap b/w meals
+* Cooking food destroys the digestive enzymes in food
+  * body has to work extra hard to cope up with that, hence we feel lethargy for 1.5 hrs after meal
+  * then body recovers back
+  * 50-60% of food we eat is going to waste, but body has to still process it.
+
+### 1.6.7. References
 
 * [Kriya Yoga](https://en.wikipedia.org/wiki/Kriya_Yoga)
 * [Yogic Diet](http://www.yogadiet.com.au/wp-content/uploads/YogaDiet.pdf)
