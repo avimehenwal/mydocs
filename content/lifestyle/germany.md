@@ -27,6 +27,9 @@ reminiscence
 
 ![Berlin, east and west germany on map](https://qph.fs.quoracdn.net/main-qimg-05a44ba529cbb79047645aebcde00c34.webp)
 
+[Germany Army](https://en.wikipedia.org/wiki/German_Army#German_Army_today)
+
+
 ### References
 
 * [Understanding the German mindset](https://youtu.be/JdCRxPeycOI)

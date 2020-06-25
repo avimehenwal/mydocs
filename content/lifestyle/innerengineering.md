@@ -366,6 +366,7 @@ Your life is your karma.
 * Differencce b/w a fact and truth?
   * Fact is you are either man or a woman, truth is you are both
 * Christianity, born in Jerusalem, where language at that time was [Aramaic](https://en.wikipedia.org/wiki/Aramaic)
+  * crusified at the age of 32 saying they may not know what they are doing
   * They close everythign with Amen
 * Ancient india had master desciple traditions
   * Anything that was spiritual was never written down
@@ -422,6 +423,13 @@ Technology of using these 2 together | Tantra
   * Normal people emit them only at certain sensations, biting an apple
   * [Book - Altered Traits](https://www.amazon.com/Altered-Traits-Science-Reveals-Meditation/dp/0399184384)
   * Lab - university of Wisconson
+
+## Education
+
+* Schools = Raw materials for bigger factories
+* Types of education
+  * grow brain and bodies to their fullest
+* School should be like raising a graden
 
 
 ## Creating what you want

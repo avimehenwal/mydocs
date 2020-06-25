@@ -202,6 +202,17 @@ $Bakelite = Petroleum + Alcohol + Fillers$
 * Activism starts
 * Staying quiet can be deadly
 
+::: warning Deaths
+Nearly 1,50,000 people die each day
+
+* Korea has highest number of suicides
+* Followed by Russia, USA, Canada, Germany, Spain, South Africa
+* https://en.wikipedia.org/wiki/List_of_countries_by_suicide_rate
+
+~OECD
+:::
+
+
 [HIV]: https://en.wikipedia.org/wiki/HIV
 
 ## Genetics

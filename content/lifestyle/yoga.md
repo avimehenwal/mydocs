@@ -262,11 +262,53 @@ unsolicited
   * body has to work extra hard to cope up with that, hence we feel lethargy for 1.5 hrs after meal
   * then body recovers back
   * 50-60% of food we eat is going to waste, but body has to still process it.
+* 40-50% uncooked food
+  * bruice lee was a vegetarian
+* Rest = Energy Equation, Consumption vs Production
+
+## Suffering Types
+
+### physical
+
+### Mental
+1. grief
+2. sadness
+3. depression
+
+## 112 methods to salvation - Adiyogi
+
+
+Numbers | Types
+--------|--------
+9 | centred around breath
+11 | Chants, uttrances of sounds and syllables, science of Mantras, slokas
+22 | Desires
+12 | Focus
+3 | Ease
+7 | Sight
+10 | Visualization of light
+5 | Stillness
+12 | Omnipresence
+11 | Logical reasoning
+7 | Being one with consciousness
+3 | void with universe
+
+* 84 methods are pure Kriya
+* [Vigyana Bhairava Tantra](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na_Bhairava_Tantra)
+
+## Kamasutra
+
+* 7 chapters, chapter 2 being most popular worldwide
+*
+
 
 ### 1.6.7. References
 
 * [Kriya Yoga](https://en.wikipedia.org/wiki/Kriya_Yoga)
 * [Yogic Diet](http://www.yogadiet.com.au/wp-content/uploads/YogaDiet.pdf)
 * [Yoga Journal](https://www.yogajournal.com/)
+* [Yoga and chakras](https://www.yogaoutlet.com/blogs/guides/yoga-the-chakras)
+* [Kundalini Yoga](https://en.wikipedia.org/wiki/Kundalini_yoga)
+*
 
 <Footer />

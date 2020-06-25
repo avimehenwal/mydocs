@@ -22,7 +22,12 @@ tags:
 
 * Non violent protests have higher success rate than violent ones as per research
 * Average age of nonviolent campaign 3 years, violent 9 years
-* 
+
+## Black Lives Matter
+
+* Breonna Taylor
+  * shot 8 times in her sleep
+* https://en.wikipedia.org/wiki/Death_of_Sandra_Bland
 
 
 ### References
