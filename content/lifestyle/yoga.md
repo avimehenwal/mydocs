@@ -67,6 +67,10 @@ where, $Time \, is \, constant$
 :::
 
 * Practise before sleep, what is NOT you, keep aside.
+* Every Indian epic starts with a question.
+  * vigyaan bhairav Tantra - what do you do with your eyes close?
+  * Ramayan - sita where are you?
+  * Gita - why should I kill my family members?
 
 ## 1.1. Intelligence
 
@@ -275,8 +279,11 @@ unsolicited
 2. sadness
 3. depression
 
-## 112 methods to salvation - Adiyogi
+## 112 methods to salvation - Adiyogi, Tantra
 
+> Vigyaan Bhairava Tantra
+
+Beautyful conversation b/w adiyogi and parvati, 162 slokas. In Tantra, life is counted as number of breaths and not in years.
 
 Numbers | Types
 --------|--------
@@ -296,10 +303,188 @@ Numbers | Types
 * 84 methods are pure Kriya
 * [Vigyana Bhairava Tantra](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na_Bhairava_Tantra)
 
+## 4 Breathing Techniques
+
+Breathing is not the sensation we feel in nostrils and passage to lungs, rather its a phenomenon.
+
+attention
+: mental alertness. Can pay attention to something, can withdraw attention. Can turn it on and off
+
+Awareness
+: intensity of life, aliveness.
+
+awakefullness | wakefullness
+: awake enough to percieve through sense organs. Limited to physical reality, cannot tell what other person might be thinking. Penetration of perception deepens. Changes your experience of life. Crank up the intensity of life energies.
+
+* Awareness | Attentiveness | [Alertness difference](https://youtu.be/va5iJSmm168)
+* Difference b/w doing things consciously vs mechanically like moving a hand.
+  * Differen of quality - grace, beauty
+  * "Sunday religions" - going to church on sunday
+    * God must be creatice, he creted world in 6 days and then went on very long holiday!
+  * Mediation is like pair of eyes (always there) and not like glasses (that you can remove them), even in sleep
+1. Gaps in breath - Buddha Technique
+2. Breath is circular, observe the change of gears
+3. breath through the centre to the fullest, like a child, experience the centre
+4. Observe stops in breath - Zen buddhist monks
+
+## Attentiveness 5
+
+> Air is some material, but we are breathing **prana**, something more to air
+> Why everything feels like chaos
+
+* Truth is not a concept, rather an experience
+5. [Pineal Gland](https://en.wikipedia.org/wiki/Pineal_gland), the third eye, eye of horus, illumanati eye, just attention b/w eyebrows
+  * you become the witness to any human emotion
+  * head is filled with prana
+  * becomes inactive at age of 2 or by 17
+  * Aaa Meditation
+  * Releasing Industry - drugs, sex, alcohol or meditation and self-help
+6. Hypnotism - told to focus eyes at a certain point, within 3 minutes ineer attention to 3rd eyes
+  * face looses its vitality, then subconscious mind takes the order
+  * with third eye, dreama and reality becomes one - Buddha
+* When in a worldly activity, keep attentive b/w 2 breaths and reborn a new
+7. Feel prana, essence of breath,
+   1. you can predict your death, enter sleep being aware of prana, focus shifts to third eye, you can reshape your dreams, Lucid dreams. Death is deep sleep
+8. Devoution | Awareness | Faith | Belief, dont eat, think like a divine in you who is eating, observe the change
+9. Lie down as dead, enrages in wrath, stay so - Ramanamaharishi attained enlightnment
+   1.  stare without moving eyelash
+   2.  become the Act, and thus being distant from the act eventually
+10. Love and Sex
+11. stop the door of senses
+12. weightless, levitation - buddha sitting posture
+13. Imagine 5 colors represeting your senses  meeting at one centre
+14. visualize your spine, nerve inside spine
+15. Close the 7 openings, the concentrate on 3rd eye, see whats happening
+16. Blessed one, touch/look/hear anything and respond via heart, without thinking, making a plan and acting
+    1.  jesus said - love is god
+17. Unminding mind - keep in the middle - until, no centres
+18. look lovingly at some object and generate emption of happyness
+    1.  lust - getting something out of it, love - surrender, to give something
+    2.  make that thing more beautyful
+    3.  love is the only meditation
+    4.  If you stare its ugly, so look with love
+19. Focus senses on body parts and levitate the rest.
+20. Why do we feel tired travelling in train, even when we are sitting?
+    1.  Many dances as meditaion techniques, circular movements, whirling
+21. Focus and narrow on a body part which is paining until pain disappears, its the body thats hurt not you
+22. Remember your past as an observer/witness in reverse order, its not you, its a version of you.
+23. Take an object and fell it through all senses in absense of everything else. Become the object
+24. When a mood against someone or for something arises, dont place it on the person in question, remain centred.
+    1.  Dont let a stone ripple your calm sea, ocean, pond
+25. Just as you have the impulse to do something, stop
+    1.  your activity is like circumference, you are the centre
+26. When a desire comes, stop/quit it.
+    1.  earthworm back in box
+    2.  dont consider it, dont reason it
+    3.  therapist says, let it out
+27. Roam about until exhausted and then drop to the ground
+    1.  exhaustion mean, util you actually drop on floor
+    2.  3 layers of energy
+        1.  day to day activity
+            1.  run 4 rounds
+        2.  emergency situations
+            1.  run, your house is on fire
+        3.  infinite cosmic energy
+28. Seperation between you, your body and mind. transcending mind
+    1.  it make be hot where you are, imagine its cold outside and snowing
+29. Love | Attachment | Devoution
+30. close your eyes, move inwards, look inwards
+    1.  dreams are also a emotion
+    2.  Whats your true self? body, mind
+    3.  knowledge is not something you posess, its something you realize, like a Light
+31. stopping your eye movements, brain thinks when your eyes move
+32. See as if you are seeing a person/thing for the first time, ordinary things
+33. looking at the sky, beyond clouds, the serenity
+    1.  buy a car and then what, and then what?
+    2.  vacume is infinite
+34. Master desciple techniques
+35. look into depth,
+36. Look at some object then withdraw it from sight, then from thought
+37. Go backwards, come to feeling, feel each sound of the language, drop the sound but stick with feeling
+    1.  Sounds are given a meaning
+    2.  feelings $\implies$ sounds $\implies$ linguistic decoration $\implies$ words $\implies$ thoughts $\implies$ system of thoughts
+    3.  this is science of Mantras
+38. Bath in the centre of sound, as in the continuous sound of waterfall.
+    1.  hear the sound of sounds
+    2.  only silence can hear sounds
+    3.  sound should hit the belly, you are centre, let sounds pass by
+39. All mantras are meaningless sounds - AUM, intone a sound, as sound enters soundfulness so do you.
+    1.  sound cannot exist without a silence
+40. In the beginning and gradual refinement of the sound of any letter, awake
+41. When listening to stringed instrument, hear their composite central sound. Thus [Omnipresence](https://en.wikipedia.org/wiki/Omnipresence)
+42. Intone a sound audibly, then less and less audibly, as feeling deepens into silent harmony
+43. With mouth slightly open, keep mind in the middle of tongue, or as beath comes in silently. Feel the sound **HH**
+    1.  Ramanujam - answers come to him autoimatically from hara centre
+44. Centre of sound AUM without A or M
+    1.  awareness of subtle nuances of soundfulness
+45. When tired, constipated, focus on exhale.
+46. Stopping ears by pressing and rectum by contracting, enter the sound
+    1.  piss in fear, body looses control in emergency, its an external control built by us in mind
+47. Enchant your name
+48. At the start of sexual union, keep attentive on fire in the beginning, and so counting. avoid embers in the end
+    1.  lust $\implies$ sex $\implies$ love $\implies$ Devoution
+    2.  not a mind act, put your whole being
+    3.  overflowing energy can make you release the energy. Remain with the beginning, forget the end, be with fire
+    4.  Union as A
+        1. Square - 2 people both of thinking type and feeling type
+        2. As a Triangle - better than square
+        3. Circle - there are no angles - when not seeking the release
+    5.  Dont exploit each other.
+    6.  Valley Orgasm
+49. Become the shaking energy, life a tree shedding the leaves, embrace the energies and not the act
+    1.  2 vibrating energies coming together to form a circle
+50. Remember union, embrace the transformation
+51. You are the actual cause, other things just helped get it out of you.
+    1.  Anger - not on person, as an emotion and thank person for bringing out the hidden energies
+52. When eating or drinking, become the taste of the food or drink and be filled
+53. We use words so casually, God, love etc. without realizing the intensity of it. We are creating fake refletion of moon in a pond, when a stone is thrown, ripples are only in fake image and not on the real moon
+    1.  dont live like a fake
+54. Whatever satisfaction is found in whatever act, stay with it, Actualize it.
+55. yoga nidra
+56. Maya - shankaracharya enlightnment technique
+    1.  Quantum world - everything is different
+57. In moods of extreme desire, be undisturbed - express, supress and witness
+    1.  Christianity - reborn as sinners
+    2.  mirror full of dust, dirty mirror or mirror that was pure became dirty
+    3.  Desire is DIS-EASE
+58. seeing life as a big drama - leela - always at play no matter what
+    1.  Be a player and be involved with it.
+59. Oh beloved, put attention neither on pleasure nor on pain, but between these.
+    1.  remain with it happyness/uneasyness whatever. Be a watcher.
+60. All is with in you, so accepting, let them be transformed.
+    1.  Dont do it to others what you would not like to be done to you.
+61. As waves comes with water and flames with fire, so the universal waves with us.
+    1. taking some form temporarily
+    2. dont be indentified as wave, flame but as ocean, air, fire itself
+    3. burst the bubble
+
+<Quote text="A prayer is not a prayer unless you pray for others" by="Buddha" />
+
+Devotion
+: Devoid of you. you are the way you are. your way of being is not determined by who is standing in front of you. People have ttendency to bow down when they feel helpless and step on head when they feel powerful.
+
+## Mastry Over Dreams
+
+::: tip Spirituality
+Spirituality = Realization, touch the centre
+:::
+
+1. Everything thing is Maya
+2. Categorize people into 4 categories
+   1. Solid Identity
+   2. Liquid Image
+   3. Away from centre
+   4. At centre
+      1. buddha, christ, krishna
+3. Jesus - What happens in the kingdom of god?
+   1. There shall be time no longer
+4. A child is not loved, he will never be able to love, centre needs to be created by society/ family
+5.
+
+
 ## Kamasutra
 
 * 7 chapters, chapter 2 being most popular worldwide
-*
 
 
 ### 1.6.7. References
@@ -309,6 +494,10 @@ Numbers | Types
 * [Yoga Journal](https://www.yogajournal.com/)
 * [Yoga and chakras](https://www.yogaoutlet.com/blogs/guides/yoga-the-chakras)
 * [Kundalini Yoga](https://en.wikipedia.org/wiki/Kundalini_yoga)
-*
+* https://buddhism.stackexchange.com/questions/33985/shivas-112-ways-to-attain-enlightenment-and-buddhas-way?newreg=22e1c0dc04e2471db96046112cf5983a
+* https://www.accesstoinsight.org/lib/authors/vonglasenapp/wheel002.html
+* https://www.ebay.de/p/162484167?iid=203021713559&chn=ps&norover=1&mkevt=1&mkrid=707-134425-41852-0&mkcid=2&itemid=203021713559&targetid=899896891158&device=c&mktype=pla&googleloc=9044184&poi=&campaignid=10203814515&mkgroupid=101937404797&rlsatarget=pla-899896891158&abcId=1145989&merchantid=232385452
+* [Socrates](https://youtu.be/b2wM4pApOtM)
+* [osho - book of secrets](https://hinduism.stackexchange.com/questions/6889/what-is-the-most-authoritative-book-translation-on-vignana-bhairava-tantra?newreg=1685475231f449e783124183f193f39f)
 
 <Footer />
