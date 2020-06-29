@@ -499,5 +499,7 @@ Spirituality = Realization, touch the centre
 * https://www.ebay.de/p/162484167?iid=203021713559&chn=ps&norover=1&mkevt=1&mkrid=707-134425-41852-0&mkcid=2&itemid=203021713559&targetid=899896891158&device=c&mktype=pla&googleloc=9044184&poi=&campaignid=10203814515&mkgroupid=101937404797&rlsatarget=pla-899896891158&abcId=1145989&merchantid=232385452
 * [Socrates](https://youtu.be/b2wM4pApOtM)
 * [osho - book of secrets](https://hinduism.stackexchange.com/questions/6889/what-is-the-most-authoritative-book-translation-on-vignana-bhairava-tantra?newreg=1685475231f449e783124183f193f39f)
+* https://en.wikipedia.org/wiki/Sufism
+* https://en.wikiquote.org/wiki/Mansur_Al-Hallaj
 
 <Footer />

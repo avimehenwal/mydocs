@@ -53,7 +53,10 @@ reminiscence
 ## Real Estate
 
 * https://www.empirica-systeme.de/en/2016/03/14/price-maps-for-germany/
-* 
+
+## Demographics
+
+* [Religion in Germany](https://en.wikipedia.org/wiki/Religion_in_Germany)
 
 ### References
 
