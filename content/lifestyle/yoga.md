@@ -72,6 +72,38 @@ where, $Time \, is \, constant$
   * Ramayan - sita where are you?
   * Gita - why should I kill my family members?
 
+Religion
+: Religion is a social-cultural system of designated behaviors and practices, morals, worldviews, texts, sanctified places, prophecies, ethics, or organizations, that relates humanity to supernatural, transcendental, or spiritual elements.[1] However, there is no scholarly consensus over what precisely constitutes a religion
+
+Scriptures
+: Religious texts
+
+[Sadhana](https://en.wikipedia.org/wiki/S%C4%81dhan%C4%81)
+: Sādhanā is a discipline undertaken in the pursuit of a goal. Abhyāsa is repeated practice performed with observation and reflection. Kriyā, or action, also implies perfect execution with study and investigation. Therefore, sādhanā, abhyāsa, and kriyā all mean one and the same thing
+
+## Patanjali Yogic Sutras - 8 limbs
+
+> Karma vs Fate
+
+* Foundational scripture for the practise of mediation.
+* **196** sutras in cryptic sanskrit, brief
+  * control of body, breath, senses and mind
+  * English word yoke
+* His yoga consists of 8 parts, ashta anga yoga
+* [Yama - god of death](https://en.wikipedia.org/wiki/Yama)
+* [Eight limbs of yoga](https://en.wikipedia.org/wiki/Ashtanga_(eight_limbs_of_yoga))
+* Meditation ~ Mindfullness (smriti)
+* Butterfly [Metamorphosis](https://en.wikipedia.org/wiki/Metamorphosis)
+  * butterly transforms not once but twice
+* Pranayama - breathing and nervous system are connected
+* Dharana
+  * sound
+  * mantras
+  * image, experience
+  * divine within you
+
+![Eight libms of yoga](https://images.squarespace-cdn.com/content/5779a4ab6b8f5b92c33a6d8c/1563504831230-W371NPM6HCFFE0IJBK9Z/Eight-limbs-of-yoga.jpg?content-type=image%2Fjpeg)
+
 ## 1.1. Intelligence
 
 * https://isha.sadhguru.org/yoga/yoga-articles-mind-stress/harnessing-true-power-mind/
@@ -178,6 +210,19 @@ unsolicited
     * Bhadrasana
 * We all emerge from one consciousness - code geass
 
+## What is [Meditation](https://en.wikipedia.org/wiki/Meditation)
+
+* Buddhist way of life is 2400 years old, Zen is just about 1200 years old
+* Dhyaan - close your eyes and sit, you can do many things, chan in china and then zen in other parts
+  * japa
+  * tapa
+  * dharana
+  * Dhyana
+  * samadhi
+  * Pratiyahara
+* Various ways
+  * simplest being - watch the breath, breathing techniques
+    * its sensations, pauses, cycles, where does it gets absorbed in body
 
 ### 1.3.6. Yogic Practises
 
@@ -339,6 +384,7 @@ awakefullness | wakefullness
   * becomes inactive at age of 2 or by 17
   * Aaa Meditation
   * Releasing Industry - drugs, sex, alcohol or meditation and self-help
+  * science says it controls mood swings
 6. Hypnotism - told to focus eyes at a certain point, within 3 minutes ineer attention to 3rd eyes
   * face looses its vitality, then subconscious mind takes the order
   * with third eye, dreama and reality becomes one - Buddha
@@ -501,5 +547,6 @@ Spirituality = Realization, touch the centre
 * [osho - book of secrets](https://hinduism.stackexchange.com/questions/6889/what-is-the-most-authoritative-book-translation-on-vignana-bhairava-tantra?newreg=1685475231f449e783124183f193f39f)
 * https://en.wikipedia.org/wiki/Sufism
 * https://en.wikiquote.org/wiki/Mansur_Al-Hallaj
+* https://journeythroughmeditation.com/
 
 <Footer />

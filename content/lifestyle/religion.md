@@ -13,7 +13,16 @@ tags:
 > Building bridges
 > Comedy acts like a wodden sword, hits the point without harming anyone
 
+```mermaid
+graph LR
+Philosophy.. ==> Goal..
+Goal.. ==> Path..
+Path.. ==> Lifestyle..
+```
+
 ## [Hinduism]
+
+> The goal is to attain self realization through deep mediation experience that god and me are the same being
 
 * Not even a religion, its a way of life
 * [Sanatan Dharma](https://en.wikipedia.org/wiki/San%C4%81tan%C4%AB)
@@ -72,7 +81,7 @@ tags:
   * Manusmrity careated some hard rules around it
     * Bhramins lords of all casts
     * Forbid movement among casts
-*
+* 
 
 ### [Dharma]
 
@@ -269,5 +278,6 @@ congregation
 * [Moral state wikipedia](https://en.wikipedia.org/wiki/Moral_character)
 * [List of relition by Popularity](https://en.wikipedia.org/wiki/List_of_religious_populations)
 * [story of buddha](https://youtu.be/EDgd8LT9AL4)
+* [whore of Babylon](https://en.wikipedia.org/wiki/Whore_of_Babylon)
 
 <Footer />
