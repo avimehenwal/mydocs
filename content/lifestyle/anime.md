@@ -19,6 +19,10 @@ tags:
 * How to make images at 24 frames / second?
 * Make in 3D first then animate over it using 2D techniques like frame tracing
 
+## Story Boarding
+
+* Villain - we detach from
+* Antihero - immoral still we root for character
 
 ## Top Animation Studios
 
@@ -81,5 +85,8 @@ tags:
 [Ufotable]: https://en.wikipedia.org/wiki/Ufotable
 [Wix]: https://en.wikipedia.org/wiki/Wit_Studio
 
+## References
+
+* https://en.wikipedia.org/wiki/Druid
 
 <Footer />

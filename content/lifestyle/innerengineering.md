@@ -663,12 +663,42 @@ $$ Super \, Human = \{ \, breath, thought, awareness \, \}$$
 
 ## Ascended master / Enlightned beings
 
+> Contributed somthing to human consciousness
+
 * [Paramahansa Yogananda](https://en.wikipedia.org/wiki/Paramahansa_Yogananda)
 * [Gautama Buddha](https://en.wikipedia.org/wiki/Gautama_Buddha)
+* Socrates
+* Lao Tzu
+* Chuang Tzu
+* Bodhi Dharma
+* Pythagoras
+* Zarathustra
+* Mahavira
+
+masochist
+
+### Animal Instinct
+
+* Territorial imperative
+
+
+#### Effects of colors
+
+> Understand what color is?
+
+* What you give away is your quality, just like colors in nature
+  * what you give away is what you see
+  * what you hold back is what you do not see
+
+yellow | mooladhara, buddhist process. Stabilization
+ochre | advanced buddhist, indian sanyasis
+red | most vibrant things are red, femenine
+
 
 ### Resources
 
 * [Herbal Tee](https://en.wikipedia.org/wiki/Herbal_tea)
 * [How much caffene in various tea and coffee type?](https://www.thespruceeats.com/how-much-caffeine-in-green-tea-765281)
+* https://www.schoolofhealth.com/naturopathy/studying-naturopathy/
 
 <Footer />

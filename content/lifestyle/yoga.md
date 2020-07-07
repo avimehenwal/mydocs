@@ -532,6 +532,16 @@ Spirituality = Realization, touch the centre
 
 * 7 chapters, chapter 2 being most popular worldwide
 
+## Food
+
+> How we survive is a miracle!
+
+* What you are eating is important, but how you are eating it also important.
+  * Russian scientist PC pavlock, cat eating food observed through xray, then the dog is unleashed.
+  * when cat was afraid, stomach stopped secreting digestives enzymes for 6 hours, when it started back again, food had already gone bad in stomach
+* just like you are about to play veena, just how you enter the temple and ready to pray
+
+
 
 ### 1.6.7. References
 
