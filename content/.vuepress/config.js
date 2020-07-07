@@ -16,6 +16,13 @@ module.exports = {
       new webpack.EnvironmentPlugin({ ...process.env })
     ]}
   },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@sc': 'screenshots'
+      }
+    }
+  },
   title: 'Avi Mehenwal',
   description: 'A Blog about my development journey',
   head: [
@@ -123,6 +130,7 @@ module.exports = {
           { text: 'Language', link: '/language/' },
           { text: 'Mathematics', link: '/maths/' },
           { text: 'Tools', link: '/tools/' },
+          { text: 'Operating Systems', link: '/operatingsystem/' },
         ]
       },
       { text: 'Tags', link: '/tags.html' },
@@ -213,10 +221,17 @@ module.exports = {
     ],
   ],
   markdown: {
+    linkify: true,                // convert markdown link texts to links
     plugins: [
+      'markdown-it-container',
       'markdown-it-footnote',
       'markdown-it-deflist',
+      'markdown-it-emoji',
       'markdown-it-abbr',
+      'markdown-it-mark',
+      'markdown-it-sup',
+      'markdown-it-sub',
+      'markdown-it-ins',
     ]
   }
 }

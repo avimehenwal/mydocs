@@ -9,7 +9,20 @@ tags:
 
 <TagLinks />
 
+> Shortest distance between two people is a story
+> Building bridges
+> Comedy acts like a wodden sword, hits the point without harming anyone
+
+```mermaid
+graph LR
+Philosophy.. ==> Goal..
+Goal.. ==> Path..
+Path.. ==> Lifestyle..
+```
+
 ## [Hinduism]
+
+> The goal is to attain self realization through deep mediation experience that god and me are the same being
 
 * Not even a religion, its a way of life
 * [Sanatan Dharma](https://en.wikipedia.org/wiki/San%C4%81tan%C4%AB)
@@ -49,6 +62,7 @@ tags:
 * Upanishads and Puranas, philosophical texts
 * Mahabharata longest poem in the world, 5 times length of bible
   * Dharma must be followed for society to function
+  * There is no knowledge like **sankhya** and no power like **yoga**
 * 4 goals person should aim for to have a good life
   * Dharms
   * Artha
@@ -67,7 +81,7 @@ tags:
   * Manusmrity careated some hard rules around it
     * Bhramins lords of all casts
     * Forbid movement among casts
-*
+* 
 
 ### [Dharma]
 
@@ -154,7 +168,16 @@ $Dharma \approx	\{ \, Duty \cup Righteousness \cup Moral \, Conduct \cup Natural
 * Let the dharma and the discipline be your teacher and died peacefully
 * Remember me as the one who woke up
 
+## Jainism
+
+* Jain tradition is older than Buddhism
+* Adinath - first yogi of hatha yoga
+
 #### Four Noble Truths
+
+* Buddha [four noble truth](https://en.wikipedia.org/wiki/Four_Noble_Truths)
+* Humans are the specie where new born require nurturing
+  * evolve human circuits of generosity, empathy, humbleness, humility
 
 1. There is suffering/ dis-satisfaction in this world
    1. It doesnt arises by itself, it has causes. Our own mind can cause it.
@@ -163,12 +186,25 @@ $Dharma \approx	\{ \, Duty \cup Righteousness \cup Moral \, Conduct \cup Natural
    2. Be smart about desire
 3. Make an astonishing claim, Truth of end of suffering - Nirhodha
 4. [Noble eightfold paths](https://en.wikipedia.org/wiki/Noble_Eightfold_Path)
-   1. recipies to life, as to which one makes the best soupe
-   2. Liberation from Samsara
+   1. Right view
+      1. Actions have Consequences
+   2. Right Resolve / intention
+      1. no ill-will
+   3. Right speech
+   4. Right Action
+   5. Right Livelyhood
+   6. Right Effort
+   7. Right Mindfulness
+   8. Right Samadhi
+      1. [Vipassana Mediation](https://en.wikipedia.org/wiki/Vipassan%C4%81)
+
+* recipies to life, as to which one makes the best soupe
+* Liberation from Samsara
 
 
 ### Story of Buddha
 
+* Born around 6th centuary BC in foothills of himalayas
 * If you below mind you are buddhu, above buddha
 * What is taht man? old
 * Will it happen to me too?
@@ -178,6 +214,7 @@ $Dharma \approx	\{ \, Duty \cup Righteousness \cup Moral \, Conduct \cup Natural
 * Take away the barriers, which are not allowing me to experience it
 * He sat with a resolve to find out the nature of existence
 * [Buddhist pilgrimage sites](https://en.wikipedia.org/wiki/Buddhist_pilgrimage_sites)
+* Buddha attained **Bliss of liberation** state - Anand nugget samadhi
 
 
 
@@ -185,6 +222,53 @@ $Dharma \approx	\{ \, Duty \cup Righteousness \cup Moral \, Conduct \cup Natural
 [Dharma]: https://en.wikipedia.org/wiki/Dharma
 [Buddhism]: https://en.wikipedia.org/wiki/Buddhism
 [Asceticism]: https://en.wikipedia.org/wiki/Asceticism
+
+
+## Islam
+
+* [Mecca Kabba](https://youtu.be/PDxKxnVZtgo)
+  * built by Abhrahim
+  * white stone which turned black
+  * black stone said to date back as adam and eve
+  * was robbed by Abu Tahir al-Qarmati once
+    * now only fragments remains
+  * Stone is not a meteorite, possibly a Agate
+
+## Paganism
+
+* Wiccan
+
+## [Christianity](https://en.wikipedia.org/wiki/Christianity)
+
+![Church Tax for 30,000 euros annum income](/screenshots/church-tax.png)
+
+* started in germanya round 4th centuary
+* The four largest branches of Christianity are the
+  * Catholic Church (1.3 billion/50.1%)
+  * Protestantism (920 million/36.7%)
+  * the Eastern Orthodox Church (230 million)
+  * Oriental Orthodoxy (62 million/Orthodoxy combined at 11.9%),
+* 1/3 of total global popullation
+* Church tax **8-9%** in germany if you are a part of state reognized Church
+  * easy to marry
+  * Renovating churches, salary
+* A protestant church started because a king wanted a divource
+* Period of [Reformation](https://en.wikipedia.org/wiki/Reformation) 16thC Europe
+  * church was a very powerful institute, they own 1/3rf of european land
+  * they marry, confessions, death rituals, read bible (latin)
+  * sola fide
+  * [Martin Luther](https://en.wikipedia.org/wiki/Martin_Luther)
+    * churches rituals did not have the power to save souls
+    * alligations that preist were not doing rituals properly and none of them had any spiritual power
+    * new translation of bible into german
+    * landlords vs clergymen, biggest german peasent revolt before french revolution
+      * was supressed with crushing brutality 100,000 people were killed
+
+[Indulgences](https://en.wikipedia.org/wiki/Indulgence)
+: In the teaching of the Catholic Church, an indulgence is "a way to reduce the amount of punishment one has to undergo for sins"
+
+congregation
+: a group of people assembled for religious worship.
 
 ### References
 
@@ -194,5 +278,6 @@ $Dharma \approx	\{ \, Duty \cup Righteousness \cup Moral \, Conduct \cup Natural
 * [Moral state wikipedia](https://en.wikipedia.org/wiki/Moral_character)
 * [List of relition by Popularity](https://en.wikipedia.org/wiki/List_of_religious_populations)
 * [story of buddha](https://youtu.be/EDgd8LT9AL4)
+* [whore of Babylon](https://en.wikipedia.org/wiki/Whore_of_Babylon)
 
 <Footer />

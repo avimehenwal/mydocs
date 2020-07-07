@@ -11,60 +11,28 @@ tags:
 
 Free. Cross-platform. Open source. A developer platform for building **all your** apps.
 
-## DotNet core
+## Dotnet core
 
 > .Net initiative
 
 * successor to .NET-Framework
-* corss-platform
+* cross-platform
 * .NET Core supports four cross-platform scenarios: ASP.NET Core web apps, command-line apps, libraries, and Universal Windows Platform apps.
-* Build web apps and services, Internet of Things (IoT) apps, and mobile backends.
+* Build web apps and services, Internet of Things (IoT) apps, and mobile back-ends.
 
 > Learn to use ASP.NET Core to create web apps and services that are fast, secure, cross-platform, and cloud-based. Browse tutorials, sample code, fundamentals, API reference and more.
 
-![dotnet framework mindmap](/diagrams/dotnet.svg)
-
-#### What does blue and read line mean in devtools?
+![dotnet framework mind-map](/diagrams/dotnet.svg)
 
 
-The Blue line (DOM content loaded event):
-It happens when the browser finished parsing the main document.
-
-The Red line (Load event):
-It happens when the browser finished retrieving all the resources required by the main document.
-
-After the red line: Here you will see loading of asynchronous and cached resources required by the main document and by other resources.
-
-DNS Lookup
-
-When you connect to a website, it has to look up the IP from the DNS. For example, your computer will contact a DNS asking if it knows where "google.com" is. If it does, it'll give you an IP. If it doesn't, it'll either give you the IP of another DNS or it will contact that DNS itself (I'm not sure which implementation applies where) until eventually you end up with the IP of the host you're looking for.
-
-Connecting
-
-Time it takes to connect with that IP. I'm not sure of the details here.
-
-Sending
-
-After connecting, you send the request to the server. It can be a request to view a page or submit data or anything.
-
-Waiting
-
-After sending your request, you wait for the server to respond to it. It can be busy or might take a while to process whatever you requested.
-
-Receiving
-
-Once the server has processed your request, it'll send data back to you.
-
-###### What is the difference between cshtml and html?
+###### What is the difference between cshtml and HTML?
 
 
 ::: tip
-$cs = C \ Sharp$
-
-$cshtml = html + server Code$
+$cs = C \ Sharp \implies cshtml = \{ csharp + html \}  \sim server Code$
 :::
 
-cshtml is the file extension that refers to the **razor view engine**. In addition to straight html, these files also contain C# code that is compiled on the server prior to the pages being server up to the browser..
+cshtml is the file extension that refers to the **razor view engine**. In addition to straight HTML, these files also contain C# code that is compiled on the server prior to the pages being server up to the browser..
 
 ## C#
 
@@ -73,7 +41,7 @@ cshtml is the file extension that refers to the **razor view engine**. In additi
 
 The original C# compiler wasn't written in C#, it was in C and C++. The new Roslyn compiler was written in C#, but was initially compiled with the old compiler. Once the new compiler was done, it was able to compile its own source code: this is called bootstrapping.
 
-* namespaces
+* name-spaces
   * system defined, prebuilt
   * user defined
 * comments
@@ -82,7 +50,7 @@ The original C# compiler wasn't written in C#, it was in C and C++. The new Rosl
   * literals
   * delimiters
 * data-types
-  * operations on datatypes
+  * operations on datatype s
   * enums
 * Type casting
   * implicit type casting
@@ -91,15 +59,15 @@ The original C# compiler wasn't written in C#, it was in C and C++. The new Rosl
 * operators
   * logical operators
   * arithmetic operators
-  * Assignmnet operators
-  * Comparision operators
-  * precidence
+  * Assignment operators
+  * Comparison operators
+  * precedence
   * operator overloading
 * How do you do math with a language?
   * `Math.XXX`
 * String operations
   * length
-  * concatination
+  * concatenation
   * [INTERPOLATION](https://en.wikipedia.org/wiki/Interpolation)
     * interpolation is a type of estimation, a method of constructing new data points within the range of a discrete set of known data points.[
 * Conditional, branching statements
@@ -109,7 +77,7 @@ The original C# compiler wasn't written in C#, it was in C and C++. The new Rosl
   * for
   * do..while
   * while
-  * foreach
+  * for-each
 * Parameters -> Methods | Functions
   * return values
   * Named Arguments
@@ -120,7 +88,7 @@ The original C# compiler wasn't written in C#, it was in C and C++. The new Rosl
   * Encapsulation
     * data hiding
   * Polymorphism
-    * Subtyping
+    * Sub-typing
   * Dynamic dispatch/message passing
     * select the procedural code to execute in response to a method call, typically by looking up the method at run time in a table associated with the object.
   * recursion
@@ -129,7 +97,7 @@ The original C# compiler wasn't written in C#, it was in C and C++. The new Rosl
   * Access Modifiers
     * Public
     * Private
-    * Proteccted
+    * Protected
     * Internal
     * Protected Internal
   * A property is like a combination of a variable and a method, and it has two methods: a get and a set method
@@ -154,9 +122,7 @@ $<Type> \ <Variable \ Name>$
 ##
 
 
-###### What is the difference b/w JS and ECMA?
-
-https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5/
+* [What is the difference b/w JS and ECMAscript?](https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5/)
 
 ### Related Pages
 
@@ -165,12 +131,12 @@ https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ec
 ###### How to update UI when server data has changed
 
 * Server Push
-* Websocket protocol
-  * HTML5 is introducing technologies such as websockets for maintaining a persistent connection to a server, you could look into websockets as a solution, but it's a brand-new technology and I don't think the spec is even finalized yet, so it will only be implemented in the very latest versions of browsers, if at all.
+* Web-socket protocol
+  * HTML5 is introducing technologies such as web-sockets for maintaining a persistent connection to a server, you could look into web-sockets as a solution, but it's a brand-new technology and I don't think the spec is even finalized yet, so it will only be implemented in the very latest versions of browsers, if at all.
   * implemented in browser?
   * Protocol Handshake
-  * WebSockets enable the server and the client to send messages to each other at any time. The connection is established only once at the beginning, and after that, there is an open channel for sending and receiving data.
-  * Web sockets also have no reconnect mechanisms. We have to implement our own comprehensive mechanism or use one provided by WebSocket third-party libraries.
+  * Web-sockets enable the server and the client to send messages to each other at any time. The connection is established only once at the beginning, and after that, there is an open channel for sending and receiving data.
+  * Web sockets also have no reconnect mechanisms. We have to implement our own comprehensive mechanism or use one provided by Web-socket third-party libraries.
   *
 * Polling
   * long polling
@@ -216,16 +182,16 @@ sudo snap install dotnet-sdk --channel 3.1/stable --classic
 * DB Context
 * startup.cs is application entrypoint
 * How to set up a request pipeline?
-  * order how to add MIddleware is important
+  * order how to add Middle-ware is important
 * Interface - contract
-* Controller names are pluralised
-  * model - command, controller - CommandsController
+* Controller names are pluralized
+  * model - command, controller - Commands-controller
 
 ### Interfaces
 
 > class with Abstract methods
 
-* Representa a conract that an object may decide to support
+* Represents a contact that an object may decide to support
 * Usually have names which are Adjectives, because modifying nouns
 * usually prefixed with capital **I**
 * How do you implement an interface?
@@ -235,7 +201,7 @@ Eg: IDrivable
 
 ## Installation
 
-Install multiple runtimes
+Install multiple run-times
 
 ```
 sudo ./dotnet-install.sh -v 2.2.107 --install-dir /usr/share/dotnet --dry-run
@@ -245,16 +211,16 @@ dotnet tool install -g Microsoft.Web.LibraryManager.Cli
 ### CORS
 
 ```
-Error during WebSocket handshake: Unexpected response code: 404
+Error during Web-socket handshake: Unexpected response code: 404
 ```
 
 * request headers could be hacked and modified
 
 ### Resources
 
-* [stackoverflow - .net-core](https://stackoverflow.com/questions/tagged/.net-core)
-* [Comparision of javascript Frameworks](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks)
-* [WebSockets - friend or foe? How to achieve real-time experience in your web application](https://www.nexocode.com/blog/posts/websockets-friend-or-foe/)
+* [stack-overflow - .net-core](https://stackoverflow.com/questions/tagged/.net-core)
+* [Comparison of JavaScript Frameworks](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks)
+* [Web-sockets - friend or foe? How to achieve real-time experience in your web application](https://www.nexocode.com/blog/posts/websockets-friend-or-foe/)
 
 
 [C#]: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)

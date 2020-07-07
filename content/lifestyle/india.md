@@ -12,6 +12,8 @@ tags:
 
 > Worlds largest democracy
 
+* we are a godless country
+* we are a country without any morals
 * Has always been a country for everybody
 * Only culture on planet which constantly told you, you life is your karma (doing)
 * 9th centuary, invention of gunpowder in china, The Great Wall
@@ -20,6 +22,7 @@ tags:
 * Country of geological jewels and culture
 * 5-6th CE Aryabhatta
 * 3rd-4th CE Indus valley, Harappa Civilization, trade with sumerian civilization
+  * 3900 BC
   * writing system still remains undeciphered
 * Vedic Period - Indo aryans
   * caste system, society faction are discovered
@@ -73,6 +76,13 @@ tags:
   * in a country 81% hindu
 * India is an idea of ever ever land
 * We are super power and super power, we cannot be both
+* 70% of indias wealth is in 10% of the wealthy people, 50% of wealth is in 1%
+* Before Independence life expantency in india was 28 years
+* Harappa society could be Matriarcal
+  * possibly Matriarcal society,
+  * Followed yogi and [samkhya] philosophies
+  * possible democratic, and disciplined society
+
 
 ::: tip Indian culture
 
@@ -129,7 +139,9 @@ tags:
 * after 13 years of vanvas
 * Gita
   * killing in self defense is courage and duty not violence
-  *
+  * largest poem on planet
+  * each chapter concludes with yoga
+  * covers all 25 elements of [samkhya] philosophy
 
 > 18 days of total massacre and brutal war
 
@@ -146,6 +158,14 @@ tags:
 * on 16th day, kauravs army was 1/4 of pandavas
 * War aftermath
   * ashathama kills 5 pandavas kids in sleep
+
+## Vedas
+
+* Rigveds 3000 - 2000 BC
+  * Gayatri manta
+    * dhi mahi - dhyaan kare, not worship
+* Atharva Vedas
+
 
 ## Ramayana
 
@@ -231,6 +251,7 @@ tags:
 [Duryodhana]: https://en.wikipedia.org/wiki/Duryodhana
 [Hastinapur]: https://en.wikipedia.org/wiki/Hastinapur
 [SWOT]: https://en.wikipedia.org/wiki/SWOT_analysis
+[samkhya]: https://en.wikipedia.org/wiki/Samkhya
 
 [Ramayana]: https://en.wikipedia.org/wiki/Ramayana
 

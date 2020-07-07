@@ -11,7 +11,42 @@ tags:
 
 <TagLinks />
 
+> Process of life
+
+Philosophy
+:  is the study of general and fundamental questions about existence, knowledge, values, reason, mind, and language. Such questions are often posed as problems to be studied or resolved. The term was probably coined by Pythagoras. Wikipedia
+
+Chant
+: A chant is the iterative speaking or singing of words or sounds, often primarily on one or two main pitches called reciting tones
+
+> Either do something good to yourself or to 10 people around you, else life is no good
+> Who you are will find expression in everything you do
+
+* What other have said, theories? Either believe it and get confident or dont believe them and get confused. Joyful confusion is not bad, but it makes most of us miserable
+* Come to terms with your ignorance, natural reaction is to pay more attention
+
 ## Path Of Spirituality
+
+::: warning Miracle
+Like love $Boom= Thought + Emotion$
+
+$$Miracle =Idead + Emotion + Life /, Energies$$
+
+Extending beyond physicality or practising it makes you on the path of spirituality
+:::
+
+* Life in itself is a big miracle, are you in it or outside?
+* Intelligence doesnt believe anything, fear binds it
+* Devoution and Fear and polar opposites and cannot exist together
+* People respecting you is the quality of people around you
+* Put a pin in your head. So that you do not forget after having a good meal
+* Be alturistic rather than egotististic, goes against animal instinct.
+* Competence is rewarded and incompetence is not unpunished, whats there to live for?
+* Gain a sense of their own competence, else you will become competitive
+* [Halo Effect](https://en.wikipedia.org/wiki/Halo_effect)
+* Education = learning to use your mind, body, energies, emotions in the way you want.
+
+$Sadhana = Tools$ disciplined and dedicated practice or learning, especially in religion or music.
 
 ## Inner Engineering
 
@@ -134,6 +169,11 @@ It is when your experience of life is little more than your physical nature
   * climbing a mountain - breath deep and fast
 * set an example to live life beyonf limitations
 * one person will be the doer and the other person will watch the experience of what the “doer” is doing.
+* Keep your body safe, its useful to me
+* Focus and attention, try to do everything with attention and consciousness
+* Karma (4 layers of karma), prabhda, mukhti, moksha
+  * Karma is not reward, punishment system. Its a memory based system. Yes it could be rewritten
+* do not encourage titillation
 
 ::: tip Life
 No desire, no Life
@@ -293,6 +333,11 @@ $Suffering \propto distance \, from \, Truth$
 * Chitt Shakti Meditation
   * You are love and all are drawn to you. Spread the fragerencce of love, include everyone
 
+::: tip Karma
+Your life is your karma.
+:::
+
+
 ## Sounds of creation
 
 * If you capable of doing whatever is needed joyfully, thats freedom
@@ -321,6 +366,7 @@ $Suffering \propto distance \, from \, Truth$
 * Differencce b/w a fact and truth?
   * Fact is you are either man or a woman, truth is you are both
 * Christianity, born in Jerusalem, where language at that time was [Aramaic](https://en.wikipedia.org/wiki/Aramaic)
+  * crusified at the age of 32 saying they may not know what they are doing
   * They close everythign with Amen
 * Ancient india had master desciple traditions
   * Anything that was spiritual was never written down
@@ -368,6 +414,23 @@ Technology of using these 2 together | Tantra
   * most powerful dimension of life
   * If we do not go back to nothingness, somethingness will fall apart
 * 7 times indivudually Aaa Ooo Mmm followed by AUM 21, 33, 42, 54, 64, 68, 72, 84, 95, 108 times
+* Sound is a substance of creation, meanings are made up in mind.
+  * sound can transform into light, consciosly
+* Pay attention and you can learn anything.
+* [Brain waves of deep state meditators](https://youtu.be/10J6crRacZg), [Gamma Waves](https://en.wikipedia.org/wiki/Gamma_wave)
+  * Olympic level meditaotrs - 62,000 lifetime hrs of meditation
+  * Gamma waves are strong all the time.
+  * Normal people emit them only at certain sensations, biting an apple
+  * [Book - Altered Traits](https://www.amazon.com/Altered-Traits-Science-Reveals-Meditation/dp/0399184384)
+  * Lab - university of Wisconson
+
+## Education
+
+* Schools = Raw materials for bigger factories
+* Types of education
+  * grow brain and bodies to their fullest
+* School should be like raising a graden
+
 
 ## Creating what you want
 
@@ -419,6 +482,9 @@ Technology of using these 2 together | Tantra
 * you and exitence, in every possibilities there are all kinds of forces
 * fear, anxiety are your own thoughts and Emotions
 * understand thouself, rise through consciousness
+* Do it well, whatever the hell you are doing
+* Unwaivering attention - certain lack of attention, energy behind attention
+* the more you know about life, better you can exist, its not a prerequisite to life in itself
 
 Enlightment
 : Dimensions beyond physical, inner dimension. Clarity came. daybreak, nightbreak
@@ -432,6 +498,75 @@ People who read 1 book become religious
 * Use memory as a wisdom, so that you do not fall into same trap. Do not forget
   * either become wise to become wounded with it.
 * We thankyou for the gift of companionship
+* Nearly 70% diseases in last 50 years are Zootonic
+
+## Pay attention
+
+* If you look at something, look with everything you have got
+* Realization that you do not know anything, paying attention is naturally
+  * else there are all stigmas, assumptions and stereotypes
+* Leader means you are able to see something others cannot.
+* Attention without intention
+* Attention deficiency syndrome
+* [Aspire for intelligence, not information](https://youtu.be/R2nZUdObktk)
+* Metaphorical Heart - emotional side of ourself
+* There is only thought and behaviour, behaviour will catch upto thought based on karma
+  * If thought is forefront, the way they think is the way they feel
+  * If emotion is forefront, the way they feel is the way they think
+* $Mind = Memory + Intelligence$
+  * Body has tremendous memory than brain
+* Too mmuch information without experience, the exuberance will be gone and a false sense of knowing will become strong
+* Danger of intellect
+* Technology can bring comfort and convenience to us, but will not bring life to us
+* Indescriminate attention to somethign that is not relevant to you
+  * then universe opens upto you
+* openess / closeness to life
+* Try sending good messages to all cells in your body, dont send the wrong signals
+
+```mermaid
+graph TD
+A[(Body)]:::orange ==> B[Physical body]
+A ==> C[Mental Body]
+
+classDef orange fill:#f96;
+classDef purple fill:#f9f,stroke:#333,stroke-width:4px;
+```
+
+
+## How to choose a partner?
+
+> Joyful face is always a beautyful face
+
+* What is the one thing that always makes a person wonderful?
+* Needs
+  * physical Needs
+  * social needs
+  * financial needs
+* What world throws at you not your choice, what you make out of it using Intelligence is the point
+
+### Long term
+
+> Rope of your being with
+
+* Trust
+* Cheerleader
+* Deep sense of invlovement
+* Laws of attraction - Geometric body
+  * women sense of smell si very strong
+* Inspirations, better each other up
+* Dealing with resentment and jealousy
+* Adjust with each others bullshit
+* The man going to temple and the man going to bar are seeking the same thing
+* Everybody shall pass in life, question is how to make it profound.
+* Journey from constipated to $\implies$ consciousness
+  * Expand your intent
+* Forgive (remove bitterness inside you) but do not forget, and act out of what is eede by the situation and not by previous bitterness and <resentment></resentment>
+  * embracing them
+  * rehabilitating them
+  * Restrain him/her
+  * imprisioning/hanging them
+  * butchering them on street
+* DOnt have premeditative action. thats a crime
 
 ## Questions
 
@@ -439,17 +574,131 @@ People who read 1 book become religious
    1. Morality -trying to be good, but at the root you are still the same. Nothing has changes at the root
    2. you can hold back your hands, but you cannot hold back your mind
    3. Your morality will not evolve you into a higher human being
+2. How to make decision that you do not regret?
+   1. Ask yourself will they still mean something to  you on deathbed, after 5 years, 10 years, 20 years of time?
+      1. As most of them are traps
+   2. Avoid Despirate goals
+      1. think in isolation, meditation
+      2. when you are happy
+      3. Then work on your personality (mask), and persona will come
+         1. Different personalities at different places
+         2. develop = make it up
+         3. but remember to keep it down, when you want
+      4. Meditation - strip everything on you
+         1. if it is a lie, we need to keep up
+3. Which science has the greatest scope of effect?
+   1. systematic approach applicable to larger number of situations and people
+4. Start of the tern excited, end of term stressful, how to maintain state of blissfullness?
+   1. your body geometry controls some aspects of your chemistry
+   2. Accidental creation vs consciousness creation
+5. Forces of nature
+   1. somebody gliding the wave, somebody drowning beneath the way
+   2. somebody figured it out.
+   3. If you dont know all the pawns, there is no game
+6. What is behind the curtain of life? Why are we born, die? If in the end we have to die, whats the point of all this hustle and puzzle and jigsaw of life?
+7. How to awaken intelligence?
+8. Gym vs Yoga?
+9. Diseases treatment? Ailments types, Infectious and chronic?
+   1.  External virus or internal damage
+10. Simple Pactises to be healthy? - [is the idea life happening well](https://youtu.be/c_qoYTYCSG8)
+    1.  using the body, mind and energies
+    2.  eathing good food
+    3.  1k cluching per day
+11. Indian freedom fight movement vs Americal civil right revolution difference?
+    1.  one fought with violence, laws were fixed but hatred still remained
+    2.  Sensitivity for life
+12. Simple practisdes to be healthy
+    1.  Use the body
+    2.  Eat right food
+    3.  clinch and expland fist 1k times a day, watch results after 30 days
+        1.  now replicate that to other parts of body, mind, heart and life energies inside you
 
 ## Yoga Practises
 
+> Discipline of faculties
+
+* [Shambhavi Mudra](https://youtu.be/C_xsXnRd_uc)
+* [Vipassana](https://en.wikipedia.org/wiki/Vipassan%C4%81)
+  * Neuroplasticity - changing mind connections using brain exercises
+  * buddha did a research, every input, every data evokes a sensation in our body
+    * we react to sensationsa and not to the outside objects, evolutionary proccess
+    * Eg: just the sound of scratch!
+    * we suffer the sensations and not the act itself
+* [Upa Yoga](https://youtu.be/QjGF2MLdIz8) 7 sets of Practises, Pre/Sub yoga preperations
+  1. For Health - directional movement for bodily joint liquids
+     1. out - exalation | in - inhalation
+     2. out - rotate fist around thumb | in - other side
+     3. 4 directions
+  2. for Success - The neck practises
+     1. neural regeneration
+     2. 5 neck and shoulder practises
+     3. exhale - back | inhale - in
+     4. shoulders'
+        1. inhale - up | exhale - down
+  3. for Wellbeing - Yoganamaskar 7 steps
+     1. inhale -up | exhale - down
+     2. Bala asana
+  4. for Peace - Nadi shuddhi - 72000
+     1. pingala - 36000
+     2. ida - 36000
+  5. for Joy - Nada Yoga - 7 times
+     1. without employing toungue
+     2. Universal sounds - sounds system can produced naturally
+  6. for Inner Dimensions - Shambhavi Mudra, 3,6 minutes
+     1. Maintain Yoga mudra
+     2. Element of grace
+  7. for Love - Namaskar process
+     1. yin and yang
+     2. Duality to oneness
+     3. generate extreme of pleasent emotions - 3,4 minutes
+* Isha Kriya - bring human is super, 12 minutes, 2 time each day
+  * yogic posture with palms open
+  * I am not the body, I am not even the mind
+  * 7 times - Aaa, loud enought until you feel the vibrations
+  * reorganization of energies
+* [Yoga Journal](https://www.yogajournal.com/)
+$$ Super \, Human = \{ \, breath, thought, awareness \, \}$$
+
+
+
 ## Ascended master / Enlightned beings
+
+> Contributed somthing to human consciousness
 
 * [Paramahansa Yogananda](https://en.wikipedia.org/wiki/Paramahansa_Yogananda)
 * [Gautama Buddha](https://en.wikipedia.org/wiki/Gautama_Buddha)
+* Socrates
+* Lao Tzu
+* Chuang Tzu
+* Bodhi Dharma
+* Pythagoras
+* Zarathustra
+* Mahavira
+
+masochist
+
+### Animal Instinct
+
+* Territorial imperative
+
+
+#### Effects of colors
+
+> Understand what color is?
+
+* What you give away is your quality, just like colors in nature
+  * what you give away is what you see
+  * what you hold back is what you do not see
+
+yellow | mooladhara, buddhist process. Stabilization
+ochre | advanced buddhist, indian sanyasis
+red | most vibrant things are red, femenine
+
 
 ### Resources
 
 * [Herbal Tee](https://en.wikipedia.org/wiki/Herbal_tea)
 * [How much caffene in various tea and coffee type?](https://www.thespruceeats.com/how-much-caffeine-in-green-tea-765281)
+* https://www.schoolofhealth.com/naturopathy/studying-naturopathy/
 
 <Footer />
