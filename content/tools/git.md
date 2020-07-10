@@ -8,6 +8,8 @@ tags:
 
 <TagLinks />
 
+* Git is just a big directed acyclic graph DAG
+
 ## Submodules
 
 * Git repository with in another git repository
@@ -56,7 +58,21 @@ git commit --amend
 # rebase all the other commits in master onto the amended root
 git rebase --onto HEAD HEAD master
 ```
+## Merging 2 repos into 1
 
+> subtree-merge or submodules
+
+* didn’t need the ability to extract changes and ship them back anywhere because my old repositories would be retired
+* fatal: refusing to merge unrelated histories
+  * git pull --allow-unrelated-histories
+
+```
+# In new git repo
+git remote add one <url>
+git pull --allow-unrelated-histories one master
+find ! -path "./.git*" -exec mv -v --target-directory=one_repo {} +
+mv -v .gitignore one_repo/
+```
 ## Resources
 
 * https://github.com/web-platform-tests/wpt

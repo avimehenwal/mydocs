@@ -37,6 +37,24 @@ tags:
 * [Madhouse](https://en.wikipedia.org/wiki/Madhouse_(company))
   * death Note
 
+## Anime Styles
+
+Shōnen
+: boy/ teenager
+
+Shōjo
+: teenage girl
+
+Seinen
+: young man
+
+Kodomo
+: child. Pokemon
+
+Josei
+: Feminine
+
+
 ## Top music directors
 
 * [Hiroyuki Sawano - Hans zimmer of anime](https://en.wikipedia.org/wiki/Hiroyuki_Sawano)

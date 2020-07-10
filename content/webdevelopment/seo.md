@@ -30,5 +30,6 @@ through search engines
 ### References
 
 * [SEO wikipedia](https://en.wikipedia.org/wiki/Search_engine_optimization)
+* [SEO with vuejs and nuxt](https://slides.com/mannil/seo-in-a-vue-js-world-mallorcajs-2020)
 
 <Footer />

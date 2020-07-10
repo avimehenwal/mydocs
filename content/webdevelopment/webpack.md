@@ -2,6 +2,9 @@
 title: Webpack
 tags:
 - webpack
+- buildtool
+- build
+- tool
 ---
 
 # Webpack
@@ -34,7 +37,16 @@ plugins
 * configure webpack to give us the static bundles
 * Use vue-cli to make custom webpack configs
   * `vue.config.js`
-*
+
+
+## Rollup
+
+> Another build tool similar to webpack, grunt, browserfy
+
+* Bundles only the packages which are actually used in source, unlike webpack which bundles everything together
+* results in small final source bundle
+* built for ES6
+* compiler a JS
 
 
 
