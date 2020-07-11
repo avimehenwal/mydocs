@@ -1,5 +1,5 @@
 ---
-title: Typescript
+title: Typescript | Javascript
 tags:
 - javascript
 - typescript
@@ -15,6 +15,43 @@ most of the backend stuff is abstracted using technological solutions like
 * cloud platforms AWS, GCP
 * docker
 * APIs like stripe/paypal for payment
+
+```mermaid
+graph LR
+A(Source Files):::orange == transpile ==> B[Common JS modules] == bundler ==> C(Single file):::purple
+
+classDef orange fill:#f96,stroke-width:0px;
+classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
+```
+
+## Backgroubd
+
+* Up until 2015 javascript did not had **modules** as like in other languages (**ES6**)
+  * We need to export `const`, `var`, `let`, `functions`, `classes` from module files to use it as a package
+  * single `export { ... }` is preferred over multiple exports for redability
+  * Then `import` javascript objects in source to use them from modules.
+  * How do we pack everything up from all modules?
+    * [Bundler wars](https://medium.com/better-programming/the-battle-of-bundlers-6333a4e3eda9)
+* Build Toolchain
+  * compilers - node
+  * transpilers - babel
+    * to use lates ES features which are not yet supported by browsers
+  * bundlers - combine all modules taking care of dependencies and order of appearence
+    * your code + code from npm + posssibly other sources
+    * IFE (Immediately Invoked Function Expression)
+
+```mermaid
+graph LR
+A[(rollup.js)]:::purple ==> B[your code]:::orange
+A -- nodeModules --> D[rollup/plugin-node-resolve]:::orange
+A -- transpiler --> C[rollup/plugin-babel, typescript]:::orange
+A -- otherFormats --> E[image,csv,json,html,wasm]:::orange
+A -- additional --> F[lint,analyzers,css,vue]:::orange
+
+classDef orange stroke-width:0px;
+classDef purple fill:#f9f,stroke:#333,stroke-width:1px;
+```
+
 
 So where is the majority of development?
 
@@ -74,13 +111,9 @@ Would you rather have **silly** errors during development or insanity induced er
   * Dynamic Types
     * Dynamic typing means that types are only known as your program is running.
   * https://stackoverflow.com/questions/20563433/difference-between-static-and-dynamic-programming-languages
-<<<<<<< HEAD
 * [Meaning of `<T>`](https://www.typescriptlang.org/docs/handbook/generics.html)
   * Type variable
   * better than `arg: any`
-=======
-*
->>>>>>> 2343fc00e75720d715ce6d1b851df8d42f3948d1
 
 ```
 public void foo() {
@@ -174,12 +207,11 @@ $Mathematics \simeq	Programming$
 * Look at the parameters, and generate output
 * Persisatant data structures
 * https://files.gotocon.com/uploads/slides/conference_12/546/original/functional-programming%20%20russ%20olsen.pdf
-*
+
 
 ### References
 
 * https://www.guru99.com/typescript-vs-javascript.html
-*
 
 <SimpleNewsletter/>
 <Disqus />
