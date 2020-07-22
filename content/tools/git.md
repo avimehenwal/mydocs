@@ -73,6 +73,25 @@ git pull --allow-unrelated-histories one master
 find ! -path "./.git*" -exec mv -v --target-directory=one_repo {} +
 mv -v .gitignore one_repo/
 ```
+
+### Git merge
+
+Used when you have ammended/rebases commits on one branch which were already there in master.
+Performing merge normally will raise **merge conflicts**. To automatically force rewrite changes (rebased or ammended) from develop to master use this command below
+
+```
+git merge --progress --verbose --summary -X theirs develop
+```
+
+### Reset
+
+* To rewind local changes
+* Time travelling
+* 3 trees in git
+  * 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LX11jimGDGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Resources
 
 * https://github.com/web-platform-tests/wpt

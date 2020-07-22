@@ -1,10 +1,11 @@
 ---
 title: Database
 tags:
-- relational
+- relationship
 - database
 - sql
 - nosql
+- dependency
 ---
 
 # Database
@@ -74,6 +75,69 @@ Database normalization
   * Horizontal and vertical scaling techniques
 
 ## Database Normalization
+
+What is [Normalization]? Why do we need it?
+:   Its a way to structure RDBMS to reduce data redundancy and improve data integrity.
+
+    Codd defined 1NF, 2NF, 3NF in  1970's and then later BCNF in 1974
+
+What are DB [dependencies?](https://en.wikipedia.org/wiki/Dependency_theory_(database_theory)) What problem do they solve?
+:   Tries to solve data optimization problem in RDBMS
+
+    Most popular one is [functional dependency](https://en.wikipedia.org/wiki/Functional_dependency)
+
+[Normalization]: https://en.wikipedia.org/wiki/Database_normalization
+
+1NF
+:   Decompose all ==Multivalued and Composite attributes to atomic attribute==
+
+    <Badge type="tip" vertical="middle" text="Eg:" />Consider Employee table,
+
+    EMP_ID | EMP_NAME | PHONE_NO
+    ------:|:--------:|:--------:
+    1 | abc | 235453
+    :point_right: 2 | pqr | :exclamation: **364868**, **495789** :exclamation:
+    3 | xyz | 097897
+
+    Some employee can have multiple phone numbers. If so PHONE_NO attribute becomes multivalues
+    attribute and needs to be decomposed to atomic attribute to be in 1NF.
+
+    #### How do we decompose?
+
+    Remove PHONE_NO attribute from main employee table and split it into 2 seperate tables.
+    1. EMP_ID, EMP_NAME
+    2. EMP_ID, PHONE_NO
+
+    EMP_ID | PHONE_NO
+    ------:|-----------
+    1 | 235453
+    :point_right: 2 | 364868
+    :point_right: 2 | 495789
+    3 | 097897
+
+    EMP_ID | EMP_NAME
+    -------|-----------
+    1 | abc
+    2 | pqr
+    3 | xyz
+
+### Functional Dependency - FD
+
+Attribute A | Attribute B | FD check
+------------|-------------|----------
+1 | X | holds
+1 | X | holds
+2 | Z | holds
+3 | Y | holds
+2 | Z | holds
+1 | S | breaks, as expected $1 \rightarrow X$ but found $1 \rightarrow S$
+
+Hence, because of last tuple entry, FD doesnt hold between attribute A and B
+
+::: tip FD in primary attribute
+If Attribute A is primary attribute, then FD would hold. Because primary key means all entities for attribute A
+would be unique, and since A is unique no repetition and B would be unique too.
+:::
 
 
 ## Database Relationships
