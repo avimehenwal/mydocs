@@ -9,14 +9,71 @@ tags:
 
 <TagLinks />
 
-## Why vue3
+## Why vue3?
 
 <mark>Major changes</mark>
 
 * Rendering improvements
   * Additional Compiler switches sent with code
-* Written in typescript
-* Composition API
+* Reactivity model is different from vue2, source code changed
+  * Written in typescript
+* [Composition API](https://composition-api.vuejs.org/)
+  * New way of organizing shared features in components using `setup()`
+* New lifecycle hooks for keep-alive
+  * [What is Keep alive?](https://www.keycdn.com/support/http-keep-alive)
+  * `activated()` | `deactivated()`
+  * `errorcaptured()`
+
+<Procons>
+  <template v-slot:con>
+    <h3>Vue2 Limitation</h3>
+    <ol>
+      <li>Components Redability</li>
+      <li>Code reuse patterns</li>
+      <li>Limited Typescript support</li>
+    </ol>
+  </template>
+
+  <template v-slot:pro>
+    <h3>vue3 Solutions</h3>
+    <ol>
+      <li>Composition API syntax `setup()` (optional). Organise code by  logical concerns</li>
+      <ol>
+        <li>Mixins</li>
+        <li>Mixin Factory</li>
+        <li>Scoped Slots</li>
+        <li>Composition Functions</li>
+      </ol>
+    </ol>
+  </template>
+</Procons>
+
+<Badge type="tip" vertical="middle" text="For Example," /> Search component with searching and sorting
+
+## When to use Composition API?
+
+> More advanced component syntax for logical code organization.
+
+* `setup()` Analogous to `asyncData()` in `nuxtjs`, doesnt have access to `this` object and runs before lifecycle hooks
+  * props
+  * context
+  * good place to put API calls
+
+```mermaid
+graph LR
+  A(Business Logic):::blue
+  B(Presentation Layer):::yellow
+  subgraph Component Architecture
+    A --- B
+  end
+classDef yellow fill:#FFE873,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
+```
+
+## Design Principles of Vue 3.0
+
+* [Public RFC](https://github.com/vuejs/rfcs)
+*
 
 Bottleneck of traditional DOM
 
@@ -102,6 +159,71 @@ Simple methods such as document.getElementsByClassName() are fine to use on a sm
 The virtual DOM was created to solve these problems of needing to frequently update the DOM in a more performant way. Unlike the DOM or the shadow DOM, the virtual DOM isn't an official specification, but rather a new method of interfacing with the DOM.
 
 https://vuejsdevelopers.com/2017/02/21/vue-js-virtual-dom/
+
+## :construction_worker_woman: TDD with vueapp
+
+> One of the pillars for writing robust softwares. Builds trust
+
+```mermaid
+graph LR
+A(Write failing Test):::purple
+B(write Code to fix it):::green
+C(Refactor Code):::blue
+
+A -- TDD --> B -- iterative --> C --> B
+
+classDef green fill:#1f9,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
+classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
+
+click A "https://en.wikipedia.org/wiki/Test-driven_development" "TDD"
+click B "https://en.wikipedia.org/wiki/Test-driven_development" "TDD"
+click C "https://en.wikipedia.org/wiki/Test-driven_development" "TDD"
+```
+
+* Lifeline for releases, development
+* TDD - extreme Programming - Kent Beck in 90s
+* [How and what to test components?](https://vue-test-utils.vuejs.org/)
+  * Public API - Black box Testing
+  * props that you pass and user events interactions
+  * jest will run everything running through compiler without associating the file to it
+  * `vue-template-compiler`, `vue-jest`, `@vue/test-utils`
+* ==spec== testing code in JS world
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DD1fEhcEzY8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Test VueJS Components
+
+[Test vuejs components](https://vueschool.io/courses/learn-how-to-test-vuejs-components)
+
+Library/Tools | Description
+--------------|--------------
+[jest](https://github.com/facebook/jest) | Jest is a JavaScript testing framework maintained by Facebook, Inc. with a focus on simplicity. It works with projects using: Babel, TypeScript, Node.js, React, Angular and Vue.js. It aims to work out of the box and config free.
+[vue-jest](https://github.com/vuejs/vue-jest) | Jest transformer for Vue SFC, loads `.vue` files into jest
+[vue-test-utils](https://vuejs.github.io/vue-test-utils-next-docs/guide/installation.html) | Additional classes to compile, mount vue source code and makes it possible to run tests.
+
+
+* [Test vue3](https://lmiller1990.github.io/vue-testing-handbook/composition-api.html#the-composition-api)
+* Transform vue files to vue-jest
+* Generate and write HTML geenerated from components to snapshot files
+* mount a component
+* Test a prop
+* Test lifecyclemethods, computed properties and methods
+* test code in `--watch` mode
+* `spyOn()` method to test is a method is called or not
+* How to find elements in DOM
+  * `wrapper.find()`
+* fire DOM events like click, hover etc
+  * in test have to sent the event manually, happens automatically in browser
+  * `element.trigger('click')`
+* Test components with stores, crucial
+  * leveraging data from store rightaway
+* Test component behaviours
+  * making API calls
+  * committing or dispatching mutations or actions with a * Vuex store
+  * testing interaction
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7r4xVDI2vho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <SimpleNewsletter/>
 <Disqus />

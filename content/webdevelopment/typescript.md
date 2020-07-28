@@ -3,6 +3,16 @@ title: Typescript | Javascript
 tags:
 - javascript
 - typescript
+- webpack
+- rollup
+- buildtool
+- build
+- tool
+- frontend
+- bundler
+- software
+- tool
+- transpilier
 ---
 
 # Typescript
@@ -197,6 +207,57 @@ pokemon = [...pokemon, 'Balbasaur']
 type Duck = Quackable & Swimmable;
 type Flyable = Eagle | Butterfly;
 ```
+
+## :wrench: Bundler Softwares for Frontend
+
+1. webpack
+2. Rollup
+
+Universal Module Definition - [UMD](https://github.com/umdjs/umd)
+:   UMD is a pattern of universal module definition for JavaScript modules.
+
+    These modules are capable of working everywhere, be it in the client, on the server or elsewhere.
+
+## Why do we need webpack?
+
+Generic way of consuming JS on on webpage
+
+* Script tags
+  * jQuery repreccursions
+* Put everything into one BIG JS file
+  * scoping
+  * maintenance
+* Modules
+* ESM
+
+webpack
+: javascript bundler. Creates bundles
+
+loaders
+: By default, webpack deals only with JS files, but we might need other assets as well
+like images, vue files, css, html templates files, preprocessing, postprocessing etc
+
+plugins
+: do fancy stuff with loaded files. Vuetify etc
+
+* builds internal dependency graph
+* configure webpack to give us the static bundles
+* Use vue-cli to make custom webpack configs
+  * `vue.config.js`
+
+
+## Rollup
+
+> Another build tool similar to webpack, grunt, browserfy
+
+* Bundles only the packages which are actually used in source, unlike webpack which bundles everything together
+* results in small final source bundle
+* built for ES6
+* compiler a JS
+
+
+
+*[JS]: JavaScript
 
 ## Functional Programmming
 

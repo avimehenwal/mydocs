@@ -11,6 +11,16 @@ tags:
 
 <TagLinks />
 
+> Do not look upto something and look down on something.
+
+::: tip Goal of Humanity
+Pleasent Experience. People who have not a moment of anger, agitation, irritation, anxiousness
+or somethign not pleasent for past 15 years of their lives!
+:::
+
+* Mr ego is the fall guy, when you do somethign great "I did it", something nasty, "it was my ego"
+* We are busy producing sub-standard human being
+* Were people born 2k,5k years ago were much more smarter than me?
 
 ## Self Help Industry trap
 

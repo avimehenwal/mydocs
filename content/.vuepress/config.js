@@ -148,6 +148,7 @@ module.exports = {
         items: [
           { text: 'Static: avimehenwal Blog v1', link: 'https://avimehenwal.in/' },
           { text: 'SPA: Anime fan project', link: 'https://fangallery.netlify.app/' },
+          { text: 'Static: Python Tutorials', link: 'https://avi-python.netlify.app/' },
           { text: 'SPA: COVID Visualization Dashboard', link: 'https://covid-visualization.netlify.app/' },
           { text: 'SPA: Tic Tac Toe Game Implementation', link: 'https://peaceful-minsky-f655a4.netlify.app/' },
           { text: 'Static: My first portfolio', link: 'https://avimehanwal.netlify.app/' },

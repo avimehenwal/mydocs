@@ -34,7 +34,28 @@ classDef purple fill:#f9f,stroke:#333,stroke-width:4px;
 
 * Universal Module Definition (UMD) API
 * https://unpkg.com/
-* 
+* [How to add components from npm with nuxtjs?](https://stackoverflow.com/questions/60735985/cant-add-npm-package-to-nuxt-js-vue-star-rating/60743990#60743990)
+* https://vuejs.org/v2/cookbook/packaging-sfc-for-npm.html
+* https://github.com/craigh411/vue-star-rating
+
+```mermaid
+graph LR
+A(draw 1 SVG star.vue):::yellow
+B(Draw 5 in a row.vue):::green
+C([.ts export 5 stars]):::blue
+
+A -- exports --> B == exports ==> C
+
+classDef green fill:#1f9,stroke-width:0px;
+classDef yellow fill:#FFE873,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
+
+click A "https://github.com/craigh411/vue-star-rating" "Click to open Github Repository"
+click B "https://github.com/craigh411/vue-star-rating" "Click to open Github Repository"
+click C "https://github.com/craigh411/vue-star-rating" "Click to open Github Repository"
+```
+
+
 
 *[SFC]: Single File Component
 

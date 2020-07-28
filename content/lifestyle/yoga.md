@@ -541,7 +541,13 @@ Spirituality = Realization, touch the centre
   * when cat was afraid, stomach stopped secreting digestives enzymes for 6 hours, when it started back again, food had already gone bad in stomach
 * just like you are about to play veena, just how you enter the temple and ready to pray
 
+## Receptivity in Human Being
 
+1. Centres of sleep
+2. Imagination
+3. memory
+4. Right perception
+5. perversion
 
 ### 1.6.7. References
 
