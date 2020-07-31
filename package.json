@@ -31,6 +31,7 @@
     "vuepress": "^1.0.0-rc.1",
     "vuepress-plugin-auto-sidebar": "^1.4.1",
     "vuepress-plugin-check-md": "^0.0.2",
+    "vuepress-plugin-container": "^2.1.4",
     "vuepress-plugin-disqus": "^0.2.0",
     "vuepress-plugin-flowchart": "^1.4.3",
     "vuepress-plugin-mailchimp": "^1.4.2",

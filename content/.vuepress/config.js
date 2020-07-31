@@ -221,6 +221,22 @@ module.exports = {
         },
       },
     ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'right',
+        defaultTitle: '',
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'quote',
+        defaultTitle: 'Anonymous',
+        before: '<article class="quote"><div class="body">',
+        after: info => `</div><footer class="author">~ ${info}</footer></article>`,
+      },
+    ],
   ],
   markdown: {
     linkify: true,                // convert markdown link texts to links

@@ -65,3 +65,25 @@ mark
 .theme-default-content code
     color: $codeColor
     // font-weight: bold
+
+@font-face {
+    font-family: 'Tangerine';
+    // src: url(/fonts/Tangerine-Bold.ttf)
+    src: url(/fonts/Tangerine-Regular.ttf)
+}
+
+.quote
+    margin 1rem 0
+    padding .1rem 1.5rem
+    border-radius 1rem
+    background-color #f0f4f8
+    .body
+        font-family: 'Tangerine'
+        font-size: 4rem
+        text-align center
+    .author
+        // font-weight bold
+        color transparentify($textColor, 0.4)
+        text-align right
+        font-size 1rem
+        font-style italic
