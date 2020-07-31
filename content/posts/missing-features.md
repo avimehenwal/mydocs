@@ -1,4 +1,16 @@
-# Some Missing Features
+---
+title: Website Features
+tags:
+- website
+- features
+---
+
+# Website Features
+
+<TagLinks />
+
+
+## Features
 
 1. Comments Sections
 2. How to add footers?
@@ -9,6 +21,11 @@
 6. How about reference and cross-reference?
 7. Use [dot files to generate diagrams](https://www.graphviz.org/gallery/)
 
+## Newsletter
+
+* https://www.getrevue.co/pricing
+  * Free upto 50 subscribers
+  * vue project uses this
 
 ## Blogging Tools
 
@@ -40,4 +57,6 @@
 
 # Catalog Graph
 
+
 <CatalogGraph />
+<Footer />

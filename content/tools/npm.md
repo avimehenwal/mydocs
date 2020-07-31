@@ -21,6 +21,23 @@ tags:
 * axios - https://github.com/axios/axios
 * classnames - https://jedwatson.github.io/classnames/
 
+```mermaid
+graph LR
+A([JS Artifacts]):::green
+B(ES6 Module):::blue
+C(unpkg):::purple
+D(UMD):::yellow
+A -- module --> B
+A -- unpkg --> C
+A == main ==> D
+classDef green fill:#1f9,stroke-width:0px;
+classDef yellow fill:#FFE873,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
+classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
+
+click A "https://www.wikipedia.org/" "Click to open wikipedia"
+```
+
 ## Automate Releases
 
 ### Release Tasks
@@ -47,5 +64,77 @@ Versioning
 * semantic release
 
 ![Software Versioning](https://miro.medium.com/max/770/1*LLDEWaQ0BW0UITTVxjPv3A.png)
+
+## Dependency Management
+
+https://medium.com/@seanmcp/understanding-and-organizing-dependencies-in-node-packages-13d34560e001
+
+1. dependencies (default)
+2. devDependencies
+3. peerDependencies
+4. bundledDependencies
+5. optionalDependencies
+
+## Build Artifacts Types
+
+What are modules in javascript again?
+:  Way to organize content or code in this case.
+
+   Analogous to how book is divided into volumes, chapters, sections, paragraps
+   Problem is JS doesnt have in built classes as in other programming languages like python.
+
+   Enter [Module Pattern](https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/#c33a)
+
+::: warning Javascript scopes
+In JavaScript, functions are the only way to create new scope.
+:::
+
+* [Rollupjs bundler](https://rollupjs.org/guide/en/)
+  * Why? Has a dedicated plugins to generate distributable vue components called [vue-sfc-rollup](https://github.com/team-innovation/vue-sfc-rollup)
+  * else whould have to use vue-template compiler
+* https://www.freecodecamp.org/news/javascript-modules-part-2-module-bundling-5020383cf306/
+* https://vuejs.org/v2/cookbook/packaging-sfc-for-npm.html
+* [Why ES6 module better than CommonJS?](https://rollupjs.org/guide/en/#why-are-es-modules-better-than-commonjs-modules)
+
+1. CommonJS - load modules synchronously
+2. AMD - Asynchronous Module Definition
+3. UMD - Universal Module Definition
+   1. could be used directly in browser under `<script>` tag
+
+$$UMD = AMD + CommonJS$$
+
+::: tip ES6 Modules
+The most important difference between the current JS Module formats (CommonJS, AMD) and ES6 modules is that ES6 modules are designed with static analysis in mind. What this means is that when you import modules, the import is resolved at compile time — that is, before the script starts executing. This allows us to remove exports that are not used by other modules before we run the program. Removing unused exports can lead to significant space savings, reducing stress on the browser.
+:::
+
+## VueJS Workflow
+
+```mermaid
+graph LR
+A(Vue SFC):::blue
+B(vue compiler 2,3):::purple
+C(unpkg/umd.js bundle):::yellow
+D(register with vue object)
+A -- source--> B -- compiled --> C -- install --> D
+classDef yellow fill:#FFE873,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
+classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
+```
+
+```vue
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/my-component"></script>
+...
+<my-component> some slot </my-component>
+...
+```
+
+How do I compile vue components individually SFC?
+:  `yarn vue-cli-service build` can compile and build the entire app.
+
+   > Use webpack for apps and rollup for librarie and SFC
+
+
+
 
 <Footer />

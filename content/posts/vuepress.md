@@ -1,5 +1,5 @@
 ---
-title: vueppress
+title: vuepress
 lang: en-US
 tags:
 - static

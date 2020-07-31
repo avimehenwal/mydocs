@@ -153,6 +153,7 @@ module.exports = {
           { text: 'SPA: Tic Tac Toe Game Implementation', link: 'https://peaceful-minsky-f655a4.netlify.app/' },
           { text: 'Static: My first portfolio', link: 'https://avimehanwal.netlify.app/' },
           { text: 'Static: Just another sample site', link: 'https://german.netlify.app/' },
+          { text: 'static: @avi/vue-components', link: 'https://avi-vue-components.netlify.app/' },
         ]
       },
     ],
@@ -228,6 +229,7 @@ module.exports = {
       'markdown-it-footnote',
       'markdown-it-deflist',
       'markdown-it-emoji',
+      'markdown-it-todo',
       'markdown-it-abbr',
       'markdown-it-mark',
       'markdown-it-sup',

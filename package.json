@@ -26,6 +26,7 @@
     "markdown-it-mark": "^3.0.0",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
+    "markdown-it-todo": "^1.0.5",
     "standard-version": "^8.0.1",
     "vuepress": "^1.0.0-rc.1",
     "vuepress-plugin-auto-sidebar": "^1.4.1",

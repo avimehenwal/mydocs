@@ -11,7 +11,7 @@ tags:
 
 <TagLinks />
 
-* `Template` section in components needs one top leve, root element
+* `Template` section in components needs one top level root element, in contrast to vue3 which can have multiple root elements.
 * Use `props` and named `v-slots` with components
 * [Vue Components | Vue Plugins | Vue Mixins](https://stackoverflow.com/questions/50474317/vue-js-components-vs-plugins-vs-mixins#:~:text=Components%20can%20be%20extended%2C%20doing,functionality%20to%20an%20existing%20component.)
   * component is individual unit in itself
@@ -24,10 +24,13 @@ tags:
 
 ```mermaid
 graph LR
-A(File.vue) --> B(vue Compiler):::orange
-
-classDef orange fill:#f96;
-classDef purple fill:#f9f,stroke:#333,stroke-width:4px;
+A(Component.vue):::blue
+B([Vue-2,3 compiler]):::green
+C(html, css, js):::yellow
+A -- source --> B -- compiles --> C
+classDef green fill:#1f9,stroke-width:0px;
+classDef yellow fill:#FFE873,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
 ```
 
 ### How Properly packaging your SFC for distribution via npm?

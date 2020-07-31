@@ -6073,6 +6073,11 @@ markdown-it-table-of-contents@^0.4.0:
   resolved "https://registry.yarnpkg.com/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.4.4.tgz#3dc7ce8b8fc17e5981c77cc398d1782319f37fbc"
   integrity sha512-TAIHTHPwa9+ltKvKPWulm/beozQU41Ab+FIefRaQV1NRnpzwcV9QOe6wXQS5WLivm5Q/nlo0rl6laGkMDZE7Gw==
 
+markdown-it-todo@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/markdown-it-todo/-/markdown-it-todo-1.0.5.tgz#25d0dd48db20ed0265e421998e83788234ea031d"
+  integrity sha512-bHfAbwSGSYdi/iG7G5XLyalU4xwZIlZMsd3xf25FGbLkramaia0oydpXJP8HJzJbLCnbM1kdko/zqZJBS9pYrw==
+
 markdown-it@^8.4.1:
   version "8.4.2"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.2.tgz#386f98998dc15a37722aa7722084f4020bdd9b54"

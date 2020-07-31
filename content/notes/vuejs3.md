@@ -1,8 +1,13 @@
 ---
 title: Vuejs 3
 tags:
+- vue3
 - vue
+- vuejs
 - javascript
+- virtual
+- dom
+- jest
 ---
 
 # Vuejs 3
@@ -188,6 +193,7 @@ click C "https://en.wikipedia.org/wiki/Test-driven_development" "TDD"
   * props that you pass and user events interactions
   * jest will run everything running through compiler without associating the file to it
   * `vue-template-compiler`, `vue-jest`, `@vue/test-utils`
+  * vue-jest compiles `<script />`, `<template />`, and `<style />` blocks with supported lang attributes into JavaScript that Jest can run.
 * ==spec== testing code in JS world
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DD1fEhcEzY8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -201,6 +207,8 @@ Library/Tools | Description
 [jest](https://github.com/facebook/jest) | Jest is a JavaScript testing framework maintained by Facebook, Inc. with a focus on simplicity. It works with projects using: Babel, TypeScript, Node.js, React, Angular and Vue.js. It aims to work out of the box and config free.
 [vue-jest](https://github.com/vuejs/vue-jest) | Jest transformer for Vue SFC, loads `.vue` files into jest
 [vue-test-utils](https://vuejs.github.io/vue-test-utils-next-docs/guide/installation.html) | Additional classes to compile, mount vue source code and makes it possible to run tests.
+[@vue/compiler-sfc](https://github.com/vuejs/vue-next/tree/master/packages/compiler-sfc) | compiles vue to javascript
+[vue-sfc-rollup](https://github.com/team-innovation/vue-sfc-rollup) | quickest way to generate redistributable vue components with npm
 
 
 * [Test vue3](https://lmiller1990.github.io/vue-testing-handbook/composition-api.html#the-composition-api)
@@ -224,6 +232,15 @@ Library/Tools | Description
   * testing interaction
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7r4xVDI2vho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Jest
+
+> Delightful testing
+
+* Writing meaningful test
+* How to test a module / feature in isolation?
+  * Mocking, Test bed setup
+* Snapshots - For faster test execution
 
 <SimpleNewsletter/>
 <Disqus />
