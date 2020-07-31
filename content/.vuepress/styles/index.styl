@@ -26,6 +26,20 @@
 //     // margin-bottom: 1em;
 //     padding: 0 0 0.5em 0;
 
+/* random in range from min to max */
+/* via https://codepen.io/kizu/pen/etmzx */
+random(min,max)
+  return floor(math(0, 'random')*(max - min + 1) + min)
+
+// html
+//     height: 100%
+//     background: linear-gradient(
+//         rgb( random(0, 255), random(0, 255), random(0, 255)),
+//         rgb( random(0, 255), random(0, 255), random(0, 255)),
+//         rgb( random(0, 255), random(0, 255), random(0, 255)),
+//         rgb( random(0, 255), random(0, 255), random(0, 255))
+//     )
+
 dl
     // border: 3px outset $borderColor;
     // padding: 0.5em;
@@ -77,6 +91,8 @@ mark
     padding .1rem 1.5rem
     border-radius 1rem
     background-color #f0f4f8
+    border-bottom-style: ridge
+    border-bottom-width: 0.5rem
     .body
         font-family: 'Tangerine'
         font-size: 4rem
