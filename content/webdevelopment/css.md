@@ -10,6 +10,7 @@ tags:
 <TagLinks />
 
 ::: quote
+
 Let's make web beautyful!
 :::
 
