@@ -273,6 +273,7 @@ $Mathematics \simeq	Programming$
 ### References
 
 * https://www.guru99.com/typescript-vs-javascript.html
+* [Lydia Hallie](https://www.theavocoder.com/)
 
 <SimpleNewsletter/>
 <Disqus />

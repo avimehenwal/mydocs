@@ -40,6 +40,8 @@ How you can re-create photoshop stuff in browser?
 
 ::: right
 Inspiration [codepen](https://codepen.io/search/pens?q=SVG+Filters)
+
+* https://www.theavocoder.com/
 :::
 
 * SVG is 2 decades old
@@ -147,6 +149,53 @@ How to create SVG textures?
 * [Code drops](https://tympanus.net/codrops/)
 * [Art of SVG Filters](https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome/)
 
+## CSS-3 Placement and Positioning System
+
+::: quote
+How to palce elements on browser like a css god!
+:::
+
+How CSS-3 solves position the element properly on various resolution?
+
+1. Box Model, Position System
+   1. static
+   2. relative
+   3. fixed
+   4. absolute
+   5. sticky
+2. CSS Flex Model - 1 dimensional
+3. CSS Layout - 2 dimensional
+
+::: danger CSS Positioning system
+When on earth do we use each of these?
+:::
+
+Parent `relative` and its children as `absolute` is a common practise.
+
+```mermaid
+journey
+    title CSS Placement Technologies
+    section static relative fixed absolute sticky
+      css position: 5: CSS 3
+    section display flex
+      css Flexbox: 5: 2009
+    section display grid
+      css Grid: 5: 2017, in development
+```
+
+[A brief history of CSS until 2016](https://www.w3.org/Style/CSS20/history.html)
+
+```css
+transform: rotate(2deg)
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jx5jmI0UlXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MdPYenT89o4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## vue
+
+* [Import css in vue](https://github.com/vuejs-templates/webpack/issues/604)
+* [Paframeterizing SVG](https://stackoverflow.com/questions/21763953/parameterizing-and-reusing-custom-svg-filters-defined-in-html5)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kfOhlU_iRVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -83,12 +83,21 @@ Performing merge normally will raise **merge conflicts**. To automatically force
 git merge --progress --verbose --summary -X theirs develop
 ```
 
+## :cherry: Cherrypicking
+
+Useful when working on opensourced projects, you might want to keep personal changes in develop branch,
+but only cherry-pick certain commits to master branch for raising PR with upstream.
+
+```bash
+git cherry-pick <commitId> -n
+```
+
 ### Reset
 
 * To rewind local changes
 * Time travelling
 * 3 trees in git
-  * 
+  *
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LX11jimGDGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
