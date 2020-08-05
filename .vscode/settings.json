@@ -7,5 +7,6 @@
     "theme",
     "build",
     "hosting"
-  ]
+  ],
+  "svg.preview.background": "transparent"
 }

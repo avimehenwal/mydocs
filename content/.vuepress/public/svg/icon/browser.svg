@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .cls-1 {
+                isolation: isolate;
+            }
+
+            .cls-2 {
+                mix-blend-mode: multiply;
+            }
+
+            .cls-3 {
+                fill: #f4cd51;
+            }
+
+            .cls-4 {
+                fill: #f5f1e0;
+            }
+
+            .cls-5 {
+                fill: #ea6e60;
+            }
+
+            .cls-6 {
+                fill: none;
+                stroke: #3b342f;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2px;
+            }
+        </style>
+    </defs>
+    <title>browser</title>
+    <g class="cls-1">
+        <g id="icons" class="cls-2">
+            <g id="_Group_" data-name="&lt;Group&gt;">
+                <path class="cls-3"
+                    d="M63,19V53a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V49H51a4,4,0,0,0,4-4V15h4A4,4,0,0,1,63,19Z" />
+                <path class="cls-4" d="M55,19V45a4,4,0,0,1-4,4H5a4,4,0,0,1-4-4V19Z" />
+                <path class="cls-5"
+                    d="M55,15v4H1V11A4,4,0,0,1,5,7H51a4,4,0,0,1,4,4ZM25,13a2,2,0,1,0-2,2A2,2,0,0,0,25,13Zm-8,0a2,2,0,1,0-2,2A2,2,0,0,0,17,13ZM9,13a2,2,0,1,0-2,2A2,2,0,0,0,9,13Z" />
+                <circle class="cls-3" cx="23" cy="13" r="2" />
+                <circle class="cls-3" cx="15" cy="13" r="2" />
+                <circle class="cls-3" cx="7" cy="13" r="2" />
+                <path class="cls-6" d="M55,19V45a4,4,0,0,1-4,4H5a4,4,0,0,1-4-4V11A4,4,0,0,1,5,7H51a4,4,0,0,1,4,4v8Z" />
+                <path class="cls-6" d="M55,15h4a4,4,0,0,1,4,4V53a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V49" />
+                <line class="cls-6" x1="1" y1="19" x2="55" y2="19" />
+                <circle class="cls-6" cx="7" cy="13" r="2" />
+                <circle class="cls-6" cx="15" cy="13" r="2" />
+                <circle class="cls-6" cx="23" cy="13" r="2" />
+            </g>
+        </g>
+    </g>
+</svg>

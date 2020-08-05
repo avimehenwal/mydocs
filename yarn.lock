@@ -6048,6 +6048,11 @@ markdown-it-footnote@^3.0.2:
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.2.tgz#1575ee7a093648d4e096aa33386b058d92ac8bc1"
   integrity sha512-JVW6fCmZWjvMdDQSbOT3nnOQtd9iAXmw7hTSh26+v42BnvXeVyGMDBm5b/EZocMed2MbCAHiTX632vY0FyGB8A==
 
+markdown-it-imsize@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-imsize/-/markdown-it-imsize-2.0.1.tgz#cca0427905d05338a247cb9ca9d968c5cddd5170"
+  integrity sha1-zKBCeQXQUziiR8ucqdloxc3dUXA=
+
 markdown-it-ins@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-ins/-/markdown-it-ins-3.0.0.tgz#b1b56824c78dc66e52b0fc97531b317cd78d79d2"
@@ -8804,6 +8809,11 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+svg-pan-zoom@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/svg-pan-zoom/-/svg-pan-zoom-3.6.0.tgz#31d8137d7e079e8f059effd85c7605b0567b6e4b"
+  integrity sha512-ZBEL2z/n/W2fLLFzn3NTQgd+7QEfbrKvKmu29U3qvMflmJgLaWkwKbOzWJYESFidTiGYMHkijAKmY6m64moyYg==
+
 svg-tags@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
@@ -9399,6 +9409,13 @@ vue-style-loader@^4.1.0:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
+
+vue-svg-pan-zoom@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/vue-svg-pan-zoom/-/vue-svg-pan-zoom-1.1.0.tgz#7f104366a51d6fa3d4b0f798788c05296d811436"
+  integrity sha512-H/KuL+zuSsZtQETFyE68Ms6YfMjfvLCtBKYcFc/o2NZsP6dlV3+XJfywjqZJKPsFUYJkFvX6XgNe+BKUqnkzzQ==
+  dependencies:
+    svg-pan-zoom "3.6.0"
 
 vue-template-compiler@^2.6.10:
   version "2.6.11"

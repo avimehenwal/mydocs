@@ -244,6 +244,7 @@ module.exports = {
       'markdown-it-container',
       'markdown-it-footnote',
       'markdown-it-deflist',
+      'markdown-it-imsize',
       'markdown-it-emoji',
       'markdown-it-todo',
       'markdown-it-abbr',
