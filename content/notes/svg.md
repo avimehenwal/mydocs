@@ -333,6 +333,7 @@ https://github.com/SVG-Edit/svgedit
 
 * What makes SVG different from png, JPEGs
 * Manupulate it on the fly in browser
+* [How to embed svg in document?](https://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html#SVG_in_HTML)
 
 So you are looking for raster to vector graphics converter/tracer. potrace & autotrace both are in Ubuntu repository. Myself I tried potrace before which gave nice results with default options. As I remember, both tools do not support compressed formats as input, only bitmap images.
 
@@ -390,6 +391,7 @@ Pull filters out of SVG images?
 ### effects
 
 * Field effect - things move away in depth
+
 
 
 <SimpleNewsletter/>
