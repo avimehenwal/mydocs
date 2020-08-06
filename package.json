@@ -12,6 +12,7 @@
     "debug": "vuepress --debug dev content",
     "changelog": "standard-version",
     "deadlinks": "vuepress check-md ./content/",
+    "sections": "find ./content/ -maxdepth 1 -type d -print | tail --lines=+2 | sed 's/.\\/content\\///'",
     "svgo": "svgo --pretty --recursive --folder=./content/.vuepress/public/diagrams/"
   },
   "devDependencies": {
