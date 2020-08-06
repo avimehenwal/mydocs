@@ -66,7 +66,7 @@ state client_side_Compilation {
 > cross platform, language independent interface for treating XML and HTML
 
 ::: right
-DOM [   Wikipedia](https://en.wikipedia.org/wiki/Document_Object_Model)
+DOM [Wikipedia](https://en.wikipedia.org/wiki/Document_Object_Model)
 :::
 
 * Node tree construction from parsed HTML, CSS. There could be blocking JS as well
@@ -77,9 +77,6 @@ DOM [   Wikipedia](https://en.wikipedia.org/wiki/Document_Object_Model)
   * Dispatching events
   * Firing events
 
-
-
-
 [specification]: https://www.w3.org/TR/SVG2/Overview.html
 [SMIL]: https://www.w3.org/TR/2008/REC-SMIL3-20081201/
 [DOM]: https://dom.spec.whatwg.org/
@@ -89,8 +86,6 @@ DOM [   Wikipedia](https://en.wikipedia.org/wiki/Document_Object_Model)
 *[SMIL]: Synchronized Multimedia Integration Language (SMIL 3.0) 2008
 *[DOM]: Document Object Model
 *[IDL]: Interface Description Language format for describing application programming interfaces (APIs) that are intended to be implemented in web browsers.
-
-<svg-container></svg-container>
 
 ::: warning Questions
 * Difference between webkit/blink and v8 engines?

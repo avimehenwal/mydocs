@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import SvgPanZoom from "vue-svg-pan-zoom";
+import SvgPanZoom from "vue-svg-pan-zoom"
 
 export default {
   components: { SvgPanZoom }
