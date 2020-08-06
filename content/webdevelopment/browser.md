@@ -35,8 +35,8 @@ What is a Browser?
     :::
 
     1. Collects assests (html, css, js, images, other multi media) from across web
-    2. Parses and generates DOM Tree
-    3. Renders DOM tree using JS Engine
+    2. Parses and creates series to data structures to work with them
+    3. Renders DOM and Layouts to Paints and pixels
 
 Browser consists of other s/w likes
 
@@ -45,6 +45,10 @@ Browser consists of other s/w likes
 3. Rendering Engine
 4. [Javascript Engine](https://en.wikipedia.org/wiki/JavaScript_engine) - JIT compilers, executes `.js` code at client side
    1. aka [Javascript Runtimes](https://www.google.com/search?q=javascript+runtime)
+5. GPU Modules
+6. Layout
+7. Rendering - compositing
+8. Paint and Pixels
 
 $$Rendering \, Engine = DOM + CSS \, Parsers$$
 
@@ -101,16 +105,15 @@ console.log(World');
 
 *[CDP]: Chrome devtool Protocol
 
-## What does blue and read line mean in devtools?
+What does blue and red line mean in devtools?
+:   The Blue line - ==DOM content loaded event==
 
+    It happens when the browser finished parsing the main document.
 
-The Blue line (DOM content loaded event):
-It happens when the browser finished parsing the main document.
+    The Red line - ==Load event==
+    It happens when the browser finished retrieving all the resources required by the **main document.**
 
-The Red line (Load event):
-It happens when the browser finished retrieving all the resources required by the main document.
-
-After the red line: Here you will see loading of asynchronous and cached resources required by the main document and by other resources.
+    After the red line: Here you will see loading of asynchronous and cached resources required by the main document and by other resources.
 
 ##### DNS Lookup
 
@@ -139,21 +142,21 @@ Those who cannot remember the past are condemned to repeat it.
 :::
 
 * Humble beginning in 1990's
-* High and low points in browser wars
+* High and low points in [browser wars](https://en.wikipedia.org/wiki/Browser_wars)
 * Massively new natural order
 * Netscape `<blink>` tag, when engineers went out drinking
-* `<marquee>` tag by windows
+  * `<marquee>` tag added by windows in response to competition
 * First implementation of CSS in browser
   * IE had dynamic layout, Netscape had to reload
-* Check-in bear, real physical bear next to a board
+  * Netscape didnt have a dynamic system
+    * If you resize window, they would load the entire page from server
+    * there was no caching
+* ==Check-in bear==, real physical bear next to a board
   * if you are checking in your code, you write your name and take the bear to your desk
 * 1997 - DHTML, suddently everything was dynamically programmable
-* Netscape didnt have a dynamic system
-  * If you resize window, they would load the entire page from server
-  * there was no caching
 * `XMLHTTPRequest` was born
 * 2001 - death of IE internet, focusing only on compatibility and customer retention
-  * Mashups became popular
+  * [Mashups](https://en.wikipedia.org/wiki/Mashup_(web_application_hybrid)) became popular
   * Firefox, webkit started gaining traction
 * 2004 - WHATWG was formed
   * W3C kind of lost its way
@@ -161,14 +164,14 @@ Those who cannot remember the past are condemned to repeat it.
 * Not all the smart people work at your company, disruptive factors
 * 2007 - Mobile Revolution
   * web was not ready
-    * web pages were still 1024$x$768
+    * web pages were still 1024 $*$ 768
     * work both with/without mouse and keyboard
     * network spottyness
 
 ## Anatomy of Browser
 
 ::: danger chrome
-Chrome now has $\approx$ 25 Million lines of code
+Chrome now has $\approx$ **25 Million** lines of code
 :::
 
 * What did things looked like before chrome?
@@ -265,11 +268,18 @@ classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
 
 > pointers to important classes and data structures in the codebase.
 
-$$Content \xRightarrow{Rendering} Pixels$$
-
 ::: tip WebPage
-A Real webpage is thousands of lines of html, css and javascript code delivered in plain text to browser over network.
+A Real webpage is thousands of lines of html, css and javascript code delivered in plain text to browser over network. So, how is it all rendered?
+```mermaid
+graph LR
+A(Content):::blue
+B(Pixels):::yellow
+A -- Rendered --> B
+classDef yellow fill:#FFE873,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
+```
 :::
+
 
 * Content `content::WebContents` class
   * Types of Contenet
@@ -283,10 +293,13 @@ A Real webpage is thousands of lines of html, css and javascript code delivered 
     * canvas
     * PDF
 * Other things like Tab controls are **Browser UI Elements**
-* Rendering happens inside a sandboxed process
+* Rendering happens inside a ==sandboxed process==
   * other tabs are safe
 * Uses low level graphic primitive library like `OpenGL`, `vulkan`, `directX` etc
-* Goal of rendering is to convert `{` html, css, js `}` $\rightarrow$ right openGL calls to draw pixels on screen
+
+![google chrome pipelien](/webdevelopment/chrome-pipeline.png)
+
+* Goal of rendering is to convert `{` html, css, js `}` $\xrightarrow{convert}$ openGL calls to draw pixels on screen
   * Right intermediate datastructures to update rendering effeciently after modification
 * Rendering happens in stages, multiple stages with multiple data structures
 * HTML Parser $\xrightarrow{html}$ DOM Tree
@@ -294,7 +307,7 @@ A Real webpage is thousands of lines of html, css and javascript code delivered 
   * `v8` js engine exposes APIs like `document.createElement('span')` over DOM
   * There can be multiple DOM trees for same webpage
     * Shodow tree
-    * which can hav `slots` to fill in the data later
+    * which can have `slots` to fill in the data later
 * Parsed CSS is applied to DOM, elements are selected and styles are applied by traversal
   * CSS File -> StyleRules (efficient lookups)
   * Style properties are defined decleratively in a `JSON` file in chrome code base
@@ -312,17 +325,11 @@ In computer science, trees are upside down
   * overflow, when child is bigger than parent element
 * Layout operates on seperate tree called **Layout Tree**
   * tree is built after style resolution stage
-* DOm tree and Layout tree are **NOT** $1:1$
+* DOM tree and Layout tree are **NOT** $1:1$
   * `display: none` no layout tree node is created
 * How to we paint then? After geometry is determined list of paint operations. `PaintTree`
 * Paint stacking order is different from DOM  model
 * Raster includes image decode
-* Raster uses `Skia` graphics library to issue GL calls
-  * Skia ships with chrome binary but has a seperate repository
-  * also used by Android OS
-  * understands **paths** and **bezier curves**
-  * some harddware accleration optimizations
-* GPU level optimizations
 
 ```mermaid
 stateDiagram-v2
@@ -334,7 +341,14 @@ state Rasterization Stage {
 }
 ```
 
-::: warning pipeline
+* Raster uses `Skia` graphics library to issue GL calls
+  * Skia ships with chrome binary but has a seperate repository
+  * also used by Android OS
+  * understands **paths** and **bezier curves**
+  * some harddware accleration optimizations
+* GPU level optimizations
+
+::: warning Rendering Pipeline
 1. DOM
 2. style
 3. layout
@@ -359,7 +373,6 @@ state Rasterization Stage {
   * Composite after paint - under construction
 * Rastering tasks are divided into **tiling**, raster the tile below vieport first
 
-![google chrome pipelien](/webdevelopment/chrome-pipeline.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m-J-tbAlFic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -397,7 +410,7 @@ Chrome is a multi process application
 
 ## IPC
 
-* Wbb Battery API
+* Web Battery API
 * Mojo IPC
 * Industries involved in buying and selling of vurnabilities
 
@@ -408,7 +421,7 @@ Chrome is a multi process application
 > Javascript execution pipeline
 
 ::: quote
-V8 is ECMAScript implementation
+V8 is a ecmascript implementation
 :::
 
 * Memory Managwement
@@ -431,5 +444,86 @@ V8 is ECMAScript implementation
 
 ## History of Web Assembly
 
+* Web has 2 general purpose programming languages, `javascript` and `webassembly`
+* Binary format
+  * smaller in size, compact
+  * designed to be fast
+* How fast can javascript (with JIT interpreter) get?
+* 2009 Research paper - **Native Client**
+* 2010 Portable Native Client PNaCl
+  * using portion of LLVM IR
+* Excellent for security but prevents calling Web APIs
+  * Pepper Plugin API was implemented
+* 2010 Uniy port to NaCl
+* 2011 Bastion game ported to NaCl
+* 2013 Chrome 31 ships PNaCl on web
+* 2010 `emscripten` in parallel world `asm.js`
+  * turn LLVM IR $\rightarrow$ javascript
+  * 2011 could compile Python, doom
+  * Relooper Algorithm
+
+*[NaCl]: Native Client
+
+## Video and Audio Codec
+
+> Silicon Valley Season
+
+::: tip why codec?
+1080p uncompressed video @30 fps $=$ **1.49 Gbits/second**
+
+Internet speeds at best are 150 MBps (in Singapore)
+
+1080p `H.264` video at 30fps $=$ ==**5 Mbps**==
+:::
+
+* With chrome, media consumption is millions of hours each day
+* Codec = Compress and Decompress to save transmission size
+* Media Compression
+
+Codec | Content Types
+------|---------------
+`VP9`   | video codec
+`webP`  | Image codec
+`opus`  | Audio codec
+`draco`   | Geometry
+`H.264`   | older video codec
+
+* How do we make these codec?
+* ORganizations that work on codec development
+  * MPEG - not royality free
+    * mp3, mpeg-2, avc, hevc
+  * Alliance for Open Media - founded in 2015 fall - royality free policies
+* same quality at lower bit rate
+* How compression works?
+  * divide image into blocks - block decomposition
+  * inter predictions, when a block is similar
+    * temporal prediction
+  * seperate noise from codec then sent it to still be able to have noise effect
+* How to deploy codec?
+  * `flash`, `silverlight`
+  * HTML5 `<video>` tag. Do not have to put codec yourself, browser will do that for you
+* youtube - `VP9` codec, `AV1`
+* When users change laptops, codecs are going to work differently?
+  * CPU is different
+  * Able to change codec on fly, without stutter
+  * when you switch from low screen to full screen, codcc changes from `AV1` $\rightarrow$ `VP9`
+
+::: danger Market Share
+**79%** of streaming video is still `H.264` (release in 2013)
+
+Why is that? `AV1` is munch much more efficient
+:::
+
+> standing in front of people, pitching something is good
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xqJjyUpYEw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Resources
+
+* https://www.encoding.com/
+
+## Test
+
+You build an aeroplane, doesn it work? before we entrust it with real lives? How to make sure noone dies?
 
 <Footer />
