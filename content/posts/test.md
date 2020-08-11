@@ -6,6 +6,21 @@ tags:
 
 # Components
 
+## PDF Download
+
+<iframe src="/pdf/ModernNetworking.pdf" width="100%" height="600"></iframe>
+
+<a href="/pdf/ModernNetworking.pdf" download="AviModernNetworking.pdf">Download</a>
+
+https://html.spec.whatwg.org/multipage/links.html#downloading-resources
+
+
+```html
+Content-Type: image/gif
+Contenet-Disposition: attachment; filename=
+```
+
+
 ## D3.js
 
 blank

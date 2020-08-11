@@ -366,28 +366,6 @@ Difference between SVG viewport and viewBox?
 
 ![viewport](https://cms-assets.tutsplus.com/uploads/users/30/posts/30844/image/viewport.jpg)
 
-## Inkscape
-
-* generate SVG crossplatform, for free
-* extend Inkscape SVG Filters
-  * part of SVG spec 1.0
-  * modify render pipeline of graphic application to modify intrim bitmaps
-  * lot of artistic control, to pop up design
-* Kind of similar how node editor works
-* [SVG Spec](https://www.w3.org/TR/SVG2/)
-* Live preview
-* SVG vs OpenGL primitives where viewing medium is browser
-* https://gould.cx/ted/presentations/
-* https://gitlab.com/inkscape/inkscape
-
-Pull filters out of SVG images?
-:   Put all SVG from web into a special directory. Put all really cool images here to pull filters
-
-    ```bash
-    mkdir -p ~/.config/inkspace/filters/
-    cp grass.svg ~/.config/inkspace/filters/
-    ```
-
 ### effects
 
 * Field effect - things move away in depth

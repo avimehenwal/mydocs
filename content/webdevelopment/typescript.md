@@ -269,6 +269,13 @@ $Mathematics \simeq	Programming$
 * Persisatant data structures
 * https://files.gotocon.com/uploads/slides/conference_12/546/original/functional-programming%20%20russ%20olsen.pdf
 
+## Webpack Bundler
+
+* Transpiling with babel - writing modern JS
+* Tree shaking - elimination of dead code
+* webpack by default will  look for a `src` folder with `index.js` file $\rightarrow{transpile}$ to `dist/index.js`
+* if we use `HtmlWebpackPlugin` webpack will auto add `index.js` to `html`
+* `MiniCssExtractPlugin` same thing for css, compiler `sass` css preprocessor etc
 
 ### References
 

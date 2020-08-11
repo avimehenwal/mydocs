@@ -40,7 +40,12 @@ $O(n!)$         | Factorial time
 
 Depends on most dominant term in the function
 
-<SimpleNewsletter/>
-<Disqus />
-
 [Big-O]: https://en.wikipedia.org/wiki/Big_O_notation
+
+## Resources
+
+* [How to find complexity of a function?](https://stackoverflow.com/questions/11032015/how-to-find-time-complexity-of-an-algorithm)
+
+
+
+<Footer />
