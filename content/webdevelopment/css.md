@@ -196,7 +196,51 @@ transform: rotate(2deg)
 
 * [Import css in vue](https://github.com/vuejs-templates/webpack/issues/604)
 * [Paframeterizing SVG](https://stackoverflow.com/questions/21763953/parameterizing-and-reusing-custom-svg-filters-defined-in-html5)
+* https://css-tricks.com/intro-to-vue-5-animations/
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kfOhlU_iRVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## CSS animations
+
+> How do we animate objets (reactangles) on browser?
+
+Browser is my canvas. Browser exposes APIs to animate objects. What are those APIs?
+
+1. :star: CSS Animation Specification
+   1. best aapproach
+2. [SVG SIML Specification](https://www.w3.org/TR/2008/REC-SMIL3-20081201/)
+   1. No IE support for <animate… you have to use a polyfill library like fakeSMIL - which is not the end of the world. Also css3 transforms are GPU accelerated on iOS mobile and chrome for mobile (for the most part) so they tend to be smoother.
+   2.  SVG's own animation API (SMIL) is not well-supported,
+3. Use Javascript to dynamically adjest css properties of element
+
+How to ensure backward portability?
+
+```css
+${1:selector} {
+   animation-name: $0
+   animation-duration:
+   animation-timing-function:
+   animation-delay:
+   animation-iteration-count:
+   animation-direction:
+   animation-fill-mode:
+   animation-play-state:
+}
+```
+
+Some cool effects
+
+* [Text ANimation](https://www.youtube.com/watch?v=ZQUKEkCuws8)
+
+## :cyclone: Resources
+
+* https://www.w3.org/TR/SVG/animate.html
+* https://www.w3.org/TR/css-animations-1/
+* https://cssanimation.rocks/
+* https://animation-nation.netlify.app/
+* https://tobiasahlin.com/moving-letters/
+* https://css-tricks.com/how-to-animate-text-with-svg-and-css/
+
+
 
 <Footer />

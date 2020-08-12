@@ -366,6 +366,12 @@ Difference between SVG viewport and viewBox?
 
 ![viewport](https://cms-assets.tutsplus.com/uploads/users/30/posts/30844/image/viewport.jpg)
 
+## How to generate them?
+
+* Google slides can export `svg` - no animation though
+
+
+
 ### effects
 
 * Field effect - things move away in depth

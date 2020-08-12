@@ -15,6 +15,15 @@ tags:
   * I want `svg` format. Saves data sent over network
 * Inkscape can make svg's
 * HOw to capture screenshots in svg format?
+* Lossy formats `jpeg`, `jpg`
+* Lossless image formats. `png`, `gif`
+* New [webP](https://developers.google.com/speed/webp/) format
+  * convert `png`, `jpeg` to `webp`
+  * https://developers.google.com/speed/webp/download
+
+## Burning questions
+
+* [What are the different usecases of PNG vs. GIF vs. JPEG vs. SVG?](https://stackoverflow.com/questions/2336522/what-are-the-different-usecases-of-png-vs-gif-vs-jpeg-vs-svg)
 
 Filetype | Size | Quality Remark
 ---------|------|-----------------
