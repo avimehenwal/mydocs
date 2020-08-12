@@ -232,6 +232,11 @@ Some cool effects
 
 * [Text ANimation](https://www.youtube.com/watch?v=ZQUKEkCuws8)
 
+## Trends
+
+* [Diagonal Layouts](https://9elements.com/blog/pure-css-diagonal-layouts/)
+
+
 ## :cyclone: Resources
 
 * https://www.w3.org/TR/SVG/animate.html

@@ -277,6 +277,11 @@ $Mathematics \simeq	Programming$
 * if we use `HtmlWebpackPlugin` webpack will auto add `index.js` to `html`
 * `MiniCssExtractPlugin` same thing for css, compiler `sass` css preprocessor etc
 
+## Questions
+
+* How to create javascript binaries?
+
+
 ### References
 
 * https://www.guru99.com/typescript-vs-javascript.html
