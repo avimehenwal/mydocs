@@ -61,5 +61,80 @@ E-commerces is the largest sector of electronic industry
 4. animations
 5. Artwork
 
+* Webhooks and APIs differ in how they make requests.
+* https://cloud.google.com/free/
+* Firebase Functions - `javascript`
+  * Google cloud functions in python, Go, java, nodejs
+
+## Stripe Payment
+
+> What should happen before payment?
+
+* Enter CC info
+* parse and send back to us a unique ID
+* Use `dotenv` only when `NODE_ENV` (set by node itself) is **not** production
+  * use dotenv only when in development mode
+* Add prices in pennies (avoid floating point errors)
+* `StripeCheckout`, `token` function is called when after card information is captured and submitted
+* To use your API key, assign it to stripe. The Node.js library will then automatically send this key in each request.
+* [Idempotence](https://en.wikipedia.org/wiki/Idempotence) operations
+* Can add discount coupons, Promotion Code
+* Payments from client side needs to be verified by server as they could be manipulated by attacker
+  * Charge customer based on the price on backend
+  * strip will verify and return a token
+  * firebase cloud function to handle verification
+  * Client Side
+    * you define your products directly in the Stripe Dashboard and reference them by ID on the client side.
+* Prebuilt UI Elements
+* Webhook - like sending an order confirmation email to your customer, logging the sale in a database, or starting a shipping workflow
+* https://youtu.be/jJH56H67yOE
+
+> What should happen after payment? <Refu></Refu>nd, decline
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lQUI2R7XbiU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Resources
+
+* https://stripe.com/docs/google-pay
+
+
+## NOdejs Hosting
+
+RedHat OpenShift is highly recommended for first timers because it offers free Node.js hosting forever
+
+
+## Questions
+
+* https://www.reddit.com/r/webdev/comments/6aiw4d/vuejs_vs_express/
+* How to secure client calls to backends hosted on cloud functions?
+
+## How to design a ecommerce websites?
+
+* Usecases
+  * Create user profile
+  * List products
+  * add/remove product to cart
+  * Purchase products
+  * Payment processor API
+  * Track order
+* Database Model
+  * users
+  * products
+  * orders
+* Concurrency
+  * What if 2 users tryign to buy same thing
+* APIs
+* Split page information into sections
+
+## Implement Authentication with route guards
+
+* https://github.com/ErikCH/FirebaseTokenFrontend
+
+## Resources
+
+* [ ] https://github.com/sdras/ecommerce-netlify
+* [ ] https://codepen.io/balboacodes/pen/NWKeBMY
+
 
 <Footer />

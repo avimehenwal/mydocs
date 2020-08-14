@@ -44,6 +44,8 @@ What is the difference between javascript and NodeJS?
   * Foundations of nodejs
 * WebAssembly System Interface (WASI)
 
+A function is passed as an argument. aka **call-after**. Could be synchronous or asynchronous
+
 ```js
 function processData (callback) {
   fetchData(function (err, data) {

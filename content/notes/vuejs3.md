@@ -242,5 +242,11 @@ Library/Tools | Description
   * Mocking, Test bed setup
 * Snapshots - For faster test execution
 
+## Questions
+
+* Lazy loading | eager loading meaning?
+
+Eager loading is the default approach of loading JavaScript code on to the DOM, for Vue JS this means using the import statement to bring in a component into the app.vue file. On the other hand, lazy loading refers to an approach where all of the scripts are not loaded on the DOM as the application starts, instead, they are only loaded when requested, making the JavaScript bundle size very small at initial load.
+
 <SimpleNewsletter/>
 <Disqus />

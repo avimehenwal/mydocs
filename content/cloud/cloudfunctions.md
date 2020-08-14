@@ -52,4 +52,41 @@ functions/
 
 [docs]: https://firebase.google.com/docs/web/setup
 
+## Providers
+
+> Cloud Functions is a serverless execution environment for building and connecting cloud services.
+
+1. [Google Cloud Functions](https://cloud.google.com/functions/pricing)
+   1. NodeJS
+   2. Python
+   3. Go
+   4. Java
+2. [Firebase Cloud Functions](https://firebase.google.com/pricing/)
+   1. Javascript
+   2. Typescript
+
+Serverless Functions are kind of [webhooks](https://en.wikipedia.org/wiki/Webhook)
+
+FREE Features | GCF | FCF
+--------------|-----|-------
+Invokations   | 2,000,000 /month | 125,000 /month
+
+In addition to the 2 million invocations, the free tier provides 400,000 GB-seconds, 200,000 GHz-seconds of compute time, and 5GB of Internet egress traffic per month.
+
+GCP free tier (one time) and always free services (monthly)
+
+How to deal with secrets in cloud functions?
+1. [Use environment variables](https://cloud.google.com/functions/docs/env-var)
+2. Use Google Secret Key Manager services
+
+MIME Types
+```
+image/jpg
+image/png
+text/plain
+text/html
+```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zR6CsTLTPsk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <Footer />
