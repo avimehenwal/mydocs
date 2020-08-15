@@ -232,6 +232,72 @@ Some cool effects
 
 * [Text ANimation](https://www.youtube.com/watch?v=ZQUKEkCuws8)
 
+## Display
+
+* [Difference between inline, block and inline-block](https://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block)
+
+```css
+.storegrid {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
+}
+```
+
+Mediaqueries on Grid
+
+```css
+@media (max-width: 600px) {
+  aside {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+
+  .content {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .storegrid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+  }
+}
+```
+
+### Grid template area
+
+* [CSS grid area](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area)
+* [CSS grid Browser support](https://caniuse.com/#feat=css-grid)
+
+```scss
+grid-area: 1 / 1 / 5 / 4;  //shorthand
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 4;
+```
+
+[Generate beauty text overlay graphics using grid-css and text](https://github.com/sdras/ecommerce-netlify/blob/8cb584e224be14f9d173a541833967d593a1f4de/components/AppTextlockup.vue#L27)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tPosqmwIx0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qTGbWfEEnKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Trends
 
 * [Diagonal Layouts](https://9elements.com/blog/pure-css-diagonal-layouts/)

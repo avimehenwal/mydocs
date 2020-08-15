@@ -37,4 +37,17 @@ How javascript is parsed by browser?
 * script tags are blocking, parsing stops until script is fwetched
   * thats why script tags are at the very bottom of page, so that images can load nbefore that
 
+## Authentication
+
+* maintains session
+* unique id acrosss all platforms
+* Note: By default, authenticated users can read and write data to the Firebase Realtime Database and Cloud Storage.
+
+## Realtime Database
+
+* workd offline mode
+* Security Rules
+* Listen for data changes - optimize them
+* **5$** per GB download
+
 <Footer />

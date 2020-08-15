@@ -22,6 +22,8 @@ tags:
 E-commerces is the largest sector of electronic industry
 :::
 
+Shopping car is like git staging area for next commit. Subsets of products to process paynment for.
+
 ## Online goods and services
 
 * e-books
@@ -88,8 +90,23 @@ E-commerces is the largest sector of electronic industry
 * Prebuilt UI Elements
 * Webhook - like sending an order confirmation email to your customer, logging the sale in a database, or starting a shipping workflow
 * https://youtu.be/jJH56H67yOE
+* Would have to use firebase middleware to add `cors` middleware to request
+  * else request might not pass
+  * might work from browser but not from postman
+* Checkout page should load `stripe.js` direcctly from server to remain PCI compliant
 
 > What should happen after payment? <Refu></Refu>nd, decline
+
+* [Pricing](https://stripe.com/en-de/pricing)
+* Can send emails, invoices post payment to customer for free
+* [Currency Support](https://stripe.com/docs/currencies)
+* [Currency conversion](https://stripe.com/docs/currencies/conversions)
+  * Stripe supports processing charges in 135+ currencies allowing you to present prices in a customer’s native currency. Doing so can improve sales and help customers avoid conversion costs.
+* Link with [transferwise account](https://transferwise.com/help/19/transferwise-for-business/2977935/does-stripe-work-with-my-transferwise-account) to accept payments in USD, EUR, GBP, NZD, AUD
+* **Payout** When you start processing live payments from your customers with Stripe, you won’t receive your first payout until 7–14 days after receiving your first successful payment.
+* [Stripe with google pay](https://stripe.com/docs/google-pay)
+
+![Stripe payment workflow](https://stripe.com/img/docs/payments/accept-a-payment-web.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lQUI2R7XbiU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -97,6 +114,7 @@ E-commerces is the largest sector of electronic industry
 ### Resources
 
 * https://stripe.com/docs/google-pay
+* https://www.digitalocean.com/community/tutorials/vuejs-stripe-elements-vue-integration
 
 
 ## NOdejs Hosting
@@ -126,6 +144,14 @@ RedHat OpenShift is highly recommended for first timers because it offers free N
   * What if 2 users tryign to buy same thing
 * APIs
 * Split page information into sections
+* UI Features
+  * Keyboard shortcuts
+  * How to use tutorial? Help
+
+## Payment Standards
+
+* https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard
+
 
 ## Implement Authentication with route guards
 
@@ -135,6 +161,7 @@ RedHat OpenShift is highly recommended for first timers because it offers free N
 
 * [ ] https://github.com/sdras/ecommerce-netlify
 * [ ] https://codepen.io/balboacodes/pen/NWKeBMY
+* [ ] https://github.com/Hujjat/vue-shop
 
 
 <Footer />

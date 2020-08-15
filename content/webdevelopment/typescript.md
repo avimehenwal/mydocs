@@ -197,11 +197,22 @@ console.log([foo, bar, baz])
 pokemon = [...pokemon, 'Balbasaur']
 ```
 
+```js
+// convert array to object
+let data = this.$store.state.cart.map(item => ({ [item.productId] : item:productQuantity }))
+data = Object.assign({}, ...data)
+```
+
+### Type conversion
+
+string -> json Object -> Array
+Object -> Array
+
 ## Advanced typescript
 
 * Advanced types
 * Intersection Types
-*
+* Template literals (Template strings) using backticks ```
 
 ```ts
 type Duck = Quackable & Swimmable;
@@ -281,6 +292,22 @@ $Mathematics \simeq	Programming$
 
 * How to create javascript binaries?
 
+## Function Calls
+
+1. Function executuon wheen called
+2. Self executing functions, without calls. Gets executes as soon as they appearence
+
+```js
+var myFunc1 = function() {
+    alert('Hello');
+}();                        // <--- () causes self execution
+
+var myFunc2 = function() {
+    return 5 + 5;
+};
+
+var some_value = myFunc2(); // <--- Again () causes execution (you'd expect this one)
+```
 
 ### References
 
