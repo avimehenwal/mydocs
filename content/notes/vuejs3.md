@@ -119,6 +119,24 @@ https://vue-next-template-explorer.netlify.app/#%7B%22src%22%3A%22%3Cdiv%3EHello
 
 * New SSR compilation strategy
 
+```mermaid
+graph LR
+A(Client):::blue
+subgraph nodejs_environment
+  B(server):::green
+  C(Dynamically generates webpage):::purple
+end
+A -- call --> B --> B
+B == hydrated webpage==> A
+
+classDef green fill:#1f9,stroke-width:0px;
+classDef orange fill:#f96,stroke-width:0px;
+classDef yellow fill:#FFE873,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
+classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
+```
+
+
 ## DOM
 
 * Programming interface, wholedocument as XML tree structure

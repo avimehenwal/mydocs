@@ -301,6 +301,9 @@ grid-area: 1 / 1 / 5 / 4;  //shorthand
 ## Trends
 
 * [Diagonal Layouts](https://9elements.com/blog/pure-css-diagonal-layouts/)
+* [Section Folding like in stripe docs](https://stripe.com/docs/payments/checkout/accept-a-payment#create-checkout-session)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ela-oNuFlzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## :cyclone: Resources

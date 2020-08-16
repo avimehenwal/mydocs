@@ -49,5 +49,29 @@ How javascript is parsed by browser?
 * Security Rules
 * Listen for data changes - optimize them
 * **5$** per GB download
+* Can import, export as `JSON`
+* Use `push` to auto generate ID
+
+```
+ref().push()
+```
+
+## Cloud Firestone
+
+> use this, its newer
+
+* If the document does not exist, it will be created. If the document does exist, its contents will be overwritten with the newly provided data, unless you specify that the data should be merged into the existing document, `{ merge: true }`
+* with an auto-generated ID, `.doc().set(...)`
+* To update some fields of a document without overwriting the entire document, use the `update()`
+* Transaction and batched writes
+
+```
+collect.doc()
+```
+
+## Google Big Query
+
+Connected Sheets allows users to analyze billions of rows of live BigQuery data in Google Sheets without requiring SQL knowledge.
+
 
 <Footer />

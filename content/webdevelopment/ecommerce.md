@@ -105,6 +105,14 @@ Shopping car is like git staging area for next commit. Subsets of products to pr
 * Link with [transferwise account](https://transferwise.com/help/19/transferwise-for-business/2977935/does-stripe-work-with-my-transferwise-account) to accept payments in USD, EUR, GBP, NZD, AUD
 * **Payout** When you start processing live payments from your customers with Stripe, you won’t receive your first payout until 7–14 days after receiving your first successful payment.
 * [Stripe with google pay](https://stripe.com/docs/google-pay)
+* Checkout Flow
+
+::: tip
+Apple Pay and Google Pay are enabled by default and automatically appear in Checkout when a customer uses a supported device and has saved at least one card in their digital wallet.
+:::
+
+* Use the Dashboard, a custom webhook, or a third-party plugin to handle post-payment events like sending an order confirmation email to your customer, logging the sale in a database, or starting a shipping workflow.
+
 
 ![Stripe payment workflow](https://stripe.com/img/docs/payments/accept-a-payment-web.png)
 
