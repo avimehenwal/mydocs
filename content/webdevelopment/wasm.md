@@ -10,6 +10,7 @@ tags:
 
 <TagLinks />
 
+Its a new way to run programming languages other than javascript in your web pages.
 
 > WebAssembly (abbreviated Wasm) is a binary instruction format for a ==stack-based virtual machine==.
 > Wasm is designed as a portable compilation target for programming languages,

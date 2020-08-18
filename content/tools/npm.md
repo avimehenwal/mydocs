@@ -120,6 +120,15 @@ Versioning
 * axios - https://github.com/axios/axios
 * classnames - https://jedwatson.github.io/classnames/
 
+## Common Tasks
+
+How do I upgrade a package? Eg wanna try new features in `nuxtjs` ?
+:     Select version from the dropdown list
+
+      ```sh
+      yarn upgrade nuxt@latest
+      ```
+
 ## :eye: VueJS Workflow
 
 > How to package and release vue reusable components?

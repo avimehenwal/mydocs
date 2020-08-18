@@ -1,5 +1,5 @@
 ---
-title: Typescript | Javascript
+title: Javascript | Typescript
 tags:
 - javascript
 - typescript
@@ -15,7 +15,7 @@ tags:
 - transpilier
 ---
 
-# Typescript
+# Javascript | Typescript
 
 <TagLinks />
 
@@ -33,6 +33,62 @@ A(Source Files):::orange == transpile ==> B[Common JS modules] == bundler ==> C(
 classDef orange fill:#f96,stroke-width:0px;
 classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
 ```
+
+## History
+
+* came to be in 1995
+* Wasnt designed to be fast, its hard to make it fast.
+  * Dynamic types
+    * compiler dont know if a variable would be integer or a strings
+    * could even change at runtime
+* 2008 browser wars
+  * [JIT compilers](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) - 10x times faster than previous versions
+
+::: quote Lin Clark
+Programming is like talking to aliens
+:::
+
+* Why do we even need webassembly, isnt javascript enough?
+* How is modern javascritp made faster?
+* How modern javascipt getting better?
+  * faster runtimes. How?
+  * modularity. How?
+    * [React - Reconcilation algorithm](https://css-tricks.com/how-react-reconciliation-works/)
+
+> Compiler is human to alient translator
+
+* we would need a whole bunch pf translators to translate any given language to x86 assembly
+  * pretty insifficient
+  * we take one layer in between called **IR**
+
+```mermaid
+graph LR
+G((source)):::yellow
+subgraph Translator
+  A(Compiler Frontend):::blue
+  E(C,C++,Rust):::orange
+  B[(IR)]:::green
+  F(x86, ARM)
+  C(Compiler Backend):::purple
+end
+D((Assembly)):::yellow
+G ==> A ==> B ==> C ==> D
+E --> B --> F
+classDef green fill:#1f9,stroke-width:0px;
+classDef orange fill:#f96,stroke-width:0px;
+classDef yellow fill:#FFE873,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
+classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
+```
+
+### Stages in processing
+
+1. Parsing
+2. Compiling
+3. optimising
+4. re-optimizing
+5. executing the code
+6. Garbage collection
 
 ## Backgroubd
 

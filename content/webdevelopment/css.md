@@ -298,6 +298,20 @@ grid-area: 1 / 1 / 5 / 4;  //shorthand
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qTGbWfEEnKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Image lightbox effect
+
+Click on image to create a full screen preview and close it when click anywhere outside of image
+
+* Grab images from [uplash](https://source.unsplash.com/)
+* `<script defer src="...">` attribute to defer loading the script until HTML has been parsed.
+  * same effect as adding script to the end of the page.
+* `grid` elements can overflow
+* Add preview element to page, show it only when a image is clicked
+  * click on preview element (created above) to deactivate (CSS) it
+  * remove preview only when clicked outside the image element, not on the image element
+  * preview element should contain only 1 image child
+    * fix - removeAll then add one child
+
 ## Trends
 
 * [Diagonal Layouts](https://9elements.com/blog/pure-css-diagonal-layouts/)

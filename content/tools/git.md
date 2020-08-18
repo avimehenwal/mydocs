@@ -74,6 +74,14 @@ find ! -path "./.git*" -exec mv -v --target-directory=one_repo {} +
 mv -v .gitignore one_repo/
 ```
 
+How do I merge A into B, without losing history on any side?
+
+```bash
+git subtree add --prefix=rails git://github.com/rails/rails.git master
+```
+
+This will appear as a single commit where all files of Rails master branch are added into "rails" directory. However the commit's title contains a reference to the old history tree:
+
 ### Git merge
 
 Used when you have ammended/rebases commits on one branch which were already there in master.
@@ -83,7 +91,7 @@ Performing merge normally will raise **merge conflicts**. To automatically force
 git merge --progress --verbose --summary -X theirs develop
 ```
 
-## :cherry: Cherrypicking
+## :cherry_blossom: Cherrypicking
 
 Useful when working on opensourced projects, you might want to keep personal changes in develop branch,
 but only cherry-pick certain commits to master branch for raising PR with upstream.
