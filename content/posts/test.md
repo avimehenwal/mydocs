@@ -8,6 +8,12 @@ tags:
 
 # Components
 
+```graphviz
+digraph {
+  A -> B -> C
+}
+```
+
 ## D3.js
 
 blank

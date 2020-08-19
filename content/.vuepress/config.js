@@ -162,6 +162,7 @@ module.exports = {
   },
   plugins: [
     "vuepress-plugin-auto-sidebar",
+    'vuepress-plugin-graphviz',                     // https://github.com/awwaiid/vuepress-plugin-graphviz
     '@vuepress/last-updated',
     '@vuepress/medium-zoom',
     '@vuepress/back-to-top',
