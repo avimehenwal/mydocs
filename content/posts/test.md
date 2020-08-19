@@ -1,10 +1,65 @@
 ---
+title: Test Page
 tags:
 - test
 - markdown
+- page
 ---
 
 # Components
+
+## D3.js
+
+blank
+
+<Dot code="digraph {
+  node [fontsize=24, colorscheme=set312, style=filled]
+  a [fillcolor=1]
+  b [fillcolor=2]
+  c [fillcolor=3]
+  a -> b -> c }" />
+
+<!-- <Dot code="digraph {a -> b -> c}" /> -->
+
+## Vue Live
+
+```vue live
+<button>example</button>
+```
+
+
+## Live editor
+
+[as in assembly script](https://www.assemblyscript.org/)
+
+```editor
+#!runtime=half
+/** Calculates the n-th Fibonacci number. */
+export function fib(n: i32): i32 {
+  var a = 0, b = 1
+  if (n > 0) {
+    while (--n) {
+      let t = a + b
+      a = b
+      b = t
+    }
+    return b
+  }
+  return a
+}
+
+#!html
+<textarea id="output" style="height: 100%; width: 100%" readonly></textarea>
+<script>
+loader.instantiate(module_wasm, { /* imports */ })
+  .then(({ exports }) => {
+    const output = document.getElementById('output')
+    for (let i = 0; i <= 10; ++i) {
+      output.value += `fib(${i}) = ${exports.fib(i)}\n`
+    }
+  })
+</script>
+```
 
 ## PDF Download
 
@@ -21,12 +76,6 @@ Contenet-Disposition: attachment; filename=
 ```
 
 
-## D3.js
-
-blank
-
-<!-- <Dot /> -->
-<!-- <Dot code="digraph {a -> b -> c}" /> -->
 
 ## Badge
 

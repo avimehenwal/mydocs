@@ -41,7 +41,7 @@ meta:
 The `<pre>` tag defines preformatted text.
 
 
-<pre style="color:white">
+<pre style="color:pink">
  {{ $page }}
 </pre>
 

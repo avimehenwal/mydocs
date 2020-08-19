@@ -81,6 +81,35 @@ Scriptures
 [Sadhana](https://en.wikipedia.org/wiki/S%C4%81dhan%C4%81)
 : Sādhanā is a discipline undertaken in the pursuit of a goal. Abhyāsa is repeated practice performed with observation and reflection. Kriyā, or action, also implies perfect execution with study and investigation. Therefore, sādhanā, abhyāsa, and kriyā all mean one and the same thing
 
+## Karma
+
+4 dimensions of karma going on all the times $\forall$ Human beings
+
+:question: How much of it did you perform consciously?
+:   well below $1\%$
+
+    $99\%$ is happening accidently
+
+```mermaid
+graph LR
+A(Physical action):::green
+B(Mental action):::orange
+C(Emotional activity):::purple
+D(Energy activity):::blue
+A --- B --- C --- D --- A
+classDef green fill:#1f9,stroke-width:0px;
+classDef orange fill:#f96,stroke-width:0px;
+classDef yellow fill:#FFE873,stroke-width:0px;
+classDef blue fill:#b8d4ff,stroke-width:0px;
+classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
+```
+
+* Karma is not reward and punishment system
+* It is just residual memory
+* Everythign gets recorded, this residual memory creates tendency
+* you are building a unconsciou software
+
+
 ## Patanjali Yogic Sutras - 8 limbs
 
 > Karma vs Fate

@@ -34,6 +34,10 @@ classDef orange fill:#f96,stroke-width:0px;
 classDef purple fill:#f9f,stroke:#333,stroke-width:0px;
 ```
 
+::: quote
+Typescript is both, a type checker and a transpiler
+:::
+
 ## History
 
 * came to be in 1995
@@ -338,11 +342,19 @@ $Mathematics \simeq	Programming$
 
 ## Webpack Bundler
 
+> Asset bundler, minified js
+
+* Out of the box, webpack only understands JavaScript and JSON files.
+* Adds all dependencies to final output file
 * Transpiling with babel - writing modern JS
 * Tree shaking - elimination of dead code
 * webpack by default will  look for a `src` folder with `index.js` file $\rightarrow{transpile}$ to `dist/index.js`
 * if we use `HtmlWebpackPlugin` webpack will auto add `index.js` to `html`
 * `MiniCssExtractPlugin` same thing for css, compiler `sass` css preprocessor etc
+* **Loaders** teaches webpack how to deal with all sorts of file
+  * svg-inline-loader, pug loader, remark markdown loader
+  * css-loader : turns css to javascript
+  * style-loader : takes javscript and applies it as CSS style
 
 ## Questions
 

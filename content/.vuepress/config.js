@@ -40,12 +40,14 @@ module.exports = {
         href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       }
     ],
-    [
-      "script",
-      {
-        src: "https://unpkg.com/@hpcc-js/wasm/dist/index.min.js"
-      }
-    ],
+    // [
+    //   "script",
+    //   {
+    //     src: "https://unpkg.com/@hpcc-js/wasm/dist/index.min.js",
+    //     type: "javascript/worker"
+    //     // type: "application/javascript/"
+    //   }
+    // ],
     // Firebase settings
     // [
     //   "script",
@@ -167,6 +169,7 @@ module.exports = {
     '@vuepress/pwa',
     'flowchart',
     'check-md',
+    ["live", { noSsr: true }],                               // https://github.com/vue-styleguidist/vuepress-plugin-live
     // default forest dark
     [ 'vuepress-plugin-mermaidjs', { theme: 'forest'}],
     [ 'disqus', { shortname: 'mydocs-1' } ],

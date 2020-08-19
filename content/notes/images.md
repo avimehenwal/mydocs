@@ -5,6 +5,7 @@ tags:
 - png
 - jpeg
 - gif
+- webp
 ---
 
 # Images
@@ -32,6 +33,14 @@ svg     | 114.2kb | decent
 
 Caputure screenshots directly in SVG?
 * https://superuser.com/questions/579933/is-it-possible-to-take-a-screenshot-of-a-web-page-as-an-svg-image
+
+## WebP
+
+* One of the newer image formats designed by google
+* High-quality transparent or non transparent images
+* [webP browser support](https://caniuse.com/#feat=webp)
+  * Create image fallback in case webP format is not supported. eg, IE
+* 
 
 ## Why use Vector Images
 

@@ -14,6 +14,32 @@ tags:
 Let's make web beautyful!
 :::
 
+## Useful properties
+
+1. [box-sizing: border-box](https://www.w3schools.com/css/css3_box-sizing.asp)
+2. [:active selector](https://www.w3schools.com/cssref/sel_active.asp)
+3. [CSS flexbox layout model](https://www.w3schools.com/css/css3_flexbox.asp)
+4. [text-shadow: -2px -2px rgb(60, 179, 113, 80%)](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
+   1. Animatable,
+   2. create craxy party effects, banners, sale box
+5. [Use svg in list-style-image](https://stackoverflow.com/questions/22179094/list-style-image-svg-smaller-in-webkit)
+6. [CSS Units](https://www.w3schools.com/css/css_units.asp)
+7. [background-image: linear-gradient(angle, color-stop1, color-stop2);](https://www.w3schools.com/css/css3_gradients.asp)
+8. [CSS transforms](https://www.w3schools.com/css/css3_2dtransforms.asp)
+   1. `matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())`
+9.  [css transitions](https://www.w3schools.com/css/css3_transitions.asp)
+   2.  `cubic-bezier(n,n,n,n)` - lets you define your own values in a cubic-bezier function
+10. [css image filters](https://www.w3schools.com/css/css3_images.asp)
+11. [native css variables](https://www.w3schools.com/css/css3_variables.asp)
+12. [Difference between css transition | transform | animation?](https://stackoverflow.com/questions/20586143/css-animation-vs-transition)
+    1. CSS transitions allows you to change property values smoothly, over a given duration.
+    2. transition require a trigger
+    3. and has a start state and end state
+       1. use animation is there are more in between states
+
+
+
+
 ## Typography
 
 * https://fonts.google.com/specimen/Major+Mono+Display
@@ -194,6 +220,9 @@ transform: rotate(2deg)
 
 ## vue
 
+* [Style and Class binding](https://vuejs.org/v2/guide/class-and-style.html) with vue `v-model`
+  * Array Syntax `:class="[item.purchased ? 'strikeout' : '']"`
+  * Object Syntax `:class={strikeout: item.purchased}`
 * [Import css in vue](https://github.com/vuejs-templates/webpack/issues/604)
 * [Paframeterizing SVG](https://stackoverflow.com/questions/21763953/parameterizing-and-reusing-custom-svg-filters-defined-in-html5)
 * https://css-tricks.com/intro-to-vue-5-animations/
@@ -312,10 +341,27 @@ Click on image to create a full screen preview and close it when click anywhere 
   * preview element should contain only 1 image child
     * fix - removeAll then add one child
 
+## CSS Selectors
+
+> How to aassign properties to HTML DOM elements?
+
+Levels of Selectors
+
+CSS Selector  | Description
+--------------|----------------
+|  *          | Selects everything, every `div`, `li` everything
+Element Type Selector | div
+Class and ID Selector | `.` class `#` id Selector
+
+* [Link to CSS Selector - Dark version](/pdf/CSS_Selector_Cheat_Sheet-Dark.pdf)
+* [Link to CSS Selector - Light version](/pdf/CSS_Selector_Cheat_Sheet-Light.pdf)
+
 ## Trends
 
 * [Diagonal Layouts](https://9elements.com/blog/pure-css-diagonal-layouts/)
 * [Section Folding like in stripe docs](https://stripe.com/docs/payments/checkout/accept-a-payment#create-checkout-session)
+* [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+  * like the ones used on [uplash](https://unsplash.com/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ela-oNuFlzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

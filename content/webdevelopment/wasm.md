@@ -126,6 +126,12 @@ that do not support the feature.
 
 * https://github.com/termoshtt/wasm-svg-example
 
+## Work
+
+* [funkykarts](https://www.funkykarts.rocks/demo.html)
+* [python to wasm](https://stackoverflow.com/questions/44761748/compiling-python-to-webassembly)
+* [vuejs wasm integration](https://github.com/vuejs/vue/issues/8193)
+
 
 ## :cyclone: Useful Links
 

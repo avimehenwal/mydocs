@@ -1,3 +1,5 @@
+<!-- <Dot /> -->
+
 Doesnt work components
 
 ::: details render function or template not defined in component: Dot
@@ -35,5 +37,4 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 
 :::
 
-<!-- <Dot /> -->
 <!-- <svg-container></svg-container> -->
