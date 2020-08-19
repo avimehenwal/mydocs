@@ -30,6 +30,8 @@
     "markdown-it-sup": "^1.0.0",
     "markdown-it-todo": "^1.0.5",
     "prism-themes": "^1.4.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
     "standard-version": "^9.0.0",
     "vuepress": "^1.0.0-rc.1",
     "vuepress-plugin-auto-sidebar": "^1.4.1",

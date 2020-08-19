@@ -257,5 +257,14 @@ module.exports = {
       'markdown-it-sub',
       'markdown-it-ins',
     ]
+  },
+  // https://github.com/vuejs/vuepress/issues/146
+  chainWebpack: config => {
+    config.module
+      .rule('pug')
+      .test(/\.pug$/)
+      .use('pug-plain-loader')
+        .loader('pug-plain-loader')
+        .end()
   }
 }

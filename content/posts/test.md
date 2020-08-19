@@ -8,24 +8,26 @@ tags:
 
 # Components
 
+<Pug />
+
+## D3 Graphviz
+
+<Dot engine="neato" code="digraph {
+  node [fontsize=24, colorscheme=set312, style=filled]
+  a [fillcolor=1]
+  b [fillcolor=2]
+  c [fillcolor=3]
+  d [fillcolor=4]
+  e [fillcolor=5]
+  a -> b -> c -> d -> e }" />
+
+<!-- <Dot code="digraph {a -> b -> c}" /> -->
+
 ```graphviz
 digraph {
   A -> B -> C
 }
 ```
-
-## D3.js
-
-blank
-
-<Dot code="digraph {
-  node [fontsize=24, colorscheme=set312, style=filled]
-  a [fillcolor=1]
-  b [fillcolor=2]
-  c [fillcolor=3]
-  a -> b -> c }" />
-
-<!-- <Dot code="digraph {a -> b -> c}" /> -->
 
 ## Vue Live
 

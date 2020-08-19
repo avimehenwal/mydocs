@@ -2,5 +2,6 @@
   "recommendations": [
     "yzhang.markdown-all-in-one",
     "joaompinto.vscode-graphviz",
+    "geeklearningio.graphviz-markdown-preview"
   ]
 }
