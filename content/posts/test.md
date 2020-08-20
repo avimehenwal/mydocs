@@ -8,7 +8,6 @@ tags:
 
 # Components
 
-<Pug />
 
 ## D3 Graphviz
 
@@ -22,6 +21,10 @@ tags:
   a -> b -> c -> d -> e }" />
 
 <!-- <Dot code="digraph {a -> b -> c}" /> -->
+
+## Pug
+
+<Pug />
 
 ```graphviz
 digraph {
