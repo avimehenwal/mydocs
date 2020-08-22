@@ -19,7 +19,8 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@sc': 'screenshots'
+        // Error: Cannot find module '@sc/firebase-database-rules.png
+        '@sc': 'content/.vuepress/public/screenshots'
       }
     }
   },
@@ -168,6 +169,10 @@ module.exports = {
     '@vuepress/back-to-top',
     'reading-progress',
     '@vuepress/pwa',
+    /** element-ui causes ERROR
+     * assign.js?3f6b:1 Uncaught Error: Cannot find module 'core-js/library/fn/object/assign'
+     */
+    // 'element-ui',
     'flowchart',
     'check-md',
     ["live", { noSsr: true }],                               // https://github.com/vue-styleguidist/vuepress-plugin-live

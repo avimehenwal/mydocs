@@ -45,16 +45,43 @@ How javascript is parsed by browser?
 
 ## Realtime Database
 
+> Immutable snapshots of data references
+
 * workd offline mode
 * Security Rules
 * Listen for data changes - optimize them
 * **5$** per GB download
 * Can import, export as `JSON`
 * Use `push` to auto generate ID
+* use `metadata` to add public flags
+  * easy to write rules that way
 
+Database rules language
+
+```json
+"games": {
+  // wildard location
+  "$gameId": {
+    // metadata object in data
+    "metadata": {
+      ".read": true
+    },
+    // rules cascade
+    "gameContent": {
+      ".read": "auth != null || data.child('isPublic').val() === true"
+    }
+  }
+}
 ```
+
+```sh
 ref().push()
 ```
+
+![firebase database rules](../.vuepress/public/screenshots/firebase-database-rules.png)
+
+![firebase request object](../.vuepress/public/screenshots/firebase-request-object.png)
+![database schema](../.vuepress/public/screenshots/database-schema.png)
 
 ## Cloud Firestone
 
@@ -72,6 +99,119 @@ collect.doc()
 ## Google Big Query
 
 Connected Sheets allows users to analyze billions of rows of live BigQuery data in Google Sheets without requiring SQL knowledge.
+
+## Emulators
+
+Run and test database rules locally and generate reports.
+
+* Emulator first development
+
+## Security
+
+1. Authentication
+   1. verifying users who they say they are
+      1. Anonymous Authentication
+      2. username / password
+      3. OAuth from external providers
+2. Authorization - Firebase Rules
+   1. who has access to what
+
+## Storage
+
+* security rules may look different but concepts are same
+
+![storage schema](../.vuepress/public/screenshots/storage-bucket.png)
+
+![storage security rules](../.vuepress/public/screenshots/storage-security-rules.png)
+
+## Analytics
+
+* How to measure if you app (business) is working or not?
+* Completely free and completely unlimited, cross platform
+
+## Cloud Functions
+
+> Managed backend solution
+
+* [SDk Reference](https://firebase.google.com/docs/reference/functions)
+* [Source Code](https://github.com/firebase/firebase-functions)
+* Event triggers a function (database change, https call, new user register)
+  * great for webhooks, stripe, twilio, slack
+* scales up and down
+* write complex thoughts clearly
+* play with code before - **Pyramid of Doom**
+* node version 8 adds `async` and `await` - Hey I need a value and not a promise
+  * async/await, simplifying promise management
+
+* [cloud function Examples](https://github.com/firebase/functions-samples/tree/fa9f9dedd8d4ebd74752fb44ece9ffeedfde390e)
+
+### Cloud Function Security
+
+> Restricting access
+
+* https://stackoverflow.com/questions/58178243/is-there-a-way-to-restrict-public-access-from-firebase-callable-could-functions
+* https://stackoverflow.com/questions/47948561/are-google-cloud-functions-protected-from-ddos-attacks/49282490
+
+
+```js
+const functions = require('firebase-functions');
+
+exports.scheduleSampleJob = functions.https.onRequest((req , res) => {
+     let auth = req.header('Authorization');
+
+     if(auth == 'YOUR_API_AUTHORIZATION_KEY'){
+         // valid Authorization key, process the call
+     }else{
+         //send forbidden if Authorization key not valid
+         return res.status(403).send('Access is Forbidden');
+     }
+});
+```
+
+## No SQL database for SQL developers
+
+> Structure your data as it would be needed in the view
+
+* firebase databse provides security language to put constraints on JSON entered
+  * based on rules language it can accept/reject
+* How would we model a events app database in noSQL?
+  * Users, Events and Attendes Tables
+  * SQL - join query to get all attendes for an event
+
+```sql
+SELECT
+  event.Name as EventName,
+  event.Data as EventDate,
+  user.Name as UserName
+FROM Events as event
+INNER JOIN Attendes as a
+  ON e.Id === a.EventId
+INNER JOIN Users as User
+  ON u.UId = a.UId
+WHERE e.Id == 4;
+```
+
+![Event Planner app schema](../.vuepress/public/screenshots/events-planner-app-scema.png)
+
+* Pagination using query limiters
+* Can attach value listener to data values, realtime updates
+* joins using callback references
+* NOrmalization vs Denormalization (duplication of data to remove querying)
+* When to denormalize data?
+  * Based on your view
+* Add lookups in your json object to cross query tables
+
+```json
+userEvents: {
+  eventId: {
+    fm: true,
+    otherEvent: true,
+    coolEvent: true
+  }
+}
+```
+
+* Multipath updates using promises
 
 
 <Footer />

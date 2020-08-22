@@ -36,8 +36,12 @@ Let's make web beautyful!
     2. transition require a trigger
     3. and has a start state and end state
        1. use animation is there are more in between states
+13. Pseudo classes and Pesudo ELements
 
-
+Pseudo | Example |
+--------|------------
+[PseudoClass](https://www.w3schools.com/css/css_pseudo_classes.asp) | `p:hover`, `:first-child`
+[PseudoElements](https://www.w3schools.com/css/css_pseudo_elements.asp) | `::before`, `::after`
 
 
 ## Typography

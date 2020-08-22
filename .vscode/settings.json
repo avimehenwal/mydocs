@@ -6,7 +6,8 @@
     "component",
     "theme",
     "build",
-    "hosting"
+    "hosting",
+    "vuepress"
   ],
   "svg.preview.background": "transparent"
 }
