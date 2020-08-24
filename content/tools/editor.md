@@ -4,6 +4,7 @@ tags:
 - editor
 - text
 - processing
+- vscode
 ---
 
 # Text Editor
@@ -30,6 +31,13 @@ tags:
   * code lens
 * Java language server built on top of eclipse platform
 
+### Debugger
+
+> conditional debugging
+
+* What if I want to add breakpoint only when a specific value (url request) is made?
+* How to watch for variable value change?
+* or a value of a variable is of some special interest type
 
 ## Text Editor vs IDE
 

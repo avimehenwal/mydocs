@@ -8,6 +8,7 @@ tags:
 
 # Components
 
+<LoadDot />
 
 ## D3 Graphviz
 

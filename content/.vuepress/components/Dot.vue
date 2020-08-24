@@ -22,6 +22,10 @@ export default {
       type: String,
       default: "digraph {a -> b}",
     },
+    filePath : {
+      type: String,
+      default: null
+    }
   },
   data: () => ({
     graphviz: "",

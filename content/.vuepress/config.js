@@ -11,11 +11,26 @@ const extendsNetworks = {
 }
 
 module.exports = {
-  configureWebpack: (config) => {
+  /** NOTE able to load .dot files in component using raw-loader
+   * webpack config as  a function
+   *
+   * https://vuepress.vuejs.org/config/#configurewebpack
+   * https://github.com/search?q=raw-loader+extension%3Ajs+path%3Adocs%2F.vuepress%2F+filename%3Aconfig&type=Code&ref=advsearch&l=&l=
+   */
+  configureWebpack: (config, isServer) => {
+    config.module
+      .rule('raw')
+      .test(/\.dot$/)
+      .use('raw-loader')
+      .loader('raw-loader')
+      .end()
     return { plugins: [
       new webpack.EnvironmentPlugin({ ...process.env })
     ]}
   },
+  /**
+   * webpack config as Object -> would be merged
+   */
   configureWebpack: {
     resolve: {
       alias: {

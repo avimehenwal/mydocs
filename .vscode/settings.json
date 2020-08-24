@@ -7,7 +7,9 @@
     "theme",
     "build",
     "hosting",
-    "vuepress"
+    "vuepress",
+    "netlify"
   ],
-  "svg.preview.background": "transparent"
+  "svg.preview.background": "transparent",
+  "maven.view": "flat"
 }

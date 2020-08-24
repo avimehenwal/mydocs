@@ -127,6 +127,9 @@ How do I upgrade a package? Eg wanna try new features in `nuxtjs` ?
 
       ```sh
       yarn upgrade nuxt@latest
+      yarn upgrade nuxt@^
+      
+      yarn upgrade-interactive --latest
       ```
 
 ## :eye: VueJS Workflow

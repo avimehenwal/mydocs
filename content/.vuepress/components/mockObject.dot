@@ -1,0 +1,14 @@
+digraph piechart {
+    bgcolor=transparent       // make background transparent
+
+    node [
+      shape=circle
+      style=wedged
+      colorscheme=rdbu11
+      width=1                 // graph size
+      penwidth=0              // remove black border
+      label=              // remove label
+    ]
+
+    1 [ color="1:2:3:4:5:6:7:8:9" ]
+  }
