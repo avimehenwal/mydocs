@@ -128,9 +128,20 @@ How do I upgrade a package? Eg wanna try new features in `nuxtjs` ?
       ```sh
       yarn upgrade nuxt@latest
       yarn upgrade nuxt@^
-      
+
       yarn upgrade-interactive --latest
       ```
+
+## Versioning
+
+NPM uses semver syntax
+npm uses the tilde `~` and caret `^` to designate which patch and minor versions to use respectively.
+
+```
+major.minor.patch   1.0.2
+```
+
+So if you see ~1.0.2 it means to install version 1.0.2 or the latest patch version such as 1.0.4. If you see ^1.0.2 it means to install version 1.0.2 or the latest minor or patch version such as 1.1.0.
 
 ## :eye: VueJS Workflow
 

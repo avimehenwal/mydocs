@@ -50,10 +50,11 @@ export default {
       /**
        * FIXME
        * Error in mounted hook: "Error: Cannot find module 'raw-loader!../../dot/mockObject.dot'"
+       * SyntaxError: 'import' and 'export' may only appear at the top level
        */
       // this.code = JSON.stringify(require(this.relativeFilePath))
       // this.code = require(this.relativeFilePath)
-      import file from "raw-loader!../../dot/mockObject.dot";
+      // import file from "raw-loader!../../dot/mockObject.dot";
       console.log(file);
     }
   },

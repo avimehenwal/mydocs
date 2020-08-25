@@ -144,7 +144,6 @@ module.exports = {
           { text: 'Rough Notes', link: '/notes/' },
           { text: 'Lifestyle', link: '/lifestyle/' },
           { text: 'Business', link: '/business/' },
-          { text: 'Entrepreneurship', link: '/entrepreneurship/' },
           { text: 'Language', link: '/language/' },
           { text: 'Mathematics', link: '/maths/' },
           { text: 'Tools', link: '/tools/' },
@@ -190,6 +189,8 @@ module.exports = {
     // 'element-ui',
     'flowchart',
     'check-md',
+    // https://z3by.github.io/vuepress-tools/plugins/vuepress-plugin-web-monetization.html
+    ['web-monetization', { 'address': process.env.ILPPointer }],
     ["live", { noSsr: true }],                               // https://github.com/vue-styleguidist/vuepress-plugin-live
     // default forest dark
     [ 'vuepress-plugin-mermaidjs', { theme: 'forest'}],

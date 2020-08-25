@@ -13674,6 +13674,11 @@ vuepress-plugin-social-share@^0.3.2:
   dependencies:
     deepmerge "^4.2.2"
 
+vuepress-plugin-web-monetization@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-web-monetization/-/vuepress-plugin-web-monetization-0.0.2.tgz#c834eb34541adecb3f7de6196e45c444036d3e0b"
+  integrity sha512-ouemH4uWyxIooYrrr2F4iA/pzxQyZQuSSm3o1bY3+kiTedp0t7tf3NAVXHMKH0gQFFkm/K0R1kViEBRCQIDSwg==
+
 vuepress@^1.5.3:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.5.3.tgz#663a1041240a0c182f58316ba567a22b8df932a4"
