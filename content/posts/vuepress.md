@@ -12,6 +12,99 @@ meta:
     content: super duper SEO
 ---
 
+# vuepress-blog
+
+After setting the `dirname` to blog directory
+
+http://localhost:8080/2019/06/08/intro-to-vuepress-next/
+
+![vue router](../.vuepress/public/screenshots/vue-router.png)
+
+How to assign LAyouts to new blog pages?
+
+* `theme` directory to create a new theme with Layout.vue
+  * will override default theme
+
+http://localhost:8080/1970/01/01/posts/
+
+debug vue routes using vue devtools - routes
+* pagination layout in pagition setting section
+  * links to posts and control length
+  * `null` on other pages
+
+```js
+// vuepress-plugin-blog configuration
+    [
+      '@vuepress/blog',
+      {
+        directories: [
+          {
+            // Unique ID of current classification
+            id: 'post',
+            // Target directory
+            dirname: 'posts',
+            // Path of the `entry page` (or `list page`)
+            path: '/post/',
+            layout: 'IndexPost',
+            itemLayout: 'PagePost',
+            itemPermalink: '/post/:year/:month/:day/:slug',
+            // Pagination
+            pagination: {
+              lengthPerPage: 2,
+              prevText: 'Prev',
+              nextText: 'Next',
+              layout: 'PagePost',
+            },
+          },
+        ],
+      },
+    ],
+```
+
+Filter blog post pages
+
+```vue
+<template>
+  <ol>
+    <li v-for="item in filteredPosts" :key="item.title">
+      <a href="item.regularPath">
+        {{ item.title }}
+      </a>
+    </li>
+  </ol>
+</template>
+
+<script>
+export default {
+  data: () => ({
+    title: "Post Index Layout",
+    postsDir: "posts",
+  }),
+  computed: {
+    filteredPosts() {
+      let posts = []
+      const pattern = new RegExp(this.postsDir, 'gi');
+      this.$site.pages.filter((page) => {
+        if (page.regularPath.match(pattern)) {
+          posts.push(page)
+        }
+      });
+      console.log(typeof posts, posts);
+      return posts
+    },
+  },
+};
+</script>
+```
+
+![vuepress blog plugin directory structure](../.vuepress/public/screenshots/vuepress-blog.png)
+
+### Resources
+
+* https://github.com/ulivz/70-lines-of-vuepress-blog-theme/blob/master/index.js
+* https://github.com/ulivz/70-lines-of-vuepress-blog-theme/blob/master/layouts/Layout.vue
+
+
 ## Vuepress
 
 * All images in `public` folder

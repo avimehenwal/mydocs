@@ -205,6 +205,9 @@ userEvents: {
 
 ## :question: Questions
 
+1. Does exporting multiple cloud functions in 1 index.js affect the boot time?
+   1. less about #cloud functions more about what you are doing.
+
 firebase apiKey is open to public? Cant anyone who has key make new accounts in firebase?
 :   Restrict backend to respond only to your website using [HTTP referer set by browser](https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843)
 
