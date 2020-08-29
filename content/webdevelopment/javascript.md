@@ -315,7 +315,7 @@ plugins
 * configure webpack to give us the static bundles
 * Use vue-cli to make custom webpack configs
   * `vue.config.js`
-
+* [Create your own context with webpack](https://webpack.js.org/guides/dependency-management/#requirecontext)
 
 ## Rollup
 

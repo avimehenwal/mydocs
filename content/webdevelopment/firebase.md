@@ -277,6 +277,16 @@ How to host a nuxt SSR app using cloud functions?
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZYUWsjUxxUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+##  Prerendering
+
+In video making, [prerendering](https://en.wikipedia.org/wiki/Pre-rendering) is the process in which video is not rendered in real-time.
+
+## Observable
+
+Observable is a container which has past values, present values. They helps client to [listen](https://firebase.google.com/docs/firestore/query-data/listen) to data.
+`onSnapshot()`
+
+Wait for data to be emitted. Listener catches the data change and then observable flattens the data for view.
 
 ## :pen: Personal Notes
 

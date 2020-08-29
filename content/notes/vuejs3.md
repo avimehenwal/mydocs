@@ -266,6 +266,16 @@ Library/Tools | Description
 
 Eager loading is the default approach of loading JavaScript code on to the DOM, for Vue JS this means using the import statement to bring in a component into the app.vue file. On the other hand, lazy loading refers to an approach where all of the scripts are not loaded on the DOM as the application starts, instead, they are only loaded when requested, making the JavaScript bundle size very small at initial load.
 
+How to list all routes from router?
+:   `$router.options.route`
+
+    ::: danger router.options.routes
+    `$router.options.routes` will only have the initial set of routes.
+    Anything added with addRoutes will be not present there.
+    :::
+
+
+
 ## Resources
 
 * [DOM Events List](https://developer.mozilla.org/en-US/docs/Web/Events)

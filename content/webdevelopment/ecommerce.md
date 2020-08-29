@@ -63,10 +63,26 @@ Shopping car is like git staging area for next commit. Subsets of products to pr
 4. animations
 5. Artwork
 
+## Webhooks
+
+::: quote
+Webhooks are APIs requests but in reverse.
+:::
+
 * Webhooks and APIs differ in how they make requests.
 * https://cloud.google.com/free/
 * Firebase Functions - `javascript`
   * Google cloud functions in python, Go, java, nodejs
+
+How to test webhooks locally?  in development phase?
+:   Tunneling software like `ultrahook` or `ncroc`
+
+    Have to update URL everytime is using a free version. How to do better?
+    enter ==Stripe CLI==
+
+HOw to deal with JSON on CLI?
+:   Use [jq](https://stedolan.github.io/jq/) tool. Its like `sed` and `awk` but for JSON
+
 
 ## Stripe Payment
 

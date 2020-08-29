@@ -6,13 +6,17 @@ tags:
 - site
 - generator
 meta:
-  - name: description
-    content: hello
-  - name: keywords
-    content: super duper SEO
+- name: description
+  content: hello
+- name: keywords
+  content: super duper SEO
 ---
 
 # vuepress-blog
+
+::: quote
+VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+:::
 
 After setting the `dirname` to blog directory
 
@@ -103,6 +107,43 @@ export default {
 
 * https://github.com/ulivz/70-lines-of-vuepress-blog-theme/blob/master/index.js
 * https://github.com/ulivz/70-lines-of-vuepress-blog-theme/blob/master/layouts/Layout.vue
+
+
+## Blog theme vs default theme
+
+### Blog Theme
+
+* Blog theme doesnt add prev and next page links to $pages
+  * default theme takes that information from sidebar
+  * And sidebar is either populatted by user with hand, or using a plugin which uses directory structure
+* Prebuilt classification system and pagination API
+* https://github.com/vuejs/vuepress/issues/36#issuecomment-498633025
+
+### Default Theme
+
+* Could remove sidebar to mimic appearence in blog theme
+* Still may be hard to implement server side pagination API
+* Doenst have prebuilt tags to page
+  * Use lodash filter functions to generate more page classifications and taxonomies
+  * input `this.$site.pages` and generate taxonomies
+* HOC - Higher Order Components, component Inheritance
+* https://stackoverflow.com/questions/57172350/vuepress-theme-inheritance-setup/62397655#62397655
+
+
+## Resources
+
+* https://github.com/vuejs/vuepress/releases
+* https://stackoverflow.com/questions/57172350/vuepress-theme-inheritance-setup
+* https://medium.com/@_ulivz/intro-to-vuepress-1-x-7e2b7885f95f
+* https://github.com/vuejs/ui
+
+
+#### Pagination
+
+* https://jasonwatmore.com/post/2018/08/07/javascript-pure-pagination-logic-in-vanilla-js-typescript#:~:text=JavaScript%20Paginate%20Function%20Usage,per%20page,%20defaults%20to%2010
+* https://github.com/Yubisaki/vuepress-plugin-pagination
+* https://github.com/vuepress-reco/vuepress-theme-reco/tree/develop/packages/%40vuepress-reco/vuepress-plugin-pagation
+* https://www.jordonbaade.com/blog/blogging-vuepress-default-theme/#an-example-blog-post
 
 
 ## Vuepress

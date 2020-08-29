@@ -60,6 +60,11 @@ Coin Burning
 Arbitrage
 : In economics and finance, arbitrage is the practice of taking advantage of a price difference between two or more markets: striking a combination of matching deals that capitalize upon the imbalance, the profit being the difference between the market prices at which the unit is traded
 
+## Exchanges
+
+* https://coinmarketcap.com/
+
+
 #### Crypto Exchanges Service
 
 * is the marketplace where you trade cryptocurrency **from wallets**
