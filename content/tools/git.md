@@ -15,10 +15,22 @@ tags:
 * Git repository with in another git repository
 * Git commit history comes along with submodule repository
 
-```
+```bash
 git submodule init
 git submodule summary
 git submodule status
+```
+
+```bash
+$ git submodule add --name subOne -- git@github.com:avimehenwal/javascript.git docs/docs/posts
+Cloning into '/home/avi/EXP/multiple-docs/docs/docs/posts'...
+X11 forwarding request failed on channel 0
+remote: Enumerating objects: 652, done.
+remote: Counting objects: 100% (652/652), done.
+remote: Compressing objects: 100% (365/365), done.
+remote: Total 652 (delta 273), reused 617 (delta 241), pack-reused 0
+Receiving objects: 100% (652/652), 6.33 MiB | 6.85 MiB/s, done.
+Resolving deltas: 100% (273/273), done.
 ```
 
 * Dry run git commands before actually running them

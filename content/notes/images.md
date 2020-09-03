@@ -40,7 +40,7 @@ Caputure screenshots directly in SVG?
 * High-quality transparent or non transparent images
 * [webP browser support](https://caniuse.com/#feat=webp)
   * Create image fallback in case webP format is not supported. eg, IE
-* 
+*
 
 ## Why use Vector Images
 
@@ -63,6 +63,11 @@ Caputure screenshots directly in SVG?
 * gif
 * png
 * tiff
+* [data URI format](https://css-tricks.com/data-uris/)
+
+```html
+data:[<mime type>][;charset=<charset>][;base64],<encoded data>
+```
 
 ### Vector Formats
 

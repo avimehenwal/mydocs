@@ -30,6 +30,7 @@ $Social \; Science = Social \; (as \; in \; society, \; human \, beings) + Scien
 * [Latin Alphabetical system](https://en.wikipedia.org/wiki/Latin_alphabet)
 * [SSML - Speech synthesis MArkup Language](https://en.wikipedia.org/wiki/Speech_Synthesis_Markup_Language)
 * [Interactive IPA chart](https://www.ipachart.com/)
+* [SVG linguistic chart](http://svg-whiz.com/svg/linguistics/theCreepyMouth.svg)
 
 ```
 sudo apt install espeak-ng-espeak
