@@ -10,6 +10,43 @@ tags:
 
 * Git is just a big directed acyclic graph DAG
 
+> Dont use LINUX like DOS
+
+## Power of git
+
+`git rev-list` : list commits on reverse chronological order
+
+Suppose you have to rebase some of your commits. When you change the commits, would the tests still pass?
+
+Did I break any code when I rebased the source?
+
+```bash
+( set -e && git rev-list --reverse master~3..master \
+  | while read rev; do echo git checkout $rev; \
+  python runtests.py; done)
+```
+
+> OH: ITs half assed, but it is the right half of the ass.
+
+::: theorem Power Law Distribution
+implies that small values are extremely common, whereas large values are extremely rare.
+
+* Primitives
+* Means of Combination
+* Means of abstraction
+:::
+
+I want to know the count of references of classes and modules in codebase?
+
+```bash
+grep-ruby() { find app lib -name '*.rb' | xargs grep $* }
+grep-ruby() -h '[[:space:]]*\(class\|module\)\b' |
+  sed 's/^[[:space:]]*//' |
+  cut -d ' ' -f 2
+  while read class; do
+    echo "`grep-ruby -l "\b$class\b" | wc -l` $class"
+```
+
 ## Submodules
 
 * Git repository with in another git repository
