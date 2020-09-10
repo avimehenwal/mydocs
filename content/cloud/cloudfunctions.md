@@ -22,6 +22,8 @@ tags:
   * TypeScript supports latest JavaScript features like async/await, simplifying promise management
 * All typescript files are compiled to plain javascript and saved in `lib` directory
 
+![Firebase functions vs google clouf functions difference](../.vuepress/public/screenshots/firebase-vs-google-cloud-functions.png)
+
 Webpack serves an important job. It bundles all the scattered Typescript’s modules/files and bundle them into a single index.js Javascript file. This is important because the Cloud Functions will only use that single file for deployment.
 
 How to make use to async/await syntax in typescript or ECMA acript 2017 to write better, safer coould functions

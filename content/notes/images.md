@@ -69,6 +69,8 @@ Caputure screenshots directly in SVG?
 data:[<mime type>][;charset=<charset>][;base64],<encoded data>
 ```
 
+![vector vs raster image format differences](../.vuepress/public/screenshots/vector-vs-raster.png)
+
 ### Vector Formats
 
 * svg
