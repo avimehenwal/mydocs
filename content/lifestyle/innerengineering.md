@@ -679,7 +679,11 @@ masochist
 
 ### Animal Instinct
 
+> Its just that small devil inside you that makes you feel like that.
+
 * Territorial imperative
+* Crossed in love and now drinking and crying
+* you are liable to arouse public indignation
 
 
 #### Effects of colors

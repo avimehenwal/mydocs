@@ -578,6 +578,16 @@ Spirituality = Realization, touch the centre
 4. Right perception
 5. perversion
 
+## Intution
+
+* Its not a different level of intelligence, its a different level of computing
+* Gathering information
+* Rhythm with life, wake up somewhere after 3AM
+* Fall in sync with life
+* 5-6 hrs gap b/w foods, eat food which you can digest, eat fresh food, 3hrs
+* Sleep in sadhna
+
+
 ### 1.6.7. References
 
 * [Kriya Yoga](https://en.wikipedia.org/wiki/Kriya_Yoga)
@@ -585,6 +595,7 @@ Spirituality = Realization, touch the centre
 * [Yoga Journal](https://www.yogajournal.com/)
 * [Yoga and chakras](https://www.yogaoutlet.com/blogs/guides/yoga-the-chakras)
 * [Kundalini Yoga](https://en.wikipedia.org/wiki/Kundalini_yoga)
+* [Manipura](https://en.wikipedia.org/wiki/Manipura)
 * https://buddhism.stackexchange.com/questions/33985/shivas-112-ways-to-attain-enlightenment-and-buddhas-way?newreg=22e1c0dc04e2471db96046112cf5983a
 * https://www.accesstoinsight.org/lib/authors/vonglasenapp/wheel002.html
 * https://www.ebay.de/p/162484167?iid=203021713559&chn=ps&norover=1&mkevt=1&mkrid=707-134425-41852-0&mkcid=2&itemid=203021713559&targetid=899896891158&device=c&mktype=pla&googleloc=9044184&poi=&campaignid=10203814515&mkgroupid=101937404797&rlsatarget=pla-899896891158&abcId=1145989&merchantid=232385452

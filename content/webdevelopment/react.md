@@ -26,6 +26,15 @@ tags:
 * Is it a js framework? or a js library?
 * Components have its own states
 
+> In React components, code reuse is primarily achieved through composition rather than inheritance.
+
+How to implement state into component?
+:   There are 2 ways
+
+    1. `class` component
+    2. Use new `hooks`
+
+
 ## How to learn
 
 * javascript ES6 (Objects, Arrays, Conditionals, Classes, types, async await, Promises, arrow fn, destructuring)

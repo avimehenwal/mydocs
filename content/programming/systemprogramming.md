@@ -152,6 +152,16 @@ sudo perf report
 
 [System Programming]: https://en.wikipedia.org/wiki/System_programming_language
 
+## Useful Github Repos
+
+* https://github.com/danistefanovic/build-your-own-x
+* https://github.com/donnemartin/system-design-primer
+* https://github.com/public-apis/public-apis
+* https://github.com/jlevy/the-art-of-command-line
+* https://github.com/trekhleb/javascript-algorithms
+* https://github.com/kamranahmedse/developer-roadmap
+
+
 ## References
 
 * https://github.com/iovisor/bcc
