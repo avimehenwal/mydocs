@@ -140,6 +140,32 @@ Performing merge normally will raise **merge conflicts**. To automatically force
 git merge --progress --verbose --summary -X theirs develop
 ```
 
+How to remove a commit from history?
+:   Use `rebase` and delete the commit you do not want to pick
+
+What is revert?
+:   Reverting the changes made in a previous commit as a new commit
+
+::: warning rebase
+Very dangerous commands
+:::
+
+
+How to undo a gitrebase?
+:   [Manually](https://stackoverflow.com/questions/134882/undoing-a-git-rebase)
+
+    Reference logs
+    ```bash
+    git reflog
+    git reset --hard HEAD@{5}
+    ```
+
+How to check diff before raising PR?
+:   `git difftool --tool=meld --dir-diff master...`
+
+    **or** use gitlens comparision with vscode
+
+
 ## :cherry_blossom: Cherrypicking
 
 Useful when working on opensourced projects, you might want to keep personal changes in develop branch,
