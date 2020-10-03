@@ -157,9 +157,25 @@ h | home
 ? | uh-oh
 
 
+![learn chinese](../.vuepress/public/screenshots/chinese-scholar.png)
+![japan in chinese](../.vuepress/public/screenshots/chinese-japan.png)
+![Japanese person](../.vuepress/public/screenshots/chinese-japanese-person.png)
+![Chinese scholar](../.vuepress/public/screenshots/how-to-learn.png)
+![Language literacy](../.vuepress/public/screenshots/language-literacy.png)
+![Chinese zodiac](../.vuepress/public/screenshots/zodiac-signs.png)
+![Wester vs chinese zodiac signs](../.vuepress/public/screenshots/western-vs-chinese-zodiac.png)
+![Forbes top 300 richest people by zodiac sign](../.vuepress/public/screenshots/forbes-top-300-richest-chinese-zodiac.png)
 
+## Chinese
 
+* ASking a zodiac sign is a polite way of asking your age!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/troxvPRmZm8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Resources
+
+* https://www.youtube.com/channel/UCBNzhTi3AbfUxjbVY_n029g
+* https://www.youtube.com/c/ChineasybyShaoLan/about
 
 
 <Footer />
