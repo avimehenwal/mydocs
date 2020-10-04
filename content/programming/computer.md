@@ -41,7 +41,11 @@ whereas building the house can be considered as computer organization.
   * TOmosulos algorithm
 * Memory Hierarchy
 
+::: quote
+At the end of the day, linux wants to make software and windows wants to make money
+:::
 
+> Software make for society
 
 * Computer only understand 0 and 1, unreadable for humans
   * Assembly level languages - Opcode mnemonics
