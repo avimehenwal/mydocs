@@ -568,6 +568,14 @@ classDef purple fill:#f9f,stroke:#333,stroke-width:4px;
   * butchering them on street
 * DOnt have premeditative action. thats a crime
 
+## Nice things
+
+* Life does not change if you change the **content** of your life, Life changes when you change the **context** of your life
+* Hyperperception
+* Experiencce of life is very relative, on a good day its short, on a miserable day its neverending.
+* Do an hourly check, are you alive?
+* Smile if a consequence of something good happening within you, unless you are a PR person!
+
 ## Questions
 
 1. Why we love the children and not kill them? Generally try to love them? Why? Why some people beat them?
@@ -657,6 +665,7 @@ classDef purple fill:#f9f,stroke:#333,stroke-width:4px;
   * 7 times - Aaa, loud enought until you feel the vibrations
   * reorganization of energies
 * [Yoga Journal](https://www.yogajournal.com/)
+
 $$ Super \, Human = \{ \, breath, thought, awareness \, \}$$
 
 

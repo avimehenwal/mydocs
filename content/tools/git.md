@@ -115,12 +115,25 @@ git rebase --onto HEAD HEAD master
 * fatal: refusing to merge unrelated histories
   * git pull --allow-unrelated-histories
 
-```
+```bash
 # In new git repo
 git remote add one <url>
 git pull --allow-unrelated-histories one master
 find ! -path "./.git*" -exec mv -v --target-directory=one_repo {} +
 mv -v .gitignore one_repo/
+
+```
+
+### Merge Strategies
+
+using `ours` and `theirs` with `-X | --strategy-option` switch
+
+[merge-strategy](https://www.atlassian.com/git/tutorials/using-branches/merge-strategy)
+Autoresolve merge conflicts
+
+```bash
+git merge --strategy-option theirs develop
+git merge -X theirs develop
 ```
 
 How do I merge A into B, without losing history on any side?
