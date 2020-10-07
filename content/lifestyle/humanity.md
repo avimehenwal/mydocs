@@ -96,6 +96,20 @@ Realize that very deeply that there is no psychological security
 * That is me, anger is me, vanity is me
 * What to do to be never hurt? Have a mind incapable of being hurt
 
+## How to live a life?
+
+* As the society exists now, is there a way to make right living?
+  * Earning a living
+  * And not having a conflict
+    * Harmony with internal and external
+
+$$Life = Relationship + Action$$
+
+* Our actions are basaed upon memory, past experiences or a projected ideal/concept
+* Modern education is relatively easier, its mostly memorization.
+* also learn the psysological content of a human being.
+* Must always be calm and alert.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tYjYL448-yY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

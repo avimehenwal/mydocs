@@ -387,6 +387,10 @@ attention
 Awareness
 : intensity of life, aliveness.
 
+::: quote Sadhguru
+Grace is the lubrication of life. People blessed with grace do not get stuck in life everywhere
+:::
+
 awakefullness | wakefullness
 : awake enough to percieve through sense organs. Limited to physical reality, cannot tell what other person might be thinking. Penetration of perception deepens. Changes your experience of life. Crank up the intensity of life energies.
 
