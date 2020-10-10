@@ -11,6 +11,8 @@ tags:
 
 <TagLinks />
 
+> Attempt yoga when sun is below 30 degrees, dusk or dawn
+
 * Life and death are centain level of **Time** and **Energy** at play
 * Life is a interplay of energies
   * coming to terms with energies and utilizing them in a way to do what you can do and have the serinity to understand what you cannot do.
@@ -558,8 +560,32 @@ Spirituality = Realization, touch the centre
 3. Jesus - What happens in the kingdom of god?
    1. There shall be time no longer
 4. A child is not loved, he will never be able to love, centre needs to be created by society/ family
-5.
 
+## Asana
+
+> Human beings are like recieving antennas, cosmos is broadcasting
+
+* asana siddhi, sit comfortably for **2.5 hrs** in a posture
+* Making your alignment match with the alignment of universe, cosmic alignment, **84 asanas**
+  * Or master one
+* How does one attain enlightnment just by sitting? How does one know everything just by sitting?
+  * Open doorways to access the knowledge your body already possesses. Source of creation
+  * Like resonance of television EM waves
+  * The most important factor is Balance
+* Friction free state is a joy to be in
+
+How to start
+
+* Sadilaja, loosenign of limbs
+* [84 Asanas](https://www.youtube.com/watch?v=frYuCQFT1U8&list=PLO-M_C7ahjcr8GICbnKn4JqAfr6IDSS-q&index=2)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pGSPafxqxfY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yOxVAjNWCjI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GwT3JcAc-RA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m4CYwF9RKqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Kamasutra
 
@@ -608,5 +634,6 @@ Spirituality = Realization, touch the centre
 * https://en.wikipedia.org/wiki/Sufism
 * https://en.wikiquote.org/wiki/Mansur_Al-Hallaj
 * https://journeythroughmeditation.com/
+* https://www.youtube.com/c/Massagenerds/about
 
 <Footer />
