@@ -95,8 +95,6 @@ There are numerous types of data structures, generally built upon simpler primit
   * Merge Sort
 * Heap vs Tree and Stack , Advantages and disadvantages
 
-
-
 ### Spanning Tree
 
 * Operations
@@ -120,7 +118,9 @@ There are numerous types of data structures, generally built upon simpler primit
     * Heapify
   * Priority Queue
 
-
+::: tip SEGV
+[Segmentation Faults](https://en.wikipedia.org/wiki/Segmentation_fault)
+:::
 
 
 ### Some good Questions

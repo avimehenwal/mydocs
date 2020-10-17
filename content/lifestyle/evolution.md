@@ -85,6 +85,13 @@ Is desire something fundamental in human beings? And without desire, how do we f
   * Languages: sanskrit, english
   * Martial arts
 
+::: warning People
+There are 3 types of people:
+1. Season
+2. Reason
+3. Lifetime
+:::
+
 ## References
 
 * https://zeenews.india.com/spirituality/dashavatar-10-incarnations-of-lord-vishnu_1956289.html
