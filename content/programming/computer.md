@@ -104,4 +104,6 @@ otool -tv fib
 * [Assembly Programming primer](https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming)
 * [IA-32 ISA Datasheet](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d9SWNLZvA8g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <Footer />

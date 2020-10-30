@@ -197,6 +197,21 @@ git cherry-pick <commitId> -n
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LX11jimGDGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Software Model
+
+* Version could be kept by having a directory of snapshots with timestamps
+* Git is fancier, it uses **DAG** Directed Acyclic Graph
+* Object are put into store as hashes
+  * turns big chunks of bytes to fixed length strings
+
+Data Structures | Description
+blob | Array of bytes
+tree | Respresent a folder, mappings from dir name to contenet (another subtree or file)
+commit | metadata, parent (array of commits), author, msg etc, snapshot (tree)
+Object | blob | tree | commit
+references | Mapping hashes to human redable string messages
+
+
 ## Resources
 
 * https://github.com/web-platform-tests/wpt

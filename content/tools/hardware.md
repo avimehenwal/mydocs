@@ -52,6 +52,21 @@ XPS 13 vs XPS 2-in-1 difference?
 
 Comes in 2 varients, detachable keyboard mode and flip screen 360 style
 
+## WIndows
+
+* Upgrade to Professional to be able to use docker and virtualization.
+* Windows Home doesn't have virtualization enabled
+
+## Thinkpad UPgrades
+
+https://www.crucial.com/compatible-upgrade-for/lenovo/thinkpad-e470#memory
+
+```bash
+sudo lshw -short -C memory
+sudo dmidecode -t memory | grep -i speed
+lsmem
+```
+
 ## AMD Ryzen 4700u
 
 * Do not suppoet latest WiFi 802.11ac standard, intel does
@@ -107,7 +122,9 @@ Team Blue vs Team Red
 
 ### Intel Comeback
 
-with [EVO Platform](https://www.intel.com/content/www/us/en/products/docs/evo.html)
+* with [EVO Platform](https://www.intel.com/content/www/us/en/products/docs/evo.html)
+* SuperFin - New manufacturing process
+
 
 #### Graphics
 
@@ -137,10 +154,16 @@ https://www.amazon.com/60-keyboard/s?k=60%25+keyboard
 
 * https://www.keychron.com/
 
+Is OS dependent on CPU architecture? How?
+:   [Yes](https://www.quora.com/Is-an-operating-system-cpu-architecture-dependent)
 
 ## Sell
 
 Where to sell second hand laptops? https://wirkaufens.de/index.php/verkaufen/11/Notebooks.html
+
+## Thinkpad x1 carbon gen 8 vs X1 carbon Extreme
+
+* 
 
 ## Resources
 
@@ -163,5 +186,9 @@ Intel CPU evolution
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TqOCC65HkCQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tcKCBwEPXZc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PcNK_OC6HMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Cb-87YD_N0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <Footer />

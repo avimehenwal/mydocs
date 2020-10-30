@@ -103,6 +103,12 @@ Josei
 [Ufotable]: https://en.wikipedia.org/wiki/Ufotable
 [Wix]: https://en.wikipedia.org/wiki/Wit_Studio
 
+## Softwares
+
+* https://www.clipstudio.net/en/
+* [Xjournal for linux](http://xournal.sourceforge.net/)
+
+
 ## References
 
 * https://en.wikipedia.org/wiki/Druid
