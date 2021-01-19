@@ -16,5 +16,5 @@ echomsg w:p_dev_cmd
 execute 'nnoremap <M-0> :' . w:p_dev_cmd . '<CR>'
 
 " Optimize SVG images using SVGO
-" svgo --input='bullet-journaling-system.svg' --pretty
+
 
