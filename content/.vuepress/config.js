@@ -24,9 +24,11 @@ module.exports = {
       .use('raw-loader')
       .loader('raw-loader')
       .end()
-    return { plugins: [
-      new webpack.EnvironmentPlugin({ ...process.env })
-    ]}
+    return {
+      plugins: [
+        new webpack.EnvironmentPlugin({ ...process.env })
+      ]
+    }
   },
   /**
    * webpack config as Object -> would be merged
@@ -171,6 +173,7 @@ module.exports = {
           { text: 'Static: My first portfolio', link: 'https://avimehanwal.netlify.app/' },
           { text: 'Static: Just another sample site', link: 'https://german.netlify.app/' },
           { text: 'static: @avi/vue-components', link: 'https://avi-vue-components.netlify.app/' },
+          { text: 'static: my python notes', link: 'https://avi-python.netlify.app/' },
         ]
       },
     ],
@@ -193,11 +196,11 @@ module.exports = {
     ['web-monetization', { 'address': process.env.ILPPointer }],
     ["live", { noSsr: true }],                               // https://github.com/vue-styleguidist/vuepress-plugin-live
     // default forest dark
-    [ 'vuepress-plugin-mermaidjs', { theme: 'forest'}],
-    [ 'disqus', { shortname: 'mydocs-1' } ],
+    ['vuepress-plugin-mermaidjs', { theme: 'forest' }],
+    ['disqus', { shortname: 'mydocs-1' }],
     ['@dovyp/vuepress-plugin-clipboard-copy', true],
-    [ '@vuepress/google-analytics', { 'ga': process.env.GA } ],
-    [ 'vuepress-plugin-google-tag-manager', { gtm: process.env.GTM } ],
+    ['@vuepress/google-analytics', { 'ga': process.env.GA }],
+    ['vuepress-plugin-google-tag-manager', { gtm: process.env.GTM }],
     [
       'social-share',
       {
@@ -285,7 +288,7 @@ module.exports = {
       .rule('pug')
       .test(/\.pug$/)
       .use('pug-plain-loader')
-        .loader('pug-plain-loader')
-        .end()
+      .loader('pug-plain-loader')
+      .end()
   }
 }

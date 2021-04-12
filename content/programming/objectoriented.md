@@ -1,11 +1,11 @@
 ---
 title: Object Oriented Programming
 tags:
-- oop
-- object
-- oriented
-- programming
-- paradigm
+  - oop
+  - object
+  - oriented
+  - programming
+  - paradigm
 ---
 
 # Object Oriented Programming
@@ -16,15 +16,14 @@ tags:
 
 Tools
 
-* [GitUML](https://www.gituml.com/)
-  * Revolutionize code documentation and code visualization
-* Pyreverse - Pylint
-
+- [GitUML](https://www.gituml.com/)
+  - Revolutionize code documentation and code visualization
+- Pyreverse - Pylint
 
 ## :chart: UML Diagram
 
 [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) - Unified Modelling Language
-:   structure of a software system
+: structure of a software system
 
     * [Class Diagrams](https://en.wikipedia.org/wiki/Class_diagram)
 
@@ -78,7 +77,7 @@ classDiagram
 
 ### Multiplicity
 
-* How is it all done in Python?
+- How is it all done in Python?
 
 ```mermaid
 classDiagram
@@ -100,7 +99,7 @@ link User "http://www.github.com" "This is a tooltip for a link"
 
 ## OOP - Object Oriented Programming Concepts
 
-### :potable_water: Polymorphism [wiki](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
+### :potable*water: Polymorphism [wiki](https://en.wikipedia.org/wiki/Polymorphism*(computer_science))
 
 > Static (compilet time) or Dynamic (run time) implementation
 
@@ -121,8 +120,8 @@ note left of Other_Arguments : 0..* Arguments
 > common interface for an arbitrary set of individually specified types.
 
 Operator Overloading [wiki](https://en.wikipedia.org/wiki/Operator_overloading)
-:   * aka **adhoc Polymorphism**, syntactic sugar
-    * Different implementations based on arguments
+: _ aka **adhoc Polymorphism**, syntactic sugar
+_ Different implementations based on arguments
 
     **Eg,**
 
@@ -135,30 +134,27 @@ Operator Overloading [wiki](https://en.wikipedia.org/wiki/Operator_overloading)
     ```
 
 Whats the difference between operator overloading and overriding?
-:   The main difference between overloading and overriding is that in overloading we can use
-    same function name with different parameters for multiple times for different tasks with
-    on a class. and overriding means we can use same name function name with same parameters
-    of the base class in the derived class. this is also called as re useability of code in
-    the programme.
-
+: The main difference between overloading and overriding is that in overloading we can use
+same function name with different parameters for multiple times for different tasks with
+on a class. and overriding means we can use same name function name with same parameters
+of the base class in the derived class. this is also called as re useability of code in
+the programme.
 
 Polymorphic functions can be supplied with arguments of different types
 
 [Functional Overloading](https://en.wikipedia.org/wiki/Function_overloading)
-:   Functions of same name with different implementations
+: Functions of same name with different implementations
 
     For example, `doTask()` and `doTask(object O)` are overloaded functions.
 
-
 [Operator Overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-:   Different operators have different implementations based on their argument
+: Different operators have different implementations based on their argument
 
     For example, use of `+` and `*` operator in python language
 
 Useful Links for this topic
 
-* [Type Systems and Type Theory](https://en.wikipedia.org/wiki/Type_theory)
-
+- [Type Systems and Type Theory](https://en.wikipedia.org/wiki/Type_theory)
 
 ### 2. [Parametric Polymorphism](https://en.wikipedia.org/wiki/Parametric_polymorphism)
 
@@ -178,14 +174,14 @@ form the basis of generic programming.
 > when a name denotes instances of many different classes related by some common superclass
 
 Why need it? whats the advantage?
-:   to restrict the range of types that can be used in a particular case of polymorphism
+: to restrict the range of types that can be used in a particular case of polymorphism
 
     Uses Inheritance principles of base class and super class
 
 ::: tip Subtyping and Supertyping
-$T :> S$  $\implies$ $T$ is said to be a **supertype** of $S$
+$T :> S$ $\implies$ $T$ is said to be a **supertype** of $S$
 
-$S <: T$  $\implies$ Type $S$ and **subtype** of $T$
+$S <: T$ $\implies$ Type $S$ and **subtype** of $T$
 :::
 
 ```mermaid
@@ -219,5 +215,6 @@ OrderDetails --* Orders : composition
 link User "http://www.github.com" "This is a tooltip for User"
 ```
 
+[google trends: FP vs OO](https://trends.google.com/trends/explore?q=object%20oriented%20programming,functional%20programming)
 
 <Footer />

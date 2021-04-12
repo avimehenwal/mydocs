@@ -1,8 +1,8 @@
 ---
 title: CSS
 tags:
-- css
-- w3-css
+  - css
+  - w3-css
 ---
 
 # CSS - Cascading Style Sheets
@@ -13,6 +13,8 @@ tags:
 
 Let's make web beautyful!
 :::
+
+[FlexBox Cheatsheet PDF](../.vuepress/public/pdf/useful-flexbox-patterns.pdf)
 
 ## Useful properties
 
@@ -27,26 +29,25 @@ Let's make web beautyful!
 7. [background-image: linear-gradient(angle, color-stop1, color-stop2);](https://www.w3schools.com/css/css3_gradients.asp)
 8. [CSS transforms](https://www.w3schools.com/css/css3_2dtransforms.asp)
    1. `matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())`
-9.  [css transitions](https://www.w3schools.com/css/css3_transitions.asp)
-   2.  `cubic-bezier(n,n,n,n)` - lets you define your own values in a cubic-bezier function
-10. [css image filters](https://www.w3schools.com/css/css3_images.asp)
-11. [native css variables](https://www.w3schools.com/css/css3_variables.asp)
-12. [Difference between css transition | transform | animation?](https://stackoverflow.com/questions/20586143/css-animation-vs-transition)
+9. [css transitions](https://www.w3schools.com/css/css3_transitions.asp)
+10. `cubic-bezier(n,n,n,n)` - lets you define your own values in a cubic-bezier function
+11. [css image filters](https://www.w3schools.com/css/css3_images.asp)
+12. [native css variables](https://www.w3schools.com/css/css3_variables.asp)
+13. [Difference between css transition | transform | animation?](https://stackoverflow.com/questions/20586143/css-animation-vs-transition)
     1. CSS transitions allows you to change property values smoothly, over a given duration.
     2. transition require a trigger
     3. and has a start state and end state
        1. use animation is there are more in between states
-13. Pseudo classes and Pesudo ELements
+14. Pseudo classes and Pesudo ELements
 
-Pseudo | Example |
---------|------------
-[PseudoClass](https://www.w3schools.com/css/css_pseudo_classes.asp) | `p:hover`, `:first-child`
-[PseudoElements](https://www.w3schools.com/css/css_pseudo_elements.asp) | `::before`, `::after`
-
+| Pseudo                                                                  | Example                   |
+| ----------------------------------------------------------------------- | ------------------------- |
+| [PseudoClass](https://www.w3schools.com/css/css_pseudo_classes.asp)     | `p:hover`, `:first-child` |
+| [PseudoElements](https://www.w3schools.com/css/css_pseudo_elements.asp) | `::before`, `::after`     |
 
 ## Typography
 
-* https://fonts.google.com/specimen/Major+Mono+Display
+- https://fonts.google.com/specimen/Major+Mono+Display
 
 ## Css Features
 
@@ -54,10 +55,10 @@ Pseudo | Example |
 In css, everything is a Rectangle
 :::
 
-* Gap b/w print desing and web design has reduced
-* CSS Shapes
-* CSS Blend Mode - color compositing and blending
-* CSS FIlters **11** filter effects
+- Gap b/w print desing and web design has reduced
+- CSS Shapes
+- CSS Blend Mode - color compositing and blending
+- CSS FIlters **11** filter effects
 
 ::: warning
 Bounding Box Mode (SVG) $\approx$ CSS Box Model
@@ -71,16 +72,16 @@ How you can re-create photoshop stuff in browser?
 ::: right
 Inspiration [codepen](https://codepen.io/search/pens?q=SVG+Filters)
 
-* https://www.theavocoder.com/
-:::
+- https://www.theavocoder.com/
+  :::
 
-* SVG is 2 decades old
-* CSS filters are derieved from SVG filters, but more optimized for use
-* Horizontal blur = Motion blur effect
-* Filters requires a source image to work on. Else its blank
-* Filter is a series of graphic manupulation operations `<feGuassianBlur ...>`
-* Apply texture to images and text to recreate effects like smoke, fire, clouds, storms, water etc.
-* Filters are only applied to a region
+- SVG is 2 decades old
+- CSS filters are derieved from SVG filters, but more optimized for use
+- Horizontal blur = Motion blur effect
+- Filters requires a source image to work on. Else its blank
+- Filter is a series of graphic manupulation operations `<feGuassianBlur ...>`
+- Apply texture to images and text to recreate effects like smoke, fire, clouds, storms, water etc.
+- Filters are only applied to a region
 
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" width="4in" height="3in">
@@ -92,12 +93,17 @@ Inspiration [codepen](https://codepen.io/search/pens?q=SVG+Filters)
 
   <text style="filter:url(#myFilter)">a filter applied</text>
   <!-- or -->
-  <image xlink:href="..." width="100%" height="100%" filter="url(#myFilter)"></image>
+  <image
+    xlink:href="..."
+    width="100%"
+    height="100%"
+    filter="url(#myFilter)"
+  ></image>
 </svg>
 ```
 
 Displaccement Map
-:   is a image whose color information is used to distort the content of another <element></element>
+: is a image whose color information is used to distort the content of another <element></element>
 
     ### Photoshop
 
@@ -118,12 +124,12 @@ Displaccement Map
     6. Display both layers by merging 2 layers `feMerge`
 
 Duo Tone Effect
-:   `<feComponentTransfer` with `type="table"`
+: `<feComponentTransfer` with `type="table"`
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PHKLzpt-syI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Why use browser based filter when you can easily use photoshop to do image manupulation stuff?
-:   Image manupulation on browser makese sense at scale when we have thousands of images.
+: Image manupulation on browser makese sense at scale when we have thousands of images.
 
     Use same filter over entire website. Update Filter overtime, instead of doing it manually per image in PS
 
@@ -166,18 +172,18 @@ How to use image of a texture and use it to change the shape and texture of othe
 
 How to create SVG textures?
 
-* Textures
-* Random Noise
-* Lighting effects
+- Textures
+- Random Noise
+- Lighting effects
 
 :::
 
-* Using [Displacement Maps](https://en.wikipedia.org/wiki/Displacement_mapping)
-* [Una Kravits](https://una.im/)
-* [Sarah Soueiden codepen](https://codepen.io/SaraSoueidan)
-* [Lucas Bebber](https://lbebber.github.io/)
-* [Code drops](https://tympanus.net/codrops/)
-* [Art of SVG Filters](https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome/)
+- Using [Displacement Maps](https://en.wikipedia.org/wiki/Displacement_mapping)
+- [Una Kravits](https://una.im/)
+- [Sarah Soueiden codepen](https://codepen.io/SaraSoueidan)
+- [Lucas Bebber](https://lbebber.github.io/)
+- [Code drops](https://tympanus.net/codrops/)
+- [Art of SVG Filters](https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome/)
 
 ## CSS-3 Placement and Positioning System
 
@@ -216,20 +222,21 @@ journey
 [A brief history of CSS until 2016](https://www.w3.org/Style/CSS20/history.html)
 
 ```css
-transform: rotate(2deg)
+transform: rotate(2deg);
 ```
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jx5jmI0UlXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MdPYenT89o4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## vue
 
-* [Style and Class binding](https://vuejs.org/v2/guide/class-and-style.html) with vue `v-model`
-  * Array Syntax `:class="[item.purchased ? 'strikeout' : '']"`
-  * Object Syntax `:class={strikeout: item.purchased}`
-* [Import css in vue](https://github.com/vuejs-templates/webpack/issues/604)
-* [Paframeterizing SVG](https://stackoverflow.com/questions/21763953/parameterizing-and-reusing-custom-svg-filters-defined-in-html5)
-* https://css-tricks.com/intro-to-vue-5-animations/
+- [Style and Class binding](https://vuejs.org/v2/guide/class-and-style.html) with vue `v-model`
+  - Array Syntax `:class="[item.purchased ? 'strikeout' : '']"`
+  - Object Syntax `:class={strikeout: item.purchased}`
+- [Import css in vue](https://github.com/vuejs-templates/webpack/issues/604)
+- [Paframeterizing SVG](https://stackoverflow.com/questions/21763953/parameterizing-and-reusing-custom-svg-filters-defined-in-html5)
+- https://css-tricks.com/intro-to-vue-5-animations/
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kfOhlU_iRVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -243,7 +250,7 @@ Browser is my canvas. Browser exposes APIs to animate objects. What are those AP
    1. best aapproach
 2. [SVG SIML Specification](https://www.w3.org/TR/2008/REC-SMIL3-20081201/)
    1. No IE support for <animate… you have to use a polyfill library like fakeSMIL - which is not the end of the world. Also css3 transforms are GPU accelerated on iOS mobile and chrome for mobile (for the most part) so they tend to be smoother.
-   2.  SVG's own animation API (SMIL) is not well-supported,
+   2. SVG's own animation API (SMIL) is not well-supported,
 3. Use Javascript to dynamically adjest css properties of element
 
 How to ensure backward portability?
@@ -263,11 +270,11 @@ ${1:selector} {
 
 Some cool effects
 
-* [Text ANimation](https://www.youtube.com/watch?v=ZQUKEkCuws8)
+- [Text ANimation](https://www.youtube.com/watch?v=ZQUKEkCuws8)
 
 ## Display
 
-* [Difference between inline, block and inline-block](https://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block)
+- [Difference between inline, block and inline-block](https://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block)
 
 ```css
 .storegrid {
@@ -314,15 +321,15 @@ Mediaqueries on Grid
 
 ### Grid template area
 
-* [CSS grid area](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area)
-* [CSS grid Browser support](https://caniuse.com/#feat=css-grid)
+- [CSS grid area](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area)
+- [CSS grid Browser support](https://caniuse.com/#feat=css-grid)
 
 ```scss
-grid-area: 1 / 1 / 5 / 4;  //shorthand
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-row-end: 5;
-    grid-column-end: 4;
+grid-area: 1 / 1 / 5 / 4; //shorthand
+grid-row-start: 1;
+grid-column-start: 1;
+grid-row-end: 5;
+grid-column-end: 4;
 ```
 
 [Generate beauty text overlay graphics using grid-css and text](https://github.com/sdras/ecommerce-netlify/blob/8cb584e224be14f9d173a541833967d593a1f4de/components/AppTextlockup.vue#L27)
@@ -335,15 +342,15 @@ grid-area: 1 / 1 / 5 / 4;  //shorthand
 
 Click on image to create a full screen preview and close it when click anywhere outside of image
 
-* Grab images from [uplash](https://source.unsplash.com/)
-* `<script defer src="...">` attribute to defer loading the script until HTML has been parsed.
-  * same effect as adding script to the end of the page.
-* `grid` elements can overflow
-* Add preview element to page, show it only when a image is clicked
-  * click on preview element (created above) to deactivate (CSS) it
-  * remove preview only when clicked outside the image element, not on the image element
-  * preview element should contain only 1 image child
-    * fix - removeAll then add one child
+- Grab images from [uplash](https://source.unsplash.com/)
+- `<script defer src="...">` attribute to defer loading the script until HTML has been parsed.
+  - same effect as adding script to the end of the page.
+- `grid` elements can overflow
+- Add preview element to page, show it only when a image is clicked
+  - click on preview element (created above) to deactivate (CSS) it
+  - remove preview only when clicked outside the image element, not on the image element
+  - preview element should contain only 1 image child
+    - fix - removeAll then add one child
 
 ## CSS Selectors
 
@@ -351,34 +358,31 @@ Click on image to create a full screen preview and close it when click anywhere 
 
 Levels of Selectors
 
-CSS Selector  | Description
---------------|----------------
-|  *          | Selects everything, every `div`, `li` everything
-Element Type Selector | div
-Class and ID Selector | `.` class `#` id Selector
+| CSS Selector          | Description                                      |
+| --------------------- | ------------------------------------------------ |
+| \*                    | Selects everything, every `div`, `li` everything |
+| Element Type Selector | div                                              |
+| Class and ID Selector | `.` class `#` id Selector                        |
 
-* [Link to CSS Selector - Dark version](/pdf/CSS_Selector_Cheat_Sheet-Dark.pdf)
-* [Link to CSS Selector - Light version](/pdf/CSS_Selector_Cheat_Sheet-Light.pdf)
+- [Link to CSS Selector - Dark version](/pdf/CSS_Selector_Cheat_Sheet-Dark.pdf)
+- [Link to CSS Selector - Light version](/pdf/CSS_Selector_Cheat_Sheet-Light.pdf)
 
 ## Trends
 
-* [Diagonal Layouts](https://9elements.com/blog/pure-css-diagonal-layouts/)
-* [Section Folding like in stripe docs](https://stripe.com/docs/payments/checkout/accept-a-payment#create-checkout-session)
-* [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
-  * like the ones used on [uplash](https://unsplash.com/)
+- [Diagonal Layouts](https://9elements.com/blog/pure-css-diagonal-layouts/)
+- [Section Folding like in stripe docs](https://stripe.com/docs/payments/checkout/accept-a-payment#create-checkout-session)
+- [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+  - like the ones used on [uplash](https://unsplash.com/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ela-oNuFlzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ## :cyclone: Resources
 
-* https://www.w3.org/TR/SVG/animate.html
-* https://www.w3.org/TR/css-animations-1/
-* https://cssanimation.rocks/
-* https://animation-nation.netlify.app/
-* https://tobiasahlin.com/moving-letters/
-* https://css-tricks.com/how-to-animate-text-with-svg-and-css/
-
-
+- https://www.w3.org/TR/SVG/animate.html
+- https://www.w3.org/TR/css-animations-1/
+- https://cssanimation.rocks/
+- https://animation-nation.netlify.app/
+- https://tobiasahlin.com/moving-letters/
+- https://css-tricks.com/how-to-animate-text-with-svg-and-css/
 
 <Footer />

@@ -1,11 +1,11 @@
 ---
 title: Node Package Manager
 tags:
-- npm
-- node
-- package
-- manager
-- yarn
+  - npm
+  - node
+  - package
+  - manager
+  - yarn
 ---
 
 # :mailbox_with_mail: Node Package Manager
@@ -20,13 +20,23 @@ Biggest repository of open sourced code with over [350,000](http://www.modulecou
 
 > How to use, include and consume code from npm with in your apps
 
-[Dependency Type](https://classic.yarnpkg.com/en/docs/dependency-types/)   | Description
-------------------|-----------------
-dependencies (default)  | requried at runtime of your time. `react`, `vue`
-devDependencies         | required only a build time. `eslint`, `babel`
-[bundledDependencies](https://github.com/search?l=&q=bundledDependencies+filename%3Apackage.json&type=Code)     | would be included with `yarn pack` when we package it.
-peerDependencies        | your package needs a dependency that is the same exact dependency as the person installing your package
-optionalDependencies    | If they fail to install, Yarn will still say the install process was successful.
+| [Dependency Type](https://classic.yarnpkg.com/en/docs/dependency-types/)                                    | Description                                                                                                |
+| ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| dependencies (default)                                                                                      | requried at runtime of your time. `react`, `vue`                                                           |
+| devDependencies                                                                                             | required only a build time. `eslint`, `babel`                                                              |
+| [bundledDependencies](https://github.com/search?l=&q=bundledDependencies+filename%3Apackage.json&type=Code) | would be included with `yarn pack` when we package it.                                                     |
+| peerDependencies                                                                                            | let user install manage how to install peerDependency. If they are not installed npm would raise a Warning |
+| optionalDependencies                                                                                        | If they fail to install, Yarn will still say the install process was successful.                           |
+
+::: tip peer Dependency
+
+[What is Peer Dependency and when to use it?](https://youtu.be/0l9YLCk0wOo)
+
+- used only within NPM packages and libraries and NOT with webapps
+- Just a WARNING if peer Dependecy is NOT installed. Eg: `react-dom` needs `react` as peer dependency
+- you must install peer dependencies yourself.
+
+:::
 
 ## :label: Build Artifacts Types
 
@@ -61,28 +71,29 @@ In JavaScript, functions are the only way to create new scope.
 :::
 
 What are modules in javascript again?
-:  Way to organize content or code in this case.
+: Way to organize content or code in this case.
 
-   Analogous to how book is divided into volumes, chapters, sections, paragraps
-   Problem is JS doesnt have in built classes as in other programming languages like python.
+Analogous to how book is divided into volumes, chapters, sections, paragraps
+Problem is JS doesnt have in built classes as in other programming languages like python.
 
-   Enter [Module Pattern](https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/#c33a)
+Enter [Module Pattern](https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/#c33a)
 
 What are ES6 Modules?
-:   The most important difference between the current JS Module formats (CommonJS, AMD) and ES6 modules is that
+: The most important difference between the current JS Module formats (CommonJS, AMD) and ES6 modules is that
 
     ES6 modules are designed with static analysis in mind. What this means is that when you import modules,
     the import is resolved at compile time — that is, before the script starts executing. This allows us to
     remove exports that are not used by other modules before we run the program. Removing unused exports
     can lead to significant space savings, reducing stress on the browser.
 
-* [Rollupjs bundler](https://rollupjs.org/guide/en/)
-  * Why? Has a dedicated plugins to generate distributable vue components called [vue-sfc-rollup](https://github.com/team-innovation/vue-sfc-rollup)
-  * else whould have to use vue-template compiler
-* https://www.freecodecamp.org/news/javascript-modules-part-2-module-bundling-5020383cf306/
-* https://vuejs.org/v2/cookbook/packaging-sfc-for-npm.html
-* [Why ES6 module better than CommonJS?](https://rollupjs.org/guide/en/#why-are-es-modules-better-than-commonjs-modules)
-* [How to create package.json?](https://classic.yarnpkg.com/en/docs/creating-a-package/)
+    * [Rollupjs bundler](https://rollupjs.org/guide/en/)
+
+- Why? Has a dedicated plugins to generate distributable vue components called [vue-sfc-rollup](https://github.com/team-innovation/vue-sfc-rollup)
+- else whould have to use vue-template compiler
+- https://www.freecodecamp.org/news/javascript-modules-part-2-module-bundling-5020383cf306/
+- https://vuejs.org/v2/cookbook/packaging-sfc-for-npm.html
+- [Why ES6 module better than CommonJS?](https://rollupjs.org/guide/en/#why-are-es-modules-better-than-commonjs-modules)
+- [How to create package.json?](https://classic.yarnpkg.com/en/docs/creating-a-package/)
 
 ## :sound: Automate Releases
 
@@ -100,30 +111,30 @@ What are ES6 Modules?
 
 commitng
 
-* git flow
-* husky | commit-lint
-* commitzen | [@commitlint/prompt](https://commitlint.js.org/#/)
+- git flow
+- husky | commit-lint
+- commitzen | [@commitlint/prompt](https://commitlint.js.org/#/)
 
 Versioning
 
-* standard-version
-* semantic release
+- standard-version
+- semantic release
 
 ![Software Versioning](https://miro.medium.com/max/770/1*LLDEWaQ0BW0UITTVxjPv3A.png)
 
 ### Some useful npm packages
 
-* date-fns - https://date-fns.org/
-* dotenv - https://www.npmjs.com/package/dotenv
-* socket.io - https://socket.io/
-* uuid - https://www.npmjs.com/package/uuid
-* axios - https://github.com/axios/axios
-* classnames - https://jedwatson.github.io/classnames/
+- date-fns - https://date-fns.org/
+- dotenv - https://www.npmjs.com/package/dotenv
+- socket.io - https://socket.io/
+- uuid - https://www.npmjs.com/package/uuid
+- axios - https://github.com/axios/axios
+- classnames - https://jedwatson.github.io/classnames/
 
 ## Common Tasks
 
 How do I upgrade a package? Eg wanna try new features in `nuxtjs` ?
-:     Select version from the dropdown list
+: Select version from the dropdown list
 
       ```sh
       yarn upgrade nuxt@latest
@@ -168,12 +179,12 @@ A --> sb1
 ```
 
 How do I compile vue components individually SFC?
-:  `yarn vue-cli-service build` can compile and build the entire app.
+: `yarn vue-cli-service build` can compile and build the entire app.
 
-   > Use webpack for apps and rollup for libraries and SFC
+> Use webpack for apps and rollup for libraries and SFC
 
 ## :newspaper: News
 
-* npm is now a part of Github. [Github acquired npm](https://github.blog/2020-04-15-npm-has-joined-github/)
+- npm is now a part of Github. [Github acquired npm](https://github.blog/2020-04-15-npm-has-joined-github/)
 
 <Footer />
