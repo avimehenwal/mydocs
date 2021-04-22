@@ -167,13 +167,13 @@ module.exports = {
         items: [
           { text: 'Static: avimehenwal Blog v1', link: 'https://avimehenwal.in/' },
           { text: 'SPA: Anime fan project', link: 'https://fangallery.netlify.app/' },
-          { text: 'Static: Python Tutorials', link: 'https://avi-python.netlify.app/' },
           { text: 'SPA: COVID Visualization Dashboard', link: 'https://covid-visualization.netlify.app/' },
           { text: 'SPA: Tic Tac Toe Game Implementation', link: 'https://peaceful-minsky-f655a4.netlify.app/' },
           { text: 'Static: My first portfolio', link: 'https://avimehanwal.netlify.app/' },
           { text: 'Static: Just another sample site', link: 'https://german.netlify.app/' },
           { text: 'static: @avi/vue-components', link: 'https://avi-vue-components.netlify.app/' },
-          { text: 'static: my python notes', link: 'https://avi-python.netlify.app/' },
+          { text: 'Static: Python Tutorials', link: 'https://avi-python.netlify.app/' },
+          { text: 'Static: Programming Languages', link: 'https://avimehenwal.github.io/plangs/' },
         ]
       },
     ],
