@@ -31,7 +31,7 @@ tags:
   - They are good, problem solving
 
 ::: quote William James
-my experience is what I AGREE to ATTEND to
+my experience is what I **agree** to **attend** to
 :::
 
 - Problem when overused, he/she gets all the lucky breaks, I cannot do it, what if I fail!

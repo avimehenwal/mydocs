@@ -1,10 +1,10 @@
 ---
 title: Data Structures
 tags:
-- programming
-- fundamentals
-- data
-- structures
+  - programming
+  - fundamentals
+  - data
+  - structures
 ---
 
 # Data Structures
@@ -31,18 +31,17 @@ Choice of data- structure selection to attack a problem seperates pros from medi
 
 > ADT can themselves be implemented in a variety of ways
 
-Abstraction ADT | Implementation DS
-:--------------:|:-------------------:
-List    | Dynamic Array<br> Linked list
-Queue   | linked list<br> using Arrays<br> stack based
-Map     | Tree map<br> Hash Map<br> Hash Table<br>
-Vehicle   | Golf cart<br> Bicycle<br> Smart car
+| Abstraction ADT |              Implementation DS               |
+| :-------------: | :------------------------------------------: |
+|      List       |        Dynamic Array<br> Linked list         |
+|      Queue      | linked list<br> using Arrays<br> stack based |
+|       Map       |   Tree map<br> Hash Map<br> Hash Table<br>   |
+|     Vehicle     |     Golf cart<br> Bicycle<br> Smart car      |
 
 ###### Some examples,
 
-1. Relational **databases** commonly use *B-tree indexes* for data retrieval
-1. while **compiler** implementations usually use *hash tables* to look up identifiers.
-
+1. Relational **databases** commonly use **B-tree indexes** for data retrieval
+1. while **compiler** implementations usually use **hash tables** to look up [identifiers / symbols](<https://en.wikipedia.org/wiki/Identifier_(computer_languages)>)
 
 > Usually, efficient data structures are key to **designing efficient algorithms**.
 
@@ -69,10 +68,8 @@ There are numerous types of data structures, generally built upon simpler primit
    1. can be traversed in singled run
    2. Examples
       1. Arrays
-      2. Stacks
-         1. LIFO
-         2. FIFO
-      3. Queues
+      2. Stacks - LIFO
+      3. Queues - FIFO
 2. Non Linear data structures
    1. cannot be traversed in single run
    2. Examples
@@ -83,51 +80,50 @@ There are numerous types of data structures, generally built upon simpler primit
          2. Dynamic Data structures
          3. Grow and shrink at run-time
 
-* What are Binary trees
-* Binary Heaps
-* Linear Search
-* Binary Search
-  * Divide and conquer
-* Linear Sort
-* Difference between stacks and Queues
-* What are recursive algorithms
-* Sorting algorithms
-  * Merge Sort
-* Heap vs Tree and Stack , Advantages and disadvantages
+- What are Binary trees
+- Binary Heaps
+- Linear Search
+- Binary Search
+  - Divide and conquer or [Dynamic Programming Approaches](https://en.wikipedia.org/wiki/Dynamic_programming)
+  - solved by Recursion
+- Linear Sort
+- Difference between stacks and Queues
+- What are recursive algorithms
+- Sorting algorithms
+  - Merge Sort
+- Heap vs Tree and Stack , Advantages and disadvantages
 
 ### Spanning Tree
 
-* Operations
-  * Tree generations
-  * Tree traversal
-    * in-order
-    * preorder
-    * post-order
-  * Tree searching
-  * Tree modification
-  * Node deletion
-  * Balancing tree
-* Heaps
-  * max heap
-  * min heap
-  * Operations
-    * insertion
-    * self-balancing
-    * removal - pop from the root
-    * Sorting
-    * Heapify
-  * Priority Queue
+- Operations
+  - Tree generations
+  - Tree traversal
+    - in-order
+    - preorder
+    - post-order
+  - Tree searching
+  - Tree modification
+  - Node deletion
+  - Balancing tree
+- Heaps
+  - max heap
+  - min heap
+  - Operations
+    - insertion
+    - self-balancing
+    - removal - pop from the root
+    - Sorting
+    - Heapify
+  - Priority Queue
 
 ::: tip SEGV
 [Segmentation Faults](https://en.wikipedia.org/wiki/Segmentation_fault)
 :::
 
-
 ### Some good Questions
 
-* [Are Data-Structure and Algorithm same for all programming languages?](https://stackoverflow.com/questions/26181785/is-data-structure-and-algorithm-same-for-all-programming-languages)
-* [Is there a difference between 'data structure' and 'data type'?](https://stackoverflow.com/questions/18940961/is-there-a-difference-between-data-structure-and-data-type/18940989)
-
+- [Are Data-Structure and Algorithm same for all programming languages?](https://stackoverflow.com/questions/26181785/is-data-structure-and-algorithm-same-for-all-programming-languages)
+- [Is there a difference between 'data structure' and 'data type'?](https://stackoverflow.com/questions/18940961/is-there-a-difference-between-data-structure-and-data-type/18940989)
 
 ::: warning Major Takeaways before you leave
 
@@ -137,15 +133,16 @@ There are numerous types of data structures, generally built upon simpler primit
 
 :::
 
-
 <Disqus />
 <SimpleNewsletter/>
 
-
 [data structure]: https://en.wikipedia.org/wiki/Data_structure
+
+<!-- prettier-ignore -->
 *[HTML]: Hyper Text Markup Language
 *[ADT]: Abstract Data Type
 *[primitive data types]: character, char, integer, int, short, long, byte, float, double, real, double, boolean, reference
 *[DS]: Data Structure
+
 [tree]: https://en.wikipedia.org/wiki/Tree_(data_structure)
 [graph]: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)

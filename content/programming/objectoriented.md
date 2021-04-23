@@ -99,7 +99,7 @@ link User "http://www.github.com" "This is a tooltip for a link"
 
 ## OOP - Object Oriented Programming Concepts
 
-### :potable*water: Polymorphism [wiki](https://en.wikipedia.org/wiki/Polymorphism*(computer_science))
+### Polymorphism [wiki](<https://en.wikipedia.org/wiki/Polymorphism*(computer_science)>)
 
 > Static (compilet time) or Dynamic (run time) implementation
 
