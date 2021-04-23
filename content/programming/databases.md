@@ -1,18 +1,18 @@
 ---
 title: Database
 tags:
-- relationship
-- database
-- sql
-- nosql
-- dependency
+  - relationship
+  - database
+  - sql
+  - nosql
+  - dependency
 ---
 
 # Database
 
 <TagLinks />
 
-[Database] in itself is data-structure problem at scale. How do we organize, collect, store data
+[Database] in itself is data-structure problem at scale. How do we organize, collect, store and retrieve data
 in a way such that we can use relationships / associations to query targeted data.
 
 DBMS - [Database] management system
@@ -62,36 +62,38 @@ Database normalization
 
 ## Database Features
 
-* Replication
-  * storage redundancy, to increase data availability and resilience in case of partial failure
-* Security
-* Transactions and concurrency
-* Easy Migrations
-* Easy Backup and Restores
-* [Database] logs, Querying tools like FQL Facebook query language
-* Scaling
-  * Sharding
-  * Multiple Master - Multiple Slave
-  * Horizontal and vertical scaling techniques
+- Replication
+  - storage redundancy, to increase data availability and resilience in case of partial failure
+- Security
+- ACID Transactions and concurrency
+- Easy Migrations
+- Easy Backup and Restores
+- [Database] logs, Querying tools like FQL Facebook query language
+- Scaling
+  - Horizontal scaling via [Sharding](<https://en.wikipedia.org/wiki/Shard_(database_architecture)>)
+  - Multiple Master - Multiple Slave
+  - Horizontal and vertical scaling techniques
 
 ## Database Normalization
 
 What is [Normalization]? Why do we need it?
-:   Its a way to structure RDBMS to reduce data redundancy and improve data integrity.
+: Its a way to structure RDBMS to reduce data redundancy and improve data integrity.
 
-    Codd defined 1NF, 2NF, 3NF in  1970's and then later BCNF in 1974
+    ::: tip Normalization
+    Codd defined **1NF**, **2NF**, **3NF** in  **1970's** and then later **BCNF** in **1974**
+    :::
 
-What are DB [dependencies?](https://en.wikipedia.org/wiki/Dependency_theory_(database_theory)) What problem do they solve?
-:   Tries to solve data optimization problem in RDBMS
+What are DB [dependencies?](<https://en.wikipedia.org/wiki/Dependency_theory_(database_theory)>) What problem do they solve?
+: Tries to solve data optimization problem in RDBMS
 
     Most popular one is [functional dependency](https://en.wikipedia.org/wiki/Functional_dependency)
 
-[Normalization]: https://en.wikipedia.org/wiki/Database_normalization
+[normalization]: https://en.wikipedia.org/wiki/Database_normalization
 
-1NF
-:   Decompose all ==Multivalued and Composite attributes to atomic attribute==
+1NF - Decomposition to Atomic Attributes
+: Decompose all ==Multivalued and Composite attributes to atomic attribute==
 
-    <Badge type="tip" vertical="middle" text="Eg:" />Consider Employee table,
+    <Badge type="tip" vertical="middle" text="Eg:" />  Consider Employee table,
 
     EMP_ID | EMP_NAME | PHONE_NO
     ------:|:--------:|:--------:
@@ -121,16 +123,20 @@ What are DB [dependencies?](https://en.wikipedia.org/wiki/Dependency_theory_(dat
     2 | pqr
     3 | xyz
 
-### Functional Dependency - FD
+### Functional Dependency - [FD]
 
-Attribute A | Attribute B | FD check
-------------|-------------|----------
-1 | X | holds
-1 | X | holds
-2 | Z | holds
-3 | Y | holds
-2 | Z | holds
-1 | S | breaks, as expected $1 \rightarrow X$ but found $1 \rightarrow S$
+functional dependency is a ==constraint== between two sets of attributes in a relation from a database
+
+(written X → Y) if and only if each X value in R is associated with **precisely one Y value in R**
+
+| Attribute A | Attribute B | FD check                                                          |
+| ----------- | ----------- | ----------------------------------------------------------------- |
+| 1           | X           | holds                                                             |
+| 1           | X           | holds                                                             |
+| 2           | Z           | holds                                                             |
+| 3           | Y           | holds                                                             |
+| 2           | Z           | holds                                                             |
+| 1           | S           | breaks, as expected $1 \rightarrow X$ but found $1 \rightarrow S$ |
 
 Hence, because of last tuple entry, FD doesnt hold between attribute A and B
 
@@ -138,7 +144,6 @@ Hence, because of last tuple entry, FD doesnt hold between attribute A and B
 If Attribute A is primary attribute, then FD would hold. Because primary key means all entities for attribute A
 would be unique, and since A is unique no repetition and B would be unique too.
 :::
-
 
 ## Database Relationships
 
@@ -152,7 +157,7 @@ Every [Database] table relationship is, therefore, built on top of Foreign Key c
 
 <!-- Add Examples -->
 
-#### one-to-many Relationship (1:M)
+#### Multiplicity - one-to-many Relationship (1:M)
 
 ![one to many relationship 1:M](https://fmhelp.filemaker.com/help/18/fmp/en/FMP_Help/images/relational.07.04.2.png)
 
@@ -161,10 +166,12 @@ It is the most common relationship.
 
 [Efficient way to join two tables with one to many relationship](https://dba.stackexchange.com/questions/118693/efficient-way-to-join-two-tables-with-one-to-many-relationship)
 
-
 ###### Examples,
-* Customers and Orders tables.
-* A book can have multiple authors.
+
+- Customers and Orders tables.
+- A book can have multiple authors.
+
+The short answer is: VARCHAR is variable length, while CHAR is fixed length.
 
 ```sql
 CREATE TABLE dbo.Book (
@@ -186,14 +193,14 @@ JOIN UserPermissions USING (UserLogin);
 ```
 
 #### one-to-one Relationship (1:1)
+
 requires the child table Primary Key to be associated via a Foreign Key with the parent table Primary Key column.
 Multiple columns in the same table have 1:1 relationship. Coule also be implemented of other tables using a
 Foreign Key Reference.
 
-
 ###### Examples,
 
-* in a marriage, each spouse has only one other spouse. This kind of relationship can be implemented in a single table and therefore does not use a foreign key.
+- in a marriage, each spouse has only one other spouse. This kind of relationship can be implemented in a single table and therefore does not use a foreign key.
 
 #### [many-to-many] Relationship (M:M)
 
@@ -232,16 +239,23 @@ INNER JOIN company c
 ON c.company_id = ec.company_id;
 ```
 
-
 ###### Examples,
 
-* relationship between the Orders and Products table. An order can contain multiple products, and a product could be linked to multiple orders: several customers might submit an order that contains some of the same products.
-* Students and Courses
-* Users and Permissions
+- relationship between the Orders and Products table. An order can contain multiple products, and a product could be linked to multiple orders: several customers might submit an order that contains some of the same products.
+- Students and Courses
+- Users and Permissions
 
 ## Relational DBMS
 
 Almost 25 years old, mySQL Relational DBMS, written in C, C++, take it for a spin
+
+The following SQL statement lists the number of customers in each country:
+
+```sql
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country;
+```
 
 ```sh
 docker pull mysql
@@ -251,41 +265,36 @@ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
 docker exec -it some-mysql bash
 ```
 
-
-
 ## Considerations when designing a database schema
 
-* Collect as much data as possible
-  * you  may never know what you might need in future to scale, add new feature, analytics
-* Group data logically together
-  * based on readability
-  * efficiency
-  * usage
-
-
-
-
-
+- Collect as much data as possible
+  - you may never know what you might need in future to scale, add new feature, analytics
+- Group data logically together
+  - based on readability
+  - efficiency
+  - usage
 
 ### References
 
 Most popular [Database] choices and why?
 
-* [Databases - Wikipedia](https://en.wikipedia.org/wiki/Database)
-* [Database Models](https://en.wikipedia.org/wiki/Database_model)
-* [Comparison of database](https://en.wikipedia.org/wiki/Comparison_of_database_tools)
-* [The 3 Types of Relationships in Database Design](https://database.guide/the-3-types-of-relationships-in-database-design/)
-* [System design cheat-sheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
-* [System Design for Interview](https://www.freecodecamp.org/news/systems-design-for-interviews/)
-* [Many to many datamodel](https://en.wikipedia.org/wiki/Many-to-many_(data_model))
-* [DBA - stackexchange](https://dba.stackexchange.com/)
+- [Databases - Wikipedia](https://en.wikipedia.org/wiki/Database)
+- [Database Models](https://en.wikipedia.org/wiki/Database_model)
+- [Comparison of database](https://en.wikipedia.org/wiki/Comparison_of_database_tools)
+- [The 3 Types of Relationships in Database Design](https://database.guide/the-3-types-of-relationships-in-database-design/)
+- [System design cheat-sheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
+- [System Design for Interview](https://www.freecodecamp.org/news/systems-design-for-interviews/)
+- [Many to many datamodel](<https://en.wikipedia.org/wiki/Many-to-many_(data_model)>)
+- [DBA - stackexchange](https://dba.stackexchange.com/)
 
-[Database]: https://en.wikipedia.org/wiki/Database
-[ACID]: https://en.wikipedia.org/wiki/ACID
+[database]: https://en.wikipedia.org/wiki/Database
+[acid]: https://en.wikipedia.org/wiki/ACID
 [many-to-many]: https://en.wikipedia.org/wiki/Associative_entity
 
+<!-- prettier-ignore -->
 *[DBMS]: Database Management System
-*[SQL]: Structured Query Language
-*[ACID]: Atomicity Consistency Isolation Durability
+*[SQL]: Structured Query Language \*[ACID]: Atomicity Consistency Isolation Durability
+
+[fd]: https://en.wikipedia.org/wiki/Functional_dependency
 
 <Footer />
