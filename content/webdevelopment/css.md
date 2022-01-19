@@ -352,6 +352,40 @@ Click on image to create a full screen preview and close it when click anywhere 
   - preview element should contain only 1 image child
     - fix - removeAll then add one child
 
+## Effects
+
+### box-shoadow effect
+
+1. using `element:hover` pesudo class
+2. using transition css property
+
+Animations can kill the performance on slow internets, non performant browsers
+
+Test it out yourself using devtools -> Live Performance Monitor
+
+Transitions enable you to define the transition between two states of an element. Different states may be defined using pseudo-classes like :hover or :active or dynamically set using JavaScript.
+
+```css
+.content:hover {
+  transform: translateY(-0.35em) scale(1.02);
+}
+
+/* pre-rendering the shadow instead of animating it */
+.pseudo-hover {
+  /* to be able to use pseudo element */
+  position: relative;
+}
+.pseudo-hover::after {
+  content: "";
+  position: absolute;
+  box-shadow: 0 0.5rem 1rem -0.25em rgba(0, 0, 0, 0.3);
+  transition: opacity 1s ease;
+}
+.pseudo-hover:hover::after {
+  opacity: 1;
+}
+```
+
 ## CSS Selectors
 
 > How to aassign properties to HTML DOM elements?

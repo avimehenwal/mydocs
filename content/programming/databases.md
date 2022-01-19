@@ -274,6 +274,40 @@ docker exec -it some-mysql bash
   - efficiency
   - usage
 
+## OLAP - Online Analytics Processing System, OLTP
+
+> To Business intelligence, To OLAP ... or not to OLAP
+
+DatawareHouse -> DataMarts (views for clients) -> Star Schema
+
+- DataMarts are highly curated and specific to a case
+- OLAP - pre computed data cubes, historycally
+
+#### [STAR-SCHEMA](https://en.wikipedia.org/wiki/Star_schema)
+
+![star schema OLAP](./../.vuepress/public/db/star-schema-example1.png)
+
+- fact tables have **Measures**
+- Dimension tables are connected to FACT tables using 1-2-\* Foreign key relationship
+- [How to build star schema in django?](https://stackoverflow.com/questions/14300002/warehousing-records-from-a-flat-item-table-django-signals-or-postgresql-trigger)
+- More performant at scale, million of records
+
+What kind of workloads do you run on your database?
+
+1. Analytics Workloads, PB of data in secs => High parallelism
+2. OLTP -> Real-Time Workloads, answer in milli seconds, Latency oriented
+
+[dynamic schema creation](https://github.com/mrsidrdx/django-dyno-ui)
+
+### How to generate Analytics?
+
+- Excel, 500,000,000
+  - breaks the chain of custody between producer and consumer
+  - How to share compulational logic?
+- Data Engineering work
+- [What's the difference between django OneToOneField and ForeignKey?](https://stackoverflow.com/questions/5870537/whats-the-difference-between-django-onetoonefield-and-foreignkey)
+- [Multi table Inheritance](https://docs.djangoproject.com/en/3.2/topics/db/models/#multi-table-inheritance)
+
 ### References
 
 Most popular [Database] choices and why?
